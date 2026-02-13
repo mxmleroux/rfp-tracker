@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateView - RFP Intelligence Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Inter, Calibri, Arial, sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
+            line-height: 1.5;
+        }
+
+        /* Header */
+        .header {
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #CCCCCC;
+            padding: 20px 24px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        .header-subtitle {
+            font-size: 12px;
+            color: #666666;
+            margin-top: 4px;
+        }
+
+        /* Intelligence Bar */
+        .intelligence-bar {
+            height: 4px;
+            display: flex;
+            gap: 0;
+            margin-top: 12px;
+        }
+
+        .intelligence-segment {
+            flex: 1;
+            height: 4px;
+        }
+
+        .segment-1 { background-color: #73C96B; }
+        .segment-2 { background-color: #52AFF1; }
+        .segment-3 { background-color: #FF9A52; }
+        .segment-4 { background-color: #FF7474; }
+        .segment-5 { background-color: #F9D339; }
+        .segment-6 { background-color: #32C4C7; }
+
+        /* Summary Cards */
+        .summary-section {
+            padding: 20px 24px;
+            border-bottom: 1px solid #CCCCCC;
+        }
+
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .metric-card {
+            background-color: #F9F9F9;
+            border: 1px solid #CCCCCC;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .metric-label {
+            font-size: 12px;
+            color: #666666;
+            font-weight: 500;
+        }
+
+        .metric-value {
+            font-size: 28px;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        .metric-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            align-self: flex-start;
+        }
+
+        .indicator-green { background-color: #73C96B; }
+        .indicator-amber { background-color: #FF9A52; }
+
+        /* Filters */
+        .filters-section {
+            padding: 20px 24px;
+            border-bottom: 1px solid #CCCCCC;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-label {
+            font-size: 13px;
+            font-weight: 500;
+            color: #000000;
+        }
+
+        select, input[type="text"], input[type="checkbox"] {
+            font-family: Inter, Calibri, Arial, sans-serif;
+            font-size: 13px;
+            padding: 8px 12px;
+            border: 1px solid #CCCCCC;
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+        select {
+            cursor: pointer;
+            min-width: 140px;
+        }
+
+        input[type="text"] {
+            min-width: 200px;
+        }
+
+        input[type="checkbox"] {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+            padding: 0;
+        }
+
+        /* Table */
+        .table-section {
+            padding: 20px 24px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+        }
+
+        thead {
+            background-color: #00162E;
+            color: #FFFFFF;
+        }
+
+        th {
+            padding: 12px 8px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            border-bottom: 1px solid #CCCCCC;
+            white-space: nowrap;
+        }
+
+        th:hover {
+            background-color: #001F3F;
+        }
+
+        th.sort-active::after {
+            content: ' ↓';
+            margin-left: 4px;
+        }
+
+        th.sort-active.sort-desc::after {
+            content: ' ↑';
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #CCCCCC;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #FFFFFF;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #F8FBFF;
+        }
+
+        tbody tr:hover {
+            background-color: #F0F4FA;
+        }
+
+        td {
+            padding: 12px 8px;
+            font-size: 13px;
+        }
+
+        /* Score Circle */
+        .score-circle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            font-weight: 600;
+            color: #FFFFFF;
+            font-size: 13px;
+        }
+
+        .score-green { background-color: #73C96B; }
+        .score-yellow { background-color: #F9D339; color: #000000; }
+        .score-red { background-color: #FF7474; }
+
+        /* Badge */
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 0;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-type {
+            background-color: #E7F1FB;
+            color: #0052A3;
+        }
+
+        .badge-green {
+            background-color: #E8F5E8;
+            color: #2D5A2D;
+        }
+
+        .badge-yellow {
+            background-color: #FEF8E7;
+            color: #8B6F00;
+        }
+
+        .badge-red {
+            background-color: #FDE8E8;
+            color: #8B2D2D;
+        }
+
+        .badge-gray {
+            background-color: #F0F0F0;
+            color: #666666;
+        }
+
+        /* Status Dropdown */
+        .status-select {
+            padding: 6px 8px;
+            font-size: 12px;
+            border: 1px solid #CCCCCC;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        /* Action Button */
+        .action-btn {
+            background-color: #3573D3;
+            color: #FFFFFF;
+            border: none;
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: Inter, Calibri, Arial, sans-serif;
+        }
+
+        .action-btn:hover {
+            background-color: #2A5AA0;
+        }
+
+        /* Clickable Row */
+        tbody tr {
+            cursor: pointer;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: #FFFFFF;
+            padding: 32px;
+            max-width: 900px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            border: 1px solid #CCCCCC;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #000000;
+        }
+
+        .modal-close:hover {
+            color: #666666;
+        }
+
+        .modal-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 8px;
+        }
+
+        .modal-entity {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 24px;
+        }
+
+        /* Section Headers */
+        .modal-section {
+            margin-bottom: 24px;
+        }
+
+        .modal-section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Score Dimension Bars */
+        .dimension-bar-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .dimension-label {
+            font-size: 12px;
+            font-weight: 500;
+            color: #000000;
+            min-width: 120px;
+        }
+
+        .dimension-bar {
+            flex: 1;
+            height: 20px;
+            background-color: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dimension-bar-fill {
+            height: 100%;
+            background-color: #3573D3;
+        }
+
+        .dimension-score {
+            position: absolute;
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 11px;
+            font-weight: 600;
+            color: #000000;
+            z-index: 10;
+        }
+
+        /* Feature Breakdown */
+        .feature-item {
+            background-color: #F9F9F9;
+            border: 1px solid #CCCCCC;
+            padding: 12px;
+            margin-bottom: 8px;
+        }
+
+        .feature-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 6px;
+        }
+
+        .feature-score {
+            font-size: 12px;
+            color: #666666;
+            margin-bottom: 8px;
+        }
+
+        .feature-matches {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .match-tag {
+            background-color: #E7F1FB;
+            color: #0052A3;
+            padding: 3px 6px;
+            font-size: 11px;
+            border: 1px solid #ADD5FF;
+        }
+
+        .match-tag.moderate {
+            background-color: #FEF8E7;
+            color: #8B6F00;
+            border-color: #FFE699;
+        }
+
+        /* Callout Box */
+        .callout-box {
+            background-color: #E7F1FB;
+            border-left: 4px solid #3573D3;
+            padding: 12px;
+            margin-bottom: 12px;
+            font-size: 13px;
+            color: #000000;
+        }
+
+        /* Signal Lists */
+        .signal-list {
+            list-style: none;
+            margin-bottom: 12px;
+        }
+
+        .signal-list li {
+            padding: 6px 0;
+            font-size: 13px;
+            color: #000000;
+            border-bottom: 1px solid #EEEEEE;
+        }
+
+        .signal-list li:before {
+            content: "• ";
+            color: #3573D3;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .signal-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Edge Case Flags */
+        .edge-case-flags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .flag {
+            background-color: #FEF8E7;
+            color: #8B6F00;
+            padding: 6px 10px;
+            font-size: 12px;
+            border: 1px solid #FFE699;
+        }
+
+        /* Textarea */
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #CCCCCC;
+            font-family: Inter, Calibri, Arial, sans-serif;
+            font-size: 13px;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .notes-disclaimer {
+            font-size: 11px;
+            color: #999999;
+            margin-top: 6px;
+        }
+
+        /* Metadata Row */
+        .metadata-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            font-size: 12px;
+            color: #666666;
+        }
+
+        .metadata-item {
+            margin-bottom: 8px;
+        }
+
+        .metadata-label {
+            font-weight: 600;
+            color: #000000;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 16px 24px;
+            border-top: 1px solid #CCCCCC;
+            background-color: #F9F9F9;
+            font-size: 12px;
+            color: #666666;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .summary-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .filters-section {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            select, input[type="text"] {
+                width: 100%;
+            }
+
+            .modal-content {
+                width: 95%;
+                padding: 20px;
+            }
+
+            .metadata-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .summary-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .metric-value {
+                font-size: 24px;
+            }
+
+            th, td {
+                padding: 8px 4px;
+                font-size: 12px;
+            }
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999999;
+            font-size: 14px;
+        }
+
+        /* Loading Indicator */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666666;
+        }
+
+        /* Spinner */
+        .spinner {
+            border: 2px solid #F3F3F3;
+            border-top: 2px solid #3573D3;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Source Link */
+        a {
+            color: #3573D3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <div>
+                <div class="logo-text">ClimateView</div>
+                <div class="header-subtitle">RFP Intelligence Dashboard</div>
+            </div>
+        </div>
+        <div class="intelligence-bar">
+            <div class="intelligence-segment segment-1"></div>
+            <div class="intelligence-segment segment-2"></div>
+            <div class="intelligence-segment segment-3"></div>
+            <div class="intelligence-segment segment-4"></div>
+            <div class="intelligence-segment segment-5"></div>
+            <div class="intelligence-segment segment-6"></div>
+        </div>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="summary-section">
+        <div class="summary-cards">
+            <div class="metric-card">
+                <div class="metric-label">Total Qualified RFPs</div>
+                <div class="metric-value" id="metric-qualified">0</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">
+                    <span class="metric-indicator indicator-green"></span>
+                    High Probability
+                </div>
+                <div class="metric-value" id="metric-high">0</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">
+                    <span class="metric-indicator indicator-amber"></span>
+                    Closing Soon
+                </div>
+                <div class="metric-value" id="metric-closing">0</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Average Relevance Score</div>
+                <div class="metric-value" id="metric-relevance">0</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters Section -->
+    <div class="filters-section">
+        <div class="filter-group">
+            <label class="filter-label">Status:</label>
+            <select id="filter-status">
+                <option value="">All</option>
+                <option value="New">New</option>
+                <option value="Reviewing">Reviewing</option>
+                <option value="Shortlisted">Shortlisted</option>
+                <option value="Submitted">Submitted</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label class="filter-label">Win Probability:</label>
+            <select id="filter-probability">
+                <option value="">All</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+                <option value="Edge Case">Edge Case</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <input type="text" id="filter-search" placeholder="Search by title, entity, or country...">
+        </div>
+
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" id="filter-expired" checked>
+                <span class="filter-label">Hide expired</span>
+            </label>
+        </div>
+
+        <div class="filter-group">
+            <label>
+                <input type="checkbox" id="filter-disqualified" checked>
+                <span class="filter-label">Hide disqualified</span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Table Section -->
+    <div class="table-section">
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            Loading RFP data...
+        </div>
+        <div id="table-container" style="display:none;overflow-x:auto;">
+            <table id="rfp-table">
+                <thead>
+                    <tr>
+                        <th data-sort="relevance_score">Score</th>
+                        <th data-sort="rfp_title">Title</th>
+                        <th data-sort="issuing_entity">Entity</th>
+                        <th data-sort="country">Country</th>
+                        <th data-sort="rfp_type">Type</th>
+                        <th data-sort="deadline">Deadline</th>
+                        <th data-sort="win_probability">Win Prob</th>
+                        <th data-sort="score_confidence">Confidence</th>
+                        <th data-sort="status">Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+            <div id="empty-state" class="empty-state" style="display:none;">
+                No RFPs found matching your filters.
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <span id="footer-scan">Last scan: --</span>
+            <span id="footer-version">Scoring config v--</span>
+            <span>Data refreshes daily via GitHub Actions</span>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        // Global data and state
+        let allRfpData = [];
+        let filteredRfpData = [];
+        let currentSort = { field: 'relevance_score', direction: 'desc' };
+        let statusOverrides = JSON.parse(localStorage.getItem('climateview_status_overrides')) || {};
+
+        // Country code to flag emoji mapping
+        const countryFlags = {
+            'US': '🇺🇸', 'CA': '🇨🇦', 'GB': '🇬🇧', 'DE': '🇩🇪', 'FR': '🇫🇷',
+            'IT': '🇮🇹', 'ES': '🇪🇸', 'NL': '🇳🇱', 'SE': '🇸🇪', 'NO': '🇳🇴',
+            'CH': '🇨🇭', 'AT': '🇦🇹', 'BE': '🇧🇪', 'DK': '🇩🇰', 'FI': '🇫🇮',
+            'PL': '🇵🇱', 'CZ': '🇨🇿', 'PT': '🇵🇹', 'GR': '🇬🇷', 'IE': '🇮🇪',
+            'AU': '🇦🇺', 'NZ': '🇳🇿', 'JP': '🇯🇵', 'CN': '🇨🇳', 'IN': '🇮🇳',
+            'BR': '🇧🇷', 'MX': '🇲🇽', 'ZA': '🇿🇦', 'SG': '🇸🇬', 'KR': '🇰🇷',
+            'UN': '🌐', 'EU': '🇪🇺'
+        };
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', async () => {
+            await loadData();
+            setupEventListeners();
+            updateDashboard();
+        });
+
+        // Load RFP data from JSON
+        async function loadData() {
+            try {
+                const response = await fetch('rfp_data.json');
+                if (!response.ok) throw new Error('Failed to load rfp_data.json');
+                allRfpData = await response.json();
+                if (!Array.isArray(allRfpData)) allRfpData = [];
+                applyFiltersAndSort();
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('table-container').style.display = 'block';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = '<div style="color:red;">Error loading data. Make sure rfp_data.json exists.</div>';
+            }
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            document.getElementById('filter-status').addEventListener('change', applyFiltersAndSort);
+            document.getElementById('filter-probability').addEventListener('change', applyFiltersAndSort);
+            document.getElementById('filter-search').addEventListener('input', applyFiltersAndSort);
+            document.getElementById('filter-expired').addEventListener('change', applyFiltersAndSort);
+            document.getElementById('filter-disqualified').addEventListener('change', applyFiltersAndSort);
+
+            document.querySelectorAll('th[data-sort]').forEach(th => {
+                th.addEventListener('click', () => {
+                    const field = th.dataset.sort;
+                    if (currentSort.field === field) {
+                        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        currentSort.field = field;
+                        currentSort.direction = 'desc';
+                    }
+                    applyFiltersAndSort();
+                });
+            });
+
+            document.getElementById('detail-modal').addEventListener('click', (e) => {
+                if (e.target === document.getElementById('detail-modal')) {
+                    closeModal();
+                }
+            });
+        }
+
+        // Apply filters and sorting
+        function applyFiltersAndSort() {
+            const statusFilter = document.getElementById('filter-status').value;
+            const probabilityFilter = document.getElementById('filter-probability').value;
+            const searchFilter = document.getElementById('filter-search').value.toLowerCase();
+            const hideExpired = document.getElementById('filter-expired').checked;
+            const hideDisqualified = document.getElementById('filter-disqualified').checked;
+
+            filteredRfpData = allRfpData.filter(rfp => {
+                // Status filter
+                const actualStatus = statusOverrides[rfp.id] || rfp.status;
+                if (statusFilter && actualStatus !== statusFilter) return false;
+
+                // Probability filter
+                if (probabilityFilter && rfp.win_probability !== probabilityFilter) return false;
+
+                // Search filter
+                if (searchFilter) {
+                    const searchable = `${rfp.rfp_title} ${rfp.issuing_entity} ${rfp.country}`.toLowerCase();
+                    if (!searchable.includes(searchFilter)) return false;
+                }
+
+                // Hide expired
+                if (hideExpired && rfp.deadline_status === 'expired') return false;
+
+                // Hide disqualified
+                if (hideDisqualified && !rfp.qualified) return false;
+
+                return true;
+            });
+
+            // Sort
+            filteredRfpData.sort((a, b) => {
+                let aVal = a[currentSort.field];
+                let bVal = b[currentSort.field];
+
+                // Handle null/undefined
+                if (aVal == null) aVal = currentSort.field === 'relevance_score' ? 0 : '';
+                if (bVal == null) bVal = currentSort.field === 'relevance_score' ? 0 : '';
+
+                if (typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                    return currentSort.direction === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                }
+
+                if (currentSort.direction === 'asc') {
+                    return aVal > bVal ? 1 : aVal < bVal ? -1 : 0;
+                } else {
+                    return aVal < bVal ? 1 : aVal > bVal ? -1 : 0;
+                }
+            });
+
+            updateTableHeaders();
+            renderTable();
+            updateDashboard();
+        }
+
+        // Update table headers to show sort indicator
+        function updateTableHeaders() {
+            document.querySelectorAll('th[data-sort]').forEach(th => {
+                th.classList.remove('sort-active', 'sort-desc');
+                if (th.dataset.sort === currentSort.field) {
+                    th.classList.add('sort-active');
+                    if (currentSort.direction === 'desc') {
+                        th.classList.add('sort-desc');
+                    }
+                }
+            });
+        }
+
+        // Render table
+        function renderTable() {
+            const tbody = document.getElementById('table-body');
+            const emptyState = document.getElementById('empty-state');
+
+            if (filteredRfpData.length === 0) {
+                tbody.innerHTML = '';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+            tbody.innerHTML = filteredRfpData.map(rfp => `
+                <tr onclick="openModal('${rfp.id}')">
+                    <td>
+                        <div class="score-circle score-${getScoreClass(rfp.relevance_score)}">
+                            ${rfp.relevance_score}
+                        </div>
+                    </td>
+                    <td>${escapeHtml(rfp.rfp_title)}</td>
+                    <td>${escapeHtml(rfp.issuing_entity)}</td>
+                    <td>${countryFlags[rfp.country] || rfp.country}</td>
+                    <td><span class="badge badge-type">${escapeHtml(rfp.rfp_type)}</span></td>
+                    <td>
+                        ${rfp.deadline ? `<span class="badge badge-${getDeadlineColor(rfp.deadline_status)}">${rfp.deadline}</span>` : '—'}
+                    </td>
+                    <td><span class="badge badge-${rfp.win_probability_color}">${rfp.win_probability}</span></td>
+                    <td>${rfp.score_confidence}</td>
+                    <td>
+                        <select class="status-select" onchange="changeStatus(event, '${rfp.id}')" onclick="event.stopPropagation();">
+                            <option value="New" ${getActualStatus(rfp.id) === 'New' ? 'selected' : ''}>New</option>
+                            <option value="Reviewing" ${getActualStatus(rfp.id) === 'Reviewing' ? 'selected' : ''}>Reviewing</option>
+                            <option value="Shortlisted" ${getActualStatus(rfp.id) === 'Shortlisted' ? 'selected' : ''}>Shortlisted</option>
+                            <option value="Submitted" ${getActualStatus(rfp.id) === 'Submitted' ? 'selected' : ''}>Submitted</option>
+                        </select>
+                    </td>
+                    <td><button class="action-btn" onclick="event.stopPropagation(); openModal('${rfp.id}')">View</button></td>
+                </tr>
+            `).join('');
+        }
+
+        // Get actual status (considering overrides)
+        function getActualStatus(id) {
+            return statusOverrides[id] || allRfpData.find(r => r.id === id)?.status || 'New';
+        }
+
+        // Change status
+        function changeStatus(event, id) {
+            const newStatus = event.target.value;
+            statusOverrides[id] = newStatus;
+            localStorage.setItem('climateview_status_overrides', JSON.stringify(statusOverrides));
+            applyFiltersAndSort();
+        }
+
+        // Get score color class
+        function getScoreClass(score) {
+            if (score >= 70) return 'green';
+            if (score >= 40) return 'yellow';
+            return 'red';
+        }
+
+        // Get deadline color
+        function getDeadlineColor(status) {
+            switch(status) {
+                case 'open': return 'green';
+                case 'closing_soon': return 'yellow';
+                case 'urgent': return 'red';
+                default: return 'gray';
+            }
+        }
+
+        // Update dashboard metrics
+        function updateDashboard() {
+            const qualified = allRfpData.filter(r => r.qualified).length;
+            const highProb = filteredRfpData.filter(r => r.win_probability === 'High').length;
+            const closing = filteredRfpData.filter(r => r.deadline_status === 'closing_soon').length;
+            const avgRelevance = filteredRfpData.length > 0
+                ? Math.round(filteredRfpData.reduce((sum, r) => sum + r.relevance_score, 0) / filteredRfpData.length)
+                : 0;
+
+            document.getElementById('metric-qualified').textContent = qualified;
+            document.getElementById('metric-high').textContent = highProb;
+            document.getElementById('metric-closing').textContent = closing;
+            document.getElementById('metric-relevance').textContent = avgRelevance;
+
+            // Update footer
+            if (allRfpData.length > 0) {
+                const lastScored = allRfpData[0].scored_at ? new Date(allRfpData[0].scored_at).toLocaleDateString() : '--';
+                const version = allRfpData[0].scoring_config_version || '--';
+                document.getElementById('footer-scan').textContent = `Last scan: ${lastScored}`;
+                document.getElementById('footer-version').textContent = `Scoring config v${version}`;
+            }
+        }
+
+        // Open modal
+        function openModal(id) {
+            const rfp = allRfpData.find(r => r.id === id);
+            if (!rfp) return;
+
+            const notes = JSON.parse(localStorage.getItem(`climateview_notes_${id}`)) || '';
+            const actualStatus = getActualStatus(id);
+
+            let html = `
+                <div class="modal-title">${escapeHtml(rfp.rfp_title)}</div>
+                <div class="modal-entity">${escapeHtml(rfp.issuing_entity)} • ${rfp.country}</div>
+
+                <!-- Score Dimensions -->
+                <div class="modal-section">
+                    <div class="modal-section-title">Score Breakdown</div>
+                    ${renderDimensionBar('Feature Alignment', rfp.feature_alignment_score)}
+                    ${renderDimensionBar('Geographic Fit', rfp.geographic_fit_score)}
+                    ${renderDimensionBar('Budget Fit', rfp.budget_fit_score)}
+                    ${renderDimensionBar('Timeline', rfp.timeline_score)}
+                    ${renderDimensionBar('Competitive', rfp.competitive_score)}
+                    ${renderDimensionBar('Strategic Value', rfp.strategic_value_score)}
+                    ${rfp.advisory_bonus > 0 ? `<div style="margin-top:12px; padding:10px; background-color:#E8F5E8; color:#2D5A2D; font-weight:600;">Advisory Bonus: +${rfp.advisory_bonus}</div>` : ''}
+                </div>
+
+                <!-- Feature Breakdown -->
+                ${rfp.feature_breakdown ? `
+                    <div class="modal-section">
+                        <div class="modal-section-title">Feature Alignment Details</div>
+                        ${Object.entries(rfp.feature_breakdown).map(([key, feature]) => `
+                            <div class="feature-item">
+                                <div class="feature-name">${escapeHtml(key.replace(/_/g, ' '))}</div>
+                                <div class="feature-score">Score: ${feature.score}/${feature.max}</div>
+                                ${feature.strong_matches && feature.strong_matches.length > 0 ? `
+                                    <div class="feature-matches">
+                                        ${feature.strong_matches.map(m => `<span class="match-tag">${escapeHtml(m)}</span>`).join('')}
+                                    </div>
+                                ` : ''}
+                                ${feature.moderate_matches && feature.moderate_matches.length > 0 ? `
+                                    <div class="feature-matches">
+                                        ${feature.moderate_matches.map(m => `<span class="match-tag moderate">${escapeHtml(m)}</span>`).join('')}
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : ''}
+
+                <!-- Competitor Analysis -->
+                ${rfp.competitor_signals && rfp.competitor_signals.length > 0 ? `
+                    <div class="modal-section">
+                        <div class="modal-section-title">Competitor Signals</div>
+                        <ul class="signal-list">
+                            ${rfp.competitor_signals.map(signal => `<li>${escapeHtml(signal)}</li>`).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+
+                ${rfp.competitor_recommendation ? `
+                    <div class="modal-section">
+                        <div class="callout-box">
+                            <strong>Recommendation:</strong> ${escapeHtml(rfp.competitor_recommendation)}
+                        </div>
+                    </div>
+                ` : ''}
+
+                <!-- Positive Signals -->
+                ${rfp.positive_signals && rfp.positive_signals.length > 0 ? `
+                    <div class="modal-section">
+                        <div class="modal-section-title">Positive Signals</div>
+                        <ul class="signal-list">
+                            ${rfp.positive_signals.map(signal => `<li>${escapeHtml(signal)}</li>`).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+
+                <!-- Edge Case Flags -->
+                ${rfp.edge_case_flags && rfp.edge_case_flags.length > 0 ? `
+                    <div class="modal-section">
+                        <div class="modal-section-title">Edge Case Flags</div>
+                        <div class="edge-case-flags">
+                            ${rfp.edge_case_flags.map(flag => `<div class="flag">${escapeHtml(flag)}</div>`).join('')}
+                        </div>
+                    </div>
+                ` : ''}
+
+                <!-- Metadata -->
+                <div class="modal-section">
+                    <div class="modal-section-title">Details</div>
+                    <div class="metadata-row">
+                        <div>
+                            <div class="metadata-item">
+                                <span class="metadata-label">RFP Type:</span> ${escapeHtml(rfp.rfp_type)}
+                            </div>
+                            <div class="metadata-item">
+                                <span class="metadata-label">Confidence:</span> ${rfp.score_confidence}
+                            </div>
+                            <div class="metadata-item">
+                                <span class="metadata-label">Qualified:</span> ${rfp.qualified ? 'Yes' : 'No'}
+                            </div>
+                            ${rfp.disqualification_reason ? `
+                                <div class="metadata-item">
+                                    <span class="metadata-label">Disqualification:</span> ${escapeHtml(rfp.disqualification_reason)}
+                                </div>
+                            ` : ''}
+                        </div>
+                        <div>
+                            <div class="metadata-item">
+                                <span class="metadata-label">Deadline:</span> ${rfp.deadline || 'N/A'}
+                            </div>
+                            <div class="metadata-item">
+                                <span class="metadata-label">Budget:</span> ${rfp.budget_eur ? '€' + rfp.budget_eur.toLocaleString() : 'N/A'}
+                            </div>
+                            <div class="metadata-item">
+                                <span class="metadata-label">Config Version:</span> ${rfp.scoring_config_version}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Source Link -->
+                ${rfp.source_url ? `
+                    <div class="modal-section">
+                        <div class="modal-section-title">Source</div>
+                        <div>
+                            <a href="${escapeHtml(rfp.source_url)}" target="_blank" rel="noopener noreferrer">
+                                Open RFP ${rfp.source_portal ? `(${escapeHtml(rfp.source_portal)})` : ''}
+                            </a>
+                        </div>
+                    </div>
+                ` : ''}
+
+                <!-- Status -->
+                <div class="modal-section">
+                    <div class="modal-section-title">Status</div>
+                    <select class="status-select" onchange="changeStatusInModal('${rfp.id}', this.value)">
+                        <option value="New" ${actualStatus === 'New' ? 'selected' : ''}>New</option>
+                        <option value="Reviewing" ${actualStatus === 'Reviewing' ? 'selected' : ''}>Reviewing</option>
+                        <option value="Shortlisted" ${actualStatus === 'Shortlisted' ? 'selected' : ''}>Shortlisted</option>
+                        <option value="Submitted" ${actualStatus === 'Submitted' ? 'selected' : ''}>Submitted</option>
+                    </select>
+                </div>
+
+                <!-- Notes -->
+                <div class="modal-section">
+                    <div class="modal-section-title">Notes</div>
+                    <textarea id="notes-textarea" placeholder="Add internal notes...">${escapeHtml(notes)}</textarea>
+                    <div class="notes-disclaimer">Notes stored in browser only (localStorage)</div>
+                    <button class="action-btn" style="margin-top:8px;" onclick="saveNotes('${rfp.id}')">Save Notes</button>
+                </div>
+            `;
+
+            document.getElementById('modal-body').innerHTML = html;
+            document.getElementById('detail-modal').classList.add('active');
+        }
+
+        // Render dimension bar
+        function renderDimensionBar(label, score) {
+            const percentage = Math.min(100, Math.max(0, score)) || 0;
+            return `
+                <div class="dimension-bar-container">
+                    <div class="dimension-label">${label}</div>
+                    <div class="dimension-bar">
+                        <div class="dimension-bar-fill" style="width:${percentage}%"></div>
+                        <div class="dimension-score">${score}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Change status in modal
+        function changeStatusInModal(id, newStatus) {
+            statusOverrides[id] = newStatus;
+            localStorage.setItem('climateview_status_overrides', JSON.stringify(statusOverrides));
+            applyFiltersAndSort();
+        }
+
+        // Save notes
+        function saveNotes(id) {
+            const notes = document.getElementById('notes-textarea').value;
+            localStorage.setItem(`climateview_notes_${id}`, JSON.stringify(notes));
+            alert('Notes saved!');
+        }
+
+        // Close modal
+        function closeModal() {
+            document.getElementById('detail-modal').classList.remove('active');
+        }
+
+        // Escape HTML
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>

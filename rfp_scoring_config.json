@@ -1,0 +1,279 @@
+{
+  "version": "1.0",
+  "description": "ClimateView RFP Relevance Scoring Configuration",
+
+  "qualification_filters": {
+    "description": "Binary include/exclude filters. ALL must pass for an RFP to be scored.",
+    "client_type": {
+      "required": true,
+      "qualifying_patterns": [
+        "city", "town", "village", "municipality", "municipal", "local authority",
+        "council", "city council", "county", "community", "urban", "borough",
+        "region", "regional", "state", "national", "ministry", "agency", "institute",
+        "governor", "mayor", "prefecture", "province", "canton", "district",
+        "metropolitan", "metropole",
+        "landeshauptstadt", "kanton", "kommunalverwaltung", "kommunen", "regionen",
+        "steden", "stad", "gemeente", "län", "landkreis", "kreis",
+        "département", "commune", "collectivité"
+      ],
+      "edge_case_patterns": [
+        "university", "ngo", "foundation", "non-profit", "nonprofit",
+        "association", "consortium", "partnership"
+      ],
+      "disqualifying_patterns": [
+        "private company", "corporation", "ltd", "gmbh", "inc",
+        "internal research", "academic research only"
+      ]
+    },
+    "subject_matter": {
+      "required": true,
+      "qualifying_patterns": [
+        "climate action plan", "climate action", "caap", "cap",
+        "net zero", "net-zero", "netzero", "carbon neutral", "carbon neutrality",
+        "decarbonization", "decarbonisation", "emissions reduction",
+        "ghg inventory", "greenhouse gas", "ghg accounting", "ghg management",
+        "carbon accounting", "emissions accounting",
+        "climate strategy", "climate plan", "climate roadmap", "climate programme",
+        "transition planning", "systemic transition", "systemic change",
+        "climate software", "climate platform", "climate tool", "climate data",
+        "sustainability reporting", "environmental reporting",
+        "klimaschutzkonzept", "klimaschutz", "treibhausgasbilanz", "thg-bilanz",
+        "klimaschutzmanagement", "co2-bilanzierung", "kommunaler klimaschutz",
+        "klimadaten", "emissionskataster", "nachhaltigkeitsbericht",
+        "plan climat", "bilan carbone", "inventaire ges", "stratégie bas-carbone",
+        "klimaatactieplan", "broeikasgasinventaris", "co2-boekhouding",
+        "klimathandlingsplan", "växthusgasinventering", "utsläppsredovisning",
+        "klimahandlingsplan", "drivhusgasopgørelse", "co2-regnskab",
+        "klimagassregnskap", "utslippsregnskap",
+        "ilmasto-ohjelma", "kasvihuonekaasupäästöt", "päästölaskenta"
+      ]
+    },
+    "geographic_scope": {
+      "required": true,
+      "primary_markets": ["US", "CA", "GB", "IE", "DE", "AT", "CH", "BE", "NL", "LU", "SE", "DK", "NO", "FI"],
+      "adjacent_markets": ["FR", "ES", "IT", "PT", "AU", "NZ", "PL", "CZ", "EE", "LV", "LT", "IS", "GR"]
+    },
+    "disqualification_signals": [
+      "physical infrastructure design",
+      "construction management",
+      "building construction",
+      "road construction",
+      "water treatment plant",
+      "legal review only",
+      "policy analysis only",
+      "simple data collection",
+      "gis mapping only",
+      "communications campaign only",
+      "graphic design only",
+      "website design only",
+      "on-premise deployment required",
+      "vpn tunnel required",
+      "look and feel customization",
+      "open source requirement",
+      "source code escrow"
+    ]
+  },
+
+  "scoring_dimensions": {
+    "feature_alignment": {
+      "weight": 0.30,
+      "description": "How well ClimateView's platform matches stated requirements",
+      "functional_areas": {
+        "ghg_inventory": {
+          "max_points": 20,
+          "strong_keywords": [
+            "gpc protocol", "pcp protocol", "scopes 1-3", "scope 1", "scope 2", "scope 3",
+            "baseline assessment", "bisko", "bisko-standard",
+            "ghg inventory", "greenhouse gas inventory", "emissions inventory",
+            "treibhausgasbilanzierung", "thg-bilanzierung", "bilanzierungseinheiten"
+          ],
+          "moderate_keywords": [
+            "data management", "emissions factors", "data quality", "historical emissions",
+            "carbon footprint", "emissions data", "emissions projections",
+            "consumption-based emissions", "carbon deficit"
+          ]
+        },
+        "modeling_scenarios": {
+          "max_points": 25,
+          "strong_keywords": [
+            "transition elements", "shifts", "tempo analysis", "backcasting",
+            "scenario editor", "scenario modeling", "scenario development",
+            "multi-vector", "whole-system approach", "whole system",
+            "forecasts", "bau", "net zero pathway", "interim targets",
+            "transition engine", "impact assessment model", "wedge analysis",
+            "wirkungsabschätzung", "potenzialanalysen",
+            "reference scenario", "activity shifts"
+          ],
+          "moderate_keywords": [
+            "modeling", "modelling", "projection", "simulation",
+            "what-if analysis", "sensitivity analysis", "pathway analysis"
+          ]
+        },
+        "financial_economic": {
+          "max_points": 15,
+          "strong_keywords": [
+            "cost-benefit modelling", "cost-benefit analysis", "investment plan",
+            "avoided cost estimation", "economic scenario",
+            "cost per tonne", "marginal abatement cost",
+            "wirtschaftlichkeitsberechnungen", "investitionsplan"
+          ],
+          "moderate_keywords": [
+            "financing", "return on investment", "roi", "green finance",
+            "fiscal", "budget analysis", "economic analysis", "investable"
+          ]
+        },
+        "action_management": {
+          "max_points": 15,
+          "strong_keywords": [
+            "interventions editor", "action mapping", "prioritization framework",
+            "implementation plan", "measures management",
+            "maßnahmenplanung", "maßnahmenmanagement", "maßnahmen-editor",
+            "action portfolio", "delivery plan"
+          ],
+          "moderate_keywords": [
+            "action identification", "action prioritization", "responsible parties",
+            "resources needed", "implementation tracking"
+          ]
+        },
+        "monitoring_tracking": {
+          "max_points": 15,
+          "strong_keywords": [
+            "indicators editor", "key performance indicators", "kpi",
+            "progress review", "leading indicators", "progress dashboard",
+            "leitindikatoren", "berichterstattung", "co2-budget visualisierung",
+            "monitoring system", "tracking implementation"
+          ],
+          "moderate_keywords": [
+            "monitoring", "tracking progress", "metrics", "reporting",
+            "annual reporting", "performance measurement"
+          ]
+        },
+        "collaboration_visualization": {
+          "max_points": 10,
+          "strong_keywords": [
+            "dashboard", "public-facing dashboard", "internal dashboard",
+            "multi-actor coordination", "multi-level coordination",
+            "aggregated boards", "common language", "shared intelligence"
+          ],
+          "moderate_keywords": [
+            "stakeholder engagement", "visualization", "interactive",
+            "collaboration platform", "cross-departmental"
+          ]
+        }
+      }
+    },
+
+    "geographic_fit": {
+      "weight": 0.15,
+      "description": "Primary market = full score, adjacent = partial",
+      "primary_score": 100,
+      "adjacent_score": 50,
+      "other_score": 20
+    },
+
+    "budget_fit": {
+      "weight": 0.15,
+      "description": "Is the budget realistic for ClimateView pricing?",
+      "sweet_spot_min_eur": 15000,
+      "sweet_spot_max_eur": 500000,
+      "acceptable_min_eur": 5000,
+      "too_small_eur": 2000,
+      "notes": "Multi-year contracts multiply. Regional/national contracts can be 200K+. Individual city core module starts at 2,500 EUR."
+    },
+
+    "timeline_feasibility": {
+      "weight": 0.10,
+      "description": "Can ClimateView respond within the submission deadline?",
+      "ideal_days_from_now": 30,
+      "minimum_days_from_now": 7,
+      "notes": "RFPs with <7 days to deadline are typically not feasible unless pre-positioned."
+    },
+
+    "competitive_landscape": {
+      "weight": 0.15,
+      "description": "Signals the RFP was written for a specific competitor vs. open/neutral",
+      "competitor_signals": {
+        "kausal_spec": [
+          "open source", "source code", "ci/cd", "continuous integration",
+          "self-hosted", "on-premise", "docker", "kubernetes",
+          "automated api", "rest api self-service", "graphql"
+        ],
+        "enersis_spec": [
+          "gis-based", "geospatial only", "utility management",
+          "energy network mapping", "grid planning"
+        ],
+        "generic_competitor": [
+          "incumbent vendor", "existing system migration",
+          "compatible with [specific competitor tool]"
+        ],
+        "_note_clearpath": "ClearPath 2.0 is powered by ClimateView (ICLEI partnership) – NOT a competitor signal",
+        "positive_signals": [
+          "vendor neutral", "open competition", "no incumbent",
+          "new system", "first time", "replacing manual process",
+          "replacing excel", "replacing spreadsheet"
+        ]
+      }
+    },
+
+    "strategic_value": {
+      "weight": 0.15,
+      "description": "Size, reference value, expansion potential",
+      "high_value_indicators": [
+        "capital city", "major city", "population over 100000",
+        "regional authority", "national government", "national agency",
+        "multi-municipality", "multi-year", "framework agreement",
+        "platform rollout", "enterprise license",
+        "rahmenvertrag", "rahmenvereinbarung"
+      ],
+      "medium_value_indicators": [
+        "medium city", "population 50000-100000",
+        "consulting plus software", "capacity building included",
+        "training included", "schulung"
+      ],
+      "multipliers": {
+        "multi_municipality": 1.5,
+        "national_scope": 2.0,
+        "framework_agreement": 1.8,
+        "referenceable_market": 1.3
+      }
+    }
+  },
+
+  "win_probability_thresholds": {
+    "high": {"min_score": 70, "label": "High", "color": "green"},
+    "medium": {"min_score": 40, "label": "Medium", "color": "yellow"},
+    "low": {"min_score": 0, "label": "Low", "color": "red"},
+    "edge_case": {"label": "Edge Case", "color": "gray", "description": "Interesting but requires new capability or creative positioning"}
+  },
+
+  "advisory_service_bonus": {
+    "description": "RFPs coupling platform with consulting/training score higher",
+    "bonus_points": 10,
+    "triggers": [
+      "consulting", "advisory", "expertise", "technical support",
+      "coaching", "policy guidance", "capacity building",
+      "training", "schulung", "onboarding", "knowledge transfer",
+      "workshops", "moderation",
+      "large-scale implementation", "rollout", "deployment support"
+    ]
+  },
+
+  "cpv_codes": {
+    "description": "Common Procurement Vocabulary codes for EU procurement filtering",
+    "primary": [
+      {"code": "71313000", "description": "Environmental engineering consultancy services"},
+      {"code": "71220000", "description": "Architectural design services"},
+      {"code": "72000000", "description": "IT services: consulting, software development, Internet and support"},
+      {"code": "90700000", "description": "Environmental services"},
+      {"code": "90730000", "description": "Tracking, monitoring and recovery of pollution"}
+    ],
+    "secondary": [
+      {"code": "72212000", "description": "Programming services of application software"},
+      {"code": "72260000", "description": "Software-related services"},
+      {"code": "48600000", "description": "Database and operating software package"},
+      {"code": "90710000", "description": "Environmental management"},
+      {"code": "71240000", "description": "Architectural, engineering and planning services"},
+      {"code": "73210000", "description": "Research consultancy services"}
+    ]
+  }
+}
