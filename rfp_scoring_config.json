@@ -37,15 +37,39 @@
         "transition planning", "systemic transition", "systemic change",
         "climate software", "climate platform", "climate tool", "climate data",
         "sustainability reporting", "environmental reporting",
+        "carbon management", "climate transition", "climate monitoring",
+        "carbon budget", "climate intelligence", "climate dashboard",
+        "energy transition", "municipal energy planning", "energy planning",
+        "heat planning", "heating plan", "district heating strategy",
+        "net zero roadmap", "net zero pathway", "climate neutrality",
+
         "klimaschutzkonzept", "klimaschutz", "treibhausgasbilanz", "thg-bilanz",
         "klimaschutzmanagement", "co2-bilanzierung", "kommunaler klimaschutz",
         "klimadaten", "emissionskataster", "nachhaltigkeitsbericht",
+        "kommunale wärmeplanung", "wärmeplanung", "wärmeleitplanung",
+        "energieleitplanung", "klimaschutzfahrplan", "klimaneutralität",
+        "masterplan klimaschutz", "klimaschutzstrategie", "klimaschutzteilkonzept",
+        "treibhausgasneutralität", "co2-neutralität", "klimaschutzmanager",
+        "integriertes klimaschutzkonzept", "nachhaltigkeitsmanagement",
+        "klimaanpassungskonzept", "klimaschutzmonitoring", "klimabilanz",
+        "energiekonzept", "energie- und klimaschutzkonzept",
+
         "plan climat", "bilan carbone", "inventaire ges", "stratégie bas-carbone",
+        "pcaet", "plan climat air énergie", "transition écologique",
+        "neutralité carbone", "plan énergie climat",
+
         "klimaatactieplan", "broeikasgasinventaris", "co2-boekhouding",
+        "warmtevisie", "warmtetransitie", "energietransitie", "klimaattransitie",
+
         "klimathandlingsplan", "växthusgasinventering", "utsläppsredovisning",
+        "klimatomställning", "energiomställning", "klimatstrategi",
+
         "klimahandlingsplan", "drivhusgasopgørelse", "co2-regnskab",
         "klimagassregnskap", "utslippsregnskap",
-        "ilmasto-ohjelma", "kasvihuonekaasupäästöt", "päästölaskenta"
+        "klimanøytral", "energiomstilling", "klimastrategi", "varmeplan",
+
+        "ilmasto-ohjelma", "kasvihuonekaasupäästöt", "päästölaskenta",
+        "hiilineutraali", "ilmastostrategia"
       ]
     },
     "geographic_scope": {
@@ -70,7 +94,11 @@
       "vpn tunnel required",
       "look and feel customization",
       "open source requirement",
-      "source code escrow"
+      "source code escrow",
+      "bauplanung", "tiefbau", "hochbau", "straßenbau",
+      "gebäudesanierung", "heizungsinstallation", "heizungstausch",
+      "photovoltaik installation", "solar panel installation",
+      "abwasserbehandlung", "wasserversorgung"
     ]
   },
 
@@ -102,11 +130,17 @@
             "forecasts", "bau", "net zero pathway", "interim targets",
             "transition engine", "impact assessment model", "wedge analysis",
             "wirkungsabschätzung", "potenzialanalysen",
-            "reference scenario", "activity shifts"
+            "reference scenario", "activity shifts",
+            "heat planning scenarios", "wärmeplanung szenario",
+            "energy transition pathway", "heating strategy",
+            "district heating", "fernwärme", "nahwärme",
+            "sektorenkopplung", "sector coupling"
           ],
           "moderate_keywords": [
             "modeling", "modelling", "projection", "simulation",
-            "what-if analysis", "sensitivity analysis", "pathway analysis"
+            "what-if analysis", "sensitivity analysis", "pathway analysis",
+            "energy mix", "heating mix", "wärmemix", "energiemix",
+            "decarbonization pathway", "dekarbonisierungspfad"
           ]
         },
         "financial_economic": {
@@ -128,11 +162,13 @@
             "interventions editor", "action mapping", "prioritization framework",
             "implementation plan", "measures management",
             "maßnahmenplanung", "maßnahmenmanagement", "maßnahmen-editor",
-            "action portfolio", "delivery plan"
+            "action portfolio", "delivery plan",
+            "maßnahmenkatalog", "umsetzungsfahrplan", "handlungsfeld"
           ],
           "moderate_keywords": [
             "action identification", "action prioritization", "responsible parties",
-            "resources needed", "implementation tracking"
+            "resources needed", "implementation tracking",
+            "roadmap", "fahrplan", "aktionsplan", "handlungsempfehlung"
           ]
         },
         "monitoring_tracking": {
