@@ -67,6 +67,7 @@ COUNTRY_TO_MARKET = {
     'SE': 'Nordics', 'DK': 'Nordics', 'NO': 'Nordics', 'FI': 'Nordics',
     'FR': 'Adjacent', 'ES': 'Adjacent', 'IT': 'Adjacent', 'PT': 'Adjacent',
     'AU': 'Adjacent', 'NZ': 'Adjacent',
+    'INT': 'International',
 }
 
 
@@ -713,14 +714,498 @@ class HilmaScanner(PortalScanner):
                                 deadline, self.PORTAL_NAME, url)
 
 
+# ── Free API-based scanners ──────────────────────────────────────────────────
+
+class BOAMPScanner(PortalScanner):
+    """BOAMP (France) – Official French procurement bulletin. Free Opendatasoft API."""
+    PORTAL_NAME = 'BOAMP (France)'
+    API_BASE = 'https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
+        keywords = KEYWORDS['fr'] + KEYWORDS['en'][:3]
+
+        for kw in keywords:
+            try:
+                params = {
+                    'select': 'idweb,intitule,nomacheteur,datecloture,descripteur,nature',
+                    'where': f'search(intitule,"{kw}") AND dateparution>="{date_from}"',
+                    'limit': 50,
+                    'order_by': 'dateparution DESC',
+                }
+                resp = fetch_with_retry(self.session, self.API_BASE, params=params)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    records = data.get('results', [])
+                    for record in records:
+                        rec = self._parse(record)
+                        if rec:
+                            results.append(rec)
+                elif resp.status_code == 403:
+                    log.warning("BOAMP: API access denied (403)")
+                    return results
+                time.sleep(2)
+            except Exception as e:
+                log.error(f"BOAMP error '{kw}': {e}")
+        log.info(f"BOAMP: {len(results)} qualified notices found")
+        return results
+
+    def _parse(self, record: dict) -> dict:
+        title = record.get('intitule', '')
+        entity = record.get('nomacheteur', 'Unknown')
+        deadline = record.get('datecloture', '')
+        idweb = record.get('idweb', '')
+        description = record.get('descripteur', '') or str(title)
+        nature = record.get('nature', '')
+        full_desc = f"{title}. {description}. {nature}".strip()
+
+        if deadline:
+            try:
+                dl = datetime.strptime(str(deadline)[:10], '%Y-%m-%d')
+                if dl < datetime.now():
+                    return None
+                deadline = dl.strftime('%Y-%m-%d')
+            except (ValueError, TypeError):
+                deadline = None
+
+        url = f"https://www.boamp.fr/avis/detail/{idweb}" if idweb else None
+        rfp_input = RFPInput(title=title, issuing_entity=entity, description=full_desc[:2000],
+                             country='FR', deadline=deadline,
+                             source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, title, entity, 'FR', full_desc,
+                                None, deadline, self.PORTAL_NAME, url)
+
+
+class WorldBankScanner(PortalScanner):
+    """World Bank Procurement Notices – Free JSON API, no auth."""
+    PORTAL_NAME = 'World Bank'
+    API_BASE = 'https://search.worldbank.org/api/v2/procnotices'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        for kw in KEYWORDS['en'][:6]:
+            try:
+                params = {
+                    'format': 'json',
+                    'qterm': kw,
+                    'rows': 50,
+                    'os': 0,
+                }
+                resp = fetch_with_retry(self.session, self.API_BASE, params=params)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    notices = data.get('procnotices', {})
+                    if isinstance(notices, dict):
+                        for nid, notice in notices.items():
+                            if isinstance(notice, dict):
+                                rec = self._parse(nid, notice)
+                                if rec:
+                                    results.append(rec)
+                time.sleep(2)
+            except Exception as e:
+                log.error(f"World Bank error '{kw}': {e}")
+        log.info(f"World Bank: {len(results)} qualified notices found")
+        return results
+
+    def _parse(self, nid: str, notice: dict) -> dict:
+        title = notice.get('project_name', notice.get('notice_lang_name', ''))
+        entity = notice.get('borrower', notice.get('bid_reference_no', 'World Bank'))
+        country_name = notice.get('project_ctry_name', '')
+        deadline = notice.get('submission_deadline_date', '')
+        description = notice.get('notice_text', notice.get('procurement_group', title))
+
+        if deadline:
+            try:
+                for fmt in ['%Y-%m-%dT%H:%M:%SZ', '%Y-%m-%d', '%m/%d/%Y']:
+                    try:
+                        dl = datetime.strptime(str(deadline)[:19], fmt)
+                        if dl < datetime.now():
+                            return None
+                        deadline = dl.strftime('%Y-%m-%d')
+                        break
+                    except ValueError:
+                        continue
+                else:
+                    deadline = None
+            except (ValueError, TypeError):
+                deadline = None
+
+        url = f"https://projects.worldbank.org/en/projects-operations/procurement-detail/{nid}"
+        rfp_input = RFPInput(title=str(title), issuing_entity=str(entity),
+                             description=str(description)[:2000],
+                             country='INT', deadline=deadline,
+                             source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, str(title), str(entity), 'INT',
+                                str(description), None, deadline, self.PORTAL_NAME, url)
+
+
+class TenderNedRSSScanner(PortalScanner):
+    """TenderNed (Netherlands) – Public RSS feed, no auth."""
+    PORTAL_NAME = 'TenderNed (Netherlands)'
+    RSS_URL = 'https://www.tenderned.nl/papi/tenderned-rs-tns/rss/laatste-publicatie.rss'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        try:
+            resp = fetch_with_retry(self.session, self.RSS_URL, timeout=30)
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.content, 'xml')
+                items = soup.find_all('item')
+                log.info(f"TenderNed RSS: {len(items)} items in feed")
+                for item in items:
+                    rec = self._parse_item(item)
+                    if rec:
+                        results.append(rec)
+            else:
+                log.warning(f"TenderNed RSS: HTTP {resp.status_code}")
+        except Exception as e:
+            log.error(f"TenderNed RSS error: {e}")
+        log.info(f"TenderNed: {len(results)} qualified notices found")
+        return results
+
+    def _parse_item(self, item) -> dict:
+        title = item.find('title').text.strip() if item.find('title') else ''
+        description = item.find('description').text.strip() if item.find('description') else title
+        link = item.find('link').text.strip() if item.find('link') else ''
+        pub_date = item.find('pubDate').text.strip() if item.find('pubDate') else ''
+
+        # Strip HTML from description
+        if '<' in description:
+            description = BeautifulSoup(description, 'lxml').get_text(separator=' ')
+
+        rfp_input = RFPInput(title=title, issuing_entity='Netherlands',
+                             description=description[:2000],
+                             country='NL', source_portal=self.PORTAL_NAME, source_url=link)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, title, 'Netherlands', 'NL', description,
+                                None, None, self.PORTAL_NAME, link)
+
+
+# ── Experimental web scrapers ────────────────────────────────────────────────
+# These attempt to scrape search results from web-only portals.
+# They may break if the portal changes its HTML structure.
+# Each one fails gracefully – logs an error and returns [].
+
+SCRAPER_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5,de;q=0.3',
+}
+
+
+class SIMAPScanner(PortalScanner):
+    """SIMAP.ch (Switzerland) – Scrape public search results."""
+    PORTAL_NAME = 'SIMAP.ch (Switzerland)'
+    SEARCH_URL = 'https://www.simap.ch/api/searchpublications'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        keywords = KEYWORDS['de'][:4] + KEYWORDS['fr'][:2] + KEYWORDS['en'][:3]
+
+        for kw in keywords:
+            try:
+                # Try the SIMAP REST API first (public search endpoint)
+                params = {'searchText': kw, 'publicationType': 'TENDER', 'pageSize': 50, 'page': 0}
+                resp = self.session.get(self.SEARCH_URL, params=params, timeout=30)
+                if resp.status_code == 200:
+                    try:
+                        data = resp.json()
+                        publications = data if isinstance(data, list) else data.get('content', data.get('publications', []))
+                        for pub in publications:
+                            rec = self._parse_api(pub)
+                            if rec:
+                                results.append(rec)
+                    except ValueError:
+                        # Not JSON – try HTML scraping as fallback
+                        self._scrape_html(resp.text, results)
+                elif resp.status_code in (401, 403, 404):
+                    log.info(f"SIMAP API not accessible ({resp.status_code}), trying HTML scrape")
+                    results.extend(self._scrape_fallback(kw))
+                time.sleep(3)
+            except Exception as e:
+                log.error(f"SIMAP error '{kw}': {e}")
+        log.info(f"SIMAP.ch: {len(results)} qualified notices found")
+        return results
+
+    def _parse_api(self, pub: dict) -> dict:
+        title = pub.get('title', pub.get('projectTitle', ''))
+        entity = pub.get('organization', pub.get('buyer', 'Unknown'))
+        description = pub.get('description', str(title))
+        deadline = pub.get('deadline', pub.get('submissionDeadline', ''))
+        pub_id = pub.get('id', pub.get('projectId', ''))
+
+        if deadline:
+            try:
+                dl = datetime.fromisoformat(str(deadline).replace('Z', '+00:00'))
+                if dl.replace(tzinfo=None) < datetime.now():
+                    return None
+                deadline = dl.strftime('%Y-%m-%d')
+            except (ValueError, TypeError):
+                deadline = None
+
+        url = f"https://www.simap.ch/en/procurement/{pub_id}" if pub_id else None
+        rfp_input = RFPInput(title=str(title), issuing_entity=str(entity),
+                             description=str(description)[:2000],
+                             country='CH', source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, str(title), str(entity), 'CH',
+                                str(description), None, deadline, self.PORTAL_NAME, url)
+
+    def _scrape_html(self, html: str, results: list):
+        soup = BeautifulSoup(html, 'lxml')
+        for link in soup.find_all('a', href=True):
+            href = link.get('href', '')
+            if '/procurement/' in href or '/project/' in href:
+                title = link.get_text(strip=True)
+                if title and len(title) > 10:
+                    rfp_input = RFPInput(title=title, issuing_entity='Switzerland',
+                                         description=title, country='CH',
+                                         source_portal=self.PORTAL_NAME,
+                                         source_url=f"https://www.simap.ch{href}")
+                    result = self.scorer.score(rfp_input)
+                    if result.qualified:
+                        results.append(result_to_record(result, title, 'Switzerland', 'CH',
+                                                        title, None, None, self.PORTAL_NAME,
+                                                        f"https://www.simap.ch{href}"))
+
+    def _scrape_fallback(self, keyword: str) -> list:
+        """Fallback: try the public HTML search page."""
+        try:
+            url = f"https://www.simap.ch/en/procurement?searchText={quote_plus(keyword)}"
+            resp = self.session.get(url, headers=SCRAPER_HEADERS, timeout=30)
+            if resp.status_code == 200:
+                results = []
+                self._scrape_html(resp.text, results)
+                return results
+        except Exception:
+            pass
+        return []
+
+
+class GermanFederalScanner(PortalScanner):
+    """German Federal Procurement – scrape service.bund.de and evergabe-online.de."""
+    PORTAL_NAME = 'Bund.de (Germany)'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        # Try evergabe-online.de search (may have JSON endpoint)
+        results.extend(self._scan_evergabe(lookback_days))
+        # Try service.bund.de
+        results.extend(self._scan_bund(lookback_days))
+        log.info(f"German Federal: {len(results)} qualified notices found")
+        return results
+
+    def _scan_evergabe(self, lookback_days: int) -> list:
+        results = []
+        base = 'https://www.evergabe-online.de/tenderdetails.html'
+        search_url = 'https://www.evergabe-online.de/searchresult.html'
+
+        for kw in KEYWORDS['de'][:4] + KEYWORDS['en'][:2]:
+            try:
+                params = {'searchText': kw}
+                resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    soup = BeautifulSoup(resp.content, 'lxml')
+                    for row in soup.select('table.searchResult tr, div.tenderRow, div.search-result-item'):
+                        title_el = row.find('a')
+                        if title_el and title_el.get_text(strip=True):
+                            title = title_el.get_text(strip=True)
+                            href = title_el.get('href', '')
+                            full_url = f"https://www.evergabe-online.de{href}" if href.startswith('/') else href
+                            rfp_input = RFPInput(title=title, issuing_entity='German Federal',
+                                                 description=title, country='DE',
+                                                 source_portal=self.PORTAL_NAME, source_url=full_url)
+                            result = self.scorer.score(rfp_input)
+                            if result.qualified:
+                                results.append(result_to_record(result, title, 'German Federal', 'DE',
+                                                                title, None, None, self.PORTAL_NAME, full_url))
+                time.sleep(3)
+            except Exception as e:
+                log.error(f"evergabe-online error '{kw}': {e}")
+        return results
+
+    def _scan_bund(self, lookback_days: int) -> list:
+        results = []
+        search_url = 'https://www.service.bund.de/Content/DE/Ausschreibungen/suche.html'
+
+        for kw in KEYWORDS['de'][:3]:
+            try:
+                params = {'searchtext': kw, 'resultsPerPage': 50}
+                resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    soup = BeautifulSoup(resp.content, 'lxml')
+                    for link in soup.find_all('a', href=True):
+                        href = link.get('href', '')
+                        title = link.get_text(strip=True)
+                        if ('ausschreibung' in href.lower() or 'vergabe' in href.lower()) and len(title) > 15:
+                            full_url = f"https://www.service.bund.de{href}" if href.startswith('/') else href
+                            rfp_input = RFPInput(title=title, issuing_entity='German Federal',
+                                                 description=title, country='DE',
+                                                 source_portal=self.PORTAL_NAME, source_url=full_url)
+                            result = self.scorer.score(rfp_input)
+                            if result.qualified:
+                                results.append(result_to_record(result, title, 'German Federal', 'DE',
+                                                                title, None, None, self.PORTAL_NAME, full_url))
+                time.sleep(3)
+            except Exception as e:
+                log.error(f"service.bund.de error '{kw}': {e}")
+        return results
+
+
+class AustrianScanner(PortalScanner):
+    """Austrian Procurement – scrape auftrag.at public search."""
+    PORTAL_NAME = 'auftrag.at (Austria)'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        search_url = 'https://www.auftrag.at/Search/FulltextSearch'
+
+        for kw in KEYWORDS['de'][:4] + KEYWORDS['en'][:2]:
+            try:
+                params = {'searchTerm': kw, 'page': 1, 'pageSize': 50}
+                resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    # Try JSON first (some portals return JSON)
+                    try:
+                        data = resp.json()
+                        items = data if isinstance(data, list) else data.get('results', data.get('items', []))
+                        for item in items:
+                            title = item.get('title', item.get('name', ''))
+                            entity = item.get('buyer', item.get('organization', 'Austria'))
+                            rec_id = item.get('id', '')
+                            url = f"https://www.auftrag.at/Tender/{rec_id}" if rec_id else None
+                            rfp_input = RFPInput(title=title, issuing_entity=str(entity),
+                                                 description=title, country='AT',
+                                                 source_portal=self.PORTAL_NAME, source_url=url)
+                            result = self.scorer.score(rfp_input)
+                            if result.qualified:
+                                results.append(result_to_record(result, title, str(entity), 'AT',
+                                                                title, None, None, self.PORTAL_NAME, url))
+                    except ValueError:
+                        # HTML response – parse it
+                        soup = BeautifulSoup(resp.content, 'lxml')
+                        for link in soup.find_all('a', href=True):
+                            href = link.get('href', '')
+                            title = link.get_text(strip=True)
+                            if '/Tender/' in href and len(title) > 10:
+                                full_url = f"https://www.auftrag.at{href}" if href.startswith('/') else href
+                                rfp_input = RFPInput(title=title, issuing_entity='Austria',
+                                                     description=title, country='AT',
+                                                     source_portal=self.PORTAL_NAME, source_url=full_url)
+                                result = self.scorer.score(rfp_input)
+                                if result.qualified:
+                                    results.append(result_to_record(result, title, 'Austria', 'AT',
+                                                                    title, None, None, self.PORTAL_NAME, full_url))
+                time.sleep(3)
+            except Exception as e:
+                log.error(f"auftrag.at error '{kw}': {e}")
+        log.info(f"auftrag.at: {len(results)} qualified notices found")
+        return results
+
+
+class IrishTendersScanner(PortalScanner):
+    """eTenders Ireland – scrape public search results."""
+    PORTAL_NAME = 'eTenders (Ireland)'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        search_url = 'https://www.etenders.gov.ie/epps/cft/listContractNotices.do'
+
+        for kw in KEYWORDS['en'][:6]:
+            try:
+                params = {'d-8588276-p': 1, 'searchTerm': kw}
+                resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    soup = BeautifulSoup(resp.content, 'lxml')
+                    # eTenders uses tables for results
+                    for row in soup.select('table tr, div.notice-row, li.result-item'):
+                        link = row.find('a', href=True)
+                        if link:
+                            title = link.get_text(strip=True)
+                            href = link.get('href', '')
+                            if len(title) > 10 and ('notice' in href.lower() or 'cft' in href.lower()):
+                                full_url = f"https://www.etenders.gov.ie{href}" if href.startswith('/') else href
+                                rfp_input = RFPInput(title=title, issuing_entity='Ireland',
+                                                     description=title, country='IE',
+                                                     source_portal=self.PORTAL_NAME, source_url=full_url)
+                                result = self.scorer.score(rfp_input)
+                                if result.qualified:
+                                    results.append(result_to_record(result, title, 'Ireland', 'IE',
+                                                                    title, None, None,
+                                                                    self.PORTAL_NAME, full_url))
+                time.sleep(3)
+            except Exception as e:
+                log.error(f"eTenders error '{kw}': {e}")
+        log.info(f"eTenders Ireland: {len(results)} qualified notices found")
+        return results
+
+
+class UNGMScanner(PortalScanner):
+    """UNGM (UN Global Marketplace) – scrape public notice search."""
+    PORTAL_NAME = 'UNGM'
+    SEARCH_URL = 'https://www.ungm.org/Public/Notice'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        for kw in KEYWORDS['en'][:4]:
+            try:
+                # Try the UNGM public search page
+                params = {'PageIndex': 0, 'Title': kw}
+                resp = self.session.get(self.SEARCH_URL, params=params, headers=SCRAPER_HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    soup = BeautifulSoup(resp.content, 'lxml')
+                    for row in soup.select('table tr, div.notice, div.row'):
+                        link = row.find('a', href=True)
+                        if link:
+                            title = link.get_text(strip=True)
+                            href = link.get('href', '')
+                            if len(title) > 10 and ('Notice' in href or 'notice' in href):
+                                full_url = f"https://www.ungm.org{href}" if href.startswith('/') else href
+                                rfp_input = RFPInput(title=title, issuing_entity='United Nations',
+                                                     description=title, country='INT',
+                                                     source_portal=self.PORTAL_NAME, source_url=full_url)
+                                result = self.scorer.score(rfp_input)
+                                if result.qualified:
+                                    results.append(result_to_record(result, title, 'United Nations', 'INT',
+                                                                    title, None, None,
+                                                                    self.PORTAL_NAME, full_url))
+                time.sleep(3)
+            except Exception as e:
+                log.error(f"UNGM error '{kw}': {e}")
+        log.info(f"UNGM: {len(results)} qualified notices found")
+        return results
+
+
 SCANNERS = {
+    # Tier 1: API-based (reliable)
     'sam': SAMGovScanner,
     'ted': TEDScanner,
     'uk': UKContractsScanner,
     'scotland': ScotlandScanner,
     'wales': WalesScanner,
+    'boamp': BOAMPScanner,
+    'worldbank': WorldBankScanner,
+    'tenderned': TenderNedRSSScanner,
+    # Tier 2: API with optional key
     'doffin': DoffinScanner,
     'hilma': HilmaScanner,
+    # Tier 3: Web scrapers (experimental – may break)
+    'simap': SIMAPScanner,
+    'germany': GermanFederalScanner,
+    'austria': AustrianScanner,
+    'ireland': IrishTendersScanner,
+    'ungm': UNGMScanner,
 }
 
 
