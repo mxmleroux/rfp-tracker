@@ -655,6 +655,67 @@
             }
         }
 
+        /* Health Banner */
+        .health-banner {
+            display: none;
+            padding: 12px 24px;
+            background-color: #FEF8E7;
+            border-bottom: 1px solid #FFE699;
+            font-size: 13px;
+            color: #8B6F00;
+        }
+
+        .health-banner.has-issues {
+            display: block;
+        }
+
+        .health-banner-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .health-portal {
+            display: inline-block;
+            background-color: #FFFFFF;
+            border: 1px solid #FFE699;
+            padding: 2px 8px;
+            margin: 2px 4px 2px 0;
+            font-size: 12px;
+        }
+
+        .health-portal.unhealthy {
+            background-color: #FDE8E8;
+            border-color: #FF7474;
+            color: #8B2D2D;
+        }
+
+        .health-portal.degraded {
+            background-color: #FEF8E7;
+            border-color: #FFE699;
+            color: #8B6F00;
+        }
+
+        /* Status Sync */
+        .sync-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .sync-btn {
+            background: none;
+            border: 1px solid #CCCCCC;
+            padding: 4px 10px;
+            font-size: 12px;
+            font-family: Inter, Calibri, Arial, sans-serif;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .sync-btn:hover {
+            background-color: #F0F0F0;
+        }
+
         /* Empty State */
         .empty-state {
             text-align: center;
@@ -705,6 +766,13 @@
                 <div class="logo-text">ClimateView</div>
                 <div class="header-subtitle">RFP Intelligence Dashboard</div>
             </div>
+            <div class="sync-bar">
+                <button class="sync-btn" onclick="exportStatus()" title="Download status overrides as JSON">Export Status</button>
+                <label class="sync-btn" style="margin:0">
+                    Import Status
+                    <input type="file" accept=".json" style="display:none" onchange="importStatus(event)">
+                </label>
+            </div>
         </div>
         <div class="intelligence-bar">
             <div class="intelligence-segment segment-1"></div>
@@ -714,6 +782,12 @@
             <div class="intelligence-segment segment-5"></div>
             <div class="intelligence-segment segment-6"></div>
         </div>
+    </div>
+
+    <!-- Health Banner -->
+    <div id="health-banner" class="health-banner">
+        <div class="health-banner-title">Portal Health Warnings</div>
+        <div id="health-portals"></div>
     </div>
 
     <!-- Summary Section -->
@@ -863,7 +937,7 @@
 
         // Load data on page load
         window.addEventListener('DOMContentLoaded', async () => {
-            await loadData();
+            await Promise.all([loadData(), loadPortalHealth()]);
             setupEventListeners();
             updateDashboard();
         });
@@ -1306,6 +1380,80 @@
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
+        }
+
+        // Load portal health data
+        async function loadPortalHealth() {
+            try {
+                const response = await fetch('portal_health.json');
+                if (!response.ok) return;
+                const health = await response.json();
+                const portals = health.portals || {};
+                const issues = Object.entries(portals).filter(([_, h]) => h.status !== 'healthy');
+
+                if (issues.length === 0) return;
+
+                const container = document.getElementById('health-portals');
+                container.innerHTML = issues.map(([name, h]) => {
+                    const cls = h.status === 'unhealthy' ? 'unhealthy' : 'degraded';
+                    const lastOk = h.last_success
+                        ? new Date(h.last_success).toLocaleDateString('en-GB', {day:'numeric',month:'short'})
+                        : 'never';
+                    return `<span class="health-portal ${cls}">${escapeHtml(name)}: ${h.consecutive_zeros} runs with 0 results (last OK: ${lastOk})</span>`;
+                }).join('');
+                document.getElementById('health-banner').classList.add('has-issues');
+            } catch (e) {
+                // No health file yet – normal for first run
+            }
+        }
+
+        // Export status overrides as downloadable JSON
+        function exportStatus() {
+            const overrides = {};
+            for (const [id, status] of Object.entries(statusOverrides)) {
+                overrides[id] = {status: status, date: new Date().toISOString()};
+            }
+            const data = {
+                version: '1.0',
+                last_updated: new Date().toISOString(),
+                updated_by: 'dashboard-export',
+                overrides: overrides
+            };
+            const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'status_overrides.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Import status overrides from uploaded JSON
+        function importStatus(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    const overrides = data.overrides || {};
+                    let count = 0;
+                    for (const [id, info] of Object.entries(overrides)) {
+                        const status = typeof info === 'string' ? info : info.status;
+                        if (status) {
+                            statusOverrides[id] = status;
+                            count++;
+                        }
+                    }
+                    localStorage.setItem('climateview_status_overrides', JSON.stringify(statusOverrides));
+                    applyFiltersAndSort();
+                    alert('Imported ' + count + ' status overrides.');
+                } catch (err) {
+                    alert('Invalid JSON file.');
+                }
+            };
+            reader.readAsText(file);
+            event.target.value = '';
         }
     </script>
 </body>
