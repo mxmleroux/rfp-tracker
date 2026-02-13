@@ -47,6 +47,9 @@ KEYWORDS = {
     'fr': ['plan climat', 'bilan carbone', 'inventaire GES', 'stratégie bas-carbone'],
     'nl': ['klimaatactieplan', 'broeikasgasinventaris', 'CO2-boekhouding'],
     'sv': ['klimathandlingsplan', 'växthusgasinventering'],
+    'no': ['klimahandlingsplan', 'klimaregnskap', 'utslippsregnskap', 'bærekraftsrapportering'],
+    'fi': ['ilmastosuunnitelma', 'kasvihuonekaasupäästöt', 'päästöinventaario'],
+    'da': ['klimahandlingsplan', 'drivhusgasopgørelse', 'bæredygtighedsrapportering'],
 }
 
 CPV_CODES = ['71313000', '72000000', '90700000', '90730000', '72212000', '72260000', '90710000']
@@ -259,87 +262,134 @@ class SAMGovScanner(PortalScanner):
 
 class TEDScanner(PortalScanner):
     PORTAL_NAME = 'TED (EU)'
-    API_BASE = 'https://ted.europa.eu/api/v3.0/notices/search'
+    # New consolidated API domain (old ted.europa.eu/api/v3.0 is deprecated)
+    API_URLS = [
+        'https://api.ted.europa.eu/v3/notices/search',
+        'https://ted.europa.eu/api/v3.0/notices/search',  # legacy fallback
+    ]
+
+    def _find_api_url(self):
+        """Probe API URLs and return the first working one."""
+        for url in self.API_URLS:
+            try:
+                resp = self.session.get(url, params={'query': 'cpv=72000000', 'pageSize': 1, 'pageNum': 1}, timeout=15)
+                if resp.status_code in (200, 400):  # 400 = recognized but bad query, still means URL works
+                    log.info(f"TED API: using {url}")
+                    return url
+            except Exception:
+                continue
+        return self.API_URLS[0]  # default to new URL
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
         date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y%m%d')
+        api_url = self._find_api_url()
 
+        # CPV code search
         for cpv in CPV_CODES[:4]:
             try:
-                # Paginate: up to 3 pages
                 for page in range(1, 4):
                     params = {
-                        'q': f'cpv={cpv} AND PD>={date_from}',
+                        'query': f'cpv={cpv} AND PD>=[{date_from}]',
+                        'fields': 'ND,TI,CY,CA,DT,TVL',
                         'pageSize': 50,
                         'pageNum': page,
-                        'scope': 3,
                     }
-                    resp = fetch_with_retry(self.session, self.API_BASE, params=params)
+                    resp = fetch_with_retry(self.session, api_url, params=params)
                     if resp.status_code == 200:
                         data = resp.json()
-                        notices = data.get('results', [])
+                        notices = data.get('results', data.get('notices', []))
+                        if isinstance(data, list):
+                            notices = data
                         for notice in notices:
                             rec = self._parse_notice(notice)
                             if rec:
                                 results.append(rec)
                         if len(notices) < 50:
-                            break  # No more pages
+                            break
                     else:
+                        log.warning(f"TED CPV {cpv} page {page}: HTTP {resp.status_code}")
                         break
                     time.sleep(2)
             except Exception as e:
                 log.error(f"TED error for CPV {cpv}: {e}")
 
-        for lang_kws in [KEYWORDS['en'][:3], KEYWORDS['de'][:3], KEYWORDS['fr'][:2]]:
+        # Keyword search in multiple languages
+        lang_groups = [KEYWORDS['en'][:3], KEYWORDS['de'][:3], KEYWORDS['fr'][:2],
+                       KEYWORDS['nl'][:2], KEYWORDS['sv'][:1], KEYWORDS['no'][:1],
+                       KEYWORDS['fi'][:1], KEYWORDS['da'][:1]]
+        for lang_kws in lang_groups:
             for kw in lang_kws:
                 try:
-                    params = {'q': f'FT="{kw}" AND PD>={date_from}', 'pageSize': 25, 'pageNum': 1, 'scope': 3}
-                    resp = fetch_with_retry(self.session, self.API_BASE, params=params)
+                    params = {'query': f'FT="{kw}" AND PD>=[{date_from}]',
+                              'fields': 'ND,TI,CY,CA,DT,TVL',
+                              'pageSize': 25, 'pageNum': 1}
+                    resp = fetch_with_retry(self.session, api_url, params=params)
                     if resp.status_code == 200:
-                        for notice in resp.json().get('results', []):
+                        data = resp.json()
+                        notices = data.get('results', data.get('notices', []))
+                        if isinstance(data, list):
+                            notices = data
+                        for notice in notices:
                             rec = self._parse_notice(notice)
                             if rec:
                                 results.append(rec)
                     time.sleep(2)
                 except Exception as e:
                     log.error(f"TED keyword error '{kw}': {e}")
+        log.info(f"TED: {len(results)} qualified notices found")
         return results
 
     def _parse_notice(self, notice: dict) -> dict:
-        title = notice.get('TI', {})
+        # Handle both legacy TED schema and eForms response formats
+        title = notice.get('TI', notice.get('title', {}))
         if isinstance(title, dict):
-            title = title.get('EN', '') or next(iter(title.values()), '')
-        entity = notice.get('MA', '') or 'Unknown'
-        country = (notice.get('CY', '') or '')[:2].upper() or 'EU'
-        notice_id = notice.get('ND', '')
-        deadline = notice.get('DT', '')
+            title = title.get('EN', '') or title.get('en', '') or next(iter(title.values()), '')
+        entity = notice.get('CA', notice.get('MA', notice.get('buyerName', ''))) or 'Unknown'
+        if isinstance(entity, dict):
+            entity = entity.get('EN', '') or entity.get('officialName', '') or next(iter(entity.values()), '')
+        country = (notice.get('CY', notice.get('country', '')) or '')[:2].upper() or 'EU'
+        notice_id = notice.get('ND', notice.get('noticeId', notice.get('id', '')))
+        deadline = notice.get('DT', notice.get('deadline', ''))
         budget = None
-        tvl = notice.get('TVL', '')
+        tvl = notice.get('TVL', notice.get('estimatedValue', notice.get('totalValue', '')))
         if tvl:
             try:
                 budget = float(str(tvl).replace(',', ''))
             except (ValueError, TypeError):
                 pass
 
+        # Get description from CONTENT field or title as fallback
+        description = notice.get('CONTENT', notice.get('description', str(title)))
+        if isinstance(description, dict):
+            description = description.get('EN', '') or next(iter(description.values()), '')
+
         if deadline:
             try:
-                dl = datetime.strptime(str(deadline)[:8], '%Y%m%d')
+                dl_str = str(deadline)[:8]
+                dl = datetime.strptime(dl_str, '%Y%m%d')
                 if dl < datetime.now():
                     return None
                 deadline = dl.strftime('%Y-%m-%d')
             except (ValueError, TypeError):
-                deadline = None
+                try:
+                    dl = datetime.strptime(str(deadline)[:10], '%Y-%m-%d')
+                    if dl < datetime.now():
+                        return None
+                    deadline = dl.strftime('%Y-%m-%d')
+                except (ValueError, TypeError):
+                    deadline = None
 
-        rfp_input = RFPInput(title=str(title), issuing_entity=entity, description=str(title),
+        url = f"https://ted.europa.eu/en/notice/-/{notice_id}" if notice_id else None
+        rfp_input = RFPInput(title=str(title), issuing_entity=str(entity),
+                             description=str(description)[:2000],
                              country=country, budget_eur=budget, deadline=deadline,
-                             source_portal=self.PORTAL_NAME,
-                             source_url=f"https://ted.europa.eu/en/notice/-/{notice_id}" if notice_id else None)
+                             source_portal=self.PORTAL_NAME, source_url=url)
         result = self.scorer.score(rfp_input)
         if not result.qualified:
             return None
-        return result_to_record(result, str(title), entity, country, str(title), budget, deadline,
-                                self.PORTAL_NAME, f"https://ted.europa.eu/en/notice/-/{notice_id}" if notice_id else None)
+        return result_to_record(result, str(title), str(entity), country,
+                                str(description), budget, deadline, self.PORTAL_NAME, url)
 
 
 class UKContractsScanner(PortalScanner):
@@ -398,7 +448,280 @@ class UKContractsScanner(PortalScanner):
                                 self.PORTAL_NAME, release.get('id', ''))
 
 
-SCANNERS = {'sam': SAMGovScanner, 'ted': TEDScanner, 'uk': UKContractsScanner}
+class ScotlandScanner(PortalScanner):
+    """Public Contracts Scotland – OCDS API, no auth required."""
+    PORTAL_NAME = 'Public Contracts Scotland'
+    API_BASE = 'https://api.publiccontractsscotland.gov.uk/v1/Notices'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        now = datetime.now()
+        # API uses MM-YYYY format – collect all months in the lookback window
+        months = set()
+        for d in range(0, lookback_days + 1, 14):
+            dt = now - timedelta(days=d)
+            months.add(dt.strftime('%m-%Y'))
+        months.add(now.strftime('%m-%Y'))  # always include current month
+
+        for month in sorted(months):
+            try:
+                params = {'dateFrom': month, 'noticeType': 2, 'outputType': 0}
+                resp = fetch_with_retry(self.session, self.API_BASE, params=params, timeout=60)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    releases = data.get('releases', []) if isinstance(data, dict) else data
+                    log.info(f"  Scotland {month}: {len(releases)} notices")
+                    for release in releases:
+                        rec = self._parse_ocds(release)
+                        if rec:
+                            results.append(rec)
+                else:
+                    log.warning(f"Scotland {month}: HTTP {resp.status_code}")
+                time.sleep(2)
+            except Exception as e:
+                log.error(f"Scotland error for {month}: {e}")
+        return results
+
+    def _parse_ocds(self, release: dict) -> dict:
+        tender = release.get('tender', {})
+        title = tender.get('title', '')
+        description = tender.get('description', '')
+        buyer = release.get('buyer', {})
+        entity = buyer.get('name', 'Unknown')
+        notice_id = release.get('id', '')
+
+        deadline_raw = tender.get('tenderPeriod', {}).get('endDate', '')
+        budget = None
+        value = tender.get('value', {})
+        if value.get('amount'):
+            budget = value['amount']
+            if value.get('currency', 'GBP') == 'GBP':
+                budget = budget * 1.17  # GBP to EUR approx
+
+        deadline = None
+        if deadline_raw:
+            try:
+                dl = datetime.fromisoformat(deadline_raw.replace('Z', '+00:00'))
+                if dl.replace(tzinfo=None) < datetime.now():
+                    return None
+                deadline = dl.strftime('%Y-%m-%d')
+            except (ValueError, TypeError):
+                pass
+
+        url = f"https://www.publiccontractsscotland.gov.uk/Search/Search_Switch.aspx?ID={notice_id}"
+        rfp_input = RFPInput(title=title, issuing_entity=entity, description=description[:2000],
+                             country='GB', budget_eur=round(budget) if budget else None,
+                             deadline=deadline, source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, title, entity, 'GB', description,
+                                round(budget) if budget else None, deadline, self.PORTAL_NAME, url)
+
+
+class WalesScanner(PortalScanner):
+    """Sell2Wales – OCDS API, same format as Scotland."""
+    PORTAL_NAME = 'Sell2Wales'
+    API_BASE = 'https://api.sell2wales.gov.wales/v1/Notices'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        results = []
+        now = datetime.now()
+        months = set()
+        for d in range(0, lookback_days + 1, 14):
+            dt = now - timedelta(days=d)
+            months.add(dt.strftime('%m-%Y'))
+        months.add(now.strftime('%m-%Y'))
+
+        for month in sorted(months):
+            try:
+                params = {'dateFrom': month, 'noticeType': 2, 'outputType': 0}
+                resp = fetch_with_retry(self.session, self.API_BASE, params=params, timeout=60)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    releases = data.get('releases', []) if isinstance(data, dict) else data
+                    log.info(f"  Wales {month}: {len(releases)} notices")
+                    for release in releases:
+                        rec = self._parse_ocds(release)
+                        if rec:
+                            results.append(rec)
+                else:
+                    log.warning(f"Wales {month}: HTTP {resp.status_code}")
+                time.sleep(2)
+            except Exception as e:
+                log.error(f"Wales error for {month}: {e}")
+        return results
+
+    def _parse_ocds(self, release: dict) -> dict:
+        tender = release.get('tender', {})
+        title = tender.get('title', '')
+        description = tender.get('description', '')
+        buyer = release.get('buyer', {})
+        entity = buyer.get('name', 'Unknown')
+        notice_id = release.get('id', '')
+
+        deadline_raw = tender.get('tenderPeriod', {}).get('endDate', '')
+        budget = None
+        value = tender.get('value', {})
+        if value.get('amount'):
+            budget = value['amount']
+            if value.get('currency', 'GBP') == 'GBP':
+                budget = budget * 1.17
+
+        deadline = None
+        if deadline_raw:
+            try:
+                dl = datetime.fromisoformat(deadline_raw.replace('Z', '+00:00'))
+                if dl.replace(tzinfo=None) < datetime.now():
+                    return None
+                deadline = dl.strftime('%Y-%m-%d')
+            except (ValueError, TypeError):
+                pass
+
+        url = f"https://www.sell2wales.gov.wales/Search/Search_Switch.aspx?ID={notice_id}"
+        rfp_input = RFPInput(title=title, issuing_entity=entity, description=description[:2000],
+                             country='GB', budget_eur=round(budget) if budget else None,
+                             deadline=deadline, source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, title, entity, 'GB', description,
+                                round(budget) if budget else None, deadline, self.PORTAL_NAME, url)
+
+
+class DoffinScanner(PortalScanner):
+    """Doffin (Norway) – Azure API Management. Requires DOFFIN_API_KEY env var."""
+    PORTAL_NAME = 'Doffin (Norway)'
+    API_BASE = 'https://dof-notices-prod-api.developer.azure-api.net'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        api_key = os.environ.get('DOFFIN_API_KEY', '')
+        if not api_key:
+            log.info("DOFFIN_API_KEY not set – skipping. Get key at https://dof-notices-prod-api.developer.azure-api.net/")
+            return []
+
+        results = []
+        date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
+        headers = {'Ocp-Apim-Subscription-Key': api_key}
+
+        for kw in KEYWORDS['no'][:3] + KEYWORDS['en'][:3]:
+            try:
+                params = {'keyword': kw, 'publishedFrom': date_from, 'size': 50}
+                resp = self.session.get(f"{self.API_BASE}/api/v1/notices", params=params,
+                                        headers=headers, timeout=30)
+                if resp.status_code == 200:
+                    for notice in resp.json().get('notices', resp.json() if isinstance(resp.json(), list) else []):
+                        rec = self._parse(notice)
+                        if rec:
+                            results.append(rec)
+                elif resp.status_code == 401:
+                    log.warning("Doffin: Invalid API key")
+                    return results
+                time.sleep(2)
+            except Exception as e:
+                log.error(f"Doffin error '{kw}': {e}")
+        return results
+
+    def _parse(self, notice: dict) -> dict:
+        title = notice.get('title', '')
+        entity = notice.get('buyerName', notice.get('organization', 'Unknown'))
+        description = notice.get('description', str(title))
+        deadline = notice.get('deadline', notice.get('tenderDeadline', ''))
+        notice_id = notice.get('id', notice.get('noticeId', ''))
+        budget = notice.get('estimatedValue', None)
+
+        if deadline:
+            try:
+                dl = datetime.fromisoformat(str(deadline).replace('Z', '+00:00'))
+                if dl.replace(tzinfo=None) < datetime.now():
+                    return None
+                deadline = dl.strftime('%Y-%m-%d')
+            except (ValueError, TypeError):
+                deadline = None
+
+        url = f"https://doffin.no/notices/{notice_id}" if notice_id else None
+        rfp_input = RFPInput(title=title, issuing_entity=str(entity), description=str(description)[:2000],
+                             country='NO', budget_eur=round(float(budget) * 0.089) if budget else None,
+                             deadline=deadline, source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, title, str(entity), 'NO', str(description),
+                                round(float(budget) * 0.089) if budget else None,
+                                deadline, self.PORTAL_NAME, url)
+
+
+class HilmaScanner(PortalScanner):
+    """Hilma (Finland) – Azure API Management. Requires HILMA_API_KEY env var."""
+    PORTAL_NAME = 'Hilma (Finland)'
+    API_BASE = 'https://hns-hilma-prod-apim.developer.azure-api.net'
+
+    def scan(self, lookback_days: int = 90) -> list:
+        api_key = os.environ.get('HILMA_API_KEY', '')
+        if not api_key:
+            log.info("HILMA_API_KEY not set – skipping. Get key at https://hns-hilma-prod-apim.developer.azure-api.net/")
+            return []
+
+        results = []
+        headers = {'Ocp-Apim-Subscription-Key': api_key}
+
+        for kw in KEYWORDS['fi'][:2] + KEYWORDS['en'][:3]:
+            try:
+                params = {'keyword': kw, 'size': 50}
+                resp = self.session.get(f"{self.API_BASE}/hilmatenders", params=params,
+                                        headers=headers, timeout=30)
+                if resp.status_code == 200:
+                    tenders = resp.json() if isinstance(resp.json(), list) else resp.json().get('tenders', [])
+                    for tender in tenders:
+                        rec = self._parse(tender)
+                        if rec:
+                            results.append(rec)
+                elif resp.status_code == 401:
+                    log.warning("Hilma: Invalid API key")
+                    return results
+                time.sleep(2)
+            except Exception as e:
+                log.error(f"Hilma error '{kw}': {e}")
+        return results
+
+    def _parse(self, tender: dict) -> dict:
+        title = tender.get('name', tender.get('title', ''))
+        entity = tender.get('organization', tender.get('buyerName', 'Unknown'))
+        description = tender.get('description', str(title))
+        deadline = tender.get('tenderDate', tender.get('deadline', ''))
+        tender_id = tender.get('id', '')
+        budget = tender.get('estimatedValue', None)
+
+        if deadline:
+            try:
+                dl = datetime.fromisoformat(str(deadline).replace('Z', '+00:00'))
+                if dl.replace(tzinfo=None) < datetime.now():
+                    return None
+                deadline = dl.strftime('%Y-%m-%d')
+            except (ValueError, TypeError):
+                deadline = None
+
+        url = f"https://www.hankintailmoitukset.fi/en/notice/{tender_id}" if tender_id else None
+        rfp_input = RFPInput(title=str(title), issuing_entity=str(entity), description=str(description)[:2000],
+                             country='FI', budget_eur=round(float(budget)) if budget else None,
+                             deadline=deadline, source_portal=self.PORTAL_NAME, source_url=url)
+        result = self.scorer.score(rfp_input)
+        if not result.qualified:
+            return None
+        return result_to_record(result, str(title), str(entity), 'FI', str(description),
+                                round(float(budget)) if budget else None,
+                                deadline, self.PORTAL_NAME, url)
+
+
+SCANNERS = {
+    'sam': SAMGovScanner,
+    'ted': TEDScanner,
+    'uk': UKContractsScanner,
+    'scotland': ScotlandScanner,
+    'wales': WalesScanner,
+    'doffin': DoffinScanner,
+    'hilma': HilmaScanner,
+}
 
 
 def run_scan(portals=None, lookback_days=30, dry_run=False):
@@ -457,7 +780,7 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
     if dry_run:
         log.info(f"\n[DRY RUN] Would add {len(all_new)} new, update {all_updated}")
         for r in all_new:
-            log.info(f"  + {r['title'][:60]} | {r['relevance_score']} | {r['win_probability']}")
+            log.info(f"  + {r['rfp_title'][:60]} | {r['relevance_score']} | {r['win_probability']}")
         return all_new
 
     # Remove records expired >30 days ago (keep Won/Submitted indefinitely)
