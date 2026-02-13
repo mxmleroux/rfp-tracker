@@ -13,12 +13,14 @@ Fixes from v1.0:
 
 import json
 import hashlib
+import io
 import os
 import sys
 import time
 import shutil
 import tempfile
 import logging
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from typing import Optional
 from urllib.parse import quote_plus
@@ -32,6 +34,8 @@ log = logging.getLogger('rfp_scanner')
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(SCRIPT_DIR, 'rfp_data.json')
 SCAN_LOG_FILE = os.path.join(SCRIPT_DIR, 'scan_log.json')
+HEALTH_FILE = os.path.join(SCRIPT_DIR, 'portal_health.json')
+STATUS_OVERRIDES_FILE = os.path.join(SCRIPT_DIR, 'status_overrides.json')
 
 sys.path.insert(0, SCRIPT_DIR)
 from rfp_scorer import RFPScorer, RFPInput
@@ -772,6 +776,214 @@ def log_scan(portal: str, rfps_found: int, new_rfps: int, updated: int = 0, erro
     logs = logs[-500:]
     with open(SCAN_LOG_FILE, 'w') as f:
         json.dump(logs, f, indent=2)
+
+
+def check_portal_health():
+    """Analyze scan_log.json for portal health issues. Write portal_health.json."""
+    if not os.path.exists(SCAN_LOG_FILE):
+        log.info("No scan log found, skipping health check")
+        return {}
+
+    with open(SCAN_LOG_FILE) as f:
+        logs = json.load(f)
+
+    # Group last 15 entries per portal (most recent first)
+    portal_runs = {}
+    for entry in reversed(logs):
+        portal = entry.get('portal', '')
+        if portal not in portal_runs:
+            portal_runs[portal] = []
+        if len(portal_runs[portal]) < 15:
+            portal_runs[portal].append(entry)
+
+    health = {}
+    for portal, runs in portal_runs.items():
+        consecutive_zeros = 0
+        for run in runs:
+            if run.get('rfps_found', 0) == 0:
+                consecutive_zeros += 1
+            else:
+                break
+
+        last_success = None
+        last_error = None
+        for run in runs:
+            if run.get('rfps_found', 0) > 0 and not last_success:
+                last_success = run['timestamp']
+            if run.get('error') and not last_error:
+                last_error = run['error']
+
+        status = 'healthy'
+        if consecutive_zeros >= 3:
+            status = 'unhealthy'
+        elif consecutive_zeros >= 2:
+            status = 'degraded'
+
+        health[portal] = {
+            'status': status,
+            'consecutive_zeros': consecutive_zeros,
+            'last_success': last_success,
+            'last_error': last_error,
+            'last_run_count': runs[0].get('rfps_found', 0) if runs else 0,
+            'total_runs_checked': len(runs)
+        }
+
+    health_data = {
+        'last_updated': datetime.now().isoformat(),
+        'portals': health
+    }
+
+    with open(HEALTH_FILE, 'w') as f:
+        json.dump(health_data, f, indent=2)
+    log.info(f"Portal health check complete: {sum(1 for h in health.values() if h['status'] == 'unhealthy')} unhealthy portals")
+
+    # Log warnings for unhealthy portals
+    for portal, h in health.items():
+        if h['status'] == 'unhealthy':
+            log.warning(f"UNHEALTHY: {portal} – {h['consecutive_zeros']} consecutive runs with 0 results")
+        elif h['status'] == 'degraded':
+            log.warning(f"DEGRADED: {portal} – {h['consecutive_zeros']} consecutive runs with 0 results")
+
+    return health
+
+
+def merge_status_overrides(data: list):
+    """Apply user status overrides from status_overrides.json into records."""
+    if not os.path.exists(STATUS_OVERRIDES_FILE):
+        return
+    try:
+        with open(STATUS_OVERRIDES_FILE) as f:
+            overrides = json.load(f)
+    except (json.JSONDecodeError, IOError):
+        log.warning("Could not read status_overrides.json, skipping")
+        return
+
+    overrides_map = overrides.get('overrides', {})
+    if not overrides_map:
+        return
+
+    applied = 0
+    for record in data:
+        rid = record.get('id', '')
+        if rid in overrides_map:
+            new_status = overrides_map[rid].get('status')
+            if new_status and new_status != record.get('status'):
+                record['status'] = new_status
+                record['status_manually_set'] = True
+                record['manual_set_at'] = overrides_map[rid].get('date', '')
+                applied += 1
+
+    if applied:
+        log.info(f"Applied {applied} status overrides from status_overrides.json")
+
+
+def download_and_extract_text(url, timeout=30, max_size_mb=10):
+    """Download a document from URL and extract text. Returns (text, error)."""
+    try:
+        import pdfplumber
+    except ImportError:
+        return None, "pdfplumber not installed"
+
+    try:
+        # Check content size with HEAD request
+        head = requests.head(url, timeout=10, allow_redirects=True)
+        content_length = int(head.headers.get('content-length', 0))
+        content_type = head.headers.get('content-type', '')
+
+        if content_length > max_size_mb * 1024 * 1024:
+            return None, f"Too large: {content_length / 1024 / 1024:.1f}MB"
+
+        # Only attempt PDF extraction
+        is_pdf = 'pdf' in content_type.lower() or url.lower().endswith('.pdf')
+        if not is_pdf:
+            return None, "Not a PDF"
+
+        # Download
+        resp = requests.get(url, timeout=timeout, stream=True)
+        resp.raise_for_status()
+
+        # Extract text
+        with pdfplumber.open(io.BytesIO(resp.content)) as pdf:
+            pages_text = []
+            for page in pdf.pages[:50]:  # Max 50 pages
+                text = page.extract_text()
+                if text:
+                    pages_text.append(text)
+            full_text = "\n".join(pages_text)
+            return full_text[:50000], None  # Cap at 50k chars
+
+    except requests.Timeout:
+        return None, "Download timeout"
+    except requests.RequestException as e:
+        return None, f"Download failed: {e}"
+    except Exception as e:
+        return None, f"PDF extraction failed: {e}"
+
+
+def enrich_qualified_rfps(records, scorer, max_docs=15):
+    """Download full documents for qualified RFPs and re-score with full text."""
+    candidates = [r for r in records
+                  if r.get('qualified')
+                  and r.get('score_confidence') != 'high'
+                  and not r.get('document_enriched')
+                  and r.get('source_url')]
+
+    # Prioritize by score descending
+    candidates.sort(key=lambda r: r.get('relevance_score', 0), reverse=True)
+    candidates = candidates[:max_docs]
+
+    if not candidates:
+        return 0
+
+    enriched = 0
+    for record in candidates:
+        url = record['source_url']
+        log.info(f"  Enriching: {record['rfp_title'][:50]}...")
+
+        text, error = download_and_extract_text(url)
+        if error:
+            log.info(f"    Skip: {error}")
+            continue
+
+        if not text or len(text) < 100:
+            log.info(f"    Skip: extracted text too short ({len(text or '')} chars)")
+            continue
+
+        # Re-score with full document text
+        rfp_input = RFPInput(
+            title=record['rfp_title'],
+            issuing_entity=record['issuing_entity'],
+            description=record.get('description', ''),
+            country=record['country'],
+            budget_eur=record.get('budget_eur'),
+            deadline=record.get('deadline'),
+            source_portal=record.get('source_portal'),
+            source_url=url,
+            full_text=text
+        )
+        result = scorer.score(rfp_input)
+
+        # Update record with enriched scores
+        record['relevance_score'] = result.relevance_score
+        record['win_probability'] = result.win_probability
+        record['win_probability_color'] = result.win_probability_color
+        record['feature_alignment_score'] = result.feature_alignment_score
+        record['competitive_score'] = result.competitive_score
+        record['strategic_value_score'] = result.strategic_value_score
+        record['score_confidence'] = result.score_confidence
+        record['competitor_signals'] = result.competitor_signals
+        record['competitor_recommendation'] = result.competitor_recommendation
+        record['positive_signals'] = result.positive_signals
+        record['edge_case_flags'] = result.edge_case_flags
+        record['document_enriched'] = True
+        record['full_text_hash'] = hashlib.sha256(text.encode()).hexdigest()[:16]
+        record['last_updated'] = datetime.now().isoformat()
+        enriched += 1
+
+        time.sleep(2)  # Rate limit
+
+    log.info(f"Document enrichment: {enriched}/{len(candidates)} RFPs enriched")
+    return enriched
 
 
 def fetch_with_retry(session, url, params=None, timeout=30, retries=1):
@@ -1688,45 +1900,93 @@ class GermanFederalScanner(PortalScanner):
     """German Federal Procurement – scrape service.bund.de and evergabe-online.de."""
     PORTAL_NAME = 'Bund.de (Germany)'
 
+    BUND_RSS_URLS = [
+        'https://www.service.bund.de/Content/DE/RSS/Ausschreibungen/ausschreibungen.xml',
+        'https://www.service.bund.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/ausschreibungen.xml',
+    ]
+
+    CLIMATE_KEYWORDS_DE = [
+        'klima', 'emissionen', 'nachhaltigkeit', 'energie', 'dekarbonisierung',
+        'treibhausgas', 'co2', 'klimaschutz', 'klimaneutral', 'umwelt',
+        'wärmeplanung', 'energiewende', 'sustainability', 'carbon', 'ghg',
+        'climate', 'net zero', 'green deal', 'monitoring', 'bilanzierung',
+    ]
+
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        # Try evergabe-online.de search (may have JSON endpoint)
+        # Primary: RSS feed for service.bund.de (structured, reliable)
+        rss_results = self._scan_bund_rss(lookback_days)
+        results.extend(rss_results)
+        # Fallback: HTML scraper if RSS yields nothing
+        if not rss_results:
+            log.warning("Bund RSS returned 0, falling back to HTML scraper")
+            results.extend(self._scan_bund_html(lookback_days))
+        # evergabe-online.de (scraper with improved error handling)
         results.extend(self._scan_evergabe(lookback_days))
-        # Try service.bund.de
-        results.extend(self._scan_bund(lookback_days))
         log.info(f"German Federal: {len(results)} qualified notices found")
         return results
 
-    def _scan_evergabe(self, lookback_days: int) -> list:
-        results = []
-        base = 'https://www.evergabe-online.de/tenderdetails.html'
-        search_url = 'https://www.evergabe-online.de/searchresult.html'
+    def _is_climate_relevant(self, title, description=''):
+        """Quick keyword pre-filter before full scoring."""
+        text = f"{title} {description}".lower()
+        return any(kw in text for kw in self.CLIMATE_KEYWORDS_DE)
 
-        for kw in KEYWORDS['de'][:35] + KEYWORDS['en'][:10]:
+    def _scan_bund_rss(self, lookback_days: int) -> list:
+        """Parse service.bund.de RSS feed – structured XML, more reliable than HTML scraping."""
+        results = []
+        cutoff = datetime.now() - timedelta(days=lookback_days)
+
+        for rss_url in self.BUND_RSS_URLS:
             try:
-                params = {'searchText': kw}
-                resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
-                if resp.status_code == 200:
-                    soup = BeautifulSoup(resp.content, 'lxml')
-                    for row in soup.select('table.searchResult tr, div.tenderRow, div.search-result-item'):
-                        title_el = row.find('a')
-                        if title_el and title_el.get_text(strip=True):
-                            title = title_el.get_text(strip=True)
-                            href = title_el.get('href', '')
-                            full_url = f"https://www.evergabe-online.de{href}" if href.startswith('/') else href
-                            rfp_input = RFPInput(title=title, issuing_entity='German Federal',
-                                                 description=title, country='DE',
-                                                 source_portal=self.PORTAL_NAME, source_url=full_url)
-                            result = self.scorer.score(rfp_input)
-                            if result.qualified:
-                                results.append(result_to_record(result, title, 'German Federal', 'DE',
-                                                                title, None, None, self.PORTAL_NAME, full_url))
-                time.sleep(3)
+                resp = self.session.get(rss_url, headers=HEADERS, timeout=20)
+                if resp.status_code != 200:
+                    log.info(f"  Bund RSS {rss_url}: HTTP {resp.status_code}")
+                    continue
+
+                root = ET.fromstring(resp.content)
+                # Handle both RSS 2.0 (<channel><item>) and Atom (<entry>) formats
+                items = root.findall('.//item') or root.findall('.//{http://www.w3.org/2005/Atom}entry')
+
+                for item in items:
+                    title = (item.findtext('title') or
+                             item.findtext('{http://www.w3.org/2005/Atom}title') or '').strip()
+                    link = (item.findtext('link') or '')
+                    if not link:
+                        link_el = item.find('{http://www.w3.org/2005/Atom}link')
+                        link = link_el.get('href', '') if link_el is not None else ''
+                    description = (item.findtext('description') or
+                                   item.findtext('{http://www.w3.org/2005/Atom}summary') or '').strip()
+
+                    if not title or len(title) < 10:
+                        continue
+
+                    # Quick climate relevance filter
+                    if not self._is_climate_relevant(title, description):
+                        continue
+
+                    full_url = link if link.startswith('http') else f"https://www.service.bund.de{link}"
+
+                    rfp_input = RFPInput(title=title, issuing_entity='German Federal',
+                                         description=description or title, country='DE',
+                                         source_portal=self.PORTAL_NAME, source_url=full_url)
+                    result = self.scorer.score(rfp_input)
+                    if result.qualified:
+                        results.append(result_to_record(result, title, 'German Federal', 'DE',
+                                                        description or title, None, None,
+                                                        self.PORTAL_NAME, full_url))
+
+                if results:
+                    log.info(f"  Bund RSS: {len(results)} qualified from {len(items)} items")
+                    break  # Got results from this URL, skip other URLs
+            except ET.ParseError as e:
+                log.warning(f"  Bund RSS parse error at {rss_url}: {e}")
             except Exception as e:
-                log.error(f"evergabe-online error '{kw}': {e}")
+                log.error(f"  Bund RSS error at {rss_url}: {e}")
+
         return results
 
-    def _scan_bund(self, lookback_days: int) -> list:
+    def _scan_bund_html(self, lookback_days: int) -> list:
+        """Fallback HTML scraper for service.bund.de."""
         results = []
         search_url = 'https://www.service.bund.de/Content/DE/Ausschreibungen/suche.html'
 
@@ -1734,23 +1994,89 @@ class GermanFederalScanner(PortalScanner):
             try:
                 params = {'searchtext': kw, 'resultsPerPage': 50}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
-                if resp.status_code == 200:
-                    soup = BeautifulSoup(resp.content, 'lxml')
-                    for link in soup.find_all('a', href=True):
-                        href = link.get('href', '')
-                        title = link.get_text(strip=True)
-                        if ('ausschreibung' in href.lower() or 'vergabe' in href.lower()) and len(title) > 15:
-                            full_url = f"https://www.service.bund.de{href}" if href.startswith('/') else href
-                            rfp_input = RFPInput(title=title, issuing_entity='German Federal',
-                                                 description=title, country='DE',
-                                                 source_portal=self.PORTAL_NAME, source_url=full_url)
-                            result = self.scorer.score(rfp_input)
-                            if result.qualified:
-                                results.append(result_to_record(result, title, 'German Federal', 'DE',
-                                                                title, None, None, self.PORTAL_NAME, full_url))
+                if resp.status_code != 200:
+                    continue
+                # Detect captcha or login wall
+                if 'captcha' in resp.text.lower() or 'login' in resp.text.lower()[:500]:
+                    log.warning("service.bund.de returned captcha/login page, skipping HTML scraper")
+                    return results
+                soup = BeautifulSoup(resp.content, 'lxml')
+                for link in soup.find_all('a', href=True):
+                    href = link.get('href', '')
+                    title = link.get_text(strip=True)
+                    if ('ausschreibung' in href.lower() or 'vergabe' in href.lower()) and len(title) > 15:
+                        full_url = f"https://www.service.bund.de{href}" if href.startswith('/') else href
+                        rfp_input = RFPInput(title=title, issuing_entity='German Federal',
+                                             description=title, country='DE',
+                                             source_portal=self.PORTAL_NAME, source_url=full_url)
+                        result = self.scorer.score(rfp_input)
+                        if result.qualified:
+                            results.append(result_to_record(result, title, 'German Federal', 'DE',
+                                                            title, None, None, self.PORTAL_NAME, full_url))
                 time.sleep(3)
             except Exception as e:
-                log.error(f"service.bund.de error '{kw}': {e}")
+                log.error(f"service.bund.de HTML error '{kw}': {e}")
+        return results
+
+    def _scan_evergabe(self, lookback_days: int) -> list:
+        """Scrape evergabe-online.de with improved error handling."""
+        results = []
+        search_url = 'https://www.evergabe-online.de/searchresult.html'
+        consecutive_errors = 0
+        max_errors = 5
+
+        for kw in KEYWORDS['de'][:35] + KEYWORDS['en'][:10]:
+            if consecutive_errors >= max_errors:
+                log.warning(f"evergabe-online: {consecutive_errors} consecutive errors, aborting")
+                break
+            try:
+                params = {'searchText': kw}
+                resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
+                if resp.status_code != 200:
+                    consecutive_errors += 1
+                    log.info(f"  evergabe HTTP {resp.status_code} for '{kw}'")
+                    continue
+                # Detect login wall, captcha, or empty response
+                if len(resp.content) < 500:
+                    consecutive_errors += 1
+                    continue
+                if 'captcha' in resp.text.lower() or 'anmeld' in resp.text.lower()[:500]:
+                    log.warning("evergabe-online returned login/captcha page, aborting scraper")
+                    break
+
+                consecutive_errors = 0  # Reset on success
+                soup = BeautifulSoup(resp.content, 'lxml')
+                # Try multiple CSS selectors (portal may change layout)
+                selectors = [
+                    'table.searchResult tr',
+                    'div.tenderRow',
+                    'div.search-result-item',
+                    'div.result-item',
+                    'li.search-result',
+                ]
+                rows = []
+                for sel in selectors:
+                    rows = soup.select(sel)
+                    if rows:
+                        break
+
+                for row in rows:
+                    title_el = row.find('a')
+                    if title_el and title_el.get_text(strip=True):
+                        title = title_el.get_text(strip=True)
+                        href = title_el.get('href', '')
+                        full_url = f"https://www.evergabe-online.de{href}" if href.startswith('/') else href
+                        rfp_input = RFPInput(title=title, issuing_entity='German Federal',
+                                             description=title, country='DE',
+                                             source_portal=self.PORTAL_NAME, source_url=full_url)
+                        result = self.scorer.score(rfp_input)
+                        if result.qualified:
+                            results.append(result_to_record(result, title, 'German Federal', 'DE',
+                                                            title, None, None, self.PORTAL_NAME, full_url))
+                time.sleep(3)
+            except Exception as e:
+                consecutive_errors += 1
+                log.error(f"evergabe-online error '{kw}': {e}")
         return results
 
 
@@ -1957,7 +2283,15 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
         log.info(f"\n[DRY RUN] Would add {len(all_new)} new, update {all_updated}")
         for r in all_new:
             log.info(f"  + {r['rfp_title'][:60]} | {r['relevance_score']} | {r['win_probability']}")
+        check_portal_health()
         return all_new
+
+    # Apply user status overrides (from status_overrides.json)
+    merge_status_overrides(existing)
+
+    # Enrich qualified RFPs with full document text
+    log.info("Starting document enrichment...")
+    enriched_count = enrich_qualified_rfps(existing, scorer, max_docs=15)
 
     # Remove records expired >30 days ago (keep Won/Submitted indefinitely)
     cutoff = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
@@ -1967,7 +2301,11 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
                 r.get('status') in ('Submitted', 'Won', 'Reviewing')]
 
     atomic_save(existing, DATA_FILE)
-    log.info(f"Total active: {len(existing)}, new: {len(all_new)}, updated: {all_updated}")
+    log.info(f"Total active: {len(existing)}, new: {len(all_new)}, updated: {all_updated}, enriched: {enriched_count}")
+
+    # Run portal health check
+    check_portal_health()
+
     return all_new
 
 
