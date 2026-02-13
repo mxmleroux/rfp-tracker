@@ -22,37 +22,59 @@
       "ghg_inventory": {
         "score": 9,
         "max": 20,
-        "strong_matches": ["gpc protocol", "scopes 1-3"],
-        "moderate_matches": ["emissions factors", "data quality"]
+        "strong_matches": [
+          "gpc protocol",
+          "scopes 1-3"
+        ],
+        "moderate_matches": [
+          "emissions factors",
+          "data quality"
+        ]
       },
       "modeling_scenarios": {
         "score": 6,
         "max": 25,
-        "strong_matches": ["backcasting"],
-        "moderate_matches": ["modeling", "projection"]
+        "strong_matches": [
+          "backcasting"
+        ],
+        "moderate_matches": [
+          "modeling",
+          "projection"
+        ]
       },
       "financial_economic": {
         "score": 4,
         "max": 15,
-        "strong_matches": ["cost-benefit analysis"],
+        "strong_matches": [
+          "cost-benefit analysis"
+        ],
         "moderate_matches": []
       },
       "action_management": {
         "score": 1,
         "max": 15,
         "strong_matches": [],
-        "moderate_matches": ["implementation tracking"]
+        "moderate_matches": [
+          "implementation tracking"
+        ]
       },
       "monitoring_tracking": {
         "score": 4,
         "max": 15,
-        "strong_matches": ["kpi"],
-        "moderate_matches": ["monitoring", "tracking progress"]
+        "strong_matches": [
+          "kpi"
+        ],
+        "moderate_matches": [
+          "monitoring",
+          "tracking progress"
+        ]
       },
       "collaboration_visualization": {
         "score": 3,
         "max": 10,
-        "strong_matches": ["dashboard"],
+        "strong_matches": [
+          "dashboard"
+        ],
         "moderate_matches": []
       }
     },
@@ -71,7 +93,11 @@
     "scored_at": "2026-02-10T09:15:00",
     "status": "New",
     "status_history": [
-      {"status": "New", "date": "2026-02-10T09:15:00", "by": "scanner"}
+      {
+        "status": "New",
+        "date": "2026-02-10T09:15:00",
+        "by": "scanner"
+      }
     ],
     "pass_reason": null,
     "last_updated": "2026-02-10T09:15:00",
@@ -101,13 +127,19 @@
       "ghg_inventory": {
         "score": 6,
         "max": 20,
-        "strong_matches": ["bisko", "thg-bilanzierung"],
+        "strong_matches": [
+          "bisko",
+          "thg-bilanzierung"
+        ],
         "moderate_matches": []
       },
       "modeling_scenarios": {
         "score": 6,
         "max": 25,
-        "strong_matches": ["potenzialanalysen", "wirkungsabschaetzung"],
+        "strong_matches": [
+          "potenzialanalysen",
+          "wirkungsabschaetzung"
+        ],
         "moderate_matches": []
       },
       "financial_economic": {
@@ -119,19 +151,27 @@
       "action_management": {
         "score": 6,
         "max": 15,
-        "strong_matches": ["massnahmenplanung"],
+        "strong_matches": [
+          "massnahmenplanung"
+        ],
         "moderate_matches": []
       },
       "monitoring_tracking": {
         "score": 4,
         "max": 15,
-        "strong_matches": ["monitoring system"],
-        "moderate_matches": ["monitoring"]
+        "strong_matches": [
+          "monitoring system"
+        ],
+        "moderate_matches": [
+          "monitoring"
+        ]
       },
       "collaboration_visualization": {
         "score": 3,
         "max": 10,
-        "strong_matches": ["dashboard"],
+        "strong_matches": [
+          "dashboard"
+        ],
         "moderate_matches": []
       }
     },
@@ -150,8 +190,16 @@
     "scored_at": "2026-02-08T11:45:00",
     "status": "Reviewing",
     "status_history": [
-      {"status": "New", "date": "2026-02-08T11:45:00", "by": "scanner"},
-      {"status": "Reviewing", "date": "2026-02-10T14:00:00", "by": "manual"}
+      {
+        "status": "New",
+        "date": "2026-02-08T11:45:00",
+        "by": "scanner"
+      },
+      {
+        "status": "Reviewing",
+        "date": "2026-02-10T14:00:00",
+        "by": "manual"
+      }
     ],
     "pass_reason": null,
     "last_updated": "2026-02-10T14:00:00",
@@ -181,13 +229,17 @@
       "ghg_inventory": {
         "score": 3,
         "max": 20,
-        "strong_matches": ["ghg inventory"],
+        "strong_matches": [
+          "ghg inventory"
+        ],
         "moderate_matches": []
       },
       "modeling_scenarios": {
         "score": 3,
         "max": 25,
-        "strong_matches": ["scenario modeling"],
+        "strong_matches": [
+          "scenario modeling"
+        ],
         "moderate_matches": []
       },
       "financial_economic": {
@@ -199,25 +251,36 @@
       "action_management": {
         "score": 3,
         "max": 15,
-        "strong_matches": ["implementation plan"],
+        "strong_matches": [
+          "implementation plan"
+        ],
         "moderate_matches": []
       },
       "monitoring_tracking": {
         "score": 3,
         "max": 15,
-        "strong_matches": ["progress dashboard"],
+        "strong_matches": [
+          "progress dashboard"
+        ],
         "moderate_matches": []
       },
       "collaboration_visualization": {
         "score": 4,
         "max": 10,
-        "strong_matches": ["public-facing dashboard", "multi-level coordination"],
+        "strong_matches": [
+          "public-facing dashboard",
+          "multi-level coordination"
+        ],
         "moderate_matches": []
       }
     },
-    "competitor_signals": ["generic_competitor: incumbent vendor"],
+    "competitor_signals": [
+      "generic_competitor: incumbent vendor"
+    ],
     "competitor_recommendation": "Incumbent/migration signals detected. May require displacement strategy. Counterbalancing positive signals: no incumbent.",
-    "positive_signals": ["no incumbent"],
+    "positive_signals": [
+      "no incumbent"
+    ],
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "platform",
@@ -230,9 +293,21 @@
     "scored_at": "2026-02-09T08:20:00",
     "status": "Shortlisted",
     "status_history": [
-      {"status": "New", "date": "2026-02-09T08:20:00", "by": "scanner"},
-      {"status": "Reviewing", "date": "2026-02-10T10:00:00", "by": "manual"},
-      {"status": "Shortlisted", "date": "2026-02-12T09:30:00", "by": "manual"}
+      {
+        "status": "New",
+        "date": "2026-02-09T08:20:00",
+        "by": "scanner"
+      },
+      {
+        "status": "Reviewing",
+        "date": "2026-02-10T10:00:00",
+        "by": "manual"
+      },
+      {
+        "status": "Shortlisted",
+        "date": "2026-02-12T09:30:00",
+        "by": "manual"
+      }
     ],
     "pass_reason": null,
     "last_updated": "2026-02-12T09:30:00",
@@ -262,7 +337,9 @@
       "ghg_inventory": {
         "score": 3,
         "max": 20,
-        "strong_matches": ["ghg inventory"],
+        "strong_matches": [
+          "ghg inventory"
+        ],
         "moderate_matches": []
       },
       "modeling_scenarios": {
@@ -287,13 +364,17 @@
         "score": 1,
         "max": 15,
         "strong_matches": [],
-        "moderate_matches": ["reporting"]
+        "moderate_matches": [
+          "reporting"
+        ]
       },
       "collaboration_visualization": {
         "score": 1,
         "max": 10,
         "strong_matches": [],
-        "moderate_matches": ["interactive"]
+        "moderate_matches": [
+          "interactive"
+        ]
       }
     },
     "competitor_signals": [
@@ -322,7 +403,11 @@
     "scored_at": "2026-02-07T15:30:00",
     "status": "New",
     "status_history": [
-      {"status": "New", "date": "2026-02-07T15:30:00", "by": "scanner"}
+      {
+        "status": "New",
+        "date": "2026-02-07T15:30:00",
+        "by": "scanner"
+      }
     ],
     "pass_reason": null,
     "last_updated": "2026-02-07T15:30:00",
@@ -364,12 +449,92 @@
     "scored_at": "2026-02-10T09:30:00",
     "status": "Passed",
     "status_history": [
-      {"status": "New", "date": "2026-02-10T09:30:00", "by": "scanner"},
-      {"status": "Passed", "date": "2026-02-10T09:30:00", "by": "scorer"}
+      {
+        "status": "New",
+        "date": "2026-02-10T09:30:00",
+        "by": "scanner"
+      },
+      {
+        "status": "Passed",
+        "date": "2026-02-10T09:30:00",
+        "by": "scorer"
+      }
     ],
     "pass_reason": "Disqualified: not climate software",
     "last_updated": "2026-02-10T09:30:00",
     "added_date": "2026-02-10T09:30:00",
     "notes": ""
+  },
+  {
+    "id": "rfp-6ee02e0cc90a",
+    "rfp_title": "2526-gensurgery/urol/vasc",
+    "issuing_entity": "UNIVERSITY HOSPITALS COVENTRY AND WARWICKSHIRE NHS TRUST",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The activity relates to carrying our surgery for patients who have been waiting for more than a year on the waiting lists of specific surgeons in the hospital. There is insuffiicient capacity in existing NHS core hours to carry out the surgery for these patients and so we are seeking additional capacity from outside of the NHS. The activity in scope of the outsourcing relates to specific surgoens who have practising privileges to operate privately at this particular Independent Sector Provider - Circle Meriden. The advantages of ensuring the continuity of the surgeon is that the patient will not require to be reviewed as an outpatient and will not require diagnostic tests to be repeated  - this saves both time and money, and is less demanding on the patient in terms of taking time out to attend repeat additional and avoidable outpatient attendances - which in some cases can also involve intrusive and unpleasant diagnostic investigations such as nas-endoscopy.\r\n\r\nWe are seeking similar outsourcing arrangements at other ISPs where the same circumstances apply - the determining factors being continuity of carer for the patient, geographical proximity and transport links, and length of time that patients would be required to wait.",
+    "budget_eur": null,
+    "deadline": "2026-02-25",
+    "relevance_score": 36.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 29.8,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e852235f-002a-4fba-b8c8-9347b7eda7c9-883649",
+    "date_found": "2026-02-13",
+    "status": "New",
+    "notes": "",
+    "status_history": [],
+    "pass_reason": ""
   }
 ]
