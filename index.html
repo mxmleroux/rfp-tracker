@@ -80,7 +80,7 @@
 
         .summary-cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 16px;
         }
 
@@ -105,11 +105,18 @@
             color: #000000;
         }
 
+        .metric-value-small {
+            font-size: 16px;
+            font-weight: 500;
+            color: #000000;
+        }
+
         .metric-indicator {
             width: 8px;
             height: 8px;
             border-radius: 50%;
-            align-self: flex-start;
+            display: inline-block;
+            margin-right: 4px;
         }
 
         .indicator-green { background-color: #73C96B; }
@@ -195,12 +202,12 @@
         }
 
         th.sort-active::after {
-            content: ' ↓';
+            content: ' \2193';
             margin-left: 4px;
         }
 
         th.sort-active.sort-desc::after {
-            content: ' ↑';
+            content: ' \2191';
         }
 
         tbody tr {
@@ -305,6 +312,37 @@
             cursor: pointer;
         }
 
+        /* Link in table */
+        .rfp-link {
+            color: #3573D3;
+            text-decoration: none;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        .rfp-link:hover {
+            text-decoration: underline;
+        }
+
+        .title-cell {
+            max-width: 300px;
+        }
+
+        .title-text {
+            font-weight: 500;
+        }
+
+        .budget-cell {
+            white-space: nowrap;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .budget-na {
+            color: #999;
+            font-style: italic;
+        }
+
         /* Modal */
         .modal {
             display: none;
@@ -360,7 +398,37 @@
         .modal-entity {
             font-size: 14px;
             color: #666666;
+            margin-bottom: 16px;
+        }
+
+        .modal-topbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 16px;
+            background-color: #F9F9F9;
+            border: 1px solid #CCCCCC;
             margin-bottom: 24px;
+        }
+
+        .modal-topbar-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .modal-topbar-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: #666666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .modal-topbar-value {
+            font-size: 14px;
+            font-weight: 500;
+            color: #000000;
         }
 
         /* Section Headers */
@@ -417,47 +485,6 @@
             z-index: 10;
         }
 
-        /* Feature Breakdown */
-        .feature-item {
-            background-color: #F9F9F9;
-            border: 1px solid #CCCCCC;
-            padding: 12px;
-            margin-bottom: 8px;
-        }
-
-        .feature-name {
-            font-size: 13px;
-            font-weight: 600;
-            color: #000000;
-            margin-bottom: 6px;
-        }
-
-        .feature-score {
-            font-size: 12px;
-            color: #666666;
-            margin-bottom: 8px;
-        }
-
-        .feature-matches {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
-
-        .match-tag {
-            background-color: #E7F1FB;
-            color: #0052A3;
-            padding: 3px 6px;
-            font-size: 11px;
-            border: 1px solid #ADD5FF;
-        }
-
-        .match-tag.moderate {
-            background-color: #FEF8E7;
-            color: #8B6F00;
-            border-color: #FFE699;
-        }
-
         /* Callout Box */
         .callout-box {
             background-color: #E7F1FB;
@@ -482,7 +509,7 @@
         }
 
         .signal-list li:before {
-            content: "• ";
+            content: "\2022 ";
             color: #3573D3;
             font-weight: 600;
             margin-right: 8px;
@@ -507,21 +534,50 @@
             border: 1px solid #FFE699;
         }
 
-        /* Textarea */
-        textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #CCCCCC;
-            font-family: Inter, Calibri, Arial, sans-serif;
-            font-size: 13px;
-            resize: vertical;
-            min-height: 100px;
+        /* Process Section */
+        .process-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 12px;
         }
 
-        .notes-disclaimer {
+        .process-item {
+            background-color: #F9F9F9;
+            border: 1px solid #CCCCCC;
+            padding: 12px;
+        }
+
+        .process-label {
             font-size: 11px;
-            color: #999999;
-            margin-top: 6px;
+            font-weight: 600;
+            color: #666666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .process-value {
+            font-size: 14px;
+            font-weight: 500;
+            color: #000000;
+        }
+
+        .process-details {
+            margin-top: 8px;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .process-details li {
+            font-size: 12px;
+            color: #333;
+            padding: 4px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .process-details li:last-child {
+            border-bottom: none;
         }
 
         /* Metadata Row */
@@ -579,7 +635,7 @@
                 padding: 20px;
             }
 
-            .metadata-row {
+            .metadata-row, .process-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -664,7 +720,11 @@
     <div class="summary-section">
         <div class="summary-cards">
             <div class="metric-card">
-                <div class="metric-label">Total Qualified RFPs</div>
+                <div class="metric-label">Opportunities Scanned</div>
+                <div class="metric-value" id="metric-scanned">0</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Qualified Matches</div>
                 <div class="metric-value" id="metric-qualified">0</div>
             </div>
             <div class="metric-card">
@@ -682,8 +742,8 @@
                 <div class="metric-value" id="metric-closing">0</div>
             </div>
             <div class="metric-card">
-                <div class="metric-label">Average Relevance Score</div>
-                <div class="metric-value" id="metric-relevance">0</div>
+                <div class="metric-label">Last Scan</div>
+                <div class="metric-value-small" id="metric-lastscan">--</div>
             </div>
         </div>
     </div>
@@ -745,10 +805,10 @@
                         <th data-sort="rfp_title">Title</th>
                         <th data-sort="issuing_entity">Entity</th>
                         <th data-sort="country">Country</th>
-                        <th data-sort="rfp_type">Type</th>
+                        <th data-sort="budget_eur">Budget</th>
                         <th data-sort="deadline">Deadline</th>
                         <th data-sort="win_probability">Win Prob</th>
-                        <th data-sort="score_confidence">Confidence</th>
+                        <th>Source</th>
                         <th data-sort="status">Status</th>
                         <th>Actions</th>
                     </tr>
@@ -788,13 +848,17 @@
 
         // Country code to flag emoji mapping
         const countryFlags = {
-            'US': '🇺🇸', 'CA': '🇨🇦', 'GB': '🇬🇧', 'DE': '🇩🇪', 'FR': '🇫🇷',
-            'IT': '🇮🇹', 'ES': '🇪🇸', 'NL': '🇳🇱', 'SE': '🇸🇪', 'NO': '🇳🇴',
-            'CH': '🇨🇭', 'AT': '🇦🇹', 'BE': '🇧🇪', 'DK': '🇩🇰', 'FI': '🇫🇮',
-            'PL': '🇵🇱', 'CZ': '🇨🇿', 'PT': '🇵🇹', 'GR': '🇬🇷', 'IE': '🇮🇪',
-            'AU': '🇦🇺', 'NZ': '🇳🇿', 'JP': '🇯🇵', 'CN': '🇨🇳', 'IN': '🇮🇳',
-            'BR': '🇧🇷', 'MX': '🇲🇽', 'ZA': '🇿🇦', 'SG': '🇸🇬', 'KR': '🇰🇷',
-            'UN': '🌐', 'EU': '🇪🇺'
+            'US': '\u{1F1FA}\u{1F1F8}', 'CA': '\u{1F1E8}\u{1F1E6}', 'GB': '\u{1F1EC}\u{1F1E7}',
+            'DE': '\u{1F1E9}\u{1F1EA}', 'FR': '\u{1F1EB}\u{1F1F7}', 'IT': '\u{1F1EE}\u{1F1F9}',
+            'ES': '\u{1F1EA}\u{1F1F8}', 'NL': '\u{1F1F3}\u{1F1F1}', 'SE': '\u{1F1F8}\u{1F1EA}',
+            'NO': '\u{1F1F3}\u{1F1F4}', 'CH': '\u{1F1E8}\u{1F1ED}', 'AT': '\u{1F1E6}\u{1F1F9}',
+            'BE': '\u{1F1E7}\u{1F1EA}', 'DK': '\u{1F1E9}\u{1F1F0}', 'FI': '\u{1F1EB}\u{1F1EE}',
+            'PL': '\u{1F1F5}\u{1F1F1}', 'CZ': '\u{1F1E8}\u{1F1FF}', 'PT': '\u{1F1F5}\u{1F1F9}',
+            'GR': '\u{1F1EC}\u{1F1F7}', 'IE': '\u{1F1EE}\u{1F1EA}', 'AU': '\u{1F1E6}\u{1F1FA}',
+            'NZ': '\u{1F1F3}\u{1F1FF}', 'JP': '\u{1F1EF}\u{1F1F5}', 'CN': '\u{1F1E8}\u{1F1F3}',
+            'IN': '\u{1F1EE}\u{1F1F3}', 'BR': '\u{1F1E7}\u{1F1F7}', 'MX': '\u{1F1F2}\u{1F1FD}',
+            'ZA': '\u{1F1FF}\u{1F1E6}', 'SG': '\u{1F1F8}\u{1F1EC}', 'KR': '\u{1F1F0}\u{1F1F7}',
+            'UN': '\u{1F310}', 'EU': '\u{1F1EA}\u{1F1FA}'
         };
 
         // Load data on page load
@@ -857,25 +921,15 @@
             const hideDisqualified = document.getElementById('filter-disqualified').checked;
 
             filteredRfpData = allRfpData.filter(rfp => {
-                // Status filter
                 const actualStatus = statusOverrides[rfp.id] || rfp.status;
                 if (statusFilter && actualStatus !== statusFilter) return false;
-
-                // Probability filter
                 if (probabilityFilter && rfp.win_probability !== probabilityFilter) return false;
-
-                // Search filter
                 if (searchFilter) {
                     const searchable = `${rfp.rfp_title} ${rfp.issuing_entity} ${rfp.country}`.toLowerCase();
                     if (!searchable.includes(searchFilter)) return false;
                 }
-
-                // Hide expired
                 if (hideExpired && rfp.deadline_status === 'expired') return false;
-
-                // Hide disqualified
                 if (hideDisqualified && !rfp.qualified) return false;
-
                 return true;
             });
 
@@ -884,13 +938,12 @@
                 let aVal = a[currentSort.field];
                 let bVal = b[currentSort.field];
 
-                // Handle null/undefined
-                if (aVal == null) aVal = currentSort.field === 'relevance_score' ? 0 : '';
-                if (bVal == null) bVal = currentSort.field === 'relevance_score' ? 0 : '';
+                if (aVal == null) aVal = typeof bVal === 'number' ? 0 : '';
+                if (bVal == null) bVal = typeof aVal === 'number' ? 0 : '';
 
                 if (typeof aVal === 'string') {
                     aVal = aVal.toLowerCase();
-                    bVal = bVal.toLowerCase();
+                    bVal = (bVal || '').toString().toLowerCase();
                     return currentSort.direction === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
                 }
 
@@ -919,6 +972,14 @@
             });
         }
 
+        // Format budget for display
+        function formatBudget(budget) {
+            if (!budget && budget !== 0) return '<span class="budget-na">Not specified</span>';
+            if (budget >= 1000000) return '\u20AC' + (budget / 1000000).toFixed(1) + 'M';
+            if (budget >= 1000) return '\u20AC' + Math.round(budget / 1000) + 'k';
+            return '\u20AC' + budget.toLocaleString();
+        }
+
         // Render table
         function renderTable() {
             const tbody = document.getElementById('table-body');
@@ -931,22 +992,27 @@
             }
 
             emptyState.style.display = 'none';
-            tbody.innerHTML = filteredRfpData.map(rfp => `
+            tbody.innerHTML = filteredRfpData.map(rfp => {
+                const sourceLink = rfp.source_url
+                    ? `<a class="rfp-link" href="${rfp.source_url}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${escapeHtml(rfp.source_portal || 'Open')}</a>`
+                    : '<span style="color:#999">--</span>';
+
+                return `
                 <tr onclick="openModal('${rfp.id}')">
                     <td>
                         <div class="score-circle score-${getScoreClass(rfp.relevance_score)}">
                             ${rfp.relevance_score}
                         </div>
                     </td>
-                    <td>${escapeHtml(rfp.rfp_title)}</td>
+                    <td class="title-cell"><span class="title-text">${escapeHtml(rfp.rfp_title)}</span></td>
                     <td>${escapeHtml(rfp.issuing_entity)}</td>
                     <td>${countryFlags[rfp.country] || rfp.country}</td>
-                    <td><span class="badge badge-type">${escapeHtml(rfp.rfp_type)}</span></td>
+                    <td class="budget-cell">${formatBudget(rfp.budget_eur)}</td>
                     <td>
-                        ${rfp.deadline ? `<span class="badge badge-${getDeadlineColor(rfp.deadline_status)}">${rfp.deadline}</span>` : '—'}
+                        ${rfp.deadline ? `<span class="badge badge-${getDeadlineColor(rfp.deadline_status)}">${rfp.deadline}</span>` : '\u2014'}
                     </td>
                     <td><span class="badge badge-${rfp.win_probability_color}">${rfp.win_probability}</span></td>
-                    <td>${rfp.score_confidence}</td>
+                    <td>${sourceLink}</td>
                     <td>
                         <select class="status-select" onchange="changeStatus(event, '${rfp.id}')" onclick="event.stopPropagation();">
                             <option value="New" ${getActualStatus(rfp.id) === 'New' ? 'selected' : ''}>New</option>
@@ -956,8 +1022,8 @@
                         </select>
                     </td>
                     <td><button class="action-btn" onclick="event.stopPropagation(); openModal('${rfp.id}')">View</button></td>
-                </tr>
-            `).join('');
+                </tr>`;
+            }).join('');
         }
 
         // Get actual status (considering overrides)
@@ -992,25 +1058,74 @@
 
         // Update dashboard metrics
         function updateDashboard() {
+            const totalScanned = allRfpData.length;
             const qualified = allRfpData.filter(r => r.qualified).length;
             const highProb = filteredRfpData.filter(r => r.win_probability === 'High').length;
             const closing = filteredRfpData.filter(r => r.deadline_status === 'closing_soon').length;
-            const avgRelevance = filteredRfpData.length > 0
-                ? Math.round(filteredRfpData.reduce((sum, r) => sum + r.relevance_score, 0) / filteredRfpData.length)
-                : 0;
 
+            document.getElementById('metric-scanned').textContent = totalScanned;
             document.getElementById('metric-qualified').textContent = qualified;
             document.getElementById('metric-high').textContent = highProb;
             document.getElementById('metric-closing').textContent = closing;
-            document.getElementById('metric-relevance').textContent = avgRelevance;
 
-            // Update footer
+            // Last scan date
+            let lastScan = '--';
             if (allRfpData.length > 0) {
-                const lastScored = allRfpData[0].scored_at ? new Date(allRfpData[0].scored_at).toLocaleDateString() : '--';
+                const dates = allRfpData
+                    .map(r => r.scored_at || r.last_updated || r.added_date)
+                    .filter(Boolean)
+                    .sort()
+                    .reverse();
+                if (dates.length > 0) {
+                    const d = new Date(dates[0]);
+                    lastScan = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                }
                 const version = allRfpData[0].scoring_config_version || '--';
-                document.getElementById('footer-scan').textContent = `Last scan: ${lastScored}`;
+                document.getElementById('footer-scan').textContent = `Last scan: ${lastScan}`;
                 document.getElementById('footer-version').textContent = `Scoring config v${version}`;
             }
+            document.getElementById('metric-lastscan').textContent = lastScan;
+        }
+
+        // Detect process from description (client-side fallback)
+        function detectProcess(rfp) {
+            if (rfp.procurement_process) return rfp.procurement_process;
+
+            const text = ((rfp.rfp_title || '') + ' ' + (rfp.description || '')).toLowerCase();
+            const process = { type: 'Standard', rounds: 'Single submission', details: [] };
+
+            if (/negotiated|verhandlungsverfahren|proc\u00e9dure n\u00e9goci\u00e9e/.test(text)) {
+                process.type = 'Negotiated Procedure';
+                process.rounds = 'Multiple rounds likely';
+                process.details.push('Negotiation phase expected after initial submission');
+            } else if (/competitive dialogue|wettbewerblicher dialog|dialogue comp\u00e9titif/.test(text)) {
+                process.type = 'Competitive Dialogue';
+                process.rounds = 'Multiple rounds';
+                process.details.push('Structured dialogue rounds before final tender');
+            } else if (/restricted|nichtoffenes verfahren|proc\u00e9dure restreinte/.test(text)) {
+                process.type = 'Restricted Procedure';
+                process.rounds = 'Two stages';
+                process.details.push('Stage 1: Pre-qualification; Stage 2: Invited tender');
+            } else if (/open procedure|offenes verfahren|proc\u00e9dure ouverte/.test(text)) {
+                process.type = 'Open Procedure';
+            } else if (/framework|rahmenvereinbarung|rahmenvertrag|accord-cadre/.test(text)) {
+                process.type = 'Framework Agreement';
+                process.rounds = 'Multiple call-offs';
+                process.details.push('Framework with potential mini-competitions');
+            }
+
+            if (/two.stage|zweistufig|two.phase|zwei.phasen|multi.stage|mehrstufig/.test(text)) {
+                process.rounds = 'Multi-stage';
+                process.details.push('Multiple evaluation stages');
+            }
+            if (/shortlist|pre.qualification|pr\u00e4qualifikation|eignungspr\u00fcfung/.test(text)) {
+                process.details.push('Pre-qualification or shortlisting step');
+            }
+            if (/presentation|pr\u00e4sentation|demo|pitch/.test(text)) {
+                process.details.push('Presentation or demo may be required');
+            }
+
+            return process;
         }
 
         // Open modal
@@ -1018,12 +1133,38 @@
             const rfp = allRfpData.find(r => r.id === id);
             if (!rfp) return;
 
-            const notes = JSON.parse(localStorage.getItem(`climateview_notes_${id}`)) || '';
+            const process = detectProcess(rfp);
             const actualStatus = getActualStatus(id);
 
             let html = `
                 <div class="modal-title">${escapeHtml(rfp.rfp_title)}</div>
-                <div class="modal-entity">${escapeHtml(rfp.issuing_entity)} • ${rfp.country}</div>
+                <div class="modal-entity">${escapeHtml(rfp.issuing_entity)} \u2022 ${rfp.country}</div>
+
+                ${rfp.description ? `<div style="margin-bottom:16px;font-size:13px;color:#333;line-height:1.6;">${escapeHtml(rfp.description)}</div>` : ''}
+
+                <!-- Key Info Bar -->
+                <div class="modal-topbar">
+                    <div class="modal-topbar-item">
+                        <div class="modal-topbar-label">Submission Deadline</div>
+                        <div class="modal-topbar-value">${rfp.deadline
+                            ? `<span class="badge badge-${getDeadlineColor(rfp.deadline_status)}">${rfp.deadline}</span>`
+                            : 'Not specified'}</div>
+                    </div>
+                    <div class="modal-topbar-item">
+                        <div class="modal-topbar-label">Budget</div>
+                        <div class="modal-topbar-value">${rfp.budget_eur ? '\u20AC' + rfp.budget_eur.toLocaleString() : 'Not specified'}</div>
+                    </div>
+                    <div class="modal-topbar-item">
+                        <div class="modal-topbar-label">Win Probability</div>
+                        <div class="modal-topbar-value"><span class="badge badge-${rfp.win_probability_color}">${rfp.win_probability}</span></div>
+                    </div>
+                    <div class="modal-topbar-item">
+                        <div class="modal-topbar-label">Source</div>
+                        <div class="modal-topbar-value">${rfp.source_url
+                            ? `<a href="${rfp.source_url}" target="_blank" rel="noopener noreferrer">${escapeHtml(rfp.source_portal || 'Open RFP')}</a>`
+                            : 'N/A'}</div>
+                    </div>
+                </div>
 
                 <!-- Score Dimensions -->
                 <div class="modal-section">
@@ -1034,31 +1175,27 @@
                     ${renderDimensionBar('Timeline', rfp.timeline_score)}
                     ${renderDimensionBar('Competitive', rfp.competitive_score)}
                     ${renderDimensionBar('Strategic Value', rfp.strategic_value_score)}
-                    ${rfp.advisory_bonus > 0 ? `<div style="margin-top:12px; padding:10px; background-color:#E8F5E8; color:#2D5A2D; font-weight:600;">Advisory Bonus: +${rfp.advisory_bonus}</div>` : ''}
                 </div>
 
-                <!-- Feature Breakdown -->
-                ${rfp.feature_breakdown ? `
-                    <div class="modal-section">
-                        <div class="modal-section-title">Feature Alignment Details</div>
-                        ${Object.entries(rfp.feature_breakdown).map(([key, feature]) => `
-                            <div class="feature-item">
-                                <div class="feature-name">${escapeHtml(key.replace(/_/g, ' '))}</div>
-                                <div class="feature-score">Score: ${feature.score}/${feature.max}</div>
-                                ${feature.strong_matches && feature.strong_matches.length > 0 ? `
-                                    <div class="feature-matches">
-                                        ${feature.strong_matches.map(m => `<span class="match-tag">${escapeHtml(m)}</span>`).join('')}
-                                    </div>
-                                ` : ''}
-                                ${feature.moderate_matches && feature.moderate_matches.length > 0 ? `
-                                    <div class="feature-matches">
-                                        ${feature.moderate_matches.map(m => `<span class="match-tag moderate">${escapeHtml(m)}</span>`).join('')}
-                                    </div>
-                                ` : ''}
-                            </div>
-                        `).join('')}
+                <!-- Process Information -->
+                <div class="modal-section">
+                    <div class="modal-section-title">Procurement Process</div>
+                    <div class="process-grid">
+                        <div class="process-item">
+                            <div class="process-label">Procedure Type</div>
+                            <div class="process-value">${escapeHtml(process.type)}</div>
+                        </div>
+                        <div class="process-item">
+                            <div class="process-label">Submission Rounds</div>
+                            <div class="process-value">${escapeHtml(process.rounds)}</div>
+                        </div>
                     </div>
-                ` : ''}
+                    ${process.details && process.details.length > 0 ? `
+                        <ul class="process-details">
+                            ${process.details.map(d => `<li>${escapeHtml(d)}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                </div>
 
                 <!-- Competitor Analysis -->
                 ${rfp.competitor_signals && rfp.competitor_signals.length > 0 ? `
@@ -1120,47 +1257,16 @@
                         </div>
                         <div>
                             <div class="metadata-item">
-                                <span class="metadata-label">Deadline:</span> ${rfp.deadline || 'N/A'}
+                                <span class="metadata-label">Portal:</span> ${escapeHtml(rfp.source_portal || 'Unknown')}
                             </div>
                             <div class="metadata-item">
-                                <span class="metadata-label">Budget:</span> ${rfp.budget_eur ? '€' + rfp.budget_eur.toLocaleString() : 'N/A'}
+                                <span class="metadata-label">Date Found:</span> ${rfp.date_found || rfp.added_date || 'N/A'}
                             </div>
                             <div class="metadata-item">
                                 <span class="metadata-label">Config Version:</span> ${rfp.scoring_config_version}
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Source Link -->
-                ${rfp.source_url ? `
-                    <div class="modal-section">
-                        <div class="modal-section-title">Source</div>
-                        <div>
-                            <a href="${escapeHtml(rfp.source_url)}" target="_blank" rel="noopener noreferrer">
-                                Open RFP ${rfp.source_portal ? `(${escapeHtml(rfp.source_portal)})` : ''}
-                            </a>
-                        </div>
-                    </div>
-                ` : ''}
-
-                <!-- Status -->
-                <div class="modal-section">
-                    <div class="modal-section-title">Status</div>
-                    <select class="status-select" onchange="changeStatusInModal('${rfp.id}', this.value)">
-                        <option value="New" ${actualStatus === 'New' ? 'selected' : ''}>New</option>
-                        <option value="Reviewing" ${actualStatus === 'Reviewing' ? 'selected' : ''}>Reviewing</option>
-                        <option value="Shortlisted" ${actualStatus === 'Shortlisted' ? 'selected' : ''}>Shortlisted</option>
-                        <option value="Submitted" ${actualStatus === 'Submitted' ? 'selected' : ''}>Submitted</option>
-                    </select>
-                </div>
-
-                <!-- Notes -->
-                <div class="modal-section">
-                    <div class="modal-section-title">Notes</div>
-                    <textarea id="notes-textarea" placeholder="Add internal notes...">${escapeHtml(notes)}</textarea>
-                    <div class="notes-disclaimer">Notes stored in browser only (localStorage)</div>
-                    <button class="action-btn" style="margin-top:8px;" onclick="saveNotes('${rfp.id}')">Save Notes</button>
                 </div>
             `;
 
@@ -1189,19 +1295,12 @@
             applyFiltersAndSort();
         }
 
-        // Save notes
-        function saveNotes(id) {
-            const notes = document.getElementById('notes-textarea').value;
-            localStorage.setItem(`climateview_notes_${id}`, JSON.stringify(notes));
-            alert('Notes saved!');
-        }
-
         // Close modal
         function closeModal() {
             document.getElementById('detail-modal').classList.remove('active');
         }
 
-        // Escape HTML
+        // Escape HTML (for text content only, NOT for URLs in href)
         function escapeHtml(text) {
             if (!text) return '';
             const div = document.createElement('div');
