@@ -37,22 +37,667 @@ sys.path.insert(0, SCRIPT_DIR)
 from rfp_scorer import RFPScorer, RFPInput
 
 KEYWORDS = {
-    'en': ['climate action plan', 'greenhouse gas inventory', 'GHG emissions',
-           'net-zero strategy', 'climate data platform', 'carbon accounting',
-           'emissions reduction plan', 'climate software', 'sustainability reporting',
-           'climate action', 'decarbonization', 'net zero'],
-    'de': ['Klimaschutzkonzept', 'Treibhausgasbilanz', 'THG-Bilanz',
-           'Klimaschutzmanagement', 'CO2-Bilanzierung', 'kommunaler Klimaschutz',
-           'Nachhaltigkeitsbericht', 'Klimadaten'],
-    'fr': ['plan climat', 'bilan carbone', 'inventaire GES', 'stratégie bas-carbone'],
-    'nl': ['klimaatactieplan', 'broeikasgasinventaris', 'CO2-boekhouding'],
-    'sv': ['klimathandlingsplan', 'växthusgasinventering'],
-    'no': ['klimahandlingsplan', 'klimaregnskap', 'utslippsregnskap', 'bærekraftsrapportering'],
-    'fi': ['ilmastosuunnitelma', 'kasvihuonekaasupäästöt', 'päästöinventaario'],
-    'da': ['klimahandlingsplan', 'drivhusgasopgørelse', 'bæredygtighedsrapportering'],
+    # -------------------------------------------------------------------------
+    # Wide-net keyword list. Ordered by priority (scanners slice from front).
+    # Scorer qualification filters + disqualification signals remove noise.
+    # -------------------------------------------------------------------------
+    'en': [
+        # === TIER 1: Highest-precision ClimateView core terms ===
+        'climate action plan', 'greenhouse gas inventory', 'GHG emissions',
+        'net-zero strategy', 'climate data platform', 'carbon accounting',
+        'emissions reduction plan', 'climate software', 'sustainability reporting',
+        'climate action', 'decarbonization', 'net zero',
+        'carbon management', 'climate transition plan', 'climate roadmap',
+        'net zero roadmap', 'municipal energy planning', 'energy transition plan',
+        'climate intelligence', 'sustainability platform', 'carbon budget',
+        'climate monitoring', 'transition planning', 'climate dashboard',
+        'heat planning', 'heating plan', 'district heating strategy',
+        'climate neutrality', 'carbon neutrality strategy',
+        # === TIER 2: Climate action & planning variants ===
+        'climate strategy', 'climate plan', 'climate programme', 'climate framework',
+        'municipal climate plan', 'local climate action', 'city climate plan',
+        'regional climate plan', 'climate action framework', 'climate master plan',
+        'community climate plan', 'climate action roadmap', 'climate emergency plan',
+        'climate emergency action', 'climate commitment', 'climate policy',
+        'climate preparedness', 'national climate plan', 'state climate plan',
+        'county climate plan', 'climate change plan', 'climate change strategy',
+        'climate change action plan', 'climate change mitigation',
+        # === TIER 2: Net zero & carbon neutral variants ===
+        'net-zero strategy', 'net zero pathway', 'net zero target', 'net zero plan',
+        'carbon neutral', 'carbon neutrality', 'carbon neutrality roadmap',
+        'zero carbon', 'zero emission strategy', 'zero emissions',
+        'net zero city', 'net zero municipality', 'net zero region',
+        'carbon free', 'fossil free', 'post-carbon',
+        # === TIER 2: GHG & emissions variants ===
+        'GHG inventory', 'GHG accounting', 'emissions accounting',
+        'emissions reduction', 'emissions tracking', 'emissions monitoring',
+        'emissions reporting', 'carbon footprint', 'carbon reporting',
+        'emissions baseline', 'carbon baseline', 'carbon disclosure',
+        'scope 1 2 3 emissions', 'GHG management', 'carbon inventory',
+        'emissions calculator', 'greenhouse gas reporting', 'greenhouse gas management',
+        'emissions data', 'emissions database', 'carbon data',
+        # === TIER 2: Decarbonization ===
+        'decarbonisation', 'decarbonization strategy', 'decarbonization pathway',
+        'decarbonization roadmap', 'deep decarbonization', 'sectoral decarbonization',
+        'economy-wide decarbonization', 'urban decarbonization',
+        # === TIER 2: Energy transition & planning ===
+        'energy transition', 'energy planning', 'energy strategy',
+        'renewable energy strategy', 'energy roadmap', 'clean energy plan',
+        'clean energy transition', 'energy management', 'energy efficiency strategy',
+        'local energy plan', 'district energy', 'energy system transformation',
+        'municipal energy plan', 'energy master plan', 'energy action plan',
+        'renewable energy plan', 'clean energy strategy',
+        'integrated energy plan', 'urban energy planning',
+        # === TIER 2: Heat planning ===
+        'heat strategy', 'district heating', 'heat network',
+        'heat decarbonization', 'heating decarbonization', 'heat pump strategy',
+        'thermal energy plan', 'heat network strategy', 'heat transition',
+        'district heating expansion', 'geothermal energy plan',
+        # === TIER 2: Sustainability ===
+        'sustainability strategy', 'sustainability management', 'sustainability plan',
+        'sustainability framework', 'sustainability assessment',
+        'sustainability monitoring', 'ESG reporting', 'ESG strategy',
+        'environmental sustainability', 'sustainability data',
+        'sustainability dashboard', 'sustainability transition',
+        'sustainable development plan', 'sustainability indicators',
+        'sustainability performance', 'corporate sustainability',
+        # === TIER 2: Climate software / data / platform ===
+        'climate platform', 'climate data', 'climate data platform',
+        'climate tool', 'climate analytics', 'climate monitoring platform',
+        'carbon management platform', 'carbon management software',
+        'emissions management platform', 'sustainability software',
+        'environmental data platform', 'climate information system',
+        'carbon calculator', 'emissions calculator tool',
+        'climate decision support', 'climate planning tool',
+        # === TIER 2: Transition planning ===
+        'transition plan', 'transition roadmap', 'transition strategy',
+        'just transition', 'green transition', 'ecological transition',
+        'climate transition', 'systemic transition', 'systemic change',
+        'transformation plan', 'green deal',
+        # === TIER 2: Monitoring & reporting ===
+        'climate reporting', 'environmental reporting', 'environmental monitoring',
+        'carbon monitoring', 'emissions monitoring system', 'climate tracking',
+        'progress tracking', 'KPI monitoring', 'environmental performance',
+        'performance monitoring', 'climate indicators', 'progress reporting',
+        # === TIER 3: Standards & methodologies ===
+        'science based targets', 'CDP reporting', 'GPC protocol',
+        'covenant of mayors', 'SECAP', 'sustainable energy action plan',
+        'climate risk assessment', 'climate vulnerability assessment',
+        'climate impact assessment', 'global covenant of mayors',
+        'TCFD reporting', 'CSRD compliance', 'EU taxonomy',
+        'SDG reporting', 'Paris agreement alignment', 'COP commitments',
+        # === TIER 3: Adaptation & resilience ===
+        'climate adaptation', 'climate resilience', 'adaptation planning',
+        'resilience strategy', 'climate risk', 'vulnerability assessment',
+        'adaptation strategy', 'resilience planning', 'climate resilience plan',
+        'urban heat island', 'flood resilience', 'urban resilience',
+        'climate risk management', 'adaptation roadmap', 'adaptation framework',
+        'nature-based solutions', 'green infrastructure',
+        'climate-proof', 'climate proofing', 'resilient city',
+        # === TIER 3: Sector-specific (buildings, transport, waste, industry) ===
+        'building energy efficiency', 'building decarbonization',
+        'building retrofit strategy', 'transport emissions reduction',
+        'sustainable transport plan', 'sustainable mobility plan',
+        'waste emissions reduction', 'circular economy strategy',
+        'industrial decarbonization', 'land use emissions',
+        'urban planning climate', 'green building strategy',
+        'low carbon transport', 'fleet electrification',
+        'zero emission vehicles', 'active mobility',
+        # === TIER 3: Consulting / advisory ===
+        'climate consulting', 'climate advisory', 'climate capacity building',
+        'climate training', 'environmental consulting', 'sustainability consulting',
+        'carbon consulting', 'climate technical assistance',
+        'climate knowledge transfer', 'climate expertise',
+        # === TIER 3: Urban / municipal ===
+        'urban sustainability', 'smart city climate', 'green city',
+        'sustainable city', 'climate resilient city', 'sustainable urban development',
+        'liveable city', 'healthy city', 'inclusive city',
+        # === TIER 3: Finance & funding ===
+        'climate finance', 'green bonds', 'climate investment',
+        'sustainable finance', 'climate funding', 'green finance',
+        'climate budget', 'green investment', 'carbon pricing',
+        'climate philanthropy', 'adaptation finance',
+        # === TIER 3: Specific programs / frameworks ===
+        'European Green Deal', 'Fit for 55', 'Green New Deal',
+        'Race to Zero', 'C40 cities', 'ICLEI', 'ClearPath',
+        '100 climate-neutral cities', 'EU Climate Pact',
+        'climate emergency declaration', 'Global Covenant',
+        # === TIER 3: Procurement framing ===
+        'SaaS platform', 'software as a service', 'digital tool',
+        'cloud platform', 'web-based platform', 'data analytics platform',
+        'decision support system', 'management information system',
+        'IT services environment', 'environmental IT',
+    ],
+
+    'de': [
+        # === TIER 1: Klimaschutz-Kernfamilie ===
+        'Klimaschutzkonzept', 'Klimaschutzstrategie', 'Klimaschutzfahrplan',
+        'Klimaschutzmanagement', 'Klimaschutzmanager', 'Klimaschutzteilkonzept',
+        'Klimaschutzprogramm', 'Klimaschutzplan', 'Klimaschutzmaßnahmen',
+        'Klimaschutzcontrolling', 'Klimaschutzmonitoring', 'Klimaschutzberichterstattung',
+        'Klimaschutzberatung', 'kommunaler Klimaschutz', 'integriertes Klimaschutzkonzept',
+        'Klimaschutzbericht', 'Klimaschutzagentur', 'Klimaschutzleitbild',
+        'Klimaschutzplanung', 'Klimaschutz-Dashboard', 'Klimaschutzinitiative',
+        'Klimaschutzaktionsplan', 'Klimaschutzkoordination', 'Klimaschutzprojekt',
+        'integriertes Klimaschutz- und Energiekonzept', 'Klimaschutzförderung',
+        'Klimaschutz-Software', 'Klimaschutzvereinbarung',
+        # === TIER 1: Wärmeplanung-Familie ===
+        'kommunale Wärmeplanung', 'Wärmeplanung', 'Wärmeleitplanung',
+        'Wärmeplanungsgesetz', 'Wärmeversorgungskonzept', 'Wärmenetzplanung',
+        'Wärmestrategie', 'Wärmekataster', 'Wärmewende', 'Wärmeversorgung',
+        'Wärmeatlas', 'Nahwärmekonzept', 'Fernwärmekonzept', 'Fernwärmeausbau',
+        'Wärmenetz', 'Wärmekonzept', 'kommunale Wärmeversorgung',
+        'klimaneutrale Wärmeversorgung', 'Wärmetransformation', 'dekarbonisierte Wärme',
+        # === TIER 1: THG / CO2 / Emissionen ===
+        'Treibhausgasbilanz', 'THG-Bilanz', 'CO2-Bilanz', 'CO2-Bilanzierung',
+        'CO2-Neutralität', 'Treibhausgasneutralität', 'CO2-Monitoring',
+        'CO2-Reduktion', 'CO2-Minderung', 'Emissionskataster', 'Emissionsbilanz',
+        'Emissionsminderung', 'Emissionsreduktion', 'Emissionsberichterstattung',
+        'CO2-Fußabdruck', 'Klimabilanz', 'Treibhausgasinventar',
+        'Treibhausgasminderung', 'CO2-Budget', 'CO2-Berichterstattung',
+        # === TIER 1: Klimaneutralität-Familie ===
+        'Klimaneutralität', 'klimaneutrale Stadt', 'klimaneutrale Kommune',
+        'Klimaneutralitätsstrategie', 'Klimaneutralitätspfad',
+        'Klimaneutralitätskonzept', 'klimaneutrales Quartier',
+        'Klimaneutralitätsziel', 'klimaneutral 2040', 'klimaneutral 2045',
+        # === TIER 1: Energie-Familie ===
+        'Energiekonzept', 'Energieleitplanung', 'Energiestrategie',
+        'Energiemanagement', 'Energiebilanz', 'Energiemonitoring',
+        'Energiewende', 'Energieversorgungskonzept', 'erneuerbare Energien',
+        'Energieeffizienzstrategie', 'Energiebericht', 'Energieplanung',
+        'Energienutzungsplan', 'kommunales Energiemanagement',
+        'Energiewendestrategie', 'kommunale Energieplanung', 'Energiefahrplan',
+        'Sektorenkopplung', 'integrierte Energieplanung',
+        'Energie- und Klimaschutzkonzept',
+        # === TIER 1: Nachhaltigkeit-Familie ===
+        'Nachhaltigkeitsbericht', 'Nachhaltigkeitsmanagement',
+        'Nachhaltigkeitsstrategie', 'Nachhaltigkeitskonzept',
+        'Nachhaltigkeitsberichterstattung', 'Nachhaltigkeitsmonitoring',
+        'kommunale Nachhaltigkeit', 'Nachhaltigkeitsindikatoren',
+        'Nachhaltigkeitsbewertung', 'Nachhaltigkeitscontrolling',
+        'Nachhaltigkeitsplattform', 'Nachhaltigkeitsdaten',
+        'Nachhaltigkeitsdashboard', 'Nachhaltigkeitsprogramm',
+        'kommunales Nachhaltigkeitsmanagement',
+        # === TIER 2: Klima breit ===
+        'Klimaanpassung', 'Klimaanpassungskonzept', 'Klimadaten',
+        'Klimafolgenmanagement', 'Klimastrategie', 'Klimaplan',
+        'Klimaprogramm', 'Klimanotstand', 'Klimafolgenabschätzung',
+        'Klimaresilienz', 'Klimavorsorge', 'Klimarisikoanalyse',
+        'Klimadatenplattform', 'Klimawandel Anpassung', 'Klimafolgenanpassung',
+        'Klimaschutzgesetz', 'Klimawandelstrategie', 'Klimarisikovorsorge',
+        # === TIER 2: Planung / Beratung ===
+        'Potenzialanalyse', 'Maßnahmenplanung', 'Szenarioentwicklung',
+        'Wirkungsabschätzung', 'Dekarbonisierung', 'Dekarbonisierungsstrategie',
+        'Maßnahmenkatalog', 'Umsetzungsfahrplan', 'Handlungsfeld',
+        'Handlungsempfehlung', 'Bestandsanalyse', 'Zielkonzept',
+        'Machbarkeitsstudie Klimaschutz', 'Klimaschutzgutachten',
+        'Szenarien Klimaneutralität', 'Referenzszenario', 'Zielszenario',
+        # === TIER 2: Digital / Plattform ===
+        'Monitoring-Tool', 'digitales Klimaschutzmanagement',
+        'CO2-Rechner', 'Emissionsrechner', 'Klimaschutz-Monitoring-System',
+        'Datenplattform Klimaschutz', 'digitale Klimaschutzplanung',
+        'Klimaschutz-Plattform', 'Klimaschutz-Tool', 'Klimadaten-Software',
+        'IT-Dienstleistung Klimaschutz', 'Software Klimaschutz',
+        'SaaS Klimaschutz', 'Cloud-Plattform Klimaschutz',
+        # === TIER 2: Standards ===
+        'BISKO-Standard', 'BISKO', 'Bilanzierungssystematik', 'GPC-Protokoll',
+        'kommunale Bilanzierung', 'BISKO-konforme Bilanz',
+        # === TIER 2: Mobilität / Verkehr ===
+        'Verkehrswende', 'nachhaltige Mobilität', 'Mobilitätswende',
+        'Mobilitätskonzept', 'klimafreundliche Mobilität',
+        'Verkehrsemissionen', 'emissionsfreier Verkehr', 'Radverkehrskonzept',
+        'Elektromobilität', 'ÖPNV Dekarbonisierung',
+        # === TIER 3: Adaptation / Resilience ===
+        'Klimaanpassungsstrategie', 'Hitzeaktionsplan', 'Starkregenvorsorge',
+        'Hochwasserschutzkonzept', 'Überflutungsvorsorge', 'Klimaresilienzstrategie',
+        'Hitzeschutzplan', 'Stadtklima', 'Stadtklimaanalyse',
+        'urbane Resilienz', 'Klimavulnerabilität', 'Klimarisikobewertung',
+        'Klimaanpassungsmaßnahmen', 'Grünflächenstrategie',
+        'Schwammstadt', 'blau-grüne Infrastruktur',
+        # === TIER 3: Sektoren (Gebäude, Industrie, Abfall) ===
+        'Gebäudesanierungsstrategie', 'Sanierungsfahrplan', 'Quartierskonzept',
+        'energetische Quartiersentwicklung', 'Gebäudeenergiekonzept',
+        'industrielle Dekarbonisierung', 'Abfallwirtschaftskonzept',
+        'Kreislaufwirtschaftsstrategie', 'CO2-arme Industrie',
+        'klimaneutrale Gebäude', 'Gebäudesektor Emissionen',
+        # === TIER 3: Finanzierung / Förderung ===
+        'Nationale Klimaschutzinitiative', 'NKI', 'Kommunalrichtlinie',
+        'KfW Klimaschutz', 'Klimaschutzförderung', 'Fördermittel Klimaschutz',
+        'Green Bonds', 'nachhaltige Finanzierung', 'Klimafinanzierung',
+        'Förderprogramm Klimaschutz', 'EFRE Klimaschutz',
+        # === TIER 3: Berichterstattung / Compliance ===
+        'CSRD Berichterstattung', 'EU-Taxonomie', 'ESG-Berichterstattung',
+        'SDG Berichterstattung', 'Klimaberichterstattung',
+        'Nachhaltigkeits-Reporting', 'Umweltberichterstattung',
+        # === TIER 3: Vergabe-Framing ===
+        'Beratungsleistung Klimaschutz', 'Dienstleistung Klimaschutz',
+        'IT-Vergabe Klimaschutz', 'Softwarebeschaffung Umwelt',
+        'Rahmenvereinbarung Klimaschutz', 'Konzepterstellung Klimaschutz',
+        'Gutachten Klimaschutz', 'Studie Klimaschutz',
+        # === TIER 3: Specific programs ===
+        'European Green Deal', 'Fit for 55', '100 klimaneutrale Städte',
+        'Klimapakt', 'Konvent der Bürgermeister', 'Masterplan 100% Klimaschutz',
+        'Klimaschutz Masterplan', 'klimaneutrale Verwaltung',
+        # === TIER 3: Landwirtschaft / Landnutzung ===
+        'Landnutzungsemissionen', 'klimafreundliche Landwirtschaft',
+        'Flächennutzungsplanung Klimaschutz', 'Moorschutz',
+        'Kohlenstoffsenke', 'LULUCF',
+        # === TIER 3: Stadtentwicklung / Quartier ===
+        'Stadtentwicklungskonzept', 'integriertes Stadtentwicklungskonzept',
+        'klimagerechte Stadtentwicklung', 'nachhaltige Stadtentwicklung',
+        'Quartiersentwicklung', 'Quartiersversorgung', 'Quartierslösung',
+        'energetische Stadtsanierung', 'Städtebauförderung',
+        'kommunales Flächenmanagement',
+        # === TIER 3: Stadtwerke / Versorgung ===
+        'Stadtwerke Dekarbonisierung', 'Versorgungskonzept',
+        'Fernwärmestrategie', 'Nahwärmestrategie',
+        'Abwärmenutzung', 'Power-to-Heat', 'Wärmespeicher',
+        'Geothermie', 'Solarthermie', 'Biomasse Wärme',
+        # === TIER 3: Weitere Vergabe / Procurement ===
+        'Ausschreibung Klimaschutz', 'Vergabe Klimaschutz',
+        'öffentliche Ausschreibung', 'Leistungsverzeichnis',
+        'Konzepterstellung', 'Fachgutachten',
+        'Strategieberatung Klimaschutz', 'Prozessbegleitung',
+        'Beteiligungsprozess Klimaschutz', 'Akteursbeteiligung',
+        # === TIER 3: IT / Digital erweitert ===
+        'Geoinformationssystem Klimaschutz', 'GIS Klimadaten',
+        'Datenmanagement Emissionen', 'Webplattform Klimaschutz',
+        'Dashboard Klimaschutz', 'Berichtsplattform',
+        'automatisierte Bilanzierung', 'digitale Wärmeplanung',
+        # === TIER 3: Bundesländer / Regionale Programme ===
+        'Landesklimaschutzgesetz', 'Landesklimaplan',
+        'Regionaler Klimaschutzplan', 'Kreisklimaschutzkonzept',
+        'Klimaschutzagentur', 'Zukunftsstadt',
+    ],
+
+    'fr': [
+        # === Plans & stratégies ===
+        'plan climat', 'PCAET', 'plan climat air énergie territorial',
+        'plan climat air énergie', 'bilan carbone', 'bilan GES',
+        'inventaire GES', 'stratégie bas-carbone', 'stratégie bas carbone',
+        'transition écologique', 'neutralité carbone', 'plan énergie climat',
+        'bilan GES territorial', 'stratégie climat', 'feuille de route climat',
+        'plan action climatique', 'objectif zéro émission',
+        'stratégie de transition', 'planification climatique',
+        'plan de transition', 'trajectoire bas carbone',
+        # === Collectivités ===
+        'ville neutre en carbone', 'collectivité neutre en carbone',
+        'commune neutre en carbone', 'territoire neutre en carbone',
+        'plan climat territorial', 'schéma directeur énergie',
+        'schéma directeur climat', 'contrat de transition écologique',
+        'plan communal', 'plan intercommunal', 'plan régional climat',
+        # === Énergie ===
+        'transition énergétique', 'planification énergétique',
+        'stratégie énergétique', 'efficacité énergétique',
+        'réseau de chaleur', 'chaleur renouvelable', 'plan chaleur',
+        'schéma directeur des réseaux de chaleur', 'géothermie',
+        'mix énergétique', 'sobriété énergétique', 'maîtrise énergie',
+        'plan énergie', 'programme énergie', 'autonomie énergétique',
+        # === Émissions ===
+        'décarbonation', 'décarbonisation', 'réduction des émissions',
+        'suivi des émissions', 'comptabilité carbone', 'empreinte carbone',
+        'gaz à effet de serre', 'budget carbone', 'bilan carbone territorial',
+        'inventaire des émissions', 'diagnostic carbone',
+        'scope 1 2 3', 'bilan scope', 'émissions directes indirectes',
+        # === Monitoring & outils ===
+        'monitoring climatique', 'tableau de bord climat',
+        'plateforme climat', 'outil climat', 'logiciel climat',
+        'indicateurs climat', 'suivi climatique',
+        'observatoire climat', 'observatoire énergie climat',
+        'outil de pilotage', 'outil de suivi', 'plateforme données',
+        'logiciel bilan carbone', 'outil GES',
+        # === Développement durable ===
+        'reporting développement durable', 'rapport RSE',
+        'stratégie développement durable', 'agenda 21',
+        'plan développement durable', 'bilan développement durable',
+        'rapport extra-financier', 'performance environnementale',
+        # === Adaptation ===
+        'adaptation climatique', 'résilience climatique',
+        'vulnérabilité climatique', 'risque climatique',
+        'plan adaptation', 'stratégie adaptation',
+        'îlot de chaleur', 'canicule', 'inondation',
+        'infrastructure verte', 'solution fondée sur la nature',
+        'ville résiliente', 'résilience urbaine',
+        # === Mobilité ===
+        'mobilité durable', 'plan mobilité durable',
+        'décarbonation transport', 'mobilité bas carbone',
+        'plan déplacements', 'véhicules zéro émission',
+        'mobilité active', 'transport collectif',
+        # === Bâtiments & secteurs ===
+        'rénovation énergétique', 'performance énergétique',
+        'audit énergétique', 'bâtiment bas carbone',
+        'décarbonation bâtiment', 'économie circulaire',
+        'gestion des déchets', 'zéro déchet',
+        # === Consulting ===
+        'accompagnement climat', 'conseil climat', 'expertise climat',
+        'assistance maîtrise ouvrage climat', 'AMO climat',
+        'formation climat', 'sensibilisation climat',
+        'bureau études climat', 'prestation climat',
+        # === Finance ===
+        'finance verte', 'obligations vertes', 'financement climat',
+        'investissement durable', 'fonds vert', 'budget vert',
+        # === Standards & cadres ===
+        'convention des maires', 'SECAP', 'pacte vert européen',
+        'EU taxonomie', 'CSRD', 'DPEF', 'bilan réglementaire',
+        # === Vergabe-Framing ===
+        'prestation de service', 'marché public', 'appel offres',
+        'consultation', 'cahier des charges', 'étude climat',
+        'mission conseil', 'marché études',
+        # === Agriculture / land use ===
+        'agriculture durable', 'usage des sols', 'séquestration carbone',
+        'puits de carbone', 'agroécologie',
+        # === Urbanisme & quartier ===
+        'quartier durable', 'écoquartier', 'aménagement durable',
+        'urbanisme climatique', 'ville durable', 'plan local urbanisme',
+        # === Numérique / outils additionnels ===
+        'SIG climat', 'système information climat',
+        'données environnementales', 'outil pilotage énergie',
+        'plateforme territoriale', 'calculateur carbone',
+        # === ADEME / programmes ===
+        'ADEME', 'programme ACTEE', 'contrat objectif territorial',
+    ],
+
+    'nl': [
+        # === Klimaat & strategie ===
+        'klimaatactieplan', 'klimaatstrategie', 'klimaatbeleid',
+        'klimaattransitie', 'klimaatneutraal', 'klimaatplan',
+        'klimaatakkoord', 'klimaatagenda', 'klimaatvisie',
+        'gemeentelijk klimaatplan', 'lokaal klimaatbeleid',
+        'klimaatdoelstellingen', 'klimaatprogramma',
+        'klimaatuitvoeringsplan', 'klimaatkader', 'klimaatambitie',
+        'gemeentelijk klimaatbeleid', 'regionaal klimaatplan',
+        # === Emissies ===
+        'broeikasgasinventaris', 'CO2-boekhouding', 'CO2-reductie',
+        'CO2-neutraal', 'emissie-inventaris', 'emissiereductie',
+        'CO2-uitstoot', 'koolstofboekhouding', 'klimaatvoetafdruk',
+        'nul-emissie', 'emissieregistratie', 'CO2-budget',
+        'CO2-monitoring', 'broeikasgasrapportage',
+        'scope 1 2 3 uitstoot', 'emissiedata', 'emissiedatabase',
+        # === Energie ===
+        'energietransitie', 'energieplan', 'energiestrategie',
+        'energiemanagement', 'regionale energiestrategie', 'RES',
+        'aardgasvrij', 'van het gas af', 'energieneutraal',
+        'duurzame energie', 'energieakkoord', 'lokaal energieplan',
+        'energievisie', 'energietransitieplan', 'energieagenda',
+        'energiemasterplan', 'energiebesparingsstrategie',
+        # === Warmte ===
+        'warmtevisie', 'warmtetransitie', 'warmtenet',
+        'transitievisie warmte', 'warmteplan', 'warmtestrategie',
+        'aardgasvrije wijken', 'warmtetransitieplan',
+        'warmtebron', 'collectieve warmte', 'warmterotonde',
+        'warmtenetwerk', 'restwarmte', 'geothermie',
+        # === Duurzaamheid ===
+        'duurzaamheidsrapportage', 'duurzaamheidsstrategie',
+        'duurzaamheidsagenda', 'duurzaamheidsplan',
+        'duurzaamheidsbeleid', 'duurzaamheidsambitie',
+        'duurzaamheidsmonitoring', 'duurzaamheidsprogramma',
+        'ESG-rapportage', 'milieubeleid', 'milieumanagement',
+        'milieustrategie', 'milieurapportage',
+        # === Monitoring & data ===
+        'klimaatmonitor', 'CO2-monitor', 'klimaatdashboard',
+        'klimaatdata', 'duurzaamheidsdashboard',
+        'monitoring klimaatbeleid', 'voortgangsrapportage',
+        'klimaatinformatiesysteem', 'emissieregistratiesysteem',
+        # === Adaptatie ===
+        'klimaatadaptatie', 'klimaatbestendig', 'klimaatrisico',
+        'hittestress', 'wateroverlast', 'klimaatbestendige stad',
+        'klimaatadaptatieplan', 'veerkrachtige stad',
+        'groene infrastructuur', 'natuur-inclusief',
+        # === Mobiliteit ===
+        'duurzame mobiliteit', 'mobiliteitsplan', 'emissievrij vervoer',
+        'fietsplan', 'zero-emissie zone', 'schone mobiliteit',
+        # === Gebouwen & sectoren ===
+        'verduurzaming gebouwen', 'isolatieprogramma',
+        'circulaire economie', 'afvalstrategie', 'grondstoffenstrategie',
+        # === Consultancy ===
+        'klimaatadvies', 'duurzaamheidsadvies', 'energieadvies',
+        'klimaatconsultancy', 'milieuadvies',
+        # === Financiering ===
+        'groene financiering', 'klimaatfinanciering', 'duurzaam investeren',
+        'klimaatbudget', 'groene obligaties',
+        # === Kaders & programma's ===
+        'covenant van burgemeesters', 'Global Covenant', 'EU Green Deal',
+        'nationaal klimaatplan', 'Klimaatwet',
+        # === Aanbesteding ===
+        'aanbesteding', 'opdracht', 'raamovereenkomst',
+        'adviesopdracht', 'dienstverlening',
+        # === Stedenbouw & wijk ===
+        'wijkaanpak', 'duurzame wijk', 'gebiedsvisie',
+        'stedelijke verduurzaming', 'omgevingsvisie',
+        # === Digitaal aanvullend ===
+        'GIS klimaatdata', 'informatiesysteem klimaat',
+        'dataplatform energie', 'digitale monitor',
+        # === Programma's aanvullend ===
+        'Deltaprogramma', 'Regionale Energiestrategie',
+    ],
+
+    'sv': [
+        # === Klimat & strategi ===
+        'klimathandlingsplan', 'klimatstrategi', 'klimatplan',
+        'klimatprogram', 'klimatmål', 'klimatneutral',
+        'klimatomställning', 'klimatbudget', 'klimatanpassning',
+        'kommunalt klimatarbete', 'klimatpolitik', 'klimatvision',
+        'klimatramverk', 'klimatåtgärdsplan', 'klimatlöften',
+        'fossilfritt', 'fossilfri kommun', 'klimatfärdplan',
+        'kommunal klimatstrategi', 'regional klimatstrategi',
+        'klimatavtal', 'klimatpolitiskt ramverk',
+        # === Utsläpp ===
+        'växthusgasinventering', 'utsläppsredovisning', 'utsläppsminskning',
+        'koldioxidbudget', 'klimatbokslut', 'utsläppsberäkning',
+        'växthusgasrapportering', 'koldioxidneutral', 'nollutsläpp',
+        'utsläppsdata', 'utsläppsövervakning', 'klimatgasredovisning',
+        'scope 1 2 3 utsläpp', 'utsläppsinventering',
+        # === Energi ===
+        'energiomställning', 'energiplan', 'energistrategi',
+        'energieffektivisering', 'förnybar energi', 'fjärrvärme',
+        'värmestrategi', 'värmeplan', 'energisystem',
+        'kommunal energiplanering', 'lokal energiplan',
+        'energiöversikt', 'energibalans', 'energimasterplan',
+        'solenergi', 'vindkraft', 'geotermisk energi',
+        # === Hållbarhet ===
+        'hållbarhetsrapport', 'hållbarhetsstrategi',
+        'hållbarhetsredovisning', 'hållbarhetsplan',
+        'hållbarhetsprogram', 'hållbarhetsarbete',
+        'miljörapportering', 'miljöstrategi', 'miljöledning',
+        'miljöprogram', 'hållbarhetsmål', 'miljömål',
+        # === Digital / verktyg ===
+        'klimatdata', 'klimatverktyg', 'klimatplattform',
+        'klimatövervakning', 'klimatdashboard', 'hållbarhetsdata',
+        'klimatinformationssystem', 'utsläppsdatabas',
+        # === Anpassning ===
+        'klimatanpassningsplan', 'klimatanpassningsstrategi',
+        'klimatrisker', 'värmebölja', 'översvämningsrisk',
+        'grön infrastruktur', 'naturbaserade lösningar',
+        'resilient stad', 'klimatsäkring',
+        # === Mobilitet ===
+        'hållbar mobilitet', 'fossilfria transporter',
+        'cykelstrategi', 'kollektivtrafik', 'elfordon',
+        # === Byggnader & sektorer ===
+        'energirenovering', 'byggnaders energianvändning',
+        'cirkulär ekonomi', 'avfallsstrategi',
+        # === Finansiering ===
+        'grön finansiering', 'klimatfinansiering', 'gröna obligationer',
+        'klimatinvestering',
+        # === Program ===
+        'borgmästaravtalet', 'EU Green Deal',
+        'Fossilfritt Sverige', 'klimatkontrakt',
+        # === Stadsplanering ===
+        'hållbar stadsutveckling', 'kvarterslösning',
+        'omställningsplan', 'klimatsmart stad', 'energiomställningsplan',
+    ],
+
+    'no': [
+        # === Klima & strategi ===
+        'klimahandlingsplan', 'klimastrategi', 'klimaplan',
+        'klimaprogram', 'klimamål', 'klimanøytral',
+        'klimaomstilling', 'klimabudsjett', 'klimatilpasning',
+        'kommunalt klimaarbeid', 'klimapolitikk', 'klimavisjon',
+        'klimarammeverk', 'klimatiltaksplan', 'fossilfri',
+        'fossilfri kommune', 'nullutslipp', 'klimafotavtrykk',
+        'kommunal klimastrategi', 'regional klimastrategi',
+        'klimaveiledning', 'klimakutt',
+        # === Utslipp ===
+        'klimaregnskap', 'utslippsregnskap', 'utslippsreduksjon',
+        'karbonbudsjett', 'klimagassregnskap', 'utslippsberegning',
+        'klimagassrapportering', 'karbonnøytral', 'utslippsdata',
+        'utslippsovervåking', 'bærekraftsrapportering',
+        'scope 1 2 3 utslipp', 'utslippsinventar',
+        # === Energi ===
+        'energiomstilling', 'energiplan', 'energistrategi',
+        'energieffektivisering', 'fornybar energi', 'fjernvarme',
+        'varmeplan', 'varmestrategi', 'energisystem',
+        'kommunal energiplan', 'lokal energiplan',
+        'energioversikt', 'energibalanse', 'energimasterplan',
+        'solenergi', 'vindkraft', 'geotermisk energi',
+        # === Bærekraft ===
+        'bærekraftsrapport', 'bærekraftsstrategi',
+        'bærekraftsrapportering', 'bærekraftsplan',
+        'miljørapportering', 'miljøstrategi', 'miljøledelse',
+        'miljøprogram', 'bærekraftsmål', 'miljømål',
+        # === Digital / verktøy ===
+        'klimadata', 'klimaverktøy', 'klimaplattform',
+        'klimaovervåking', 'klimadashboard', 'bærekraftsdata',
+        'klimainformasjonssystem', 'utslippsdatabase',
+        # === Tilpasning ===
+        'klimatilpasningsplan', 'klimatilpasningsstrategi',
+        'klimarisiko', 'hetebølge', 'flomrisiko',
+        'grønn infrastruktur', 'naturbaserte løsninger',
+        'robust by', 'klimasikring',
+        # === Mobilitet ===
+        'bærekraftig mobilitet', 'nullutslippstransport',
+        'sykkelstrategi', 'kollektivtransport', 'elbil',
+        # === Bygninger & sektorer ===
+        'energioppgradering', 'bygningers energibruk',
+        'sirkulær økonomi', 'avfallsstrategi',
+        # === Finansiering ===
+        'grønn finansiering', 'klimafinansiering', 'grønne obligasjoner',
+        'klimainvestering', 'Enova',
+        # === Program ===
+        'ordføreravtalen', 'EU Green Deal', 'Klimasats',
+        'Paris-avtalen', 'klimaforlik',
+        # === Byplanlegging ===
+        'bærekraftig byutvikling', 'klimasmart by', 'omstillingsplan',
+    ],
+
+    'fi': [
+        # === Ilmasto & strategia ===
+        'ilmastosuunnitelma', 'ilmastostrategia', 'ilmasto-ohjelma',
+        'ilmastotavoite', 'hiilineutraali', 'hiilineutraalius',
+        'ilmastonmuutos', 'ilmastopolitiikka', 'ilmastovisio',
+        'kuntien ilmastotyö', 'ilmastotoimenpideohjelma',
+        'päästövähennys', 'fossiiliton', 'hiilivapaa',
+        'kunnallinen ilmastostrategia', 'alueellinen ilmastostrategia',
+        'ilmastotiekartta', 'ilmastokartta',
+        # === Päästöt ===
+        'kasvihuonekaasupäästöt', 'päästöinventaario', 'päästölaskenta',
+        'hiilijalanjälki', 'päästöraportointi', 'päästöseuranta',
+        'kasvihuonekaasuinventaario', 'hiilibudjetti', 'nollapäästö',
+        'päästödata', 'päästövähennyspolku', 'scope 1 2 3 päästöt',
+        'päästötietokanta', 'päästökirjanpito',
+        # === Energia ===
+        'energiasuunnitelma', 'energiastrategia', 'energiatehokkuus',
+        'uusiutuva energia', 'kaukolämpö', 'lämpösuunnitelma',
+        'energiajärjestelmä', 'kunnallinen energiasuunnitelma',
+        'energiamurros', 'energiasiirtymä', 'energiamasterplan',
+        'aurinkoenergia', 'tuulivoima', 'maalämpö',
+        # === Kestävyys ===
+        'kestävyysraportointi', 'kestävyysstrategia',
+        'ympäristöraportointi', 'ympäristöstrategia', 'ympäristöjohtaminen',
+        'ympäristöohjelma', 'kestävyystavoitteet', 'ympäristötavoitteet',
+        # === Digitaalinen ===
+        'ilmastodata', 'ilmastotyökalu', 'ilmastoseuranta',
+        'kestävyysdata', 'ilmastodashboard', 'ilmastotietojärjestelmä',
+        'päästötietojärjestelmä',
+        # === Sopeutuminen ===
+        'ilmastosopeutuminen', 'ilmastosopeutumissuunnitelma',
+        'ilmastoriskit', 'helleaalto', 'tulvariski',
+        'vihreä infrastruktuuri', 'luontopohjaiset ratkaisut',
+        # === Liikenne ===
+        'kestävä liikkuminen', 'päästötön liikenne',
+        'pyöräilystrategia', 'joukkoliikenne', 'sähköauto',
+        # === Rakennukset & sektorit ===
+        'energiaremontti', 'rakennusten energiankäyttö',
+        'kiertotalous', 'jätestrategia',
+        # === Rahoitus ===
+        'vihreä rahoitus', 'ilmastorahoitus', 'vihreät joukkovelkakirjat',
+        'ilmastoinvestointi',
+        # === Ohjelmat ===
+        'kaupunginjohtajien sopimus', 'EU Green Deal',
+        'HINKU-kunnat', 'hiilineutraali kunta',
+    ],
+
+    'da': [
+        # === Klima & strategi ===
+        'klimahandlingsplan', 'klimastrategi', 'klimaplan',
+        'klimaprogram', 'klimamål', 'klimaneutral',
+        'klimaomstilling', 'klimabudget', 'klimatilpasning',
+        'kommunalt klimaarbejde', 'klimapolitik', 'klimavision',
+        'klimarammeværk', 'klimaindsatsplan', 'fossilfri',
+        'fossilfri kommune', 'nuludledning', 'klimaaftryk',
+        'kommunal klimastrategi', 'regional klimastrategi',
+        'klimafærdplan', 'klimapartnerskab', 'DK2020',
+        # === Udledning ===
+        'drivhusgasopgørelse', 'udledningsregnskab', 'udledningsreduktion',
+        'CO2-regnskab', 'klimagasregnskab', 'udledningsberegning',
+        'drivhusgasrapportering', 'CO2-neutral', 'udledningsdata',
+        'bæredygtighedsrapportering', 'kulstofbudget',
+        'scope 1 2 3 udledning', 'udledningsinventar',
+        # === Energi ===
+        'energiomstilling', 'energiplan', 'energistrategi',
+        'energieffektivisering', 'vedvarende energi', 'fjernvarme',
+        'varmeplan', 'varmestrategi', 'energisystem',
+        'kommunal energiplan', 'lokal energiplan',
+        'energioversigt', 'energibalance', 'energimasterplan',
+        'solenergi', 'vindenergi', 'geotermi',
+        # === Bæredygtighed ===
+        'bæredygtighedsrapport', 'bæredygtighedsstrategi',
+        'bæredygtighedsplan', 'miljørapportering',
+        'miljøstrategi', 'miljøledelse',
+        'miljøprogram', 'bæredygtighedsmål', 'miljømål',
+        # === Digital / værktøj ===
+        'klimadata', 'klimaværktøj', 'klimaplatform',
+        'klimaovervågning', 'klimadashboard', 'bæredygtighedsdata',
+        'klimainformationssystem', 'udledningsdatabase',
+        # === Tilpasning ===
+        'klimatilpasningsplan', 'klimatilpasningsstrategi',
+        'klimarisiko', 'hedebølge', 'oversvømmelsesrisiko',
+        'grøn infrastruktur', 'naturbaserede løsninger',
+        'robust by', 'klimasikring',
+        # === Mobilitet ===
+        'bæredygtig mobilitet', 'nuludledningstransport',
+        'cykelstrategi', 'kollektiv transport', 'elbil',
+        # === Bygninger & sektorer ===
+        'energirenovering', 'bygningers energiforbrug',
+        'cirkulær økonomi', 'affaldsstrategi',
+        # === Finansiering ===
+        'grøn finansiering', 'klimafinansiering', 'grønne obligationer',
+        'klimainvestering',
+        # === Programmer ===
+        'borgmesterpagten', 'EU Green Deal',
+        'DK2020', 'Parisaftalen', 'klimahandlingskommune',
+        'grøn omstilling',
+        # === Byudvikling ===
+        'bæredygtig byudvikling',
+    ],
 }
 
-CPV_CODES = ['71313000', '72000000', '90700000', '90730000', '72212000', '72260000', '90710000']
+CPV_CODES = [
+    '71313000',  # Environmental engineering consultancy
+    '72000000',  # IT services
+    '90700000',  # Environmental services
+    '90730000',  # Pollution tracking/monitoring
+    '72212000',  # Application software programming
+    '72260000',  # Software-related services
+    '90710000',  # Environmental management
+    # New – heat planning, energy planning, climate consulting
+    '71314000',  # Energy and related services
+    '71314200',  # Energy management services
+    '09300000',  # Electricity, heating, solar and nuclear energy
+    '71240000',  # Architectural, engineering and planning services
+    '73220000',  # Development consultancy services
+    '48600000',  # Database and operating software package
+    '79411000',  # General management consultancy services
+]
 
 HEADERS = {
     'User-Agent': 'ClimateView-RFP-Scanner/1.1 (Climate Action Procurement Intelligence)',
@@ -208,7 +853,7 @@ class SAMGovScanner(PortalScanner):
         posted_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%m/%d/%Y')
         posted_to = datetime.now().strftime('%m/%d/%Y')
 
-        for keyword in KEYWORDS['en'][:6]:
+        for keyword in KEYWORDS['en'][:55]:
             try:
                 params = {
                     'api_key': api_key,
@@ -316,9 +961,9 @@ class TEDScanner(PortalScanner):
                 log.error(f"TED error for CPV {cpv}: {e}")
 
         # Keyword search in multiple languages
-        lang_groups = [KEYWORDS['en'][:3], KEYWORDS['de'][:3], KEYWORDS['fr'][:2],
-                       KEYWORDS['nl'][:2], KEYWORDS['sv'][:1], KEYWORDS['no'][:1],
-                       KEYWORDS['fi'][:1], KEYWORDS['da'][:1]]
+        lang_groups = [KEYWORDS['en'][:25], KEYWORDS['de'][:25], KEYWORDS['fr'][:18],
+                       KEYWORDS['nl'][:14], KEYWORDS['sv'][:10], KEYWORDS['no'][:10],
+                       KEYWORDS['fi'][:10], KEYWORDS['da'][:10]]
         for lang_kws in lang_groups:
             for kw in lang_kws:
                 try:
@@ -400,7 +1045,7 @@ class UKContractsScanner(PortalScanner):
     def scan(self, lookback_days: int = 90) -> list:
         results = []
         published_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%dT00:00:00Z')
-        for keyword in KEYWORDS['en'][:6]:
+        for keyword in KEYWORDS['en'][:45]:
             try:
                 params = {'keyword': keyword, 'publishedFrom': published_from, 'size': 50, 'stage': 'tender'}
                 resp = fetch_with_retry(self.session, self.API_BASE, params=params)
@@ -605,7 +1250,7 @@ class DoffinScanner(PortalScanner):
         date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
         headers = {'Ocp-Apim-Subscription-Key': api_key}
 
-        for kw in KEYWORDS['no'][:3] + KEYWORDS['en'][:3]:
+        for kw in KEYWORDS['no'][:25] + KEYWORDS['en'][:18]:
             try:
                 params = {'keyword': kw, 'publishedFrom': date_from, 'size': 50}
                 resp = self.session.get(f"{self.API_BASE}/api/v1/notices", params=params,
@@ -666,7 +1311,7 @@ class HilmaScanner(PortalScanner):
         results = []
         headers = {'Ocp-Apim-Subscription-Key': api_key}
 
-        for kw in KEYWORDS['fi'][:2] + KEYWORDS['en'][:3]:
+        for kw in KEYWORDS['fi'][:22] + KEYWORDS['en'][:18]:
             try:
                 params = {'keyword': kw, 'size': 50}
                 resp = self.session.get(f"{self.API_BASE}/hilmatenders", params=params,
@@ -724,7 +1369,7 @@ class BOAMPScanner(PortalScanner):
     def scan(self, lookback_days: int = 90) -> list:
         results = []
         date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
-        keywords = KEYWORDS['fr'] + KEYWORDS['en'][:3]
+        keywords = KEYWORDS['fr'][:50] + KEYWORDS['en'][:18]
 
         for kw in keywords:
             try:
@@ -787,7 +1432,7 @@ class WorldBankScanner(PortalScanner):
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        for kw in KEYWORDS['en'][:6]:
+        for kw in KEYWORDS['en'][:45]:
             try:
                 params = {
                     'format': 'json',
@@ -909,7 +1554,7 @@ class SIMAPScanner(PortalScanner):
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        keywords = KEYWORDS['de'][:4] + KEYWORDS['fr'][:2] + KEYWORDS['en'][:3]
+        keywords = KEYWORDS['de'][:25] + KEYWORDS['fr'][:10] + KEYWORDS['en'][:10]
 
         for kw in keywords:
             try:
@@ -1011,7 +1656,7 @@ class GermanFederalScanner(PortalScanner):
         base = 'https://www.evergabe-online.de/tenderdetails.html'
         search_url = 'https://www.evergabe-online.de/searchresult.html'
 
-        for kw in KEYWORDS['de'][:4] + KEYWORDS['en'][:2]:
+        for kw in KEYWORDS['de'][:35] + KEYWORDS['en'][:10]:
             try:
                 params = {'searchText': kw}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -1039,7 +1684,7 @@ class GermanFederalScanner(PortalScanner):
         results = []
         search_url = 'https://www.service.bund.de/Content/DE/Ausschreibungen/suche.html'
 
-        for kw in KEYWORDS['de'][:3]:
+        for kw in KEYWORDS['de'][:25]:
             try:
                 params = {'searchtext': kw, 'resultsPerPage': 50}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -1071,7 +1716,7 @@ class AustrianScanner(PortalScanner):
         results = []
         search_url = 'https://www.auftrag.at/Search/FulltextSearch'
 
-        for kw in KEYWORDS['de'][:4] + KEYWORDS['en'][:2]:
+        for kw in KEYWORDS['de'][:35] + KEYWORDS['en'][:10]:
             try:
                 params = {'searchTerm': kw, 'page': 1, 'pageSize': 50}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -1122,7 +1767,7 @@ class IrishTendersScanner(PortalScanner):
         results = []
         search_url = 'https://www.etenders.gov.ie/epps/cft/listContractNotices.do'
 
-        for kw in KEYWORDS['en'][:6]:
+        for kw in KEYWORDS['en'][:35]:
             try:
                 params = {'d-8588276-p': 1, 'searchTerm': kw}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -1158,7 +1803,7 @@ class UNGMScanner(PortalScanner):
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        for kw in KEYWORDS['en'][:4]:
+        for kw in KEYWORDS['en'][:25]:
             try:
                 # Try the UNGM public search page
                 params = {'PageIndex': 0, 'Title': kw}
