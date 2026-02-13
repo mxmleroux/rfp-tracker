@@ -1975,7 +1975,7 @@ if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description='ClimateView RFP Scanner v1.1')
     parser.add_argument('--portal', type=str, help='Specific portal (sam, ted, uk)')
-    parser.add_argument('--days', type=int, default=30, help='Lookback days')
+    parser.add_argument('--days', type=int, default=20, help='Lookback days')
     parser.add_argument('--dry-run', action='store_true', help='Preview without saving')
     args = parser.parse_args()
     portals = [args.portal] if args.portal else None
