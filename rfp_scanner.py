@@ -789,9 +789,51 @@ def fetch_with_retry(session, url, params=None, timeout=30, retries=1):
                 raise
 
 
+def detect_procurement_process(title, description):
+    """Detect procurement process type from title/description text."""
+    text = f"{title} {description}".lower()
+    process = {'type': 'Standard', 'rounds': 'Single submission', 'details': []}
+
+    # Process type detection
+    if any(k in text for k in ['negotiated procedure', 'verhandlungsverfahren', 'procédure négociée', 'negotiated']):
+        process['type'] = 'Negotiated Procedure'
+        process['rounds'] = 'Multiple rounds likely'
+        process['details'].append('Negotiation phase expected after initial submission')
+    elif any(k in text for k in ['competitive dialogue', 'wettbewerblicher dialog', 'dialogue compétitif']):
+        process['type'] = 'Competitive Dialogue'
+        process['rounds'] = 'Multiple rounds'
+        process['details'].append('Structured dialogue rounds before final tender')
+    elif any(k in text for k in ['restricted procedure', 'nichtoffenes verfahren', 'procédure restreinte', 'restricted']):
+        process['type'] = 'Restricted Procedure'
+        process['rounds'] = 'Two stages'
+        process['details'].append('Stage 1: Pre-qualification; Stage 2: Invited tender')
+    elif any(k in text for k in ['open procedure', 'offenes verfahren', 'procédure ouverte']):
+        process['type'] = 'Open Procedure'
+        process['rounds'] = 'Single submission'
+    elif any(k in text for k in ['framework agreement', 'rahmenvereinbarung', 'rahmenvertrag', 'accord-cadre']):
+        process['type'] = 'Framework Agreement'
+        process['rounds'] = 'Multiple call-offs'
+        process['details'].append('Framework with potential mini-competitions')
+
+    # Multi-stage detection
+    if any(k in text for k in ['two-stage', 'zweistufig', 'two phase', 'zwei phasen', 'multi-stage', 'mehrstufig']):
+        process['rounds'] = 'Multi-stage'
+        process['details'].append('Multiple evaluation stages')
+    if any(k in text for k in ['shortlist', 'pre-qualification', 'präqualifikation', 'prequalification', 'eignungsprüfung']):
+        if 'Pre-qualification' not in ' '.join(process['details']):
+            process['details'].append('Pre-qualification or shortlisting step')
+    if any(k in text for k in ['presentation', 'präsentation', 'demo', 'demonstration', 'pitch']):
+        process['details'].append('Presentation or demo may be required')
+    if any(k in text for k in ['best price', 'preis-leistung', 'zuschlagskriterien', 'award criteria']):
+        process['details'].append('Evaluated on price-quality criteria')
+
+    return process
+
+
 def result_to_record(result, title, entity, country, description, budget_eur, deadline, portal, url, date_found=None):
     """Convert ScoringResult to a dashboard record dict."""
     market = COUNTRY_TO_MARKET.get(country.upper(), 'Adjacent') if country else 'Unknown'
+    procurement_process = detect_procurement_process(title, description or '')
     return {
         'id': generate_id(title, entity),
         'rfp_title': title,
@@ -821,10 +863,14 @@ def result_to_record(result, title, entity, country, description, budget_eur, de
         'scoring_config_version': result.scoring_config_version,
         'source_portal': portal,
         'source_url': url,
+        'procurement_process': procurement_process,
         'date_found': date_found or datetime.now().strftime('%Y-%m-%d'),
+        'scored_at': datetime.now().isoformat(),
+        'last_updated': datetime.now().isoformat(),
+        'added_date': datetime.now().strftime('%Y-%m-%d'),
         'status': 'New',
         'notes': '',
-        'status_history': [],
+        'status_history': [{'status': 'New', 'date': datetime.now().isoformat(), 'by': 'scanner'}],
         'pass_reason': ''
     }
 
@@ -1026,7 +1072,7 @@ class TEDScanner(PortalScanner):
                 except (ValueError, TypeError):
                     deadline = None
 
-        url = f"https://ted.europa.eu/en/notice/-/{notice_id}" if notice_id else None
+        url = f"https://ted.europa.eu/en/notice/{notice_id}" if notice_id else None
         rfp_input = RFPInput(title=str(title), issuing_entity=str(entity),
                              description=str(description)[:2000],
                              country=country, budget_eur=budget, deadline=deadline,
