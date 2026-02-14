@@ -14,9 +14,12 @@ Changes from v1.0:
 
 import json
 import re
+import logging
 from datetime import datetime, timedelta
 from dataclasses import dataclass, field, asdict
 from typing import Optional
+
+log = logging.getLogger('rfp_scorer')
 
 
 def load_config(path="rfp_scoring_config.json"):
@@ -415,6 +418,13 @@ class RFPScorer:
         qualified, disqual_reason, edge_flags = self._qualify(rfp, text)
 
         if not qualified:
+            # Diagnostic: log first few rejections per reason to debug zero-result scans
+            if not hasattr(self, '_disqual_counts'):
+                self._disqual_counts = {}
+            reason_key = (disqual_reason or 'unknown')[:50]
+            self._disqual_counts[reason_key] = self._disqual_counts.get(reason_key, 0) + 1
+            if self._disqual_counts[reason_key] <= 3:
+                log.info(f"  DISQUALIFIED: '{rfp.title[:60]}' | entity='{rfp.issuing_entity[:40]}' | reason={disqual_reason}")
             return ScoringResult(
                 rfp_title=rfp.title, issuing_entity=rfp.issuing_entity, country=rfp.country,
                 qualified=False, disqualification_reason=disqual_reason,
