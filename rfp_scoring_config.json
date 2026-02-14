@@ -11,17 +11,24 @@
         "council", "city council", "county", "community", "urban", "borough",
         "region", "regional", "state", "national", "ministry", "agency", "institute",
         "governor", "mayor", "prefecture", "province", "canton", "district",
-        "metropolitan", "metropole",
+        "metropolitan", "metropole", "government", "public body", "public sector",
+        "department", "office", "bureau", "authority", "commission", "board", "assembly",
+        "combined authority", "port authority",
         "landeshauptstadt", "kanton", "kommunalverwaltung", "kommunen", "regionen",
-        "steden", "stad", "gemeente", "län", "landkreis", "kreis",
-        "département", "commune", "collectivité"
+        "steden", "stad", "stadt", "gemeinde", "gemeente", "län", "landkreis", "kreis",
+        "département", "commune", "collectivité", "métropole",
+        "ministerium", "bundesministerium", "verwaltung", "kreisverwaltung",
+        "bezirksamt", "bezirk", "landratsamt", "zweckverband", "amt",
+        "energieagentur", "klimaschutzagentur",
+        "kommune", "kaupunki", "kunta",
+        "administration"
       ],
       "edge_case_patterns": [
         "university", "ngo", "foundation", "non-profit", "nonprofit",
         "association", "consortium", "partnership"
       ],
       "disqualifying_patterns": [
-        "private company", "corporation", "ltd", "gmbh", "inc",
+        "private company", "corporation", " ltd.", " ltd,", " ltd ",
         "internal research", "academic research only"
       ]
     },
@@ -42,6 +49,10 @@
         "energy transition", "municipal energy planning", "energy planning",
         "heat planning", "heating plan", "district heating strategy",
         "net zero roadmap", "net zero pathway", "climate neutrality",
+        "carbon reduction", "carbon reduction plan", "carbon reduction programme",
+        "climate resilience", "climate adaptation", "climate preparedness",
+        "emissions tracking", "emissions management", "climate plan",
+        "climate programme", "climate program",
 
         "klimaschutzkonzept", "klimaschutz", "treibhausgasbilanz", "thg-bilanz",
         "klimaschutzmanagement", "co2-bilanzierung", "kommunaler klimaschutz",
@@ -50,7 +61,7 @@
         "energieleitplanung", "klimaschutzfahrplan", "klimaneutralität",
         "masterplan klimaschutz", "klimaschutzstrategie", "klimaschutzteilkonzept",
         "treibhausgasneutralität", "co2-neutralität", "klimaschutzmanager",
-        "integriertes klimaschutzkonzept", "nachhaltigkeitsmanagement",
+        "integriertes klimaschutzkonzept", "nachhaltigkeitsmanagement", "nachhaltigkeitsstrategie",
         "klimaanpassungskonzept", "klimaschutzmonitoring", "klimabilanz",
         "energiekonzept", "energie- und klimaschutzkonzept",
 
