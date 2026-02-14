@@ -1,125 +1,125 @@
 {
-  "last_updated": "2026-02-14T12:08:03.060377",
+  "last_updated": "2026-02-14T21:04:33.740151",
   "portals": {
     "ungm": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "ireland": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "austria": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "germany": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "simap": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "hilma": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "doffin": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "tenderned": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "worldbank": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "boamp": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "wales": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "scotland": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "uk": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "ted": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     },
     "sam": {
-      "status": "degraded",
-      "consecutive_zeros": 2,
+      "status": "unhealthy",
+      "consecutive_zeros": 3,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 2
+      "total_runs_checked": 3
     }
   }
 }
