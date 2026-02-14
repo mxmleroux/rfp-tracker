@@ -1107,6 +1107,15 @@ class PortalScanner:
         self.scorer = scorer
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
+        self._seen_ids = set()  # Per-scan dedup: skip tenders already scored this run
+
+    def _dedup_check(self, title: str, entity: str) -> bool:
+        """Return True if this tender was already seen (skip it). False = new."""
+        rid = generate_id(title, entity)
+        if rid in self._seen_ids:
+            return True
+        self._seen_ids.add(rid)
+        return False
 
     def scan(self, lookback_days: int = 90) -> list:
         raise NotImplementedError
@@ -1126,7 +1135,7 @@ class SAMGovScanner(PortalScanner):
         posted_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%m/%d/%Y')
         posted_to = datetime.now().strftime('%m/%d/%Y')
 
-        for keyword in KEYWORDS['en'][:55]:
+        for keyword in KEYWORDS['en'][:30]:
             try:
                 params = {
                     'api_key': api_key,
@@ -1155,6 +1164,8 @@ class SAMGovScanner(PortalScanner):
     def _parse(self, opp: dict) -> dict:
         title = opp.get('title', '')
         entity = opp.get('organizationName', '') or opp.get('departmentName', '')
+        if self._dedup_check(title, entity):
+            return None
         description = opp.get('description', '') or opp.get('synopsis', '') or ''
         deadline = opp.get('responseDeadLine', '')
         notice_id = opp.get('noticeId', '')
@@ -1234,15 +1245,18 @@ class TEDScanner(PortalScanner):
                 log.error(f"TED error for CPV {cpv}: {e}")
 
         # Keyword search in multiple languages
-        lang_groups = [KEYWORDS['en'][:25], KEYWORDS['de'][:25], KEYWORDS['fr'][:18],
-                       KEYWORDS['nl'][:14], KEYWORDS['sv'][:10], KEYWORDS['no'][:10],
-                       KEYWORDS['fi'][:10], KEYWORDS['da'][:10]]
+        lang_groups = [KEYWORDS['en'][:15], KEYWORDS['de'][:15], KEYWORDS['fr'][:12],
+                       KEYWORDS['nl'][:10], KEYWORDS['sv'][:8], KEYWORDS['no'][:8],
+                       KEYWORDS['fi'][:8], KEYWORDS['da'][:8]]
+        # Batch keywords into OR groups of 5 to reduce API calls (~25 calls vs ~122)
         for lang_kws in lang_groups:
-            for kw in lang_kws:
+            for i in range(0, len(lang_kws), 5):
+                batch = lang_kws[i:i+5]
+                or_clause = ' OR '.join(f'FT="{kw}"' for kw in batch)
                 try:
-                    params = {'query': f'FT="{kw}" AND PD>=[{date_from}]',
+                    params = {'query': f'({or_clause}) AND PD>=[{date_from}]',
                               'fields': 'ND,TI,CY,CA,DT,TVL',
-                              'pageSize': 25, 'pageNum': 1}
+                              'pageSize': 50, 'pageNum': 1}
                     resp = fetch_with_retry(self.session, api_url, params=params)
                     if resp.status_code == 200:
                         data = resp.json()
@@ -1255,7 +1269,7 @@ class TEDScanner(PortalScanner):
                                 results.append(rec)
                     time.sleep(1)
                 except Exception as e:
-                    log.error(f"TED keyword error '{kw}': {e}")
+                    log.error(f"TED keyword batch error: {e}")
         log.info(f"TED: {len(results)} qualified notices found")
         return results
 
@@ -1267,6 +1281,8 @@ class TEDScanner(PortalScanner):
         entity = notice.get('CA', notice.get('MA', notice.get('buyerName', ''))) or 'Unknown'
         if isinstance(entity, dict):
             entity = entity.get('EN', '') or entity.get('officialName', '') or next(iter(entity.values()), '')
+        if self._dedup_check(str(title), str(entity)):
+            return None
         country = (notice.get('CY', notice.get('country', '')) or '')[:2].upper() or 'EU'
         notice_id = notice.get('ND', notice.get('noticeId', notice.get('id', '')))
         deadline = notice.get('DT', notice.get('deadline', ''))
@@ -1318,7 +1334,7 @@ class UKContractsScanner(PortalScanner):
     def scan(self, lookback_days: int = 90) -> list:
         results = []
         published_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%dT00:00:00Z')
-        for keyword in KEYWORDS['en'][:45]:
+        for keyword in KEYWORDS['en'][:25]:
             try:
                 params = {'keyword': keyword, 'publishedFrom': published_from, 'size': 50, 'stage': 'tender'}
                 resp = fetch_with_retry(self.session, self.API_BASE, params=params)
@@ -1335,10 +1351,12 @@ class UKContractsScanner(PortalScanner):
     def _parse_release(self, release: dict) -> dict:
         tender = release.get('tender', {})
         title = tender.get('title', '')
-        description = tender.get('description', '')
-        deadline = tender.get('tenderPeriod', {}).get('endDate', '')
         buyer = release.get('buyer', {})
         entity = buyer.get('name', 'Unknown')
+        if self._dedup_check(title, entity):
+            return None
+        description = tender.get('description', '')
+        deadline = tender.get('tenderPeriod', {}).get('endDate', '')
         budget = None
         value = tender.get('value', {})
         if value.get('amount'):
@@ -1523,7 +1541,7 @@ class DoffinScanner(PortalScanner):
         date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
         headers = {'Ocp-Apim-Subscription-Key': api_key}
 
-        for kw in KEYWORDS['no'][:25] + KEYWORDS['en'][:18]:
+        for kw in KEYWORDS['no'][:15] + KEYWORDS['en'][:10]:
             try:
                 params = {'keyword': kw, 'publishedFrom': date_from, 'size': 50}
                 resp = self.session.get(f"{self.API_BASE}/api/v1/notices", params=params,
@@ -1544,6 +1562,8 @@ class DoffinScanner(PortalScanner):
     def _parse(self, notice: dict) -> dict:
         title = notice.get('title', '')
         entity = notice.get('buyerName', notice.get('organization', 'Unknown'))
+        if self._dedup_check(title, str(entity)):
+            return None
         description = notice.get('description', str(title))
         deadline = notice.get('deadline', notice.get('tenderDeadline', ''))
         notice_id = notice.get('id', notice.get('noticeId', ''))
@@ -1584,7 +1604,7 @@ class HilmaScanner(PortalScanner):
         results = []
         headers = {'Ocp-Apim-Subscription-Key': api_key}
 
-        for kw in KEYWORDS['fi'][:22] + KEYWORDS['en'][:18]:
+        for kw in KEYWORDS['fi'][:15] + KEYWORDS['en'][:10]:
             try:
                 params = {'keyword': kw, 'size': 50}
                 resp = self.session.get(f"{self.API_BASE}/hilmatenders", params=params,
@@ -1606,6 +1626,8 @@ class HilmaScanner(PortalScanner):
     def _parse(self, tender: dict) -> dict:
         title = tender.get('name', tender.get('title', ''))
         entity = tender.get('organization', tender.get('buyerName', 'Unknown'))
+        if self._dedup_check(str(title), str(entity)):
+            return None
         description = tender.get('description', str(title))
         deadline = tender.get('tenderDate', tender.get('deadline', ''))
         tender_id = tender.get('id', '')
@@ -1642,7 +1664,7 @@ class BOAMPScanner(PortalScanner):
     def scan(self, lookback_days: int = 90) -> list:
         results = []
         date_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
-        keywords = KEYWORDS['fr'][:50] + KEYWORDS['en'][:18]
+        keywords = KEYWORDS['fr'][:25] + KEYWORDS['en'][:10]
 
         for kw in keywords:
             try:
@@ -1672,6 +1694,8 @@ class BOAMPScanner(PortalScanner):
     def _parse(self, record: dict) -> dict:
         title = record.get('intitule', '')
         entity = record.get('nomacheteur', 'Unknown')
+        if self._dedup_check(title, entity):
+            return None
         deadline = record.get('datecloture', '')
         idweb = record.get('idweb', '')
         description = record.get('descripteur', '') or str(title)
@@ -1705,7 +1729,7 @@ class WorldBankScanner(PortalScanner):
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        for kw in KEYWORDS['en'][:45]:
+        for kw in KEYWORDS['en'][:25]:
             try:
                 params = {
                     'format': 'json',
@@ -1732,6 +1756,8 @@ class WorldBankScanner(PortalScanner):
     def _parse(self, nid: str, notice: dict) -> dict:
         title = notice.get('project_name', notice.get('notice_lang_name', ''))
         entity = notice.get('borrower', notice.get('bid_reference_no', 'World Bank'))
+        if self._dedup_check(str(title), str(entity)):
+            return None
         country_name = notice.get('project_ctry_name', '')
         deadline = notice.get('submission_deadline_date', '')
         description = notice.get('notice_text', notice.get('procurement_group', title))
@@ -1827,7 +1853,7 @@ class SIMAPScanner(PortalScanner):
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        keywords = KEYWORDS['de'][:25] + KEYWORDS['fr'][:10] + KEYWORDS['en'][:10]
+        keywords = KEYWORDS['de'][:15] + KEYWORDS['fr'][:8] + KEYWORDS['en'][:8]
 
         for kw in keywords:
             try:
@@ -2005,7 +2031,7 @@ class GermanFederalScanner(PortalScanner):
         results = []
         search_url = 'https://www.service.bund.de/Content/DE/Ausschreibungen/suche.html'
 
-        for kw in KEYWORDS['de'][:25]:
+        for kw in KEYWORDS['de'][:15]:
             try:
                 params = {'searchtext': kw, 'resultsPerPage': 50}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -2040,7 +2066,7 @@ class GermanFederalScanner(PortalScanner):
         consecutive_errors = 0
         max_errors = 5
 
-        for kw in KEYWORDS['de'][:35] + KEYWORDS['en'][:10]:
+        for kw in KEYWORDS['de'][:20] + KEYWORDS['en'][:8]:
             if consecutive_errors >= max_errors:
                 log.warning(f"evergabe-online: {consecutive_errors} consecutive errors, aborting")
                 break
@@ -2103,7 +2129,7 @@ class AustrianScanner(PortalScanner):
         results = []
         search_url = 'https://www.auftrag.at/Search/FulltextSearch'
 
-        for kw in KEYWORDS['de'][:35] + KEYWORDS['en'][:10]:
+        for kw in KEYWORDS['de'][:20] + KEYWORDS['en'][:8]:
             try:
                 params = {'searchTerm': kw, 'page': 1, 'pageSize': 50}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -2154,7 +2180,7 @@ class IrishTendersScanner(PortalScanner):
         results = []
         search_url = 'https://www.etenders.gov.ie/epps/cft/listContractNotices.do'
 
-        for kw in KEYWORDS['en'][:35]:
+        for kw in KEYWORDS['en'][:20]:
             try:
                 params = {'d-8588276-p': 1, 'searchTerm': kw}
                 resp = self.session.get(search_url, params=params, headers=SCRAPER_HEADERS, timeout=30)
@@ -2190,7 +2216,7 @@ class UNGMScanner(PortalScanner):
 
     def scan(self, lookback_days: int = 90) -> list:
         results = []
-        for kw in KEYWORDS['en'][:25]:
+        for kw in KEYWORDS['en'][:15]:
             try:
                 # Try the UNGM public search page
                 params = {'PageIndex': 0, 'Title': kw}
