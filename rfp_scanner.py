@@ -1135,6 +1135,9 @@ class SAMGovScanner(PortalScanner):
         posted_from = (datetime.now() - timedelta(days=lookback_days)).strftime('%m/%d/%Y')
         posted_to = datetime.now().strftime('%m/%d/%Y')
 
+        raw_count = 0
+        dedup_skip = 0
+        disqual_reasons = {}
         for keyword in KEYWORDS['en'][:30]:
             try:
                 params = {
@@ -1149,16 +1152,21 @@ class SAMGovScanner(PortalScanner):
                 resp = fetch_with_retry(self.session, self.API_BASE, params=params)
                 if resp.status_code == 200:
                     data = resp.json()
-                    for opp in data.get('opportunitiesData', []):
+                    opps = data.get('opportunitiesData', [])
+                    raw_count += len(opps)
+                    for opp in opps:
                         rec = self._parse(opp)
                         if rec:
                             results.append(rec)
                 elif resp.status_code == 429:
                     log.warning(f"SAM.gov rate limited on '{keyword}', waiting 60s")
                     time.sleep(60)
+                else:
+                    log.warning(f"SAM.gov HTTP {resp.status_code} for '{keyword}'")
                 time.sleep(1)
             except Exception as e:
                 log.error(f"SAM.gov error for '{keyword}': {e}")
+        log.info(f"  SAM.gov diagnostics: {raw_count} raw API results, {len(self._seen_ids)} unique, {len(results)} qualified")
         return results
 
     def _parse(self, opp: dict) -> dict:
@@ -2308,6 +2316,15 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
         for future in as_completed(futures):
             portal_key, results, error = future.result()
             portal_results[portal_key] = (results, error)
+
+    # Diagnostic: log disqualification summary
+    if hasattr(scorer, '_disqual_counts') and scorer._disqual_counts:
+        log.info("=== DISQUALIFICATION SUMMARY ===")
+        for reason, count in sorted(scorer._disqual_counts.items(), key=lambda x: -x[1]):
+            log.info(f"  {count}x: {reason}")
+        log.info(f"  Total disqualified: {sum(scorer._disqual_counts.values())}")
+    else:
+        log.warning("=== NO DISQUALIFICATION DATA – portals may be returning empty results ===")
 
     # Merge results sequentially (dedup + update logic)
     all_new = []
