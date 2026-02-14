@@ -2301,9 +2301,9 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
             log.error(f"  {portal_key} FAILED: {e}")
             return portal_key, [], str(e)
 
-    # Run all portals in parallel (max 6 workers to avoid overwhelming APIs)
+    # Run all portals in parallel (one worker per portal – each hits a different server)
     portal_results = {}
-    with ThreadPoolExecutor(max_workers=6) as executor:
+    with ThreadPoolExecutor(max_workers=len(valid_portals)) as executor:
         futures = {executor.submit(_scan_portal, k): k for k in valid_portals}
         for future in as_completed(futures):
             portal_key, results, error = future.result()
