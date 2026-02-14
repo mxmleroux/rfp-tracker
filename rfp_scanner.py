@@ -21,6 +21,7 @@ import shutil
 import tempfile
 import logging
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from typing import Optional
 from urllib.parse import quote_plus
@@ -36,6 +37,17 @@ DATA_FILE = os.path.join(SCRIPT_DIR, 'rfp_data.json')
 SCAN_LOG_FILE = os.path.join(SCRIPT_DIR, 'scan_log.json')
 HEALTH_FILE = os.path.join(SCRIPT_DIR, 'portal_health.json')
 STATUS_OVERRIDES_FILE = os.path.join(SCRIPT_DIR, 'status_overrides.json')
+
+# Global scan deadline – stop gracefully before GitHub Actions kills the job
+SCAN_START = time.monotonic()
+SCAN_TIMEOUT_MINUTES = 50  # GitHub Actions timeout is 90 min; stop at 50 to leave room
+
+def past_deadline():
+    elapsed = (time.monotonic() - SCAN_START) / 60
+    if elapsed >= SCAN_TIMEOUT_MINUTES:
+        log.warning(f"Scan deadline reached ({elapsed:.1f} min). Stopping gracefully.")
+        return True
+    return False
 
 sys.path.insert(0, SCRIPT_DIR)
 from rfp_scorer import RFPScorer, RFPInput
@@ -937,6 +949,9 @@ def enrich_qualified_rfps(records, scorer, max_docs=15):
 
     enriched = 0
     for record in candidates:
+        if past_deadline():
+            log.warning(f"  Stopping enrichment early due to time limit ({enriched} done)")
+            break
         url = record['source_url']
         log.info(f"  Enriching: {record['rfp_title'][:50]}...")
 
@@ -1132,7 +1147,7 @@ class SAMGovScanner(PortalScanner):
                 elif resp.status_code == 429:
                     log.warning(f"SAM.gov rate limited on '{keyword}', waiting 60s")
                     time.sleep(60)
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"SAM.gov error for '{keyword}': {e}")
         return results
@@ -1214,7 +1229,7 @@ class TEDScanner(PortalScanner):
                     else:
                         log.warning(f"TED CPV {cpv} page {page}: HTTP {resp.status_code}")
                         break
-                    time.sleep(2)
+                    time.sleep(1)
             except Exception as e:
                 log.error(f"TED error for CPV {cpv}: {e}")
 
@@ -1238,7 +1253,7 @@ class TEDScanner(PortalScanner):
                             rec = self._parse_notice(notice)
                             if rec:
                                 results.append(rec)
-                    time.sleep(2)
+                    time.sleep(1)
                 except Exception as e:
                     log.error(f"TED keyword error '{kw}': {e}")
         log.info(f"TED: {len(results)} qualified notices found")
@@ -1312,7 +1327,7 @@ class UKContractsScanner(PortalScanner):
                         rec = self._parse_release(release)
                         if rec:
                             results.append(rec)
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"Contracts Finder error '{keyword}': {e}")
         return results
@@ -1381,7 +1396,7 @@ class ScotlandScanner(PortalScanner):
                             results.append(rec)
                 else:
                     log.warning(f"Scotland {month}: HTTP {resp.status_code}")
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"Scotland error for {month}: {e}")
         return results
@@ -1451,7 +1466,7 @@ class WalesScanner(PortalScanner):
                             results.append(rec)
                 else:
                     log.warning(f"Wales {month}: HTTP {resp.status_code}")
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"Wales error for {month}: {e}")
         return results
@@ -1521,7 +1536,7 @@ class DoffinScanner(PortalScanner):
                 elif resp.status_code == 401:
                     log.warning("Doffin: Invalid API key")
                     return results
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"Doffin error '{kw}': {e}")
         return results
@@ -1583,7 +1598,7 @@ class HilmaScanner(PortalScanner):
                 elif resp.status_code == 401:
                     log.warning("Hilma: Invalid API key")
                     return results
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"Hilma error '{kw}': {e}")
         return results
@@ -1648,7 +1663,7 @@ class BOAMPScanner(PortalScanner):
                 elif resp.status_code == 403:
                     log.warning("BOAMP: API access denied (403)")
                     return results
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"BOAMP error '{kw}': {e}")
         log.info(f"BOAMP: {len(results)} qualified notices found")
@@ -1708,7 +1723,7 @@ class WorldBankScanner(PortalScanner):
                                 rec = self._parse(nid, notice)
                                 if rec:
                                     results.append(rec)
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log.error(f"World Bank error '{kw}': {e}")
         log.info(f"World Bank: {len(results)} qualified notices found")
@@ -1833,7 +1848,7 @@ class SIMAPScanner(PortalScanner):
                 elif resp.status_code in (401, 403, 404):
                     log.info(f"SIMAP API not accessible ({resp.status_code}), trying HTML scrape")
                     results.extend(self._scrape_fallback(kw))
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 log.error(f"SIMAP error '{kw}': {e}")
         log.info(f"SIMAP.ch: {len(results)} qualified notices found")
@@ -2013,7 +2028,7 @@ class GermanFederalScanner(PortalScanner):
                         if result.qualified:
                             results.append(result_to_record(result, title, 'German Federal', 'DE',
                                                             title, None, None, self.PORTAL_NAME, full_url))
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 log.error(f"service.bund.de HTML error '{kw}': {e}")
         return results
@@ -2073,7 +2088,7 @@ class GermanFederalScanner(PortalScanner):
                         if result.qualified:
                             results.append(result_to_record(result, title, 'German Federal', 'DE',
                                                             title, None, None, self.PORTAL_NAME, full_url))
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 consecutive_errors += 1
                 log.error(f"evergabe-online error '{kw}': {e}")
@@ -2124,7 +2139,7 @@ class AustrianScanner(PortalScanner):
                                 if result.qualified:
                                     results.append(result_to_record(result, title, 'Austria', 'AT',
                                                                     title, None, None, self.PORTAL_NAME, full_url))
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 log.error(f"auftrag.at error '{kw}': {e}")
         log.info(f"auftrag.at: {len(results)} qualified notices found")
@@ -2161,7 +2176,7 @@ class IrishTendersScanner(PortalScanner):
                                     results.append(result_to_record(result, title, 'Ireland', 'IE',
                                                                     title, None, None,
                                                                     self.PORTAL_NAME, full_url))
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 log.error(f"eTenders error '{kw}': {e}")
         log.info(f"eTenders Ireland: {len(results)} qualified notices found")
@@ -2197,7 +2212,7 @@ class UNGMScanner(PortalScanner):
                                     results.append(result_to_record(result, title, 'United Nations', 'INT',
                                                                     title, None, None,
                                                                     self.PORTAL_NAME, full_url))
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 log.error(f"UNGM error '{kw}': {e}")
         log.info(f"UNGM: {len(results)} qualified notices found")
@@ -2240,44 +2255,65 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
     if portals is None:
         portals = list(SCANNERS.keys())
 
-    all_new = []
-    all_updated = 0
-    for portal_key in portals:
-        if portal_key not in SCANNERS:
-            log.warning(f"Unknown portal: {portal_key}")
-            continue
-        log.info(f"Scanning {portal_key}...")
+    # --- Parallel portal scanning ---
+    valid_portals = [k for k in portals if k in SCANNERS]
+    invalid = [k for k in portals if k not in SCANNERS]
+    for k in invalid:
+        log.warning(f"Unknown portal: {k}")
+
+    def _scan_portal(portal_key):
+        """Run a single portal scanner. Returns (portal_key, results, error)."""
+        if past_deadline():
+            return portal_key, [], "skipped: deadline"
         scanner = SCANNERS[portal_key](scorer)
+        log.info(f"Scanning {portal_key}...")
         try:
             results = scanner.scan(lookback_days=lookback_days)
-            # Cross-portal dedup + update logic
-            new_count = 0
-            updated_count = 0
-            for r in results:
-                rid = r['id']
-                if rid in existing_by_id:
-                    # Update: merge new info into existing record
-                    old = existing_by_id[rid]
-                    changed = False
-                    for field in ['deadline', 'budget_eur', 'relevance_score', 'win_probability',
-                                  'deadline_status', 'competitor_recommendation', 'description']:
-                        if r.get(field) and r[field] != old.get(field):
-                            old[field] = r[field]
-                            changed = True
-                    if changed:
-                        old['last_updated'] = datetime.now().strftime('%Y-%m-%d')
-                        updated_count += 1
-                else:
-                    existing.append(r)
-                    existing_by_id[rid] = r
-                    new_count += 1
-                    all_new.append(r)
-            all_updated += updated_count
-            log.info(f"  {portal_key}: {len(results)} found, {new_count} new, {updated_count} updated")
-            log_scan(portal_key, len(results), new_count, updated_count)
+            log.info(f"  {portal_key}: {len(results)} found")
+            return portal_key, results, None
         except Exception as e:
             log.error(f"  {portal_key} FAILED: {e}")
-            log_scan(portal_key, 0, 0, 0, str(e))
+            return portal_key, [], str(e)
+
+    # Run all portals in parallel (max 6 workers to avoid overwhelming APIs)
+    portal_results = {}
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = {executor.submit(_scan_portal, k): k for k in valid_portals}
+        for future in as_completed(futures):
+            portal_key, results, error = future.result()
+            portal_results[portal_key] = (results, error)
+
+    # Merge results sequentially (dedup + update logic)
+    all_new = []
+    all_updated = 0
+    for portal_key in valid_portals:
+        results, error = portal_results.get(portal_key, ([], "missing"))
+        if error:
+            log_scan(portal_key, 0, 0, 0, error)
+            continue
+        new_count = 0
+        updated_count = 0
+        for r in results:
+            rid = r['id']
+            if rid in existing_by_id:
+                old = existing_by_id[rid]
+                changed = False
+                for field in ['deadline', 'budget_eur', 'relevance_score', 'win_probability',
+                              'deadline_status', 'competitor_recommendation', 'description']:
+                    if r.get(field) and r[field] != old.get(field):
+                        old[field] = r[field]
+                        changed = True
+                if changed:
+                    old['last_updated'] = datetime.now().strftime('%Y-%m-%d')
+                    updated_count += 1
+            else:
+                existing.append(r)
+                existing_by_id[rid] = r
+                new_count += 1
+                all_new.append(r)
+        all_updated += updated_count
+        log.info(f"  {portal_key}: {len(results)} found, {new_count} new, {updated_count} updated")
+        log_scan(portal_key, len(results), new_count, updated_count)
 
     if dry_run:
         log.info(f"\n[DRY RUN] Would add {len(all_new)} new, update {all_updated}")
@@ -2289,9 +2325,13 @@ def run_scan(portals=None, lookback_days=30, dry_run=False):
     # Apply user status overrides (from status_overrides.json)
     merge_status_overrides(existing)
 
-    # Enrich qualified RFPs with full document text
-    log.info("Starting document enrichment...")
-    enriched_count = enrich_qualified_rfps(existing, scorer, max_docs=15)
+    # Enrich qualified RFPs with full document text (if time permits)
+    if not past_deadline():
+        log.info("Starting document enrichment...")
+        enriched_count = enrich_qualified_rfps(existing, scorer, max_docs=5)
+    else:
+        log.warning("Skipping document enrichment due to time limit")
+        enriched_count = 0
 
     # Remove records expired >30 days ago (keep Won/Submitted indefinitely)
     cutoff = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
