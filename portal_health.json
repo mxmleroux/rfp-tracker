@@ -1,125 +1,125 @@
 {
-  "last_updated": "2026-02-14T21:56:39.263391",
+  "last_updated": "2026-02-15T07:13:47.135727",
   "portals": {
     "ungm": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "ireland": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "austria": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "germany": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "simap": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "hilma": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "doffin": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "tenderned": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "worldbank": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "boamp": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "wales": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "scotland": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "uk": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "ted": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     },
     "sam": {
       "status": "unhealthy",
-      "consecutive_zeros": 4,
+      "consecutive_zeros": 5,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 4
+      "total_runs_checked": 5
     }
   }
 }
