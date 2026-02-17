@@ -1,1 +1,176 @@
-[]
+[
+  {
+    "id": "rfp-d233d206f3de",
+    "rfp_title": "Cheshire and Warrington Outline Energy Plan",
+    "issuing_entity": "ENTERPRISE CHESHIRE AND WARRINGTON",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "ECW, on behalf of and in coordination with Cheshire West and Chester, Cheshire East, and Warrington Borough Councils, is seeking to appoint consultancy support to produce a Cheshire and Warrington Outline Energy Plan;  providing the evidence base to support  local growth ambitions and investment pipeline development, support future spatial development work in Cheshire and Warrington, and support engagement in the NESO Regional Energy Strategic Planning (RESP) process. This commission will provide a strong local evidence base for current and future demand, and build the case for investment in energy infrastructure to support both local growth ambitions and commitments in our Sustainable and Inclusive Economic Strategy to support the local energy transition and government ambitions for Clean Power by 2030.\r\n\r\nClean Energy is one vital component of Cheshire and Warrington growth ambitions, with unique existing (e.g. VisNet, Gas Storage Facilities) and upcoming (e.g. HyNet, HALEU) infrastructure providing substantial opportunities for us to pioneer approaches to clean power and industrial decarbonisation. This infrastructure will support wider growth opportunities, ensuring that Cheshire and Warrington is an attractive location for housing growth, business development, and reindustrialisation.  To better grasp this opportunity, it is vital we:\r\n1.\tBetter understand our baseline energy demand.\r\n2.\tHave access to light-touch scenario planning to anticipate the likely changes to generation and demand over the next 5-10 years.\r\n3.\tCan clearly and consistently produce early evidence for RESP, DSO, and NGET to secure strategic reinforcement to grid.\r\n4.\tUnderstand the integration of different energy transition vectors across the C&W landscape.\r\n5.\tCan drive investment to strategically vital energy projects in Cheshire and Warrington that support wider economic development.\r\nThis commission will provide the foundation for attracting inward investment in Cheshire and Warrington",
+    "budget_eur": 87750,
+    "deadline": "2026-03-11",
+    "relevance_score": 47.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 66.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "31762c28-4ad8-4918-9b9a-4365b1d83bac-884163",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-17",
+    "scored_at": "2026-02-17T06:59:23.038462",
+    "last_updated": "2026-02-17T06:59:23.038463",
+    "added_date": "2026-02-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-17T06:59:23.038468",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4c1a2753c7c5",
+    "rfp_title": "Invitation to a Preliminary Market Engagement Event - Wrap Around Service",
+    "issuing_entity": "Sandwell Metropolitan Borough Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Sandwell Metropolitan Borough Council (SMBC) are currently exploring options for the future procurement of a Sandwell Wrap Around Service. The primary objective of this service is to reduce hospital delays, prevent unnecessary long-term care placements, improve independence outcomes, and provide coordinated, person-centred support that enables multidisciplinary assessment and intervention to take place in appropriate settings.\r\n      \r\n      The service will deliver a wrap-around model of care, offering 24-hour care and support where required, alongside agreed multidisciplinary team input, for individuals awaiting assessments or longer-term care provision. Support will be tailored to individual need and a safe transition of care.\r\n      \r\n      The service will be provided for people whose assessed level of need can be safely and effectively supported outside of an acute hospital environment and where those needs may not be appropriately met within the individual's own home or usual place of residence without additional coordinated support.\r\n      \r\n      The Sandwell Wrap Around Service will help maintain capacity within the Borough of Sandwell for a short-term, up to 72 hour period, supporting hospital avoidance for individuals living in the community. The service will support people who are medically stable but require further assessment, monitoring, or intervention before a long-term care decision is made.\r\n      \r\n      Eligibility for the service will include adults aged 18 years and over who are residents of Sandwell.\r\n      \r\n      This preliminary market engagement seeks to understand supplier capabilities and challenges, gather feedback, and inform the development of the future procurement of the Sandwell Wrap Around Service.\r\n      \r\n      This will take place on Wednesday 4 March 10am - 11am for all interested organisations.\r\n       \r\n      Please email by Monday 2 March 11am rupi_deo@sandwell.gov.uk your full name, job title, organisation, email address",
+    "budget_eur": null,
+    "deadline": "2026-03-02",
+    "relevance_score": 36.6,
+    "win_probability": "Low",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "monitoring"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "ed6e3d79-3531-40cb-956b-53b16711f7ae-884130",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-17",
+    "scored_at": "2026-02-17T06:59:23.040166",
+    "last_updated": "2026-02-17T06:59:23.040168",
+    "added_date": "2026-02-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-17T06:59:23.040172",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  }
+]
