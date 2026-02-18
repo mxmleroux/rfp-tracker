@@ -172,5 +172,181 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-1c6766340ab7",
+    "rfp_title": "CA17224 - Electronic Payment Methods",
+    "issuing_entity": "Crescent Purchasing Consortium Limited",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "For the past few years, CPC has outsourced the contract management of its Cashless Payment Solutions framework agreement for various reasons, one of which being capacity internally. We are now looking to bring this framework back in-house and this tender exercise will form the new iteration of the framework. \r\n\r\nSuppliers must be capable of delivering high-quality, cost-effective Electronic Payment Devices, Software and Professional Services to institutions such as schools, academies, colleges, universities, and educational trusts, as well as local authorities and the wider public sector. \r\n\r\nCPC will be using the MultiQuote e-Tendering platform to carry out this tender. In order to express your interest in this tender and obtain the tender documents, please register or log in at: https://suppliers.multiquote.com/Page/Login.aspx If you have any issues when using MultiQuote, please contact Elcom Ltd on 020 3920 8054 or email support@elcom.com\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17224.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17224 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+    "budget_eur": null,
+    "deadline": "2026-03-18",
+    "relevance_score": 48.9,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 27.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f32b9a7b-7c2a-481d-98ea-2bf16362df39-884387",
+    "procurement_process": {
+      "type": "Framework Agreement",
+      "rounds": "Multiple call-offs",
+      "details": [
+        "Framework with potential mini-competitions"
+      ]
+    },
+    "date_found": "2026-02-18",
+    "scored_at": "2026-02-18T07:01:39.709925",
+    "last_updated": "2026-02-18T07:01:39.709926",
+    "added_date": "2026-02-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-18T07:01:39.709931",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-01f1ae794e20",
+    "rfp_title": "Emergency Transfer Ambulance Support for the Helipad Project at Ysbyty Gwynedd",
+    "issuing_entity": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Betsi Cadwaladr University Health Board (BCUHB) is seeking to appoint a single regulated supplier to deliver a dedicated emergency ambulance support service to facilitate patient transfers between the Alternative Landing Site (ALS) and Ysbyty Gwynedd during a temporary helipad infrastructure project.\r\n The requirement is for the provision of a double-crewed Advanced Life Support (ALS) capable emergency ambulance, operating between 09:00 and 23:00, seven (7) days per week, for an anticipated period of 30 weeks. The appointed supplier must ensure the safe and timely transfer of patients conveyed by Helicopter Emergency Medical Services (HEMS), including those presenting with time-critical and high-acuity conditions.\r\n The service must be fully compliant with all relevant regulatory requirements, including HIW registration (or equivalent where applicable), medicines management controls, clinical governance standards and infection prevention requirements. The supplier must demonstrate appropriate staffing competence, operational resilience and integration with local emergency care pathways.",
+    "budget_eur": 146250,
+    "deadline": "2026-03-02",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 29.8,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Sell2Wales",
+    "source_url": "https://www.sell2wales.gov.wales/Search/Search_Switch.aspx?ID=ocds-kuma6s-161733-release-161733",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-02-18",
+    "scored_at": "2026-02-18T07:01:39.680726",
+    "last_updated": "2026-02-18T07:01:39.680728",
+    "added_date": "2026-02-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-18T07:01:39.680733",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
