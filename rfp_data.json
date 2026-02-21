@@ -270,7 +270,7 @@
     "description": "Betsi Cadwaladr University Health Board (BCUHB) is seeking to appoint a single regulated supplier to deliver a dedicated emergency ambulance support service to facilitate patient transfers between the Alternative Landing Site (ALS) and Ysbyty Gwynedd during a temporary helipad infrastructure project.\r\n The requirement is for the provision of a double-crewed Advanced Life Support (ALS) capable emergency ambulance, operating between 09:00 and 23:00, seven (7) days per week, for an anticipated period of 30 weeks. The appointed supplier must ensure the safe and timely transfer of patients conveyed by Helicopter Emergency Medical Services (HEMS), including those presenting with time-critical and high-acuity conditions.\r\n The service must be fully compliant with all relevant regulatory requirements, including HIW registration (or equivalent where applicable), medicines management controls, clinical governance standards and infection prevention requirements. The supplier must demonstrate appropriate staffing competence, operational resilience and integration with local emergency care pathways.",
     "budget_eur": 146250,
     "deadline": "2026-03-02",
-    "relevance_score": 42.7,
+    "relevance_score": 42.4,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -336,7 +336,7 @@
     },
     "date_found": "2026-02-18",
     "scored_at": "2026-02-18T07:01:39.680726",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-02-21",
     "added_date": "2026-02-18",
     "status": "New",
     "notes": "",
@@ -432,6 +432,180 @@
       {
         "status": "New",
         "date": "2026-02-19T07:00:11.316460",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-73e40873cd63",
+    "rfp_title": "A66 - Sheet Piles",
+    "issuing_entity": "BALFOUR BEATTY CIVIL ENGINEERING LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "1. Overview\r\nThe works comprise the supply and installation of steel sheet piling to support temporary and permanent structures across the A66 NTP Project, BBA Section 3b.\r\n\r\n2. Detailed Scope\r\n2.1 Supply of Materials\r\nThe Contractor shall supply:\r\n•\tSteel sheet piles in various profile sizes, complete with corrosion protection and cut to length requirements.  \r\n2.2 Installation of Sheet Piles\r\nThe Contractor shall undertake:\r\n•\tPile installation works including driving, vibration, pre drilling, cutting, interlock connections, tie rods, waling and bracing systems. \r\n•\t Removal of sheet piles upon completion of works. \r\n2.3 Associated Works\r\nThe Contractor shall complete associated activities including:\r\n•\tPile guide frames\r\n•\tDewatering screens\r\n•\tStructural support components\r\n2.4 Pre Construction & Site Activities\r\nActivities include:\r\n•\tMobilisation and site establishment\r\n•\tSetting out\r\n•\tQA testing\r\n•\tPreparation of record drawings and certification\r\n2.5 Coordination Requirements\r\nThe Contractor shall coordinate with related project disciplines including foundations, drainage and earthworks teams. \r\n________________________________________\r\n3. Standards & Compliance\r\nAll works must be carried out in accordance with:\r\n•\tBD 21/01\r\n•\tNational Highways Specification\r\n•\tRelevant BS/EN/Eurocode standards\r\n•\tCDM Regulations\r\n\r\n________________________________________\r\n4. Key Supplier Requirements\r\nThe Contractor must:\r\n•\tDemonstrate capability to manage CDM and SHES risks \r\n•\tProvide method statements, vibration and noise mitigation plans \r\n•\tCoordinate closely with Temporary Works Designers\r\n•\tCollaborate with the Balfour Beatty site and engineering teams \r\n•\tSubmit all required QA documentation, including testing and certification evidence \r\n________________________________________\r\n5. Procurement & Delivery Model (Informational Context Only)\r\nA competitive tender process will be conducted to select a single supply and install partner for consistency, scalability an",
+    "budget_eur": 5850,
+    "deadline": "2026-03-06",
+    "relevance_score": 34.2,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 36.0,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d01423b9-4a9c-4c91-805d-4e080514de72-885018",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-02-21",
+    "scored_at": "2026-02-21T06:41:46.331852",
+    "last_updated": "2026-02-21T06:41:46.331854",
+    "added_date": "2026-02-21",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-21T06:41:46.331859",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e95774676839",
+    "rfp_title": "CA17253 - RFQ 2025/62 - PEACEPLUS Cross-community Festival Programme Celebrating Languages Together",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Newry Mourne & Down District Council's PEACEPLUS Action Plan includes the delivery of Collaborative Interaction Programmes under Strand 2 - Thriving and Peaceful Communities. Strand 2 focuses on eight identified priority projects encompassing a broad range of initiatives focused on capacity building, leadership development, cross community relationship building interaction and engagement, social and emotional support, events and festivals and community justice interventions.\r\n\r\nUnder the programme area of Events & Festivals designed to celebrate the area's diverse range of communities, arts and cultures a range of cross-community festivals will be delivered celebrating the diverse range of language communities\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17253.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17253 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+    "budget_eur": null,
+    "deadline": "2026-03-20",
+    "relevance_score": 44.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "ddc91a92-1d67-476b-ba02-82509f4f6b26-884970",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-21",
+    "scored_at": "2026-02-21T06:41:46.332828",
+    "last_updated": "2026-02-21T06:41:46.332829",
+    "added_date": "2026-02-21",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-21T06:41:46.332833",
         "by": "scanner"
       }
     ],
