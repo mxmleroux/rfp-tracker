@@ -610,5 +610,181 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-d60481f428fa",
+    "rfp_title": "ITT UNDER FRAMEWORK RM6360 LOT 1 - ICF Legal Service 2026",
+    "issuing_entity": "DESNZ",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Department for Energy Security and Net Zero (DESNZ) is seeking to re-procure its legal support services contract through via the framework. The initial contract value is estimated at £800,000 (excl. VAT) for 2 years with two one-year extension options, each with a value of £400,000.\r\n\r\nDESNZ requires a Supplier to provide legal advice and support for the development and delivery of its International Climate Finance (ICF) portfolio of programmes. This support will be required on an ad hoc and project-specific basis, complementing the legal advice currently obtained through the Government Legal Department.\r\n\r\nThe Supplier will be expected to provide expertise in foreign, corporate, and commercial law, particularly in areas where DESNZ lacks specialist legal expertise or capacity through the Government Legal Department. This includes drafting legally binding contracts and funding arrangements governed by foreign law, advising on complex commercial or financial investment vehicles, and providing guidance on non-legally binding arrangements with international organisations.\r\n\r\nAdditionally, the Supplier will provide knowledge sharing - and develop guidance documentation in cases of common issues - for DESNZ staff on common legal issues. This will enable DESNZ staff to make informed assessments of legal risk when drafting project business cases or amendments to template terms and conditions, prior to review by the Supplier or the Government Legal Department. The Supplier will also provide updates on upcoming changes in law affecting ICF programmes.",
+    "budget_eur": 936000,
+    "deadline": "2026-03-19",
+    "relevance_score": 42.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 70.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "2a17778b-9c16-4b80-a09d-6c6f6560bc26-885385",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-24",
+    "scored_at": "2026-02-24T07:00:27.727745",
+    "last_updated": "2026-02-24T07:00:27.727746",
+    "added_date": "2026-02-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-24T07:00:27.727751",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-171a7b985073",
+    "rfp_title": "Manchester International Airport - Compound Set Up Electrical",
+    "issuing_entity": "Kier Transportation - CP7 NWC",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "\"The planned introduction of longer train services to the Airport in response to future demand growth will mean that double stacking arrangements of trains as currently used will no longer be viable. Through the project's Delivery Steering Group, Northern and TransPennine Express have carried out analysis which has identified that additional platform capacity is needed at the airport in order to realise the full benefit of longer train services serving the airport.\r\n      \r\n      The scheme is part of a package of proposed measures in the Manchester area that are being designed/planned to boost capacity and resilience, emanating from the Cross Manchester Capacity and Reliability Improvement Study. Improving the operation of train services in the centre of Manchester and providing further capacity at Manchester Airport station, aligns with the strategic aims of Network Rail, TfGM, TfN and the wider industry.  This project in in Tranche 1 of the Manchester and North West Transformation Programme (MNTP):\r\n       \r\n      A remodelling of the station at Manchester Airport, specifically a platform addition or extension of multiple platforms, or provision of a new turnback facility, will be essential to accommodate the planned implementation of longer rolling stock services.\r\n           \r\n      The redevelopment of these platforms will enable permissive working of two 6x24m (144m) trains, in two of the four platforms at the Airport Station. This will allow for the unaltered retention of all existing TOC services both originating and terminating at the Airport Station under 'double-stacking' conditions.\r\n      \r\n      The scope areas for this package are as follows:\r\n      •  Electrical install ready for Electricty North West power connection for cabin installation\r\n      •  Lighting cable diversion works and any survey works in associated with this\r\n      •  Installing lights on the cabins/storage areas\r\n      •  Lights on the hoarding at woodhouse lane\r\n      •  Install P",
+    "budget_eur": 117000,
+    "deadline": "2026-03-13",
+    "relevance_score": 47.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 48.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "3c39a9d6-36c5-40ff-a9cb-38676ea3d483-885306",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-24",
+    "scored_at": "2026-02-24T07:00:27.729765",
+    "last_updated": "2026-02-24T07:00:27.729767",
+    "added_date": "2026-02-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-24T07:00:27.729772",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
