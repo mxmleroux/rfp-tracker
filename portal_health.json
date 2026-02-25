@@ -1,125 +1,125 @@
 {
-  "last_updated": "2026-02-24T07:25:11.621898",
+  "last_updated": "2026-02-25T07:24:58.794328",
   "portals": {
     "ungm": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "ireland": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "austria": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "germany": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "simap": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "hilma": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "doffin": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "tenderned": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "worldbank": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "boamp": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "wales": {
       "status": "healthy",
       "consecutive_zeros": 0,
-      "last_success": "2026-02-24T07:25:11.600671",
+      "last_success": "2026-02-25T07:24:58.774774",
       "last_error": null,
       "last_run_count": 1,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "scotland": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "uk": {
       "status": "healthy",
       "consecutive_zeros": 0,
-      "last_success": "2026-02-24T07:25:11.597808",
+      "last_success": "2026-02-25T07:24:58.771556",
       "last_error": null,
       "last_run_count": 2,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "ted": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     },
     "sam": {
       "status": "unhealthy",
-      "consecutive_zeros": 14,
+      "consecutive_zeros": 15,
       "last_success": null,
       "last_error": null,
       "last_run_count": 0,
-      "total_runs_checked": 14
+      "total_runs_checked": 15
     }
   }
 }

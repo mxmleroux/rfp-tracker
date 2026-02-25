@@ -786,5 +786,180 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-125a06325738",
+    "rfp_title": "Essenz Perfusion Systems x 3",
+    "issuing_entity": "Hull University Teaching Hospitals NHS Foundation Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Essenz Perfusion Systems x 3 for the Perfusion Dept CHH via capital allocation utilising the nhssc framework 2020/S 185-447943",
+    "budget_eur": 47479,
+    "deadline": "2026-06-25",
+    "relevance_score": 50.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: university, foundation",
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9b8b4e0c-95d7-45e2-9852-1003b8eac1ae-885567",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-25",
+    "scored_at": "2026-02-25T07:02:14.903135",
+    "last_updated": "2026-02-25T07:02:14.903137",
+    "added_date": "2026-02-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-25T07:02:14.903142",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-81a9e293651d",
+    "rfp_title": "REFURBISHMENT OF 11 ST THOMAS SQUARE, Ryde , Isle of Wight",
+    "issuing_entity": "Ryde Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Ryde Town Council has acquired the former NatWest Bank building, now known as St Thomas' Square, as part of its commitment to the regeneration of the town and the effective use of local assets. The property is to be refurbished and converted into council offices, providing improved accommodation to support the delivery of Council services. The proposed works will enhance the condition of this landmark building whilst providing  functionality and long-term sustainability for the building, ensuring it is fit for purpose and capable of meeting current and future operational needs. \r\n\r\nThe works comprise of a complete internal refurbishment of the building. The refurbishment includes the installation of new heating and electrical systems, incorporating solar panel provision, together with associated controls and infrastructure. The scope of works also includes (BUT IS NOT LIMITED TO) the provision of additional toilet facilities with new sanitary ware, new roof coverings, the installation of a wheelchair lift, and the formation of meeting rooms designed to support modern office use. All works are to be carried out to current standards and regulations, ensuring the accommodation is safe, accessible, energy-efficient and fit for purpose.  The full specification of the contract can be found in the attached documentation.",
+    "budget_eur": 321750,
+    "deadline": "2026-03-09",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 29.8,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "65dcb3b0-db67-4449-8d8d-76da2eed7802-885556",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-25",
+    "scored_at": "2026-02-25T07:02:14.903787",
+    "last_updated": "2026-02-25T07:02:14.903789",
+    "added_date": "2026-02-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-25T07:02:14.903793",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
