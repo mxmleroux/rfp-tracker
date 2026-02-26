@@ -961,5 +961,446 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-9c490b0b1d55",
+    "rfp_title": "BPA Capital Programme CH1-3 and HR1-3",
+    "issuing_entity": "Britten Pears Arts",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Various building and services works, including acoustic, technical equipment and accessibility enhancements (new lift and lift refurbishments) and internal\r\nalterations to Snape Maltings Concert Hall. \r\nAlterations to existing energy centre to facilitate greater\r\nuse of sustainable heating and the provision of solar PV on roofs of the Hoffmann, the Winch Gallery and Flat Roofs adjacent to the Concert Hall. Procured through an initial Pre Qualification Questionnaire and then short listing to a competitive tender process.\r\n\r\nThe works proposed comprise the following:\r\n\r\nConcert Hall (CH1 and CH2)\r\n\r\nCH1: Acoustic treatment to Concert Hall, installation of retractable banners\r\nCH1: Performance Technical equipment upgrades and replacement (stage and house lighting, rigging systems, assisted listening)\r\nCH1: roof covering replacement and insulation on South, East & West faces;  high level maintenance of \"bluffs\", structural repair / strengthening\r\nCH2: refurbishment of WCs, fabric repairs (brickwork)\r\nCH2: ventilation improvements inc. new AHU; new lighting\r\nCH2: refurbishment of two existing lifts, one new platform lift\r\nCH2: remodelling of Discovery Centre for future exhibition space\r\n\r\nNB: audience seating improvements as a separate, client-led project, CH3 will have a dirrect interface and attendances requirements\r\n\r\nHeating and Renewables (HR1, HR2 and HR3)\r\n\r\nHR1: consolidation of Energy Centre boilers, new District Heating and Cooling pipework\r\nHR2: Photovoltaic panels to Concert Hall lower south roof, Hoffmann building roof\r\nHR3: new site wide Building Management System (BMS)\r\n\r\nThe works have Planning and Listed Building Consent.\r\n\r\nProject Manager / Contract Administrator\t\tGardiner & Theobald\r\nArchitect\t\t\t\t\t\t                                        de Matos Ryan\r\nStructural / Civil Engineer\t\t\t\t                        Price & Myers\r\nBuilding Services Engineer\t\t\t\t                Ingleton Wood\r\nTheatre Specialist & Acoustician\t\t\t                Charcoalblue\r\nQS\t\t\t\t",
+    "budget_eur": 4095000,
+    "deadline": "2026-03-25",
+    "relevance_score": 50.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 4.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 4,
+        "max": 25,
+        "strong_matches": [
+          "district heating"
+        ],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "bd6fde83-a760-4f83-b137-cffe975e6cd8-885673",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-26",
+    "scored_at": "2026-02-26T07:00:26.081847",
+    "last_updated": "2026-02-26T07:00:26.081849",
+    "added_date": "2026-02-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-26T07:00:26.081854",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ada024e43d02",
+    "rfp_title": "FDIS - Chepstow External Refurbishments to 84 properties - FY2026/27 - Amey Central Region - West",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - West\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace roof main dwelling\r\n\r\n•\tNew fascias, soffits & RWG\r\n\r\n•\tSwan neck SVP\r\n\r\n•\tChimney removal & Fireplaces to be blocked up\r\n\r\n•\tFireplace & Hearth removal\r\n\r\n•\tExternal Lighting\r\n\r\n•\tExtract fans\r\n\r\n•\tDedicated On Site Liaison Officer (OSLO)\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, comp lete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement",
+    "budget_eur": 5265000,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f90d23fa-eb27-43ac-a6e5-333f76e44284-885861",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-02-26",
+    "scored_at": "2026-02-26T07:00:26.083623",
+    "last_updated": "2026-02-26T07:00:26.083624",
+    "added_date": "2026-02-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-26T07:00:26.083629",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-36445fdf9e92",
+    "rfp_title": "FDIS - Airdrie External Refurbishments to 6 properties - FY2026/27 - Amey North Region - Scotland",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "North Region - Scotland\r\n\r\nBrief scope of works:\r\n\r\n•\tReplace D&W\r\n\r\n•\tAdd handrails\r\n\r\n•\tItemised external works\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the \r\nRegional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, comp lete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services.\r\nNote 4: For complex projects such as External Wall Insulation installation, Structural works etc. it",
+    "budget_eur": 407160,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1e9c8d22-581d-47b0-97fb-bf2a4c25a7a5-885852",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-02-26",
+    "scored_at": "2026-02-26T07:00:26.084536",
+    "last_updated": "2026-02-26T07:00:26.084537",
+    "added_date": "2026-02-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-26T07:00:26.084542",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-8e502c7e97c0",
+    "rfp_title": "People Services Enterprise Platform",
+    "issuing_entity": "Central London Community Healthcare NHS Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This RFI seeks information from vendors regarding a HR/L&D and OD Enterprise platform (with CRM, Service Desk, Automated GenAI support, Forms/Workforces, intelligent automation/Agentic AI and single UI for all core connected systems) and the underlying data infrastructure/architecture (data layer to extract and transform/ write back into core People systems (multiple instances) and a cloud based data storage/processing layer) to inform a potential future procurement. Responses will be used to understand market capabilities, implementation approaches, pricing models, interoperability, security/compliance, and support options. This is not a tender and no award will be made based on responses. The responses will inform a Business Case to move forward to a tendering process.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "570d4981-a013-4654-904f-b6c38ce2b53d-885854",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-26",
+    "scored_at": "2026-02-26T07:00:26.084956",
+    "last_updated": "2026-02-26T07:00:26.084957",
+    "added_date": "2026-02-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-26T07:00:26.084961",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-703a83c33efd",
+    "rfp_title": "FDIS - Wattisham External Refurbishment to 43 properties - FY2026/27 - Amey Central Region - East",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Brief Scope of Works\r\n\r\n•\tNew roof coverings\r\n•\tNew store roof coverings\r\n•\tFull EWI\r\n•\tSingle Coat render to stores and adjoining wall\r\n•\tNew D&W\r\n•\tExternal lighting/doorbells\r\n•\tNew fascia/soffit/RWG\r\n•\tAssociated Boilers\r\n•\tMonopitch canopies\r\n•\tSwan neck SVP at roofline\r\n•\tChimney removal\r\n•\tPrivacy brick walls and wire fence removal and timber fence replacement\r\n•\tRotary Clothes Dryers\r\n•\tDedicated On Site Liaison Officer\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the RAM Service for the Central Region.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a CSR policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to ADS Ts & Cs, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be re",
+    "budget_eur": 5265000,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d4d1df84-f862-48bd-86da-4a2a2e985eed-885822",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-02-26",
+    "scored_at": "2026-02-26T07:00:26.086481",
+    "last_updated": "2026-02-26T07:00:26.086482",
+    "added_date": "2026-02-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-26T07:00:26.086487",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
