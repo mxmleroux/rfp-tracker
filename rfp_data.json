@@ -707,8 +707,8 @@
     "market": "UK + Ireland",
     "description": "\"The planned introduction of longer train services to the Airport in response to future demand growth will mean that double stacking arrangements of trains as currently used will no longer be viable. Through the project's Delivery Steering Group, Northern and TransPennine Express have carried out analysis which has identified that additional platform capacity is needed at the airport in order to realise the full benefit of longer train services serving the airport.\r\n      \r\n      The scheme is part of a package of proposed measures in the Manchester area that are being designed/planned to boost capacity and resilience, emanating from the Cross Manchester Capacity and Reliability Improvement Study. Improving the operation of train services in the centre of Manchester and providing further capacity at Manchester Airport station, aligns with the strategic aims of Network Rail, TfGM, TfN and the wider industry.  This project in in Tranche 1 of the Manchester and North West Transformation Programme (MNTP):\r\n       \r\n      A remodelling of the station at Manchester Airport, specifically a platform addition or extension of multiple platforms, or provision of a new turnback facility, will be essential to accommodate the planned implementation of longer rolling stock services.\r\n           \r\n      The redevelopment of these platforms will enable permissive working of two 6x24m (144m) trains, in two of the four platforms at the Airport Station. This will allow for the unaltered retention of all existing TOC services both originating and terminating at the Airport Station under 'double-stacking' conditions.\r\n      \r\n      The scope areas for this package are as follows:\r\n      •  Electrical install ready for Electricty North West power connection for cabin installation\r\n      •  Lighting cable diversion works and any survey works in associated with this\r\n      •  Installing lights on the cabins/storage areas\r\n      •  Lights on the hoarding at woodhouse lane\r\n      •  Install P",
     "budget_eur": 117000,
-    "deadline": "2026-03-13",
-    "relevance_score": 47.6,
+    "deadline": "2026-02-27",
+    "relevance_score": 42.8,
     "win_probability": "Medium",
     "feature_alignment_score": 1.0,
     "geographic_fit_score": 100,
@@ -763,7 +763,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "consulting_with_platform",
-    "deadline_status": "closing_soon",
+    "deadline_status": "expired",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "3c39a9d6-36c5-40ff-a9cb-38676ea3d483-885306",
@@ -774,7 +774,7 @@
     },
     "date_found": "2026-02-24",
     "scored_at": "2026-02-24T07:00:27.729765",
-    "last_updated": "2026-02-24T07:00:27.729767",
+    "last_updated": "2026-02-27",
     "added_date": "2026-02-24",
     "status": "New",
     "notes": "",
@@ -1398,6 +1398,94 @@
       {
         "status": "New",
         "date": "2026-02-26T07:00:26.086487",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-38724b0554ee",
+    "rfp_title": "FDIS - Cosford External Refurbishments to 23 properties - FY2026/27 - Amey Central Region - West",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - West\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace D&W\r\n\r\n•\tItemised electrical works\r\n\r\n•\tShared On Site Liaison Officer role\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services.\r\nNote 4: For complex projects such as External Wall Insulation installation, Struct",
+    "budget_eur": 1017900,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "08387e59-932a-4d9c-b904-6f1fb5d6d53d-886107",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-02-27",
+    "scored_at": "2026-02-27T06:54:35.552626",
+    "last_updated": "2026-02-27T06:54:35.552627",
+    "added_date": "2026-02-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-27T06:54:35.552632",
         "by": "scanner"
       }
     ],
