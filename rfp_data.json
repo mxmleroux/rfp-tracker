@@ -776,7 +776,7 @@
     "scored_at": "2026-02-24T07:00:27.729765",
     "last_updated": "2026-02-27",
     "added_date": "2026-02-24",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -785,7 +785,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-125a06325738",
@@ -1486,6 +1486,264 @@
       {
         "status": "New",
         "date": "2026-02-27T06:54:35.552632",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-891a9ca9f435",
+    "rfp_title": "Supply of Night Vision Monoculars Echo White Phosphor",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of Night Vision Monoculars Echo White Phosphor.\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nFor any enquiries an interest, please email defence.support@unite.eu with the subject title ''TSS 619 Night vision Monoculars Echo White Phosphor.''",
+    "budget_eur": 234000,
+    "deadline": "2026-03-13",
+    "relevance_score": 49.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a10f8d5b-529b-4cbb-adec-b715500b3423-886350",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-28",
+    "scored_at": "2026-02-28T06:38:39.742225",
+    "last_updated": "2026-02-28T06:38:39.742226",
+    "added_date": "2026-02-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-28T06:38:39.742231",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-772f07f42aa2",
+    "rfp_title": "Supply of Traditional, non-Functioning Field Display Equipment",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of traditional, non- functioning field display equipment. \r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nFor any enquiries an interest, please email defence.support@unite.eu with the subject title ''TSS 602 supply of traditional, non- functioning field display equipment.''",
+    "budget_eur": 117000,
+    "deadline": "2026-03-13",
+    "relevance_score": 49.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "ccc9dd10-b4d9-4130-9a3b-a819593b868b-886349",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-28",
+    "scored_at": "2026-02-28T06:38:39.743008",
+    "last_updated": "2026-02-28T06:38:39.743009",
+    "added_date": "2026-02-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-28T06:38:39.743014",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4b9c41e569ec",
+    "rfp_title": "Supply of a Secure Equipment Storage System",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of a secure equipment storage system.  \r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nFor any enquiries an interest, please email defence.support@unite.eu with the subject title ''TSS 616 Secure Equipment Storage System''",
+    "budget_eur": 1170000,
+    "deadline": "2026-03-13",
+    "relevance_score": 46.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "ed2528c4-3200-40b1-93e5-c67e1e72b353-886347",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-02-28",
+    "scored_at": "2026-02-28T06:38:39.743738",
+    "last_updated": "2026-02-28T06:38:39.743739",
+    "added_date": "2026-02-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-02-28T06:38:39.743743",
         "by": "scanner"
       }
     ],
