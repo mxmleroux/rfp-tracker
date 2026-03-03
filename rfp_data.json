@@ -162,7 +162,7 @@
     "scored_at": "2026-02-17T06:59:23.040166",
     "last_updated": "2026-02-17T06:59:23.040168",
     "added_date": "2026-02-17",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -171,7 +171,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-1c6766340ab7",
@@ -338,7 +338,7 @@
     "scored_at": "2026-02-18T07:01:39.680726",
     "last_updated": "2026-03-02",
     "added_date": "2026-02-18",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -347,7 +347,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-0e3b47244535",
