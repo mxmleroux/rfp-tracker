@@ -1748,5 +1748,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-8bf30b9752fc",
+    "rfp_title": "RFI0071 - The Target Acquisition, Localisation & Operational Neutralisation of UAS",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Royal Navy requires a rapidly procured and installable Counter UAS capability suitable for maritime platforms to detect, track, identify, and defeat airborne threats.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "96ef0145-f441-4a38-a8af-0ac0c5aae723-886868",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-03-04",
+    "scored_at": "2026-03-04T06:48:06.467341",
+    "last_updated": "2026-03-04T06:48:06.467342",
+    "added_date": "2026-03-04",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-04T06:48:06.467362",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
