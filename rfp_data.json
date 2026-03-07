@@ -8,7 +8,7 @@
     "description": "ECW, on behalf of and in coordination with Cheshire West and Chester, Cheshire East, and Warrington Borough Councils, is seeking to appoint consultancy support to produce a Cheshire and Warrington Outline Energy Plan;  providing the evidence base to support  local growth ambitions and investment pipeline development, support future spatial development work in Cheshire and Warrington, and support engagement in the NESO Regional Energy Strategic Planning (RESP) process. This commission will provide a strong local evidence base for current and future demand, and build the case for investment in energy infrastructure to support both local growth ambitions and commitments in our Sustainable and Inclusive Economic Strategy to support the local energy transition and government ambitions for Clean Power by 2030.\r\n\r\nClean Energy is one vital component of Cheshire and Warrington growth ambitions, with unique existing (e.g. VisNet, Gas Storage Facilities) and upcoming (e.g. HyNet, HALEU) infrastructure providing substantial opportunities for us to pioneer approaches to clean power and industrial decarbonisation. This infrastructure will support wider growth opportunities, ensuring that Cheshire and Warrington is an attractive location for housing growth, business development, and reindustrialisation.  To better grasp this opportunity, it is vital we:\r\n1.\tBetter understand our baseline energy demand.\r\n2.\tHave access to light-touch scenario planning to anticipate the likely changes to generation and demand over the next 5-10 years.\r\n3.\tCan clearly and consistently produce early evidence for RESP, DSO, and NGET to secure strategic reinforcement to grid.\r\n4.\tUnderstand the integration of different energy transition vectors across the C&W landscape.\r\n5.\tCan drive investment to strategically vital energy projects in Cheshire and Warrington that support wider economic development.\r\nThis commission will provide the foundation for attracting inward investment in Cheshire and Warrington",
     "budget_eur": 87750,
     "deadline": "2026-03-11",
-    "relevance_score": 47.2,
+    "relevance_score": 42.0,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -61,7 +61,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "unknown",
-    "deadline_status": "open",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "31762c28-4ad8-4918-9b9a-4365b1d83bac-884163",
@@ -72,7 +72,7 @@
     },
     "date_found": "2026-02-17",
     "scored_at": "2026-02-17T06:59:23.038462",
-    "last_updated": "2026-02-17T06:59:23.038463",
+    "last_updated": "2026-03-07",
     "added_date": "2026-02-17",
     "status": "New",
     "notes": "",
@@ -514,7 +514,7 @@
     "scored_at": "2026-02-21T06:41:46.331852",
     "last_updated": "2026-02-23",
     "added_date": "2026-02-21",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -523,7 +523,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e95774676839",
@@ -2536,6 +2536,360 @@
       {
         "status": "New",
         "date": "2026-03-06T06:50:34.629054",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-91a635515b2a",
+    "rfp_title": "Staffed scanning service at St Richards - relocatable MRI",
+    "issuing_entity": "University Hospitals Sussex NHS Foundation Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Trust is seeking to conduct a Further Competition for a Contract for the Supply of a staffed, MRI scanning service situated at St Richards, Chichester, West Sussex.\r\n\r\nAdditional information: \r\nThe Further Competition is open to capable suppliers under Framework Agreement for Managed Equipment and Clinical Service Solutions, reference 2021/S 000-032144, Lot 1 - Short to Medium Term Clinical Service Solutions\r\nThe Further Competition will be managed by the Framework Providers, NHS Supply Chain. Please conduct all communication via mecss@supplychain.nhs.uk\r\n\r\nTo express interest and participate in the tender, please contact mecss@supplychain.nhs.uk",
+    "budget_eur": 1850706,
+    "deadline": "2026-03-25",
+    "relevance_score": 46.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 52.0,
+    "competitive_score": 70,
+    "strategic_value_score": 27.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: university, foundation"
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "b0f886e5-2d23-4273-8d19-1225266e73e0-887602",
+    "procurement_process": {
+      "type": "Framework Agreement",
+      "rounds": "Multiple call-offs",
+      "details": [
+        "Framework with potential mini-competitions"
+      ]
+    },
+    "date_found": "2026-03-07",
+    "scored_at": "2026-03-07T06:40:35.279363",
+    "last_updated": "2026-03-07T06:40:35.279365",
+    "added_date": "2026-03-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-07T06:40:35.279370",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-7af3dc11cbfe",
+    "rfp_title": "FDIS - Leuchars External Refurbishments to 7 properties - FY2026/27 - Amey North Region - Scotland",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "North Region - Scotland\r\n\r\nExternal Refurbishments, scope of works likely to include:\r\n\r\n•\tReplace Doors and Windows\r\n\r\n•\tReplace Roof\r\n\r\n•\tPotential for External Wall Insulation\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services.\r\nNote 4: For complex projects such as E",
+    "budget_eur": 5265000,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "6d9956be-ca6e-4aff-9e18-7c814a1f7291-887539",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-03-07",
+    "scored_at": "2026-03-07T06:40:35.281535",
+    "last_updated": "2026-03-07T06:40:35.281537",
+    "added_date": "2026-03-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-07T06:40:35.281541",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-bc7a47244269",
+    "rfp_title": "FDIS - Valley External Refurbishments to 6 properties - FY2026/27 - Amey North Region - Wales",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "North Region - Wales\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace D&W\r\n\r\n•\tReplace Roof\r\n\r\n•\tPotential for External Wall Insulation\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services.\r\nNote 4: For complex projects such as External Wall Insulation installation, Structural works ",
+    "budget_eur": 1017900,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "54c4dfeb-863f-48c2-a103-30eb0e73d5fe-887529",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-03-07",
+    "scored_at": "2026-03-07T06:40:35.282873",
+    "last_updated": "2026-03-07T06:40:35.282874",
+    "added_date": "2026-03-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-07T06:40:35.282879",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-2d95397df380",
+    "rfp_title": "FDIS - Catterick External Refurbishments to 34 properties - FY2026/27 - Amey North Region - Northern England",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "North Region - Northern England\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace main roof\r\n•\tUpgrade loft insulation\r\n•\tReplace existing FSG\r\n•\tReplace canopies\r\n•\tRemove chimneys\r\n•\tDecorate timber doors and frame to single storey extension/outbuilding\r\n•\tDedicated full-time On-Site Liaison Officer\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, comp lete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where '",
+    "budget_eur": 5265000,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "7006938b-fa76-43d5-bcb1-db1a025e3550-887524",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-03-07",
+    "scored_at": "2026-03-07T06:40:35.283759",
+    "last_updated": "2026-03-07T06:40:35.283760",
+    "added_date": "2026-03-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-07T06:40:35.283764",
         "by": "scanner"
       }
     ],
