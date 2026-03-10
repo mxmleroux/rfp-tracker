@@ -884,8 +884,8 @@
     "market": "UK + Ireland",
     "description": "Ryde Town Council has acquired the former NatWest Bank building, now known as St Thomas' Square, as part of its commitment to the regeneration of the town and the effective use of local assets. The property is to be refurbished and converted into council offices, providing improved accommodation to support the delivery of Council services. The proposed works will enhance the condition of this landmark building whilst providing  functionality and long-term sustainability for the building, ensuring it is fit for purpose and capable of meeting current and future operational needs. \r\n\r\nThe works comprise of a complete internal refurbishment of the building. The refurbishment includes the installation of new heating and electrical systems, incorporating solar panel provision, together with associated controls and infrastructure. The scope of works also includes (BUT IS NOT LIMITED TO) the provision of additional toilet facilities with new sanitary ware, new roof coverings, the installation of a wheelchair lift, and the formation of meeting rooms designed to support modern office use. All works are to be carried out to current standards and regulations, ensuring the accommodation is safe, accessible, energy-efficient and fit for purpose.  The full specification of the contract can be found in the attached documentation.",
     "budget_eur": 321750,
-    "deadline": "2026-03-09",
-    "relevance_score": 43.5,
+    "deadline": "2026-03-13",
+    "relevance_score": 42.0,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -938,7 +938,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "65dcb3b0-db67-4449-8d8d-76da2eed7802-885556",
@@ -949,9 +949,9 @@
     },
     "date_found": "2026-02-25",
     "scored_at": "2026-02-25T07:02:14.903787",
-    "last_updated": "2026-02-25T07:02:14.903789",
+    "last_updated": "2026-03-10",
     "added_date": "2026-02-25",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -960,7 +960,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-9c490b0b1d55",
@@ -2890,6 +2890,363 @@
       {
         "status": "New",
         "date": "2026-03-07T06:40:35.283764",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-a712c9a3b238",
+    "rfp_title": "2070 NICOR Consultancy Support for NHS Arden & GEM CSU",
+    "issuing_entity": "NHS Arden and Greater East Midlands Commissioning Support Unit",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Provision of NICOR Consultancy Support for NHS Arden & GEM CSU.\r\n\r\nWe are seeking a UK-based organisation to provide consultancy services relating to the co-production of the NCAP annual reports.\r\nThe successful supplier will be required to undertake a detailed analysis of the work required to support the audit programme, including reading and gaining an in-depth understanding of the care provided by the individual sub-specialty domains of the NCAP, the quality improvement metrics used, the analytical outputs, and the methods used to provide these. The supplier should demonstrate they are adept at the use of graphics packages and especially the use of those available through Microsoft Power BI. The supplier should demonstrate a knowledge of key clinical reference materials and an ability to provide clear methods of messaging, summarising lessons learnt, recommendations and key messages. The supplier should demonstrate the ability of ensuring consistency with previous years' reports. The preparatory work will need to be undertaken ahead of the annual report delivery and the deliverables managed within the agreed time scales.\r\n\r\n\r\nTo register your interest, please follow the link below, and search for the project reference as detailed: https://health-family.force.com/s/Welcome\r\nProject Reference: C429777\r\nProject Name: 2022 NICOR Consultancy Support for NHS Arden & GEM CSU.\r\n\r\nAdditional information: \r\nTo express interest and participate in the tender, please register and apply via Atamis e-sourcing portal https://health-family.force.com/s/Welcome.\r\n\r\nShould Tenderers have any queries, or having problems using the portal, they should contact Helpdesk at:\r\n\r\nPhone: 0800 9956035\r\n\r\nE-mail: support-health@atamis.co.uk",
+    "budget_eur": 35100,
+    "deadline": "2026-04-07",
+    "relevance_score": 49.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "metrics"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "47b9bc72-3726-4ea6-a204-adde01797bfa-887812",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-03-10",
+    "scored_at": "2026-03-10T06:50:59.933423",
+    "last_updated": "2026-03-10T06:50:59.933425",
+    "added_date": "2026-03-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-10T06:50:59.933430",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-8f70ee527c5b",
+    "rfp_title": "RSPB Waste Management Request for Information",
+    "issuing_entity": "ROYAL SOCIETY FOR THE PROTECTION OF BIRDS",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "We are looking for a waste management partner for our operations across the four countries of the UK. We would like a partner who will utilise their sector expertise to highlight where we can improve and together deliver innovative waste management.\r\nThis partnership will help us minimise our environmental impact and achieve our strategic aims whilst delivering an efficient system for our sites. We want to be a leader in this field within our sector and demonstrate best practice to other organisations, business and our members.\r\nWe want to develop a partnership that benefits both partners and would explore how we can utilise our expertise and organisational capabilities to expand the benefits and improvements beyond waste management.\r\n\r\nWe invite potential suppliers to provide information on how they could work as our waste management partner.\r\nWe are holding a supplier engagement event at RSPB Headquarters UK for you to meet with us, ask questions and explore solutions. \r\nOn:-\r\nTuesday 31st March 2026 10:30 - 14:00\r\nRSPB UKHQ\r\nThe Lodge\r\nSandy\r\nBedfordshire \r\nSG19 2DL\r\nWhat Three Words ///nature.wand.polygraph\r\n\r\nAdditional information: Please confirm your attendance to the Market Engagement session or submit any questions  by emailing Central.Procurement@RSPB.org.uk by Close of Business 25th March 2026",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 37.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: partnership",
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "6a126394-2de9-401e-bc52-ecda21d8363d-887742",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-03-10",
+    "scored_at": "2026-03-10T06:50:59.934175",
+    "last_updated": "2026-03-10T06:50:59.934176",
+    "added_date": "2026-03-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-10T06:50:59.934180",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4328797b39e6",
+    "rfp_title": "FDIS - Honington External Refurbishments to 15 properties - FY2026/27 - Amey Central Region - East",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - East\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace D&W\r\n\r\n•\tReplace Roof\r\n\r\n•\tPotential for External Wall Insulation\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services.\r\nNote 4: For complex projects such as External Wall Insulation installation, Structural works",
+    "budget_eur": 5265000,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "3bec94d1-3d34-4c38-9657-0e39889fe385-887740",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-03-10",
+    "scored_at": "2026-03-10T06:50:59.935633",
+    "last_updated": "2026-03-10T06:50:59.935634",
+    "added_date": "2026-03-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-10T06:50:59.935639",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-eb91f78bf253",
+    "rfp_title": "FDIS - Colchester External Refurbishments to 20 properties - FY2026/27 - Amey Central Region - East",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - East\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace roof main dwelling\r\n•\tNew fascias, soffits & RWG\r\n•\tSwan neck SVP\r\n•\tChimney removal & Fireplaces to be blocked up\r\n•\tFireplace & Hearth removal\r\n•\tExternal Lighting\r\n•\tExtract fans\r\n•\tDedicated On Site Liaison Officer (OSLO)\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to  Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini ",
+    "budget_eur": 5265000,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "3602407a-e78d-4af6-8022-00c073d027dd-887703",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-03-10",
+    "scored_at": "2026-03-10T06:50:59.937361",
+    "last_updated": "2026-03-10T06:50:59.937363",
+    "added_date": "2026-03-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-10T06:50:59.937367",
         "by": "scanner"
       }
     ],
