@@ -74,7 +74,7 @@
     "scored_at": "2026-02-17T06:59:23.038462",
     "last_updated": "2026-03-07",
     "added_date": "2026-02-17",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -83,7 +83,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-4c1a2753c7c5",
