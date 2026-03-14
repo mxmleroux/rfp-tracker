@@ -1566,7 +1566,7 @@
     "scored_at": "2026-02-28T06:38:39.742225",
     "last_updated": "2026-03-01",
     "added_date": "2026-02-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -1575,7 +1575,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-772f07f42aa2",
@@ -1652,7 +1652,7 @@
     "scored_at": "2026-02-28T06:38:39.743008",
     "last_updated": "2026-03-01",
     "added_date": "2026-02-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -1661,7 +1661,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-4b9c41e569ec",
@@ -1738,7 +1738,7 @@
     "scored_at": "2026-02-28T06:38:39.743738",
     "last_updated": "2026-03-01",
     "added_date": "2026-02-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -1747,7 +1747,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-8bf30b9752fc",
@@ -3247,6 +3247,95 @@
       {
         "status": "New",
         "date": "2026-03-10T06:50:59.937367",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-13f2ec55b645",
+    "rfp_title": "FDIS - Demolition of 1 no property at Wyton - FY2026/27 - Amey Central Region - East",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Brief scope of works:\r\n•\tThe safe demolition of an existing Service Family Accommodation (SFA) including foundations/isolation/disconnection of all services.\r\n•\tThe SFA is a 2 semidetached house with tiled roof/suspended timber floor/solid ground floor affected by foundation movement.\r\n•\tThe plot should be reinstated with suitable engineered backfill to allow for safe access and future development. \r\nNote: A Structural Eng has been appointed to provide all necessary assessments/calc/dwgs/tech guidance to ensure the demolition is conducted safely etc.\r\nAmey have been tasked by the DIO through the FDIS to deliver the RAMS.\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Cttrr (essential);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'BSA - Std Construction' must be Verified;\r\n•\tcapable of working in a BIM Level 2 (where applicable);\r\n•\tcompliant with DefStan 05-138;\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Compet",
+    "budget_eur": 407160,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "743c50d7-7fd8-4643-9287-b54dae491654-888522",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-03-14",
+    "scored_at": "2026-03-14T06:45:46.678693",
+    "last_updated": "2026-03-14T06:45:46.678695",
+    "added_date": "2026-03-14",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-14T06:45:46.678700",
         "by": "scanner"
       }
     ],
