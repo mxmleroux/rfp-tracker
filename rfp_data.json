@@ -3340,5 +3340,91 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-36969a6a3aea",
+    "rfp_title": "Boeing Defence UK Cluster Training Programme 2026",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Boeing Defence UK (BDUK) is inviting UK-based Small and Medium Enterprises (SMEs) to express their interest in participating in a free training programme that connects UK SMEs with the UK defence industry. The programme consists of a series of training events and will be conducted in person. Both existing and potential new suppliers to BDUK are welcome to apply.\r\nThe Cluster Training events will take place at Boeing&apos;s Bristol site with opportunity to meet at other Boeing UK or industry sites and will cover a variety of topics delivered by a specialist 3rd Party and Boeing guest speakers. The selected suppliers will complete the ADS Supply Chain Solution (SCS) Baseline Maturity Assessment (BMA), which helps identify the specific development needs of each supplier, curating the training programme according to participant needs.\r\nAttendance to the training events will be free of charge, but any travel costs are to be borne by the participant.\r\nThe Cluster Training also provides the opportunity for support including a follow-up 1-1 session with the BDUK Supply Chain Social Governance team. The exact dates, topics and address will be provided in the formal invitation sent to the attendees.\r\n\r\nAttendees will have the opportunity to learn more about doing business with Boeing and will be provided with a point of contact to support introductions to Boeing.\r\nAttendees can learn more about the benefits of ADS Supply Chain Solutions SC21 and how they can get involved.\r\nAttendees will have the opportunity to arrange follow up sessions with Boeing procurement teams to discuss and showcase their business capabilities.\r\nAttendees will be invited to join the Boeing Capability Assessment Database and be supported with advice on next steps.\r\n\r\nBDUK is particularly interested in hearing from tier 1 and tier 2 UK-based SMEs with capabilities in Maintenance Repair and Overhaul (MRO), Composite Fabrication/Repair, Wiring Bundles, Special processes/treatments, Ground Support Equipmen",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "485e10fe-928f-41f6-98cf-2f251428db48-888762",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-03-17",
+    "scored_at": "2026-03-17T07:04:13.855069",
+    "last_updated": "2026-03-17T07:04:13.855070",
+    "added_date": "2026-03-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-17T07:04:13.855075",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
