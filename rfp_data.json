@@ -3948,5 +3948,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-cc19f51c0523",
+    "rfp_title": "POW-CP-62579 - Provision of General Dental Services - Knighton",
+    "issuing_entity": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Powys Teaching Health Board wishes to receive bids from dental healthcare providers with the necessary capacity and capability (or a demonstrable ability to provide the necessary capacity and capability) to provide the range of services required for NHS General Dental Services.\r\n PLEASE NOTE\r\n All Documents relating to the following tender are available via etenderwales - https://etenderwales.bravosolution.co.uk/web/login.shtml\r\n ITT REF: itt_123969",
+    "budget_eur": 2925000,
+    "deadline": "2026-04-23",
+    "relevance_score": 46.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Sell2Wales",
+    "source_url": "https://www.sell2wales.gov.wales/Search/Search_Switch.aspx?ID=ocds-kuma6s-163419-release-163419",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-03-27",
+    "scored_at": "2026-03-27T07:07:34.431237",
+    "last_updated": "2026-03-27T07:07:34.431239",
+    "added_date": "2026-03-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-27T07:07:34.431244",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
