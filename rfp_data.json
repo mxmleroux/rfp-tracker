@@ -3938,7 +3938,7 @@
     "scored_at": "2026-03-26T07:08:35.504773",
     "last_updated": "2026-03-26T07:08:35.504774",
     "added_date": "2026-03-26",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3947,7 +3947,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-cc19f51c0523",
@@ -3958,7 +3958,7 @@
     "description": "Powys Teaching Health Board wishes to receive bids from dental healthcare providers with the necessary capacity and capability (or a demonstrable ability to provide the necessary capacity and capability) to provide the range of services required for NHS General Dental Services.\r\n PLEASE NOTE\r\n All Documents relating to the following tender are available via etenderwales - https://etenderwales.bravosolution.co.uk/web/login.shtml\r\n ITT REF: itt_123969",
     "budget_eur": 2925000,
     "deadline": "2026-04-23",
-    "relevance_score": 46.0,
+    "relevance_score": 45.7,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -4024,7 +4024,7 @@
     },
     "date_found": "2026-03-27",
     "scored_at": "2026-03-27T07:07:34.431237",
-    "last_updated": "2026-03-27T07:07:34.431239",
+    "last_updated": "2026-03-28",
     "added_date": "2026-03-27",
     "status": "New",
     "notes": "",
@@ -4032,6 +4032,94 @@
       {
         "status": "New",
         "date": "2026-03-27T07:07:34.431244",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-8397dc415aa6",
+    "rfp_title": "REQUEST FOR INFORMATION - PROJECT HORUS",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Royal Navy requires a rapidly procured and persistent air search capability, suitable for maritime platforms to host on board to detect, track, identify, and report airborne threats. This covers UAS, FGA/FBA and cruise missiles.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e45c4cd2-5f64-4d59-9807-9648f9c22843-890414",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-03-28",
+    "scored_at": "2026-03-28T06:58:47.004410",
+    "last_updated": "2026-03-28T06:58:47.004412",
+    "added_date": "2026-03-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-03-28T06:58:47.004417",
         "by": "scanner"
       }
     ],
