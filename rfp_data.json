@@ -700,94 +700,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-171a7b985073",
-    "rfp_title": "Manchester International Airport - Compound Set Up Electrical",
-    "issuing_entity": "Kier Transportation - CP7 NWC",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "\"The planned introduction of longer train services to the Airport in response to future demand growth will mean that double stacking arrangements of trains as currently used will no longer be viable. Through the project's Delivery Steering Group, Northern and TransPennine Express have carried out analysis which has identified that additional platform capacity is needed at the airport in order to realise the full benefit of longer train services serving the airport.\r\n      \r\n      The scheme is part of a package of proposed measures in the Manchester area that are being designed/planned to boost capacity and resilience, emanating from the Cross Manchester Capacity and Reliability Improvement Study. Improving the operation of train services in the centre of Manchester and providing further capacity at Manchester Airport station, aligns with the strategic aims of Network Rail, TfGM, TfN and the wider industry.  This project in in Tranche 1 of the Manchester and North West Transformation Programme (MNTP):\r\n       \r\n      A remodelling of the station at Manchester Airport, specifically a platform addition or extension of multiple platforms, or provision of a new turnback facility, will be essential to accommodate the planned implementation of longer rolling stock services.\r\n           \r\n      The redevelopment of these platforms will enable permissive working of two 6x24m (144m) trains, in two of the four platforms at the Airport Station. This will allow for the unaltered retention of all existing TOC services both originating and terminating at the Airport Station under 'double-stacking' conditions.\r\n      \r\n      The scope areas for this package are as follows:\r\n      •  Electrical install ready for Electricty North West power connection for cabin installation\r\n      •  Lighting cable diversion works and any survey works in associated with this\r\n      •  Installing lights on the cabins/storage areas\r\n      •  Lights on the hoarding at woodhouse lane\r\n      •  Install P",
-    "budget_eur": 117000,
-    "deadline": "2026-02-27",
-    "relevance_score": 42.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 48.3,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "consulting_with_platform",
-    "deadline_status": "expired",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "3c39a9d6-36c5-40ff-a9cb-38676ea3d483-885306",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-02-24",
-    "scored_at": "2026-02-24T07:00:27.729765",
-    "last_updated": "2026-02-27",
-    "added_date": "2026-02-24",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-02-24T07:00:27.729772",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-125a06325738",
     "rfp_title": "Essenz Perfusion Systems x 3",
     "issuing_entity": "Hull University Teaching Hospitals NHS Foundation Trust",
@@ -3958,7 +3870,7 @@
     "description": "Powys Teaching Health Board wishes to receive bids from dental healthcare providers with the necessary capacity and capability (or a demonstrable ability to provide the necessary capacity and capability) to provide the range of services required for NHS General Dental Services.\r\n PLEASE NOTE\r\n All Documents relating to the following tender are available via etenderwales - https://etenderwales.bravosolution.co.uk/web/login.shtml\r\n ITT REF: itt_123969",
     "budget_eur": 2925000,
     "deadline": "2026-04-23",
-    "relevance_score": 45.3,
+    "relevance_score": 44.9,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -4024,7 +3936,7 @@
     },
     "date_found": "2026-03-27",
     "scored_at": "2026-03-27T07:07:34.431237",
-    "last_updated": "2026-03-29",
+    "last_updated": "2026-03-30",
     "added_date": "2026-03-27",
     "status": "New",
     "notes": "",
