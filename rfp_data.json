@@ -86,94 +86,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-4c1a2753c7c5",
-    "rfp_title": "Invitation to a Preliminary Market Engagement Event - Wrap Around Service",
-    "issuing_entity": "Sandwell Metropolitan Borough Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Sandwell Metropolitan Borough Council (SMBC) are currently exploring options for the future procurement of a Sandwell Wrap Around Service. The primary objective of this service is to reduce hospital delays, prevent unnecessary long-term care placements, improve independence outcomes, and provide coordinated, person-centred support that enables multidisciplinary assessment and intervention to take place in appropriate settings.\r\n      \r\n      The service will deliver a wrap-around model of care, offering 24-hour care and support where required, alongside agreed multidisciplinary team input, for individuals awaiting assessments or longer-term care provision. Support will be tailored to individual need and a safe transition of care.\r\n      \r\n      The service will be provided for people whose assessed level of need can be safely and effectively supported outside of an acute hospital environment and where those needs may not be appropriately met within the individual's own home or usual place of residence without additional coordinated support.\r\n      \r\n      The Sandwell Wrap Around Service will help maintain capacity within the Borough of Sandwell for a short-term, up to 72 hour period, supporting hospital avoidance for individuals living in the community. The service will support people who are medically stable but require further assessment, monitoring, or intervention before a long-term care decision is made.\r\n      \r\n      Eligibility for the service will include adults aged 18 years and over who are residents of Sandwell.\r\n      \r\n      This preliminary market engagement seeks to understand supplier capabilities and challenges, gather feedback, and inform the development of the future procurement of the Sandwell Wrap Around Service.\r\n      \r\n      This will take place on Wednesday 4 March 10am - 11am for all interested organisations.\r\n       \r\n      Please email by Monday 2 March 11am rupi_deo@sandwell.gov.uk your full name, job title, organisation, email address",
-    "budget_eur": null,
-    "deadline": "2026-03-02",
-    "relevance_score": 36.6,
-    "win_probability": "Low",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 33.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "monitoring"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "ed6e3d79-3531-40cb-956b-53b16711f7ae-884130",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-02-17",
-    "scored_at": "2026-02-17T06:59:23.040166",
-    "last_updated": "2026-02-17T06:59:23.040168",
-    "added_date": "2026-02-17",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-02-17T06:59:23.040172",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-1c6766340ab7",
     "rfp_title": "CA17224 - Electronic Payment Methods",
     "issuing_entity": "Crescent Purchasing Consortium Limited",
@@ -256,94 +168,6 @@
       {
         "status": "New",
         "date": "2026-02-18T07:01:39.709931",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-01f1ae794e20",
-    "rfp_title": "Emergency Transfer Ambulance Support for the Helipad Project at Ysbyty Gwynedd",
-    "issuing_entity": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Betsi Cadwaladr University Health Board (BCUHB) is seeking to appoint a single regulated supplier to deliver a dedicated emergency ambulance support service to facilitate patient transfers between the Alternative Landing Site (ALS) and Ysbyty Gwynedd during a temporary helipad infrastructure project.\r\n The requirement is for the provision of a double-crewed Advanced Life Support (ALS) capable emergency ambulance, operating between 09:00 and 23:00, seven (7) days per week, for an anticipated period of 30 weeks. The appointed supplier must ensure the safe and timely transfer of patients conveyed by Helicopter Emergency Medical Services (HEMS), including those presenting with time-critical and high-acuity conditions.\r\n The service must be fully compliant with all relevant regulatory requirements, including HIW registration (or equivalent where applicable), medicines management controls, clinical governance standards and infection prevention requirements. The supplier must demonstrate appropriate staffing competence, operational resilience and integration with local emergency care pathways.",
-    "budget_eur": 146250,
-    "deadline": "2026-03-02",
-    "relevance_score": 40.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 29.8,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "expired",
-    "scoring_config_version": "1.0",
-    "source_portal": "Sell2Wales",
-    "source_url": "https://www.sell2wales.gov.wales/Search/Search_Switch.aspx?ID=ocds-kuma6s-161733-release-161733",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-02-18",
-    "scored_at": "2026-02-18T07:01:39.680726",
-    "last_updated": "2026-03-02",
-    "added_date": "2026-02-18",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-02-18T07:01:39.680733",
         "by": "scanner"
       }
     ],
@@ -4385,6 +4209,92 @@
       {
         "status": "New",
         "date": "2026-04-01T07:20:44.322199",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-5d72ba02cf1d",
+    "rfp_title": "Battery Energy Storage - Knook Camp",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The project is to design, deliver and install a Battery Energy Storage and all supporting infrastructure at Knook Camp on the UK Defence Training Estate (UK DTE).\r\nThe battery energy storage must be designed and installed to exploit the contribution of existing on-site Solar PV energy on site, and maximise return of investment during the first 3 years.\r\nThe objective is to reduce the reliance of energy supply from the National Grid, whilst providing energy resilience and contributing to the MOD&apos;s Net Zero target and the project must be delivered in '26/'27 financial year, within budget.",
+    "budget_eur": 1755000,
+    "deadline": "2026-04-17",
+    "relevance_score": 44.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 40.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1a537841-03b2-4d46-b287-cf9d16bb0a43-891288",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-02",
+    "scored_at": "2026-04-02T07:12:55.571711",
+    "last_updated": "2026-04-02T07:12:55.571713",
+    "added_date": "2026-04-02",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-02T07:12:55.571718",
         "by": "scanner"
       }
     ],

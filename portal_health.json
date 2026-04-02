@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T07:41:20.418498",
+  "last_updated": "2026-04-02T07:33:29.001676",
   "portals": {
     "ungm": {
       "status": "unhealthy",
@@ -82,8 +82,8 @@
       "total_runs_checked": 15
     },
     "wales": {
-      "status": "healthy",
-      "consecutive_zeros": 1,
+      "status": "degraded",
+      "consecutive_zeros": 2,
       "last_success": "2026-03-31T07:35:17.303780",
       "last_error": null,
       "last_run_count": 0,
@@ -100,9 +100,9 @@
     "uk": {
       "status": "healthy",
       "consecutive_zeros": 0,
-      "last_success": "2026-04-01T07:41:20.365969",
+      "last_success": "2026-04-02T07:33:28.955102",
       "last_error": null,
-      "last_run_count": 4,
+      "last_run_count": 1,
       "total_runs_checked": 15
     },
     "ted": {
