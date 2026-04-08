@@ -2622,7 +2622,7 @@
     "scored_at": "2026-03-10T06:50:59.933423",
     "last_updated": "2026-03-10T06:50:59.933425",
     "added_date": "2026-03-10",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -2631,7 +2631,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-8f70ee527c5b",
@@ -3152,7 +3152,7 @@
     "scored_at": "2026-03-18T07:02:13.105415",
     "last_updated": "2026-03-18T07:02:13.105416",
     "added_date": "2026-03-18",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3161,7 +3161,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-c63b4f4665cd",
@@ -4207,6 +4207,96 @@
       {
         "status": "New",
         "date": "2026-04-02T07:12:55.571718",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e9c505b24c84",
+    "rfp_title": "CCS Cyber Security Services 3 (DPS) Stage 1 Capability Assessment",
+    "issuing_entity": "METROPOLITAN POLICE SERVICE",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The filtering and down-selection exercise on the DPS took place on 07/04/2026. Suppliers who were shortlisted as a result have been invited to Stage 1 Capability Assessment on 07/04/26 and received an invite to sourcing event #2337 on COUPA. Suppliers who pass all questions in the Capability Assessment will then be invited to Stage 2, the Invitation to Tender.",
+    "budget_eur": null,
+    "deadline": "2026-04-15",
+    "relevance_score": 34.5,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "eb9d13b8-3a58-49b9-8d56-cb473ca729b3-891711",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step"
+      ]
+    },
+    "date_found": "2026-04-08",
+    "scored_at": "2026-04-08T07:19:50.907042",
+    "last_updated": "2026-04-08T07:19:50.907044",
+    "added_date": "2026-04-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-08T07:19:50.907049",
         "by": "scanner"
       }
     ],
