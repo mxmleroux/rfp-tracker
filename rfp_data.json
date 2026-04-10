@@ -4301,5 +4301,181 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-554b5656b0f6",
+    "rfp_title": "Climate Ambition Support Alliance (CASA)",
+    "issuing_entity": "DESNZ",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Climate Ambition Support Alliance (CASA) programme will work through secondary providers to provide training, in addition to technical, legal and logistical support for developing country negotiators, in order to build the capacity of the least developed and most climate vulnerable states to participate in the international negotiations process and be more effective in influencing its outcomes, whilst at the same time facilitating the UK's core negotiations objectives. CASA builds on the work done to date by the Negotiations Support Programme (and before that CDKN), but represents a new programme intended to provide an enhanced capacity building offer, with the ability to be more responsive to technical assistance requirements within the international climate change negotiations and related fora as they emerge.\r\n\r\nDepartment for Energy Security and Net Zero\r\nOnline Market Engagement Event Registration Thursday 23rd  April January 2025 11:30-12:30. \r\nhttps://forms.office.com/e/Y5YG7xNLuC",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 40.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "7be0cf64-c9f5-4c8c-9052-52294936d998-892323",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-10",
+    "scored_at": "2026-04-10T07:27:56.711501",
+    "last_updated": "2026-04-10T07:27:56.711502",
+    "added_date": "2026-04-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-10T07:27:56.711507",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-9c99e0f48ceb",
+    "rfp_title": "FLJ 1&2 Structural Tee Beam Repairs - Design and Delivery",
+    "issuing_entity": "KBS Maritime Ltd",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "We are seeking expressions of interest from suitably qualified and experienced contractors for the following opportunity:\r\nProject scope\r\nFountain Lake Jetty Berth 1 & 2 contain four longitudinal pre-cast reinforced inverted T-beams. These beams support the suspended deck, with each beam extending at a length of approximately 350m east to west. Subsequently, the beams are supported by steel piled foundations.\r\nThe scope includes temporary works and access design, concrete beam repairs (four longitudinal pre-cast reinforced inverted T-beams), steel pile repairs (58 raking piles), cathodic protection system design and installation, management and reinstatement of live services, and compliance with MMO, environmental and CDM 2015 requirements, all delivered in phased execution to maintain berth availability and naval operations.\r\nTenderers must demonstrate proven capability to design, manage and deliver marine structural maintenance works to live and operational assets, specifically reinforced concrete jetty structures and steel piled foundations in tidal and corrosive environments. \r\nTenderers must evidence recent experience on comparable marine or port infrastructure projects, in house or integrated design capability (including temporary works and cathodic protection), and appropriate competence in quality, safety and environmental management. As a minimum, organisations shall hold or demonstrate equivalent certification to ISO 9001, ISO 14001 and ISO 45001, operate to recognised temporary works procedures, and deploy suitably qualified personnel including a temporary works coordinator and cathodic protection specialist. Innovation in repair methods and corrosion protection solutions that improve durability, constructability, safety or whole life carbon performance is encouraged, subject to compliance with statutory and Authority requirements.",
+    "budget_eur": 7371000,
+    "deadline": "2026-05-07",
+    "relevance_score": 46.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "8b6a8dc0-b091-401f-b8aa-855625c53542-892313",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-04-10",
+    "scored_at": "2026-04-10T07:27:56.712393",
+    "last_updated": "2026-04-10T07:27:56.712394",
+    "added_date": "2026-04-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-10T07:27:56.712399",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
