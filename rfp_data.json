@@ -3861,7 +3861,7 @@
     "scored_at": "2026-04-08T07:19:50.907042",
     "last_updated": "2026-04-08T07:19:50.907044",
     "added_date": "2026-04-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3870,7 +3870,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-554b5656b0f6",
@@ -4217,6 +4217,180 @@
       {
         "status": "New",
         "date": "2026-04-15T07:45:55.788342",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-d110df66ab73",
+    "rfp_title": "FDIS - Bramcote External Refurbishments to 21 properties - FY2026/27 - Amey Central Region - West",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - West\r\n\r\nBrief Scope of Works\r\n\r\n•\tReplace D&W\r\n\r\n•\tItemised electrical works\r\n\r\n•\tShared On Site Liaison Officer role\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Contractor (essential requirement);\r\n•\ta Verified member of Constructionline (GOLD), relevant Work Category MUST show that Subcontracting is possible, and the 'Building Safety Act - Standard Construction' must be Verified;\r\n•\tcapable of working to MOD SFG20 (PPM works only);\r\n•\tcapable of working in a BIM Level 2 environment (where applicable);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\n\r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services.\r\nNote 4: For complex projects such as External Wall Insulation installation, Struct",
+    "budget_eur": 1017900,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "0fcadcc9-d4dc-4c6b-a3a3-23747b0bb4e1-892984",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-04-16",
+    "scored_at": "2026-04-16T07:46:24.830797",
+    "last_updated": "2026-04-16T07:46:24.830799",
+    "added_date": "2026-04-16",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-16T07:46:24.830804",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-9632dc70cc47",
+    "rfp_title": "Supply of Digital Multichannel Analysers (DSPEC 50) with MAESTRO Software",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of Digital Multichannel Analysers (DSPEC 50) with MAESTRO Software\r\nThe requirement includes the following:\r\nEach DSPEC 50 unit supplied must conform to the standard model specification and include all the following features as a minimum:\r\n•\tSingle MCA (DSPEC 50/50A) and dual MCA (DSPEC 502/50A) versions available\r\n•\tHighly stable performance against variations in count rate and temperature\r\n•\tAutomated set-up functionality: Automatic Pole Zero Adjust, Baseline Restorer, and Optimise\r\n•\tDigital spectrum stabiliser\r\n•\tUSB 2.0 and Ethernet (TCP/IP) connectivity\r\n•\tHigh throughput capabilities for high count rate applications\r\n•\tLarge front panel display for at-a-glance system status information\r\n•\tSupport for all HPGe detector types, including legacy and current models\r\n•\t16k ADC Conversion Gain\r\n•\t\"Loss Free\" or \"Zero Dead Time\" (ZDT) capability\r\n•\t\"Enhanced Throughput\" Mode\r\n•\tList Mode\r\n•\tBallistic Deficit and Charge Trapping Correction\r\n•\tLow-Frequency Rejector (LFR)\r\n•\tMAESTRO software and a valid licence included for each individual DSPEC 50 unit\r\nIII.2  Included Accessories (Per Unit)\r\n•\t683410 Detector Interface Module (DIM) cable - 10-ft length\r\n•\tSingle internal High Voltage Power Supply\r\n•\tSingle MCA configuration\r\n•\tMAESTRO software licence (one per unit)\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expressi",
+    "budget_eur": 234000,
+    "deadline": "2026-05-13",
+    "relevance_score": 55.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "b6f15ccb-f995-48b5-a0c8-604054ad0956-892920",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-16",
+    "scored_at": "2026-04-16T07:46:24.833091",
+    "last_updated": "2026-04-16T07:46:24.833092",
+    "added_date": "2026-04-16",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-16T07:46:24.833097",
         "by": "scanner"
       }
     ],
