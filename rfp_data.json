@@ -1,93 +1,5 @@
 [
   {
-    "id": "rfp-1c6766340ab7",
-    "rfp_title": "CA17224 - Electronic Payment Methods",
-    "issuing_entity": "Crescent Purchasing Consortium Limited",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "For the past few years, CPC has outsourced the contract management of its Cashless Payment Solutions framework agreement for various reasons, one of which being capacity internally. We are now looking to bring this framework back in-house and this tender exercise will form the new iteration of the framework. \r\n\r\nSuppliers must be capable of delivering high-quality, cost-effective Electronic Payment Devices, Software and Professional Services to institutions such as schools, academies, colleges, universities, and educational trusts, as well as local authorities and the wider public sector. \r\n\r\nCPC will be using the MultiQuote e-Tendering platform to carry out this tender. In order to express your interest in this tender and obtain the tender documents, please register or log in at: https://suppliers.multiquote.com/Page/Login.aspx If you have any issues when using MultiQuote, please contact Elcom Ltd on 020 3920 8054 or email support@elcom.com\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17224.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17224 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-03-18",
-    "relevance_score": 48.9,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 88.9,
-    "competitive_score": 70,
-    "strategic_value_score": 27.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "f32b9a7b-7c2a-481d-98ea-2bf16362df39-884387",
-    "procurement_process": {
-      "type": "Framework Agreement",
-      "rounds": "Multiple call-offs",
-      "details": [
-        "Framework with potential mini-competitions"
-      ]
-    },
-    "date_found": "2026-02-18",
-    "scored_at": "2026-02-18T07:01:39.709925",
-    "last_updated": "2026-02-18T07:01:39.709926",
-    "added_date": "2026-02-18",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-02-18T07:01:39.709931",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-0e3b47244535",
     "rfp_title": "FDIS - Wittering External Refurbishments to 32 properties - FY2026/27 - Amey Central Region - East Midlands & Nth",
     "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
@@ -2810,7 +2722,7 @@
     "scored_at": "2026-03-19T06:58:20.130593",
     "last_updated": "2026-03-19T06:58:20.130594",
     "added_date": "2026-03-19",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -2819,7 +2731,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-36132dcd5741",
@@ -2896,7 +2808,7 @@
     "scored_at": "2026-03-19T06:58:20.132197",
     "last_updated": "2026-03-19T06:58:20.132202",
     "added_date": "2026-03-19",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -2905,7 +2817,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-18b6a6251e03",
@@ -2982,7 +2894,7 @@
     "scored_at": "2026-03-19T06:58:20.133061",
     "last_updated": "2026-03-19T06:58:20.133062",
     "added_date": "2026-03-19",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -2991,7 +2903,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-aa71863d5e45",
@@ -3771,7 +3683,7 @@
     "scored_at": "2026-04-02T07:12:55.571711",
     "last_updated": "2026-04-02T07:12:55.571713",
     "added_date": "2026-04-02",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3780,7 +3692,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e9c505b24c84",
@@ -4391,6 +4303,92 @@
       {
         "status": "New",
         "date": "2026-04-16T07:46:24.833097",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b2a320777802",
+    "rfp_title": "62057251 - TacSys Manufacture of Modular Platform Processing Suite Tactical Networking Devices",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Authority has a manufacture to plan opportunity for network and audio distribution hardware in connection with the portfolio of capability known as Bowman, the Common Battlefield Applications Toolset (ComBAT), Infrastructure and Platform Battlefield Information Systems Application (PBISA), and collectively known as BCIP.  \r\n\r\nThe Authority has an opportunity for the manufacture of two candidate network and audio distribution hardware products that form part of the Modular Platform Processing Suite (MPPS) family of products. \r\n\r\nThe purpose of this this RFI is to confirm the ability of the industry base to manufacture the two devices and identify all possible opportunities or constraints for Defence. \r\n\r\nThe MPPS hardware will be hosted on a range of tactical platforms (including armoured fighting vehicles) and dismounted for headquarters use. As such, there is a particular focus on quality control for the units, including ability to:\r\n\r\n-\tOperate within a challenging in-platform electromagnetic environment. \r\n-\tManufacture within the strict physical tolerances of the design given the platforms' constraints on size, weight and power. \r\n-\tMeet the significant environmental performance requirements for operating in a wider range of deployed environments.\r\nThe key outputs of the RFI are:\r\n1.\tValidate the hardware design material to enable manufacture of the units. This RFI seeks to validate whether the completeness and quality of the design documentation is sufficient to allow suppliers to respond to the future competition to manufacture and deliver the units to the required standard and quality.\r\n2.\tDetermine what support may be required by the existing OEM (General Dynamics) to enable manufacture by a third party.\r\n3.\tObtain indicative method statements for delivery of an initial order quantity of 500 TLAs and 2000 TCS, to include timescales, manufacturing locations, indicative costing. \r\n4.\tConfirm the availability of the components that are required to manufactu",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c28b156b-0e70-417f-bd56-87aeb64e34e4-893236",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-18",
+    "scored_at": "2026-04-18T07:08:04.460943",
+    "last_updated": "2026-04-18T07:08:04.460944",
+    "added_date": "2026-04-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-18T07:08:04.460949",
         "by": "scanner"
       }
     ],
