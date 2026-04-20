@@ -88,92 +88,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-e95774676839",
-    "rfp_title": "CA17253 - RFQ 2025/62 - PEACEPLUS Cross-community Festival Programme Celebrating Languages Together",
-    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Newry Mourne & Down District Council's PEACEPLUS Action Plan includes the delivery of Collaborative Interaction Programmes under Strand 2 - Thriving and Peaceful Communities. Strand 2 focuses on eight identified priority projects encompassing a broad range of initiatives focused on capacity building, leadership development, cross community relationship building interaction and engagement, social and emotional support, events and festivals and community justice interventions.\r\n\r\nUnder the programme area of Events & Festivals designed to celebrate the area's diverse range of communities, arts and cultures a range of cross-community festivals will be delivered celebrating the diverse range of language communities\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17253.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17253 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-03-20",
-    "relevance_score": 44.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "ddc91a92-1d67-476b-ba02-82509f4f6b26-884970",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-02-21",
-    "scored_at": "2026-02-21T06:41:46.332828",
-    "last_updated": "2026-02-21T06:41:46.332829",
-    "added_date": "2026-02-21",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-02-21T06:41:46.332833",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-125a06325738",
     "rfp_title": "Essenz Perfusion Systems x 3",
     "issuing_entity": "Hull University Teaching Hospitals NHS Foundation Trust",
@@ -4301,6 +4215,92 @@
       {
         "status": "New",
         "date": "2026-04-18T07:08:04.460949",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-40fc39ae10e9",
+    "rfp_title": "Cost & Capability of Low-Cost Remotely Operated Uncrewed Surface Vehicle",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Royal Navy is keen to understand the industry options available for the conversion of a Rigid Hull Inflatable Boat (RHIB), or similar vessel, into a remotely operated uncrewed surface vehicle (USV), to be used as a mobile target in various Naval exercises.\r\nAcknowledging the global proliferation of these systems, the goal is to assess the specifications of low-cost options (c. sub £60,000), to further expedite Royal Navy trials and experimentation.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "78ba1318-3c35-4f1b-b559-22525bae9adc-893292",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-20",
+    "scored_at": "2026-04-20T08:07:17.235987",
+    "last_updated": "2026-04-20T08:07:17.235989",
+    "added_date": "2026-04-20",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-20T08:07:17.235994",
         "by": "scanner"
       }
     ],
