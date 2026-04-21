@@ -4305,5 +4305,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-942fffb38ea6",
+    "rfp_title": "Cost & Capability of Low-Cost Remotely Operated Uncrewed Aerial Vehicle",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Royal Navy is keen to understand the industry options available for low cost fixed wing Class II UAS to be used as a mobile target in various Naval exercises.\r\nAcknowledging the global proliferation of these systems, the goal is to assess the specifications of low-cost options, to further expedite Royal Navy trials and experimentation.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "af78cecb-2726-4470-8613-86e1809d3160-893579",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-21",
+    "scored_at": "2026-04-21T07:50:12.151614",
+    "last_updated": "2026-04-21T07:50:12.151615",
+    "added_date": "2026-04-21",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-21T07:50:12.151620",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
