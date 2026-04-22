@@ -4393,5 +4393,437 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-0116afe845d8",
+    "rfp_title": "Lower Cambourne Playpark works",
+    "issuing_entity": "Community Centre",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Introduction\r\nCambourne Town Council (\"the Council\") wishes to appoint a suitably qualified and experienced Contractor to undertake refurbishment works at the Lower Cambourne Play Area.\r\nProspective Contractors are invited to submit a quotation to meet the Council's requirements as set out within this document and the accompanying play park upgrade brief.\r\n\r\n2. Project Overview\r\nThe Council is seeking to upgrade the Lower Cambourne Play Area to provide:\r\n•\tImproved infrastructure\r\n•\tEnhanced and modernised play equipment\r\n•\tIncreased play value and opportunities\r\nThe Council has allocated funding as part of its commitment to improving the health and wellbeing of residents.\r\nThe appointed Contractor will be expected to work collaboratively with the Council to deliver a high-quality, inclusive, and engaging play space.\r\n\r\n\r\n3. Design Principles\r\nInclusivity and accessibility are central to the Council's objectives. The Contractor must demonstrate:\r\n•\tExperience in delivering inclusive and accessible play environments\r\n•\tConsideration of a wide range of ages and abilities\r\n•\tInnovative design solutions that maximise play value\r\nA meeting prior tender submission is crucial to ensure that the Councils vision for this play park is understood. Please contact Clerk@cambournetowncouncil.gov.uk \r\n\r\n4. Scope of Works\r\nThe works will include (but are not limited to):\r\n•\tDesign and installation of new play equipment\r\n•\tLandscaping and associated infrastructure works\r\n•\tRemoval and safe disposal of all existing play equipment and associated services\r\n•\tRecycling and reuse of materials where practicable, including potential relocation of serviceable equipment to alternative sites (subject to agreement with the Council)\r\n\r\n5. Community Engagement\r\nThe Contractor will be required to support public consultation as part of the design process:\r\n•\tTwo public consultation events shall be held:\r\no\tOne following the development of the initial design proposal\r\no\tA second follow-up consultat",
+    "budget_eur": 122850,
+    "deadline": "2026-05-15",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 70.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "545b0238-c3e6-46db-b795-4dece6e6d566-893744",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-04-22",
+    "scored_at": "2026-04-22T07:46:41.728792",
+    "last_updated": "2026-04-22T07:46:41.728793",
+    "added_date": "2026-04-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-22T07:46:41.728799",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-a34db306ae4b",
+    "rfp_title": "CA17654 - Walsall College Portland Street Roof Replacement",
+    "issuing_entity": "Walsall College",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Portland Street Roof Replacement project proposes the full replacement of the existing roof covering and associated components to address end-of-life asset condition, water ingress and declining thermal performance. The project forms part of the College's capital investment programme and supports strategic objectives relating to estate condition, asset protection, sustainability and continuity of teaching operations\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17654.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17654 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+    "budget_eur": null,
+    "deadline": "2026-05-18",
+    "relevance_score": 41.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 81.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "39760d40-c8f1-4e81-b9a0-b2eb9ea86dc6-893839",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-22",
+    "scored_at": "2026-04-22T07:46:41.729312",
+    "last_updated": "2026-04-22T07:46:41.729314",
+    "added_date": "2026-04-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-22T07:46:41.729318",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-897305f2764b",
+    "rfp_title": "CA17653 - Walsall College Chillers Replacement Heating and Cooling Heat Pumps.",
+    "issuing_entity": "Walsall College",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Chillers Replacement with Heating and Cooling Heat Pumps project proposes the replacement of three existing end-of-life chiller units at Wisemore Campus with modern integrated heat pump systems capable of providing both heating and cooling. The project forms part of the College's capital investment programme and supports strategic objectives relating to estate condition, energy efficiency, decarbonisation, resilience and learning environment quality.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17653.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17653 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+    "budget_eur": null,
+    "deadline": "2026-05-18",
+    "relevance_score": 41.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 81.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e2416269-8af0-4f62-8d62-1d710582de86-893830",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-22",
+    "scored_at": "2026-04-22T07:46:41.729806",
+    "last_updated": "2026-04-22T07:46:41.729807",
+    "added_date": "2026-04-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-22T07:46:41.729811",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-1129de7939fa",
+    "rfp_title": "CA17650 - Walsall College Lift Upgrades",
+    "issuing_entity": "Walsall College",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Lift Replacement project proposes the full replacement and provision of new passenger lift installations at Wisemore, Green Lane and Broadway campuses. The project includes the installation of five new lifts at Wisemore campus, two new lifts at Green Lane campus and one new lift at Broadway campus. The existing lifts have reached the end of their operational lifecycle and are increasingly unreliable, resulting in frequent breakdowns, high reactive maintenance costs and extended periods of downtime. The project forms part of the College's capital investment programme and supports strategic objectives relating to estate condition, accessibility, health and safety and business continuity.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17650.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17650 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+    "budget_eur": null,
+    "deadline": "2026-05-18",
+    "relevance_score": 41.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 81.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9f9ace5a-06bd-4070-a6c5-6fe80167a65b-893815",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-22",
+    "scored_at": "2026-04-22T07:46:41.730434",
+    "last_updated": "2026-04-22T07:46:41.730435",
+    "added_date": "2026-04-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-22T07:46:41.730440",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4c0238d4dc52",
+    "rfp_title": "CA17651 - RFQ 2026/06 - PEACEPLUS Cross Community Festival - Rowallane Beyond - Taste and Traditions",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Newry Mourne & Down District Council's PEACEPLUS Action Plan includes the delivery of Collaborative Interaction Programmes under Strand 2 - Thriving and Peaceful Communities. Strand 2 focuses on eight identified priority projects encompassing a broad range of initiatives focused on capacity building, leadership development, cross community relationship building interaction and engagement, social and emotional support, events and festivals and community justice interventions.\r\n\r\nCompetent Consultancy companies are hereby invited to tender to design, develop and deliver a PEACEPLUS Cross Community Festival Programme \"Rowallane & Beyond - Tastes and Traditions. The aim is to designing and delivering a series of cross community workshops that explore good practice in creating inclusive celebrations, with a particular emphasis on the rich relationship between food and cultural traditions both within the local Rowallane area and around the world.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17651.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17651 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+    "budget_eur": null,
+    "deadline": "2026-05-19",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a8262ff0-c6b1-467b-8f59-a3a3e8915016-893811",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-22",
+    "scored_at": "2026-04-22T07:46:41.731095",
+    "last_updated": "2026-04-22T07:46:41.731096",
+    "added_date": "2026-04-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-22T07:46:41.731100",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
