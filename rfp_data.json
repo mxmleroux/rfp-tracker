@@ -2982,7 +2982,7 @@
     "scored_at": "2026-03-27T07:07:34.431237",
     "last_updated": "2026-03-31",
     "added_date": "2026-03-27",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -2991,7 +2991,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-8397dc415aa6",
@@ -4997,6 +4997,92 @@
       {
         "status": "New",
         "date": "2026-04-23T07:52:38.483028",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-9db190aa9749",
+    "rfp_title": "Provision of Nursing Block Contracts 2026",
+    "issuing_entity": "London Borough of Camden",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This invitation to tender is from the London Borough of Camden ('the Authority') who are seeking to award a block contract for the provision of Nursing Care 2026. The London Borough of Camden is looking to award between 1 and 3 contracts for Nursing Care provision under a block contract arrangement. We would like to hear from innovative providers who deliver strengths-based, community-driven Nursing Care and are aligned with Camden's commitment to resident-centred support. The Council is seeking opportunities to work with providers who will offer the highest quality care and support whilst remaining responsive to the changing needs of our residents at a time of unprecedented pressure for the Care Sector. Providers will be asked to evidence their commitment to Camden values and strategic priorities throughout the tender process.\r\nContracts will be awarded for a total of 60 months; including one 12 months extension. Providers must commit to a minimum of 10 Nursing beds during the 60 months contract period.\r\nThe Council recognises the current pressures within the care market and will welcome responses from providers who may need time to reach full bed capacity due to limitations in immediate availability. Camden is committed to working flexibly and collaboratively with providers to ensure high-quality care for our residents; therefore, state dates will be staggered from July 2026. \r\n\r\nThe maximum budget for these services is £13,151,950 over the 60 months contract including one 12 months extension. The guide price for this tender is £1,038.01 to £1,121.08 (excluding Funding Nursing Care (FNC) per bed per week.\r\n",
+    "budget_eur": 15387781,
+    "deadline": "2026-05-22",
+    "relevance_score": 46.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "36749f4b-1ccf-4712-aaa6-283d68c27c12-894380",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-24",
+    "scored_at": "2026-04-24T08:03:17.975578",
+    "last_updated": "2026-04-24T08:03:17.975579",
+    "added_date": "2026-04-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-24T08:03:17.975584",
         "by": "scanner"
       }
     ],
