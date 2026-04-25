@@ -177,96 +177,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-9c490b0b1d55",
-    "rfp_title": "BPA Capital Programme CH1-3 and HR1-3",
-    "issuing_entity": "Britten Pears Arts",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Various building and services works, including acoustic, technical equipment and accessibility enhancements (new lift and lift refurbishments) and internal\r\nalterations to Snape Maltings Concert Hall. \r\nAlterations to existing energy centre to facilitate greater\r\nuse of sustainable heating and the provision of solar PV on roofs of the Hoffmann, the Winch Gallery and Flat Roofs adjacent to the Concert Hall. Procured through an initial Pre Qualification Questionnaire and then short listing to a competitive tender process.\r\n\r\nThe works proposed comprise the following:\r\n\r\nConcert Hall (CH1 and CH2)\r\n\r\nCH1: Acoustic treatment to Concert Hall, installation of retractable banners\r\nCH1: Performance Technical equipment upgrades and replacement (stage and house lighting, rigging systems, assisted listening)\r\nCH1: roof covering replacement and insulation on South, East & West faces;  high level maintenance of \"bluffs\", structural repair / strengthening\r\nCH2: refurbishment of WCs, fabric repairs (brickwork)\r\nCH2: ventilation improvements inc. new AHU; new lighting\r\nCH2: refurbishment of two existing lifts, one new platform lift\r\nCH2: remodelling of Discovery Centre for future exhibition space\r\n\r\nNB: audience seating improvements as a separate, client-led project, CH3 will have a dirrect interface and attendances requirements\r\n\r\nHeating and Renewables (HR1, HR2 and HR3)\r\n\r\nHR1: consolidation of Energy Centre boilers, new District Heating and Cooling pipework\r\nHR2: Photovoltaic panels to Concert Hall lower south roof, Hoffmann building roof\r\nHR3: new site wide Building Management System (BMS)\r\n\r\nThe works have Planning and Listed Building Consent.\r\n\r\nProject Manager / Contract Administrator\t\tGardiner & Theobald\r\nArchitect\t\t\t\t\t\t                                        de Matos Ryan\r\nStructural / Civil Engineer\t\t\t\t                        Price & Myers\r\nBuilding Services Engineer\t\t\t\t                Ingleton Wood\r\nTheatre Specialist & Acoustician\t\t\t                Charcoalblue\r\nQS\t\t\t\t",
-    "budget_eur": 4095000,
-    "deadline": "2026-03-25",
-    "relevance_score": 50.2,
-    "win_probability": "Medium",
-    "feature_alignment_score": 4.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 4,
-        "max": 25,
-        "strong_matches": [
-          "district heating"
-        ],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "bd6fde83-a760-4f83-b137-cffe975e6cd8-885673",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-02-26",
-    "scored_at": "2026-02-26T07:00:26.081847",
-    "last_updated": "2026-02-26T07:00:26.081849",
-    "added_date": "2026-02-26",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-02-26T07:00:26.081854",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-ada024e43d02",
     "rfp_title": "FDIS - Chepstow External Refurbishments to 84 properties - FY2026/27 - Amey Central Region - West",
     "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
@@ -1496,96 +1406,6 @@
       }
     ],
     "pass_reason": ""
-  },
-  {
-    "id": "rfp-91a635515b2a",
-    "rfp_title": "Staffed scanning service at St Richards - relocatable MRI",
-    "issuing_entity": "University Hospitals Sussex NHS Foundation Trust",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Trust is seeking to conduct a Further Competition for a Contract for the Supply of a staffed, MRI scanning service situated at St Richards, Chichester, West Sussex.\r\n\r\nAdditional information: \r\nThe Further Competition is open to capable suppliers under Framework Agreement for Managed Equipment and Clinical Service Solutions, reference 2021/S 000-032144, Lot 1 - Short to Medium Term Clinical Service Solutions\r\nThe Further Competition will be managed by the Framework Providers, NHS Supply Chain. Please conduct all communication via mecss@supplychain.nhs.uk\r\n\r\nTo express interest and participate in the tender, please contact mecss@supplychain.nhs.uk",
-    "budget_eur": 1850706,
-    "deadline": "2026-03-25",
-    "relevance_score": 46.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 52.0,
-    "competitive_score": 70,
-    "strategic_value_score": 27.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Edge case client type: university, foundation"
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "b0f886e5-2d23-4273-8d19-1225266e73e0-887602",
-    "procurement_process": {
-      "type": "Framework Agreement",
-      "rounds": "Multiple call-offs",
-      "details": [
-        "Framework with potential mini-competitions"
-      ]
-    },
-    "date_found": "2026-03-07",
-    "scored_at": "2026-03-07T06:40:35.279363",
-    "last_updated": "2026-03-09",
-    "added_date": "2026-03-07",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-07T06:40:35.279370",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-7af3dc11cbfe",
@@ -5083,6 +4903,181 @@
       {
         "status": "New",
         "date": "2026-04-24T08:03:17.975584",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-bcc432c38eb6",
+    "rfp_title": "Opportunity for DSA Cyber Security Services",
+    "issuing_entity": "Home Office",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Home Office Data Services and Analytics (DSA) which sits within the Buyer's Home Office Digital (HOD) division, has a requirement for the procurement of specialist client-side cyber security support capabilities detailed within the Statement of Requirements document and the Book of Work. \r\nThe Buyer Cyber Security capability is currently provided under a service-based offering from a third-party supplier. The supplier delivers a range of services and provides assurance to the Buyer's Independent Assurer that IT systems are compliant with National Cyber Security Centre (NCSC) standards Cyber security advice for public sector organisations | National Cyber Security Centre - NCSC.GOV.UK\r\nThe Buyer is establishing a more capable cyber function which is still defining its Target Operating Model. It is envisaged that there will be a range of shared capabilities and processes that the Buyer's service will need to align with or onboard to. This is following Secure by Design principles\r\nLiaison and collaboration with NCSC and other UK Intelligence and Law Enforcement Agencies is also a key requirement of the service to ensure 3rd party stakeholders are assured of the Buyer's Cyber security.\r\nThe Supplier will deliver the Services in each operational area in a multi-disciplinary / multi-vendor environment. The Supplier shall be expected to develop strong and collaborative working relationships with the existing DSA portfolio teams and with other suppliers supporting the Buyer's HOD division with whom the Supplier will work.\r\nThe Services will be delivered within DSA Security Team. The Security Architecture across DSA Programmes and Projects is at different levels of maturity. \r\nThe Service needs the ability to flex for urgent requirements and to change throughout the term of the Agreement as threats and consequent requirements evolve. This will result in the need for additional, ad hoc services, which are not listed in the DSA Book of Work requiring Supplier support. Such",
+    "budget_eur": 3510000,
+    "deadline": "2026-05-26",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c50f2536-a499-4227-abb8-6228a82168ce-894552",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-25",
+    "scored_at": "2026-04-25T07:16:20.527353",
+    "last_updated": "2026-04-25T07:16:20.527355",
+    "added_date": "2026-04-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-25T07:16:20.527359",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-bfe7f75ae329",
+    "rfp_title": "AI Adoption and Implementation Services",
+    "issuing_entity": "NHSBSA",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The scope of the services required is for a supplier to assist the NHSBSA with building AI foundations, our capability around processes, governance, structure, create our own playbook, define strategy.  The second phase of work will be to build some tangible products that work as enables for future work.\r\n\r\nAdditional information: \r\nDPS RM6200 AI framework",
+    "budget_eur": 5850000,
+    "deadline": "",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: foundation",
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9e759c81-3d54-4404-a093-00060d2d8169-894504",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-04-25",
+    "scored_at": "2026-04-25T07:16:20.528520",
+    "last_updated": "2026-04-25T07:16:20.528521",
+    "added_date": "2026-04-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-04-25T07:16:20.528526",
         "by": "scanner"
       }
     ],
