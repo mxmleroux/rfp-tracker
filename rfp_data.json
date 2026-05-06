@@ -5430,5 +5430,95 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-61a600a43911",
+    "rfp_title": "LCR Circular Economy Education for Educators",
+    "issuing_entity": "Merseyside Waste Disposal Authority",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Merseyside Waste Disposal Authority (MWDA) is a statutory waste disposal authority which, with its District Council partners, takes a lead in advocating and delivering recycling, waste prevention, and the safe and effective disposal of household waste for the residents of Merseyside and Halton (together, the 'Liverpool City Region').\r\nMRWA is committed to achieving the targets of zero waste and net zero carbon, to achieve these targets we believe a whole systems change is needed. This involves changing behaviours and attitudes away from single use, throw away consumerism towards a culture of reuse, repair and avoiding waste where possible.\r\nA key aspect of behaviour change is education, and studies show that information delivered academically, culturally and in communities has more benefits and provides long-term changes to behaviours.\r\nMWDA is looking to commission an organisation to deliver circular economy and zero waste?teacher?education projects to?educators across the Liverpool City Region.\r\nThe education project will focus on engaging with and educating educators and school staff across the Liverpool City Region on zero waste and the circular economy to encourage a positive shift in waste and resource behaviours within schools.",
+    "budget_eur": null,
+    "deadline": "2026-06-04",
+    "relevance_score": 38.2,
+    "win_probability": "Low",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 92.6,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 3,
+        "max": 25,
+        "strong_matches": [
+          "whole system"
+        ],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f0d27ab5-b40c-400f-96a2-9fb643520d93-896007",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-06",
+    "scored_at": "2026-05-06T08:26:23.033138",
+    "last_updated": "2026-05-06T08:26:23.033140",
+    "added_date": "2026-05-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-06T08:26:23.033146",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
