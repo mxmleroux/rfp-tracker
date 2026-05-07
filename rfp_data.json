@@ -5520,5 +5520,184 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-0187637594ea",
+    "rfp_title": "Strategic Market Intelligence - Fit-for-Market Forest Products",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Multistakeholder Forestry Programme Phase 5 (MFP5), funded by the UK FCDO, supports Indonesia in achieving its FOLU Net Sink 2030 targets by strengthening sustainable forest management, forest governance, and inclusive market engagement. Under this programme, Palladium is procuring a consultant or team to develop a practical, market intelligence package that helps Indonesia capture higher-value opportunities in global timber and non-timber forest product markets, responding to evolving sustainability, traceability, and regulatory demands. \r\n\r\nThe assignment will prioritise key markets and product segments, analyse recognition and non tariff barriers, match Indonesian supply to specific market opportunities, define actionable market entry and conversion pathways.\r\n\r\nDelivered over 3-4 months with a budget of up to GBP 125,000, the work requires strong expertise in international trade, regulatory analysis, and multi-stakeholder engagement, and will be procured through a two stage competitive tender process beginning with an Expression of Interest due on 14th May 2026.",
+    "budget_eur": 146250,
+    "deadline": "2026-05-14",
+    "relevance_score": 40.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 1,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": [
+          "stakeholder engagement"
+        ]
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "19998fdd-32cf-4188-bdd7-1b517b3f71c5-896149",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-07",
+    "scored_at": "2026-05-07T08:33:11.883042",
+    "last_updated": "2026-05-07T08:33:11.883043",
+    "added_date": "2026-05-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-07T08:33:11.883048",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-84f4d171e5b1",
+    "rfp_title": "M42 Triple Box Contract Crane Lift",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "About the Opportunity:\r\nBalfour Beatty VINCI (BBV) is seeking an experienced specialist lifting contractor to plan and install 226 precast prestressed inverted T beams (up to ~93 t) for the M42 Coleshill Box Structure on HS2 Phase 1 (Central East).\r\nThis is a high risk CPA Contract Lift over a live motorway, requiring experience with major road closures and work near National Highways assets.\r\nScope includes lifting and installing beams across three spans onto elastomeric bearings, with and without pre installed diaphragm shutters, to tight tolerances.\r\n\r\nAbout the buyer's selection process:\r\nWhen selecting a supplier BBV look for alignment of values, behaviours and cultures, between ourselves and our supply chain. BBV and HS2 have aligned their values to the following:\r\n* Integrity\r\n* Leadership\r\n* Respect\r\n* Safety\r\n\r\nIn order to achieve a successful project outcome we have published a manifesto of our guiding principles, which include:\r\n* Making HS2 affordable\r\n* Delivering on promises\r\n* We build with people in mind\r\n* Delivering more than a railway\r\n* Achieving more together\r\n* Creative and challenging\r\n\r\nSuccessfully shortlisted supplier's will be those with verifiable experience, and the appropriate capacity ,resources and technical ability to deliver the scope of works. Supplier's may then be invited to the project, to formally demonstrate their experience and capabilities. As an alternative phone/webinar interviews may be conducted.\r\n\r\nOn selection, shortlisted supplier's will be issued with a formal Invitation to Tender (ITT) to demonstrate their ability to work with these values and behaviours in mind, whilst proving their demonstration of capabilities and competence.\r\n\r\n\r\nAbout the buyer:\r\nBBV is a joint venture between Balfour Beatty Group and VINCI Group. Balfour Beatty VINCI is a long established joint venture between two global leaders in the delivery of critical Infrastructure and Highways Projects, such as the Channel Tunnel, Crossrail, M4/M5/M6 Sm",
+    "budget_eur": 1170000,
+    "deadline": "2026-05-08",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c4840e98-5e98-431f-bcc1-a236d64ba359-895933",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-05-07",
+    "scored_at": "2026-05-07T08:33:11.884124",
+    "last_updated": "2026-05-07T08:33:11.884125",
+    "added_date": "2026-05-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-07T08:33:11.884130",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
