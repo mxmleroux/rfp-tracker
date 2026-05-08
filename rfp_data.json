@@ -1672,96 +1672,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-a712c9a3b238",
-    "rfp_title": "2070 NICOR Consultancy Support for NHS Arden & GEM CSU",
-    "issuing_entity": "NHS Arden and Greater East Midlands Commissioning Support Unit",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Provision of NICOR Consultancy Support for NHS Arden & GEM CSU.\r\n\r\nWe are seeking a UK-based organisation to provide consultancy services relating to the co-production of the NCAP annual reports.\r\nThe successful supplier will be required to undertake a detailed analysis of the work required to support the audit programme, including reading and gaining an in-depth understanding of the care provided by the individual sub-specialty domains of the NCAP, the quality improvement metrics used, the analytical outputs, and the methods used to provide these. The supplier should demonstrate they are adept at the use of graphics packages and especially the use of those available through Microsoft Power BI. The supplier should demonstrate a knowledge of key clinical reference materials and an ability to provide clear methods of messaging, summarising lessons learnt, recommendations and key messages. The supplier should demonstrate the ability of ensuring consistency with previous years' reports. The preparatory work will need to be undertaken ahead of the annual report delivery and the deliverables managed within the agreed time scales.\r\n\r\n\r\nTo register your interest, please follow the link below, and search for the project reference as detailed: https://health-family.force.com/s/Welcome\r\nProject Reference: C429777\r\nProject Name: 2022 NICOR Consultancy Support for NHS Arden & GEM CSU.\r\n\r\nAdditional information: \r\nTo express interest and participate in the tender, please register and apply via Atamis e-sourcing portal https://health-family.force.com/s/Welcome.\r\n\r\nShould Tenderers have any queries, or having problems using the portal, they should contact Helpdesk at:\r\n\r\nPhone: 0800 9956035\r\n\r\nE-mail: support-health@atamis.co.uk",
-    "budget_eur": 35100,
-    "deadline": "2026-04-07",
-    "relevance_score": 49.7,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 88.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "metrics"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "47b9bc72-3726-4ea6-a204-adde01797bfa-887812",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-03-10",
-    "scored_at": "2026-03-10T06:50:59.933423",
-    "last_updated": "2026-03-10T06:50:59.933425",
-    "added_date": "2026-03-10",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-10T06:50:59.933430",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-8f70ee527c5b",
     "rfp_title": "RSPB Waste Management Request for Information",
     "issuing_entity": "ROYAL SOCIETY FOR THE PROTECTION OF BIRDS",
@@ -2202,94 +2112,6 @@
       }
     ],
     "pass_reason": ""
-  },
-  {
-    "id": "rfp-3c5857d69a7a",
-    "rfp_title": "Supply of One Size Fits All Yellow Security Vest",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of All yellow security vests. \r\n\r\nThe TVHVOS One Size Fits All Security Vest is a lightweight, breathable, close-fitting load-bearing vest built for extreme heat and wet/dry conditions. It's quick-drying, rugged, and comfortable for long shifts, with even weight distribution and full mobility (seated, standing, walking, running). Known as the \"ABC vest\", it delivers a strong balance of armour compatibility, airflow, and comfort.\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nFor any enquiries an interest, please email defence.",
-    "budget_eur": 234000,
-    "deadline": "2026-04-07",
-    "relevance_score": 53.3,
-    "win_probability": "Medium",
-    "feature_alignment_score": 3.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 59.3,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 3,
-        "max": 25,
-        "strong_matches": [
-          "shifts"
-        ],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "533f5c10-92f4-48c0-9038-4a6ead038674-888850",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-03-18",
-    "scored_at": "2026-03-18T07:02:13.105415",
-    "last_updated": "2026-03-18T07:02:13.105416",
-    "added_date": "2026-03-18",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-18T07:02:13.105421",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-c63b4f4665cd",
@@ -3509,7 +3331,7 @@
     "scored_at": "2026-04-10T07:27:56.712393",
     "last_updated": "2026-04-10T07:27:56.712394",
     "added_date": "2026-04-10",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3518,7 +3340,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-ad94d4d5b651",
@@ -5349,10 +5171,10 @@
     "issuing_entity": "BERNARD LEACH (ST IVES) TRUST LIMITED",
     "country": "GB",
     "market": "UK + Ireland",
-    "description": "Interpretation Fit-Out Build Contractor - The Leach Pottery, St Ives, Cornwall\r\n\r\nThe Bernard Leach (St Ives) Trust Ltd invites tenders from suitably experienced contractors to deliver interpretation/exhibition fit-out works across the Leach Pottery site in St Ives, Cornwall. This commission forms part of a major £10 million capital redevelopment of one of the world's most significant studio pottery heritage sites, funded with support from the National Lottery Heritage Fund.\r\n\r\nContract Value: £375,000 - £400,000 (exclusive of VAT)\r\nContract Form: JCT Intermediate Building Contract with Contractor's Design (ICD) 2024\r\n\r\nPractical Completion: 4 June 2027\r\nSite Opening: 18 June 2027\r\n\r\nScope of Works:\r\nThe appointed contractor will act as Principal Designer and Principal Contractor, responsible for the manufacture, supply, and installation of four main packages: setworks and 3D elements; display showcases (including Government Indemnity Scheme standard cases); graphics and 2D elements production; and exhibition lighting supply. \r\n\r\nWorks span multiple spaces, including the historic Grade II listed Pottery buildings; refurbished 2008 extensions; new build Learning studios and reception areas; outdoor spaces, and cross-site wayfinding. \r\n\r\nFull coordination with the client (The Bernard Leach (St Ives) Trust Ltd), base build contractors (Dow Jones Architects), interpretive designers (Extended Studio), and the separately appointed AV contractor will be required. Audiovisual hardware and software are contracted separately and are out of scope.\r\n\r\nKey Dates:\r\n* Site visits (compulsory): Tuesday, 28 April - Thursday, 7 May 2026\r\n* Clarification deadline: Noon, Monday, 11 May 2026\r\n* Clarifications published: Friday, 15 May 2026\r\n* Submission deadline: Noon, Friday, 22 May 2026\r\n* Interviews (shortlisted): Wednesday, 3 June and Thursday, 4 June 2026\r\n* Contract award: Monday, 8 June 2026\r\n* Online kick-off meeting Friday, 12 June 2026\r\n* Contract commencement: Monday, 20 July",
+    "description": "Interpretation Fit-Out Build Contractor - The Leach Pottery, St Ives, Cornwall\r\n\r\nThe Bernard Leach (St Ives) Trust Ltd invites tenders from suitably experienced contractors to deliver interpretation/exhibition fit-out works across the Leach Pottery site in St Ives, Cornwall. This commission forms part of a major £10 million capital redevelopment of one of the world's most significant studio pottery heritage sites, funded with support from the National Lottery Heritage Fund.\r\n\r\nContract Value: £375,000 - £400,000 (exclusive of VAT)\r\nContract Form: JCT Intermediate Building Contract with Contractor's Design (ICD) 2024\r\n\r\nPractical Completion: 4 June 2027\r\nSite Opening: 18 June 2027\r\n\r\nScope of Works:\r\nThe appointed contractor will act as Principal Designer and Principal Contractor, responsible for the manufacture, supply, and installation of four main packages: setworks and 3D elements; display showcases (including Government Indemnity Scheme standard cases); graphics and 2D elements production; and exhibition lighting supply. \r\n\r\nWorks span multiple spaces, including the historic Grade II listed Pottery buildings; refurbished 2008 extensions; new build Learning studios and reception areas; outdoor spaces, and cross-site wayfinding. \r\n\r\nFull coordination with the client (The Bernard Leach (St Ives) Trust Ltd), base build contractors (Dow Jones Architects), interpretive designers (Extended Studio), and the separately appointed AV contractor will be required. Audiovisual hardware and software are contracted separately and are out of scope.\r\n\r\nKey Dates as per ITT document:\r\n* Site visits (compulsory): Tuesday, 28 April - Thursday, 28 May 2026\r\n* Clarification deadline: Noon, Friday, 29 May 2026\r\n* Clarifications published: Monday 1 June 2026\r\n* Submission deadline: Noon, Friday, 12 June 2026\r\n* Evaluation: w/c Monday 15 June 2026\r\n* Interviews (shortlisted): Friday, 26 June and Monday, 29 June 2026\r\n* Contract award (notification): Tuesday, 30 June 2026\r\n* Online kick-",
     "budget_eur": 468000,
-    "deadline": "2026-05-22",
-    "relevance_score": 49.8,
+    "deadline": "2026-06-12",
+    "relevance_score": 53.5,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -5405,7 +5227,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "platform",
-    "deadline_status": "closing_soon",
+    "deadline_status": "open",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "920bb370-1618-4726-847a-2bdc2e2e56c4-895662",
@@ -5418,7 +5240,7 @@
     },
     "date_found": "2026-05-01",
     "scored_at": "2026-05-01T08:11:11.789140",
-    "last_updated": "2026-05-01T08:11:11.789141",
+    "last_updated": "2026-05-08",
     "added_date": "2026-05-01",
     "status": "New",
     "notes": "",
@@ -5695,6 +5517,442 @@
       {
         "status": "New",
         "date": "2026-05-07T08:33:11.884130",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b55c4a04cb5f",
+    "rfp_title": "Environment Agency Natural Flood Management Programme Phase 2 - Swan Brook Wetlands Year 3",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Swan Brook Wetlands project comprises a range of Natural Flood Management measures to be installed at three National Trust owned and tenanted farm project sites. The overall aim is to increase water retention in the headwaters of the Swan Brook and reduce flood risk downstream. NFM measures proposed are specific to each location and include low earth bunds, in-field scrapes, roughening features, leaky dams and areas of floodplain reconnection. It also includes the construction of access and associated drainage infrastructure. Multiple strategic benefits are expected. Contractors will be chosen based on capacity, capability, relevant experience of delivering NFM interventions, proposed solution and cost. \r\n\r\nThis project is funded by the Environment Agency as part of the £25 million Natural Flood Management Programme. \r\n• The project is funded by Defra\r\n• The programme is managed by the Environment Agency\r\n\r\nFull details of how to apply are in the attached Request for Proposals document.\r\n\r\nA visit to the sites is planned for Thursday 21st May 2026 (10.00-15.00).\r\n\r\nYour completed RFP1 Response and bill of quantities should arrive no later than noon on Friday 5th June 2026.",
+    "budget_eur": 93600,
+    "deadline": "2026-06-05",
+    "relevance_score": 49.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "cd2f3eff-8e78-4d36-bfe6-2d1a4c09e5db-896359",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-08",
+    "scored_at": "2026-05-08T07:41:41.062146",
+    "last_updated": "2026-05-08T07:41:41.062148",
+    "added_date": "2026-05-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-08T07:41:41.062153",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-6386370d1725",
+    "rfp_title": "Construction Consultancy Services Framework 2026",
+    "issuing_entity": "UNIVERSITY OF MANCHESTER",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The University of Manchester is providing advance notice of its intention to procure a Construction Consultancy Services Framework to support the delivery of its estates, infrastructure, and capital projects.\r\nThe Framework will be structured across multiple Lots, including:\r\n•\tLot 5: Building Surveying Services / Building Surveying and Project Management Services\r\n•\tLot 6: Mechanical and Electrical Engineering Services\r\n•\tLot 7: Structural and Civil Engineering Services\r\n•\tLot 8: Project Health and Safety / CDM Advisor Services\r\nThe Framework is intended to provide access to appropriately qualified consultants across a range of disciplines, enabling the University to procure services for projects of varying scale, value, and complexity. In addition to core services, the Framework will allow for the provision of supplementary and specialist services to support integrated delivery.\r\nInformation relating to:\r\n•\tthe proposed Framework structure and scope\r\n•\tsupplementary services\r\n•\tindicative procurement timetable\r\n•\tproposed Framework duration\r\n•\testimated spend and anticipated project volumes by Lot\r\n•\tevaluation criteria for Framework submissions;\r\nis set out within the attached draft 'Instructions and Guidance' and 'Project Summary' documents.\r\n \r\nPlease note:\r\n•\tAll dates are indicative, and the tender may be released earlier or later than currently anticipated.\r\n•\tAll information is provided in draft form and remains subject to change.\r\nInterested organisations should ensure they are registered on the University's In tend portal to access the tender documentation when it is published (https://in-tendhost.co.uk/manchesteruniversity/aspx/Registration).\r\nAny queries or expressions of interest at this stage may be directed to the named University contacts:\r\n \r\nDavid Sims - Framework Manager - david.sims@manchester.ac.uk \r\nCharlotte Hardman - Senior Category Manager - charlotte.hardman@manchester.ac.uk",
+    "budget_eur": 1,
+    "deadline": "",
+    "relevance_score": 33.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 10,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "eccb700b-dffa-43fa-b8b1-7190183b7225-896278",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-08",
+    "scored_at": "2026-05-08T07:41:41.063971",
+    "last_updated": "2026-05-08T07:41:41.063972",
+    "added_date": "2026-05-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-08T07:41:41.063976",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b34234802089",
+    "rfp_title": "The Supply of Electric Vehicle Charging Infrastructure and Associated Services",
+    "issuing_entity": "NOTTINGHAMSHIRE COUNTY COUNCIL",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Second Midlands Electric Vehicle Infrastructure Consortium (SMeviC) in collaboration with Midlands Connect (a Regional Sub-National Transport Body) invite you to bid for The Supply of Electric Vehicle Charging Infrastructure and Associated Services, to deliver this project across the Midlands.\r\n\r\nSMeviC have been allocated LEVI Capital Funding for the procurement of end-to-end EVI solutions across its geographic region. This open procurement has been separated into two Lots, each with their own concession contract:\r\n\r\nLot 1 - standard and/or fast chargepoints sockets, with minimum socket output of 7kW, up to 22kW.\r\nLot 2 - rapid (50 kW+ DC) chargepoint sockets.\r\n\r\nThis invitation is to appoint a single Concessionaire (or Partnership of Concessionaires) per Lot to support the delivery of this project for the works of:\r\nChargepoint site assessments and design, Supply, delivery, installation, and commissioning, Grid connection and supply, Maintenance and repair (underground and overground assets), Ongoing operation, including customer service/support and the supply of a Chargepoint management system.\r\n\r\nThe tender will be found on www.eastmidstenders.org",
+    "budget_eur": 1170000000,
+    "deadline": "",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a2c9b545-d8cf-460b-beeb-23bb8a296d83-896287",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-08",
+    "scored_at": "2026-05-08T07:41:41.064561",
+    "last_updated": "2026-05-08T07:41:41.064562",
+    "added_date": "2026-05-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-08T07:41:41.064567",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-49e1779e10c3",
+    "rfp_title": "Health Products/Medical Equipment",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Health Products and Medical Equipment. \r\n\r\n\r\nA comprehensive range of medical equipment and devices suitable for military medical facilities, field hospitals, and operational healthcare environments. This includes but is not limited to: diagnostic equipment (ECG machines, blood pressure monitors, pulse oximeters, thermometers), patient monitoring systems, wound care supplies, diagnostic imaging equipment, laboratory analysers, surgical instruments, and emergency medical equipment. All products must comply with relevant UK and international medical device regulations and standards.\r\n\r\nSupply of health and wellness products including personal protective equipment (PPE), first aid supplies, medical consumables, pharmaceutical products, nutritional supplements, and occupational health products. Products must meet military specifications and be suitable for deployment in diverse operational environments.\r\n\r\n\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement. The platform provides a streamlined approach to supplier onboarding and order management, ensuring efficiency and compliance with public procurement regulations.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, regulatory certifications, compliance documentation, technical specifications, and support capabilities. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. ",
+    "budget_eur": 2340000,
+    "deadline": "2026-06-04",
+    "relevance_score": 53.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 4.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 4,
+        "max": 15,
+        "strong_matches": [
+          "monitoring system"
+        ],
+        "moderate_matches": [
+          "monitoring"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a77530f5-f84f-40d5-b123-e9f51d11660b-896271",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-08",
+    "scored_at": "2026-05-08T07:41:41.066463",
+    "last_updated": "2026-05-08T07:41:41.066465",
+    "added_date": "2026-05-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-08T07:41:41.066469",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-516006e6b918",
+    "rfp_title": "Fluke Analysers",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Fluke Analysers.\r\n\r\nHigh-quality Fluke analysers and diagnostic equipment for electrical, electronic, and power quality testing and analysis. This includes but is not limited to: power quality analysers, electrical safety testers, thermal imaging cameras, digital multimeters, clamp meters, insulation testers, and network analysers. Equipment must meet industry standards and be suitable for military and defence sector applications, including field deployment and harsh operational environments.\r\n\r\nSuppliers must be able to provide a comprehensive range of Fluke analysers with varying specifications to meet diverse operational requirements. Products should include both portable and stationary analysers, with capabilities for real-time monitoring, data logging, and advanced diagnostics. Suppliers must be authorised Fluke distributors or resellers with access to current product lines and technical support.\r\n\r\nSuppliers must provide comprehensive technical support, calibration services, warranty options, spare parts availability, and repair services. Training and operational guidance for end-users should be available.\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement. The platform provides a streamlined approach to supplier onboarding and order management, ensuring efficiency and compliance with public procurement regulations.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, technical specifications, authorisation status with Fluke, support capabilities, and maintenance services. Further information on the onboarding process for ",
+    "budget_eur": 2925000,
+    "deadline": "2026-06-04",
+    "relevance_score": 58.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 9,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "monitoring"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "723bc538-8ea2-4d97-b2a3-3caf1ebd4c8f-896270",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-08",
+    "scored_at": "2026-05-08T07:41:41.067294",
+    "last_updated": "2026-05-08T07:41:41.067295",
+    "added_date": "2026-05-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-08T07:41:41.067299",
         "by": "scanner"
       }
     ],
