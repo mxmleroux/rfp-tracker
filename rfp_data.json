@@ -4896,7 +4896,7 @@
     "scored_at": "2026-04-29T08:18:15.113297",
     "last_updated": "2026-04-29T08:18:15.113298",
     "added_date": "2026-04-29",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -4905,7 +4905,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-98dbd42894a6",
@@ -5511,7 +5511,7 @@
     "scored_at": "2026-05-07T08:33:11.884124",
     "last_updated": "2026-05-07T08:33:11.884125",
     "added_date": "2026-05-07",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5520,7 +5520,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-b55c4a04cb5f",
@@ -5953,6 +5953,187 @@
       {
         "status": "New",
         "date": "2026-05-08T07:41:41.067299",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-28a6dfb39062",
+    "rfp_title": "Procurement Platform",
+    "issuing_entity": "Peterborough City Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Peterborough City Council's Procurement Team is seeking an eTendering solution to streamline processes, consolidate procurement activities into a single SaaS system, and reduce repeat data entry. We invite you to participate in this Preliminary Market Engagement by providing information about your solution and capabilities.",
+    "budget_eur": 46800,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "05933d11-1dcd-4b9e-9eb7-ed5734cd5bea-896494",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-09",
+    "scored_at": "2026-05-09T07:55:59.202951",
+    "last_updated": "2026-05-09T07:55:59.202952",
+    "added_date": "2026-05-09",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-09T07:55:59.202958",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-47d7185783d4",
+    "rfp_title": "Development and Integration of a Unified Data System for Sustainable Forest Management",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Multistakeholder Forestry Programme (MFP) is a long-term bilateral cooperation between Indonesia and the UK (since 2000) aimed at strengthening forest governance, tackling illegal logging, and improving livelihoods. Now in Phase 5 (launched 2026), it promotes sustainable management, timber legality (SVLK), and community-based forestry to support Indonesia's FOLU Net Sink 2030 target. \r\n\r\nThrough this Two-Stage Open Tender process, the Multistakeholder Forestry Programme Phase 5 (MFP5) seeks to find a qualified technology service provider for the development of an integrated and reliable Forest Data Governance System. The initiative aims to improve data integration, consistency, and accessibility across existing systems, and to support analysis, monitoring, and decision-making through a comprehensive dashboard reflecting key forest management processes. \r\n\r\nThe budget for this work is estimated to be in the range of IDR 2.750.000.000 to IDR 3.500.000.000.  Interested organizations are invited to submit an Expressions of Interest (EOI) demonstrating relevant technical capability and organizational capacity to deliver the services. The closing date for EOI submission is 18th May 2026, 1:00 PM, Jakarta Time. The full information is provided in the Term of Reference (TOR), available in English and Bahasa Indonesia.",
+    "budget_eur": 173160,
+    "deadline": "2026-05-18",
+    "relevance_score": 46.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 4.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 18.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "monitoring"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 3,
+        "max": 10,
+        "strong_matches": [
+          "dashboard"
+        ],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "496c805c-8b8c-475b-80b6-1e64da071cd4-896386",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Multi-stage",
+      "details": [
+        "Multiple evaluation stages",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-05-09",
+    "scored_at": "2026-05-09T07:55:59.204132",
+    "last_updated": "2026-05-09T07:55:59.204133",
+    "added_date": "2026-05-09",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-09T07:55:59.204138",
         "by": "scanner"
       }
     ],
