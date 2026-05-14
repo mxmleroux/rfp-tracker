@@ -3679,7 +3679,7 @@
     "scored_at": "2026-04-16T07:46:24.833091",
     "last_updated": "2026-04-16T07:46:24.833092",
     "added_date": "2026-04-16",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3688,7 +3688,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-b2a320777802",
@@ -4982,7 +4982,7 @@
     "scored_at": "2026-04-29T08:18:15.114631",
     "last_updated": "2026-04-29T08:18:15.114632",
     "added_date": "2026-04-29",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -4991,7 +4991,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-9c3010eeac29",
@@ -6398,6 +6398,94 @@
       {
         "status": "New",
         "date": "2026-05-13T08:43:40.905768",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-0b3b0b0847ca",
+    "rfp_title": "Balfour Beatty - Roads North of the Thames-LTC - Reinforced Soil Walls",
+    "issuing_entity": "BALFOUR BEATTY CIVIL ENGINEERING LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "We are inviting expressions of interest from qualified and experienced subcontractors for the design, manufacture, and supply of Reinforced Soil Retaining Wall systems as part of the Lower Thames Crossing programme.\r\n\r\nWhat We're Looking For\r\nSubcontractors should be able to:\r\nDeliver specialist reinforced soil wall solutions safely, efficiently, and in accordance with the project programme.\r\nProvide integrated design, manufacturing and supply services for reinforced soil systems.\r\nWork in line with all project requirements relating to health, safety, sustainability, low carbon, and quality.\r\n\r\nExperience & Standards\r\nWe are looking for companies with:\r\n\r\nDemonstrable experience in the design and/or supply of reinforced soil retaining walls and similar geotechnical or civil engineering structures.\r\nStrong health, safety, and environmental performance.\r\nRobust quality management systems and relevant industry certifications (e.g. HAPAS where applicable).\r\nThe capability to support project sustainability, carbon reduction, and social value objectives.\r\n\r\nNext Steps\r\nHow to apply, please complete the attached Reinforced Soil Retaining Walls Eligibility Criteria by the 21.05.26 then submit to the Supply Chain Team at BLTCProcurementandSupplyChain@balfourbeatty.com.\r\n\r\nAdditional information: The Lower Thames Crossing (LTC) is a new road to better connect Essex and Kent through a tunnel beneath the River Thames. Our purpose is to drive a change in how we deliver - connecting people to jobs and businesses to opportunities, leaving a skills legacy for the local community and construction industry, all whilst restoring nature and drawing a new blueprint for low-carbon construction.\r\n\r\nOur ambition is to deliver the UK's greenest road, and to do the right thing for local communities and the environment. We can only achieve this with the support of our supply chain, and it is therefore critical that for any supplier to be successful in winning work on LTC, they must demonstrat",
+    "budget_eur": 2925000,
+    "deadline": "2026-05-21",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1c1ec5b8-d613-4993-bd32-d4d7ee4850ab-897020",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-05-14",
+    "scored_at": "2026-05-14T08:36:45.601498",
+    "last_updated": "2026-05-14T08:36:45.601500",
+    "added_date": "2026-05-14",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-14T08:36:45.601504",
         "by": "scanner"
       }
     ],
