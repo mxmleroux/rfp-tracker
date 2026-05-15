@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T08:57:19.299561",
+  "last_updated": "2026-05-15T08:49:54.944818",
   "portals": {
     "ungm": {
       "status": "unhealthy",
@@ -99,10 +99,10 @@
     },
     "uk": {
       "status": "healthy",
-      "consecutive_zeros": 0,
+      "consecutive_zeros": 1,
       "last_success": "2026-05-14T08:57:19.251695",
       "last_error": null,
-      "last_run_count": 1,
+      "last_run_count": 0,
       "total_runs_checked": 15
     },
     "ted": {
