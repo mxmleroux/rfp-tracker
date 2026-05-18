@@ -2114,266 +2114,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-c63b4f4665cd",
-    "rfp_title": "Supply, Installation and Support of High-Fidelity Clinical Simulation Manikins and Training Services",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of Installation and Support of High-Fidelity Clinical Simulation Manikins and Training Services.\r\nThe requirement includes:\r\n•\t3 x high-fidelity adult patient simulation manikins, supplied with control software/licence, wound/trauma kit, clothing/cables, and a 1-year warranty.\r\n•\t3 x on-site installations, including set-up (including supplier PCs where applicable), software configuration, and full inspection/testing.\r\n•\tTraining, comprising 1 x one-day on-site \"getting started\" course (up to 8 attendees) and 2 x customised virtual instructor-led sessions.\r\n•\t1 x 2-year online learning platform subscription.\r\n•\tSupport, including 3 x 1-year extended warranties (return-to-workshop) and 3 x 36-month on-site maintenance programmes.\r\n•\tAccessories, including 3 x trauma adapters, 3 x rugged instructor tablets, 3 x bleeding/trauma modules, and 1 x moulage getting-started course.\r\nDelivery will include required documentation and user guidance.\r\n\r\n\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Minist",
-    "budget_eur": 1170000,
-    "deadline": "2026-04-17",
-    "relevance_score": 56.1,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 92.6,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "simulation"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "de4b14ef-2e79-49a8-9783-755a66d26e22-889076",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-03-19",
-    "scored_at": "2026-03-19T06:58:20.130593",
-    "last_updated": "2026-03-19T06:58:20.130594",
-    "added_date": "2026-03-19",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-19T06:58:20.130599",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-36132dcd5741",
-    "rfp_title": "Supply of Shrike Batteries & Charger",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of Supply of Shrike Batteries & Charger. \r\n\r\nThe equipment is designed to support the controlled initiation of approved systems, with a strong focus on safety, reliability, and ease of use across a range of operating environments.\r\nThe requirement includes provision of the core device and, where needed, compatible accessories (for example, adaptors, power supplies/charging equipment, and test/diagnostic tools). Delivery, documentation, and any necessary user guidance/training may also be included as part of the procurement.\r\n\r\n\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to mainta",
-    "budget_eur": 702000,
-    "deadline": "2026-04-17",
-    "relevance_score": 55.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 92.6,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "133e28be-019a-41e6-addd-ab7fcfc44e89-889058",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-03-19",
-    "scored_at": "2026-03-19T06:58:20.132197",
-    "last_updated": "2026-03-19T06:58:20.132202",
-    "added_date": "2026-03-19",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-19T06:58:20.132207",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-18b6a6251e03",
-    "rfp_title": "Supply of 3 in 1 Hi Vis",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of 3 in 1 Hi Vis.\r\nA fluorescent yellow Class 3 hi-vis jacket system: a ¾-length waterproof/breathable outer with a zip-in hi-vis softshell inner (inner can be worn alone). Designed for prolonged outdoor/static duties and flexible for patrol/driving. Fast-drying, no specialist cleaning; care labels and instructions supplied.\r\n\r\n\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nFor any enquiries an interest, please email defence.support@unite.eu with the subject title ''TSS 637 3 in 1 Hi Vis''",
-    "budget_eur": 351000,
-    "deadline": "2026-04-17",
-    "relevance_score": 55.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 92.6,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "19bc0890-af9a-48f4-a531-ca92e00eda33-888880",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-03-19",
-    "scored_at": "2026-03-19T06:58:20.133061",
-    "last_updated": "2026-03-19T06:58:20.133062",
-    "added_date": "2026-03-19",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-19T06:58:20.133067",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-aa71863d5e45",
     "rfp_title": "FDIS - Rosyth External Refurbishments to 26 properties - FY2026/27 - Amey North Region - Scotland",
     "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
@@ -2989,92 +2729,6 @@
       }
     ],
     "pass_reason": ""
-  },
-  {
-    "id": "rfp-5d72ba02cf1d",
-    "rfp_title": "Battery Energy Storage - Knook Camp",
-    "issuing_entity": "Ministry of Defence",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The project is to design, deliver and install a Battery Energy Storage and all supporting infrastructure at Knook Camp on the UK Defence Training Estate (UK DTE).\r\nThe battery energy storage must be designed and installed to exploit the contribution of existing on-site Solar PV energy on site, and maximise return of investment during the first 3 years.\r\nThe objective is to reduce the reliance of energy supply from the National Grid, whilst providing energy resilience and contributing to the MOD&apos;s Net Zero target and the project must be delivered in '26/'27 financial year, within budget.",
-    "budget_eur": 1755000,
-    "deadline": "2026-04-17",
-    "relevance_score": 44.6,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 40.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "1a537841-03b2-4d46-b287-cf9d16bb0a43-891288",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-02",
-    "scored_at": "2026-04-02T07:12:55.571711",
-    "last_updated": "2026-04-02T07:12:55.571713",
-    "added_date": "2026-04-02",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-02T07:12:55.571718",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-554b5656b0f6",
@@ -6484,6 +6138,94 @@
       {
         "status": "New",
         "date": "2026-05-16T08:04:14.321293",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-594d70da8ff3",
+    "rfp_title": "Capital repair of the passenger elevator with a lifting  capacity of 500 kg, including the installation of accessibility  features for persons with disabilities and other groups with  limited mobility, in the building of Academic Building No. 4 of the  National Technical University \"Dnipro Polytechnic\" located at: 19  Dmytro Yavornytskyi Ave., Dnipro.",
+    "issuing_entity": "Chemonics International, Inc.",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Chemonics Group UK Limited, implementing the Partnership Fund for a Resilient Ukraine - Phase 2 (PFRU-2) project within the framework of international technical assistance, invites you to submit a Tender Proposal for the capital repair of a passenger lift with a load capacity of 500 kg, including the installation of accessibility features for persons with disabilities and other persons with limited mobility, in Academic Building No. 4 of the National Technical University \"Dnipro Polytechnic\", located at: 19 Dmytra Yavornytskoho Ave., Dnipro.\r\nPFRU-2 is a multi-donor program managed by the UK Foreign, Commonwealth & Development Office (FCDO) in cooperation with the Government of Ukraine.\r\nWithin the framework of its project activities, PFRU-2 is seeking a service provider for the capital repair of a 500 kg passenger lift, including accessibility arrangements for persons with disabilities and other low-mobility groups, at the above-mentioned location.\r\nPlease note the following important tender provisions:\r\n\r\nThe deadline for submission of proposals is May 25, 2026, at 15:00 Kyiv time;\r\nAll questions regarding the tender must be submitted no later than May 21, 2026, at 15:00 Kyiv time;\r\nAll communication regarding the tender must be conducted exclusively in writing via: pfruprocurement@chemonics.com;\r\nThe PFRU-2 project is exempt from taxes, duties, and VAT in the partner country. Therefore, PFRU-2 will pay for goods and services without VAT;\r\nEmail address for proposal submission: pfruprocurement@chemonics.com;\r\nWhen submitting proposals or questions via email, the subject line must обязательно include the reference number: PFRU2-2025-476.\r\n\r\nProposal Submission Instructions:\r\n\r\nInvitation to Tender No. PFRU2-2025-476 - review for detailed tender requirements;\r\nAnnex 1 - Cover Letter - complete either the English or Ukrainian version, sign the original, and submit a scanned copy or convert to PDF and sign electronically (must be included in the proposal);\r\nAnnex 3 - ",
+    "budget_eur": 1,
+    "deadline": "2026-05-25",
+    "relevance_score": 23.5,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 10,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5de79416-f4ee-4a88-af5b-a484119e01f0-897772",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-18",
+    "scored_at": "2026-05-18T10:02:47.758599",
+    "last_updated": "2026-05-18T10:02:47.758601",
+    "added_date": "2026-05-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-18T10:02:47.758606",
         "by": "scanner"
       }
     ],
