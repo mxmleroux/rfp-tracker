@@ -3677,7 +3677,7 @@
     "scored_at": "2026-04-22T07:46:41.729312",
     "last_updated": "2026-04-22T07:46:41.729314",
     "added_date": "2026-04-22",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3686,7 +3686,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-897305f2764b",
@@ -3763,7 +3763,7 @@
     "scored_at": "2026-04-22T07:46:41.729806",
     "last_updated": "2026-04-22T07:46:41.729807",
     "added_date": "2026-04-22",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3772,7 +3772,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-1129de7939fa",
@@ -3849,7 +3849,7 @@
     "scored_at": "2026-04-22T07:46:41.730434",
     "last_updated": "2026-04-22T07:46:41.730435",
     "added_date": "2026-04-22",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -3858,7 +3858,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-4c0238d4dc52",
@@ -5692,7 +5692,7 @@
     "scored_at": "2026-05-09T07:55:59.204132",
     "last_updated": "2026-05-10",
     "added_date": "2026-05-09",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5701,7 +5701,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e716007268c7",
@@ -6226,6 +6226,92 @@
       {
         "status": "New",
         "date": "2026-05-18T10:02:47.758606",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-06791b26557a",
+    "rfp_title": "CA17851 - RFQ 2026/12 - PEACEPLUS Mental Health First Aid Training for The Mournes, Downpatrick Rowallane Areas",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Newry Mourne & Down District Council's PEACEPLUS Action Plan includes the delivery of Capacity Building and Engagement Programmes under Strand 2 - Thriving and Peaceful Communities. Strand 2 focuses on eight identified priority projects encompassing a broad range of initiatives focused on capacity building, leadership development, cross community relationship building interaction and engagement, social and emotional support, events and festivals and community justice interventions.\r\n\r\nThis project will deliver accredited Mental Health First Aid (MHFA) training within the Rowallane, Downpatrick and Mournes DEA areas, strengthening the capacity of local community and voluntary groups to identify, respond to, and signpost individuals experiencing mental health challenges. The project will build capacity within local community & voluntary organisations to support mental wellbeing equipping participants with MHFA skills to respond confidently to emerging mental health issues, foster stronger \r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17851.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17851 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": null,
+    "deadline": "2026-06-15",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "8b81eeb8-b004-467b-8b47-24f26cfcd0a5-897870",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-19",
+    "scored_at": "2026-05-19T09:41:37.206888",
+    "last_updated": "2026-05-19T09:41:37.206890",
+    "added_date": "2026-05-19",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-19T09:41:37.206895",
         "by": "scanner"
       }
     ],
