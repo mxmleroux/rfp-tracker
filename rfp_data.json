@@ -6044,7 +6044,7 @@
     "scored_at": "2026-05-14T08:36:45.601498",
     "last_updated": "2026-05-14T08:36:45.601500",
     "added_date": "2026-05-14",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6053,7 +6053,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-06898586b2ce",
@@ -6484,6 +6484,92 @@
       {
         "status": "New",
         "date": "2026-05-21T09:39:40.823303",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-c005f6bf54ed",
+    "rfp_title": "Frome Town Hall - External maintenance works",
+    "issuing_entity": "Frome Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "A?planned maintenance report for the Town Hall was commissioned in July 2024 and refreshed in February 2026(see attached document). The project will address building externals identified as year 1 priorities in this report.\r\nThe Applicant must include a breakdown of costs for the Project proposal, including.\r\nRainwater goods - Repair and refurbishment of cast iron and UPVC guttering and downpipes\r\nExternal walls - stone repairs and cleaning to all elevations. Repointing of mortar where joints have deteriorated and recessed. Check integrity of ornate pinnacles and parapet balustrades\r\nExternal joinery - Timber fascia and soffit boarding. Remove and replace decayed sections of timber and decorate\r\nFront entrance steps and stone balustrade - remedial repair to include rebedding loose stone and filling loose joints. Repaint nosings\r\nStone boundary walls - Repair works to cracked car park wall and stone capings at left elevation\r\nExternal walls (Elliot building) - Fix all loose and lifting cladding panels and renew open joints\r\nAccess requirements\r\nAny other items (please detail)\r\nThe Contractor will be required to ensure that all relevant licences and permissions are in place and correct. Such as waste storage and removal, scaffolding licences etc.\r\nThe contractor will provide all relevant plans and drawings for client approval prior to works starting. To include specifications of all materials to be used.",
+    "budget_eur": 117000,
+    "deadline": "2026-06-30",
+    "relevance_score": 50.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1a44c864-e9b1-4c04-b3a1-381fe441a0f2-898678",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-22",
+    "scored_at": "2026-05-22T09:22:14.804886",
+    "last_updated": "2026-05-22T09:22:14.804887",
+    "added_date": "2026-05-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-22T09:22:14.804892",
         "by": "scanner"
       }
     ],
