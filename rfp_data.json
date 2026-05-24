@@ -2202,94 +2202,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-cc19f51c0523",
-    "rfp_title": "POW-CP-62579 - Provision of General Dental Services - Knighton",
-    "issuing_entity": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Powys Teaching Health Board wishes to receive bids from dental healthcare providers with the necessary capacity and capability (or a demonstrable ability to provide the necessary capacity and capability) to provide the range of services required for NHS General Dental Services.\r\n PLEASE NOTE\r\n All Documents relating to the following tender are available via etenderwales - https://etenderwales.bravosolution.co.uk/web/login.shtml\r\n ITT REF: itt_123969",
-    "budget_eur": 2925000,
-    "deadline": "2026-04-23",
-    "relevance_score": 44.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Sell2Wales",
-    "source_url": "https://www.sell2wales.gov.wales/Search/Search_Switch.aspx?ID=ocds-kuma6s-163419-release-163419",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-03-27",
-    "scored_at": "2026-03-27T07:07:34.431237",
-    "last_updated": "2026-03-31",
-    "added_date": "2026-03-27",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-03-27T07:07:34.431244",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-8397dc415aa6",
     "rfp_title": "REQUEST FOR INFORMATION - PROJECT HORUS",
     "issuing_entity": "Ministry of Defence",
@@ -6584,7 +6496,7 @@
     "description": "This Request for Information sets out the Trust's situation and objectives in respect of the design, supply and fit out of new interpretation in the mansion at Saltram (the Opportunity), as part of its Future Saltram: Access to Nature & Heritage Package funded by The National Lottery Heritage Fund (NLHF). Interpretation is required for two historic rooms (87 sqm) at the core of the mansion, in addition to liminal circulation spaces, which will be newly opened to the public as part of an equitable visitor route. Interpretation is also required for other select parts of the mansion. The Trust seeks initial information from a range of bidders as to possible solutions, capacity, capability and relevant experience.\r\n\r\nDesign, supply & fit out of interpretation which delivers on our mission to \"use cultural heritage to enhance lives - growing social and creative value which boosts the wellbeing of the people of Plymouth and beyond.\" These newly opened rooms will be spaces where inclusive, global narratives unfold in compelling, accessible ways, driving engagement and footfall, all informed by the audiences we serve.\r\n\r\nRequest for information process to be completed by 12 June, followed by a shortlisted Request for Proposal that will select a partner in time for contract commencement in August 2026.\r\n\r\nThe fit out of interpretation is expected to commence in April 2027, with practical completion and public opening in June 2027. \r\n\r\nThis Opportunity will interface with building works to create a new equitable visitor route in the mansion. \r\n\r\nThe Supplier must work with the Project Team and other contractors to discharge pre-commencement planning and Listed Building Consent conditions as relate to the Opportunity and spaces in question.\r\n\r\nSaltram Estate is located in Plympton, Plymouth, Devon, PL7 1UH\r\n\r\n\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/\r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustome",
     "budget_eur": 234000,
     "deadline": "2026-06-12",
-    "relevance_score": 46.4,
+    "relevance_score": 46.1,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -6650,7 +6562,7 @@
     },
     "date_found": "2026-05-23",
     "scored_at": "2026-05-23T08:19:34.245569",
-    "last_updated": "2026-05-23T08:19:34.245571",
+    "last_updated": "2026-05-24",
     "added_date": "2026-05-23",
     "status": "New",
     "notes": "",
@@ -6672,7 +6584,7 @@
     "description": "NCS are requesting tenders from suppliers interested in working in partnership across a number of subcontract delivery contracts within the radius of Swindon for up to £2.67m gross income over the 2026/27 academic year, with the intended outcome of selecting the most advantageous tender(s) (MAT) to deliver a fixed-term contract from 01 August 2026 to 31 July 2027. Spend details are indicative only, award of funding is subject to the criteria detailed within this Guidance, and NCS reserve the right to make multiple awards where best value can be achieved and in accordance with NCS subcontract strategy.\r\n\r\nThe tender has been split into the following requirements:\r\n\r\n1.\tAdult Skills Fund (ASF) Programmes (Level 2 and upwards)\r\n2.\tAdult Skills Fund (ASF) Tailored Learning (any level)\r\n3.\tApprenticeships (Level 2 and upwards)\r\n4.\t16-18 Provision (Level 3 and upwards - consideration will be given to Level 2)\r\n5.\tHigher Education (Level 3 and upwards)\r\n\r\nFace to face and distance learning offers will be considered however all learners must reside within 60 miles of Swindon.  \r\n\r\nTenderer's are invited to apply for one or all Lots in accordance with their own technical capability and capacity.  \r\n\r\n\r\nIncludes Lots: \r\nLot 1: Lot 1\r\nLot 2: Lot 2\r\nLot 3: Lot 3\r\nLot 4: Lot 4\r\nLot 5: Lot 5\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17886.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17886 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
     "budget_eur": 3127867,
     "deadline": "2026-06-17",
-    "relevance_score": 45.3,
+    "relevance_score": 44.9,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -6736,7 +6648,7 @@
     },
     "date_found": "2026-05-23",
     "scored_at": "2026-05-23T08:19:34.246672",
-    "last_updated": "2026-05-23T08:19:34.246673",
+    "last_updated": "2026-05-24",
     "added_date": "2026-05-23",
     "status": "New",
     "notes": "",
