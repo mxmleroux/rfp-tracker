@@ -6044,7 +6044,7 @@
     "scored_at": "2026-05-16T08:04:14.321287",
     "last_updated": "2026-05-17",
     "added_date": "2026-05-16",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6053,7 +6053,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-594d70da8ff3",
@@ -6132,7 +6132,7 @@
     "scored_at": "2026-05-18T10:02:47.758599",
     "last_updated": "2026-05-18T10:02:47.758601",
     "added_date": "2026-05-18",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6141,7 +6141,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-06791b26557a",
@@ -6496,7 +6496,7 @@
     "description": "This Request for Information sets out the Trust's situation and objectives in respect of the design, supply and fit out of new interpretation in the mansion at Saltram (the Opportunity), as part of its Future Saltram: Access to Nature & Heritage Package funded by The National Lottery Heritage Fund (NLHF). Interpretation is required for two historic rooms (87 sqm) at the core of the mansion, in addition to liminal circulation spaces, which will be newly opened to the public as part of an equitable visitor route. Interpretation is also required for other select parts of the mansion. The Trust seeks initial information from a range of bidders as to possible solutions, capacity, capability and relevant experience.\r\n\r\nDesign, supply & fit out of interpretation which delivers on our mission to \"use cultural heritage to enhance lives - growing social and creative value which boosts the wellbeing of the people of Plymouth and beyond.\" These newly opened rooms will be spaces where inclusive, global narratives unfold in compelling, accessible ways, driving engagement and footfall, all informed by the audiences we serve.\r\n\r\nRequest for information process to be completed by 12 June, followed by a shortlisted Request for Proposal that will select a partner in time for contract commencement in August 2026.\r\n\r\nThe fit out of interpretation is expected to commence in April 2027, with practical completion and public opening in June 2027. \r\n\r\nThis Opportunity will interface with building works to create a new equitable visitor route in the mansion. \r\n\r\nThe Supplier must work with the Project Team and other contractors to discharge pre-commencement planning and Listed Building Consent conditions as relate to the Opportunity and spaces in question.\r\n\r\nSaltram Estate is located in Plympton, Plymouth, Devon, PL7 1UH\r\n\r\n\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/\r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustome",
     "budget_eur": 234000,
     "deadline": "2026-06-12",
-    "relevance_score": 45.7,
+    "relevance_score": 45.3,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -6562,7 +6562,7 @@
     },
     "date_found": "2026-05-23",
     "scored_at": "2026-05-23T08:19:34.245569",
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-05-26",
     "added_date": "2026-05-23",
     "status": "New",
     "notes": "",
