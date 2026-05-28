@@ -4023,7 +4023,7 @@
     "scored_at": "2026-04-23T07:52:38.483022",
     "last_updated": "2026-04-23T07:52:38.483023",
     "added_date": "2026-04-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -4032,7 +4032,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-9db190aa9749",
@@ -5975,7 +5975,7 @@
     "market": "UK + Ireland",
     "description": "Fedcap is undertaking early market engagement and partnership development activity ahead of the anticipated release of the Department for Energy Security & Net Zero (DESNZ) North Sea Job Service Invitation to Tender (ITT).\r\n\r\nThis RFP will help Fedcap identify organisations that may contribute to the design and delivery of a high-quality, employer-led workforce transition service supporting oil and gas workers into sustainable employment within priority growth sectors.\r\n\r\nFedcap is particularly interested in engaging organisations that can demonstrate:\r\n\r\n· National or sector-specific employer reach\r\n\r\n· Workforce transition and employability support capability\r\n\r\n· Technical training capacity aligned to priority sectors\r\n\r\n· Regional delivery infrastructure and local labour market knowledge\r\n\r\n· Employer-led workforce pathways linked to real vacancies\r\n\r\n· Scalable mobilisation and delivery capability",
     "budget_eur": 1,
-    "deadline": "2026-05-25",
+    "deadline": "2026-06-01",
     "relevance_score": 31.5,
     "win_probability": "Low",
     "feature_alignment_score": 0.0,
@@ -6029,7 +6029,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "8c21a146-d9ed-4ea4-80fd-6d8b0cc3a97a-897529",
@@ -6042,7 +6042,7 @@
     },
     "date_found": "2026-05-16",
     "scored_at": "2026-05-16T08:04:14.321287",
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-05-28",
     "added_date": "2026-05-16",
     "status": "Passed",
     "notes": "",
@@ -6304,7 +6304,7 @@
     "scored_at": "2026-05-20T09:32:43.438202",
     "last_updated": "2026-05-20T09:32:43.438204",
     "added_date": "2026-05-20",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6313,7 +6313,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-369314d3a581",
@@ -6830,6 +6830,185 @@
       {
         "status": "New",
         "date": "2026-05-27T09:48:30.650875",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-a0037c3996ad",
+    "rfp_title": "CROSS Marketing & Communications",
+    "issuing_entity": "UK Atomic Energy Authority",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "UKAEA requires a consultant capable of delivering integrated marketing and communications support across campaign delivery, content creation, stakeholder engagement and media activity for Year 1. The Consultant may be required to provide communications planning and advisory support aligned to the evolving needs of the CROSS programme.",
+    "budget_eur": null,
+    "deadline": "2026-06-17",
+    "relevance_score": 37.2,
+    "win_probability": "Low",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 59.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 1,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": [
+          "stakeholder engagement"
+        ]
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component.",
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "b50c0cae-e1a5-484e-b005-ad3d9549f511-899421",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-28",
+    "scored_at": "2026-05-28T10:00:02.115616",
+    "last_updated": "2026-05-28T10:00:02.115619",
+    "added_date": "2026-05-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-28T10:00:02.115627",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e318bdeba356",
+    "rfp_title": "Supply of Embroidered Badges with Name and Motif",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support Supply of Embroidered Badges with Name and Motif. The procurement covers;\r\n\r\nRequirement Overview \r\nThe Ministry of Defence requires the supply of embroidered badges featuring both names and qualification motifs. Further to this, we invite suppliers for the following. \r\nBelts, safety boots, base layer short, thermal layer and FR outer layer. \r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their:\r\n\r\nEmbroidery capabilities and experience\r\nProduct range and customisation options\r\nQuality assurance processes\r\nDelivery timescales and capacity\r\nPricing structure\r\nFurther information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nContact Information\r\nFor any enquiries and interest,",
+    "budget_eur": 885690,
+    "deadline": "2026-06-17",
+    "relevance_score": 49.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 59.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "roi"
+        ]
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d6397e7b-9a5e-4e95-b635-b2f7c1f6c39b-899319",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-28",
+    "scored_at": "2026-05-28T10:00:02.117605",
+    "last_updated": "2026-05-28T10:00:02.117606",
+    "added_date": "2026-05-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-28T10:00:02.117610",
         "by": "scanner"
       }
     ],
