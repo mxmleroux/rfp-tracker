@@ -7013,5 +7013,91 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-afb65f4abdb7",
+    "rfp_title": "EKFB JV - Highways Works NC2A",
+    "issuing_entity": "Eiffage Kier JV HS2 Main Civils Works, Lots C2 & C3",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "NC2A is the North Chilterns to Aylesbury section of C23, a part of the HS2 project managed by the EKFB Joint Venture. \r\n      \r\n      We are seeking a specialist subcontractor to undertake the following works within the NC2A section: \r\n      \r\n      The Subcontract Works includes for the provision of all management, labour, materials, plant and equipment, supervision, and other resources necessary and ancillary to safely complete the construction and handover of Highways/ footpaths works, as described in the specifications, drawings, HS2 standards Requirements and local authority specifications. The Subcontractor will be responsible for the temporary works design and temporary works construction as further detailed in this document.\r\n      The subcontractor will be responsible for all permanent and temporary works relating to the  Highways realignment unless otherwise excluded. The works included as part of this scope to be delivered by the subcontractor are:\r\n      -\tSite clearance including Removal of existing drainage, kerbs, footpath, highway pavement, verges within permanent design location.\r\n      -\tEarthworks including excavation to formation, soft spot treatment if required.\r\n      -\tDrainage system, including temporary excavations, supply and installation of chambers, gullies, headwalls, carrier drains, filter and fin drains, fin drains, ditches, hydro brake system, non-return valve connection to existing drainage systems.\r\n      -\tService ducts: including supply and installation of service ducts, connections and chambers.\r\n      -\tRoad formation (asphalt surfacing by others): this includes supply and installation of geotextile separation materials highways and footways kerbs. Installation of capping and subbase layers\r\n      \r\n      \r\n      Please express your interest within this package.",
+    "budget_eur": 585000,
+    "deadline": "2026-06-05",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1d61fc20-e220-40a0-b5ce-d9c847425012-899597",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-05-29",
+    "scored_at": "2026-05-29T09:53:35.559037",
+    "last_updated": "2026-05-29T09:53:35.559041",
+    "added_date": "2026-05-29",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-05-29T09:53:35.559049",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
