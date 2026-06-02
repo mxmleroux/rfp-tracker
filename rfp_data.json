@@ -4650,7 +4650,7 @@
     "description": "Interpretation Fit-Out Build Contractor - The Leach Pottery, St Ives, Cornwall\r\n\r\nThe Bernard Leach (St Ives) Trust Ltd invites tenders from suitably experienced contractors to deliver interpretation/exhibition fit-out works across the Leach Pottery site in St Ives, Cornwall. This commission forms part of a major £10 million capital redevelopment of one of the world's most significant studio pottery heritage sites, funded with support from the National Lottery Heritage Fund.\r\n\r\nContract Value: £375,000 - £400,000 (exclusive of VAT)\r\nContract Form: JCT Intermediate Building Contract with Contractor's Design (ICD) 2024\r\n\r\nPractical Completion: 4 June 2027\r\nSite Opening: 18 June 2027\r\n\r\nScope of Works:\r\nThe appointed contractor will act as Principal Designer and Principal Contractor, responsible for the manufacture, supply, and installation of four main packages: setworks and 3D elements; display showcases (including Government Indemnity Scheme standard cases); graphics and 2D elements production; and exhibition lighting supply. \r\n\r\nWorks span multiple spaces, including the historic Grade II listed Pottery buildings; refurbished 2008 extensions; new build Learning studios and reception areas; outdoor spaces, and cross-site wayfinding. \r\n\r\nFull coordination with the client (The Bernard Leach (St Ives) Trust Ltd), base build contractors (Dow Jones Architects), interpretive designers (Extended Studio), and the separately appointed AV contractor will be required. Audiovisual hardware and software are contracted separately and are out of scope.\r\n\r\nKey Dates as per ITT document:\r\n* Site visits (compulsory): Tuesday, 28 April - Thursday, 28 May 2026\r\n* Clarification deadline: Noon, Friday, 29 May 2026\r\n* Clarifications published: Monday 1 June 2026\r\n* Submission deadline: Noon, Friday, 12 June 2026\r\n* Evaluation: w/c Monday 15 June 2026\r\n* Interviews (shortlisted): Friday, 26 June and Monday, 29 June 2026\r\n* Contract award (notification): Tuesday, 30 June 2026\r\n* Online kick-",
     "budget_eur": 468000,
     "deadline": "2026-06-12",
-    "relevance_score": 53.5,
+    "relevance_score": 45.7,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -4703,7 +4703,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "platform",
-    "deadline_status": "open",
+    "deadline_status": "closing_soon",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "920bb370-1618-4726-847a-2bdc2e2e56c4-895662",
@@ -4716,7 +4716,7 @@
     },
     "date_found": "2026-05-01",
     "scored_at": "2026-05-01T08:11:11.789140",
-    "last_updated": "2026-05-08",
+    "last_updated": "2026-06-02",
     "added_date": "2026-05-01",
     "status": "New",
     "notes": "",
@@ -6824,7 +6824,7 @@
     "scored_at": "2026-05-27T09:48:30.650869",
     "last_updated": "2026-05-27T09:48:30.650871",
     "added_date": "2026-05-27",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6833,7 +6833,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-a0037c3996ad",
@@ -7164,7 +7164,7 @@
     ],
     "score_confidence": "high",
     "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "5f8725b0-d8ae-49a5-93a1-978d948733b3-899683",
@@ -7175,7 +7175,7 @@
     },
     "date_found": "2026-05-30",
     "scored_at": "2026-05-30T08:27:25.647493",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-02",
     "added_date": "2026-05-30",
     "status": "New",
     "notes": "",
@@ -7183,6 +7183,354 @@
       {
         "status": "New",
         "date": "2026-05-30T08:27:25.647499",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-fcbc4846798e",
+    "rfp_title": "Bransdale and Raisdale Projects - Consultancy Support",
+    "issuing_entity": "North York Moors National Park Authority",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The North York Moors National Park Authority is seeking an experienced Consultant to work with its Head of Farming and Land Management and Nature Recovery Project Development Manager to scope and prepare a pipeline of practical interventions that will reduce emissions, enhance carbon sequestration, and strengthen climate resilience in Bransdale and Raisdale, with broader landscape-scale benefits across the North York Moors National Park.",
+    "budget_eur": 180180,
+    "deadline": "2026-06-17",
+    "relevance_score": 44.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 40.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c7eba404-a7b4-4c31-9e4a-872e2740bf96-900045",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-02",
+    "scored_at": "2026-06-02T10:22:39.080505",
+    "last_updated": "2026-06-02T10:22:39.080506",
+    "added_date": "2026-06-02",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-02T10:22:39.080510",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-24a96d99ddad",
+    "rfp_title": "Facilities Management",
+    "issuing_entity": "Southborough Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Council is seeking interest from companies to join its Facilities Management Framework and is shortly intending to issue Invitation to Tender documents for the provision of services on 30th June 2026.\r\nWe would be grateful if we can understand the possible interest companies may have in joining the Facilities Management Framework, by emailing finance@southboroughcouncil.co.uk no later than 26th June 2026, by sending the following statement to express their interest: We would be pleased to submit a response to the ITT to join the Facilities Management Framework when it becomes available on the portal. \r\nIn responding to the ITT, the companies are requested to provide there last two years audited accounts and a summary of its experience, technical capability and previous contracts of similar services delivered, in a document containing no more than one thousand words, plus associated charts or images, supporting its suitability for the provision of the required services.",
+    "budget_eur": 936000,
+    "deadline": "",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a6bf0174-c408-4ad1-ac96-b90ed36dab45-900002",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-02",
+    "scored_at": "2026-06-02T10:22:39.082451",
+    "last_updated": "2026-06-02T10:22:39.082452",
+    "added_date": "2026-06-02",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-02T10:22:39.082457",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-d1895535c4cf",
+    "rfp_title": "Outsourced Activity 2026 - 85100000",
+    "issuing_entity": "UNIVERSITY HOSPITALS COVENTRY AND WARWICKSHIRE NHS TRUST",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The activity relates to carrying our surgery for long waiter patients on the waiting lists of specific surgeons in the hospital. There is insuffiicient capacity in existing NHS core hours to carry out the surgery for these patients and so we are seeking additional capacity from outside of the NHS. The activity in scope of the outsourcing relates to specific surgoens who have practising privileges to operate privately at this particular Independent Sector Provider. The advantages of ensuring the continuity of the surgeon is that the patient will not require to be reviewed as an outpatient and will not require diagnostic tests to be repeated  - this saves both time and money, and is less demanding on the patient in terms of taking time out to attend repeat additional and avoidable outpatient attendances - which in some cases can also involve radiological diagnostic investigations.",
+    "budget_eur": null,
+    "deadline": "2026-06-11",
+    "relevance_score": 34.9,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 18.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d1cf6639-98fe-46f7-87a8-beeed1e303fc-900009",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-02",
+    "scored_at": "2026-06-02T10:22:39.083135",
+    "last_updated": "2026-06-02T10:22:39.083136",
+    "added_date": "2026-06-02",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-02T10:22:39.083140",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-395da1fd2cd0",
+    "rfp_title": "Fit out and Alteration Works of Broadford Coastguard Rescue Station (CRS)",
+    "issuing_entity": "MCA - Maritime and Coastguard Agency",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Requirement is for the design and delivery of a fully operational Coastguard Rescue Station (CRS) to support frontline response capability, staff welfare, and statutory health and safety compliance.\r\nThe completed facility must provide fit-for-purpose accommodation and operational infrastructure for Coastguard Rescue Teams, meeting MCA standards and enabling safe, resilient and effective emergency response operations.\r\n\r\nAdditional information: \r\nThe further competition for this requirement is available on the Department for Transport Sourcing Portal:\r\n\r\nhttps://dft.app.jaggaer.com/ \r\n\r\nTo participate in the further competition, you must first register on the portal - you can do this by clicking the grey \"click here to register!\" button on the link above and following the instructions.\r\n\r\nPlease note that if you are an existing supplier to the DfT, you may be notified that you already exist within the new system. If this is the case, please email mycommercial@dft.gov.uk with your preferred email address for registration. This will be updated on the system where you will then be able to check and update all your details accurately.\r\n\r\nIn addition, please note that you will require a DUNS number (Dun and Bradstreet) to register. If you do not know your number access the following link to find yours: https://www.dnb.co.uk/duns-number/lookup.html, click on the D-U-N-S number section. If a DUNS number is not found there is guidance on how to acquire one in the same place.\r\n\r\nShould you have any technical issue registering on the system please contact the Jaggaer Helpdesk in the first instance:\r\n\r\nPhone: 0800 069 8630\r\n\r\nhelp_uk@jaggaer.com",
+    "budget_eur": 292500,
+    "deadline": "2026-06-23",
+    "relevance_score": 49.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 63.0,
+    "competitive_score": 85,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "Open competition with positive signals. Strong position to bid.",
+    "positive_signals": [
+      "new system"
+    ],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "929527f1-190e-4cf4-9695-3dd406ec7001-899989",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-02",
+    "scored_at": "2026-06-02T10:22:39.085398",
+    "last_updated": "2026-06-02T10:22:39.085399",
+    "added_date": "2026-06-02",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-02T10:22:39.085404",
         "by": "scanner"
       }
     ],
