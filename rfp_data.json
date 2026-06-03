@@ -7535,5 +7535,179 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-8e6ef8282cd9",
+    "rfp_title": "CA17950 - HR, Payroll and Employee Screening Services 2",
+    "issuing_entity": "Crescent Purchasing Consortium Limited",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "For the past few years, CPC has outsourced the contract management of its HR, Payroll and Employee Screening Services framework agreement for various reasons, one of which being capacity internally. We are now looking to bring this framework back in-house and this tender exercise will form the new iteration of the framework. \r\nSuppliers must be capable of delivering high-quality, cost-effective HR, Payroll and Employee Screening Services to institutions such as schools, academies, colleges, universities, and educational trusts, as well as local authorities and the wider public sector. \r\nCPC will be using the MultiQuote e-Tendering platform to carry out this tender. In order to express your interest in this tender and obtain the tender documents, please register or log in at: https://suppliers.multiquote.com/Page/Login.aspx If you have any issues when using MultiQuote, please contact Elcom Ltd on 020 3920 8054 or email supplier@elcom.com\r\n\r\n\r\nIncludes Lots: \r\nLot 1: Lot 1 - Human Resource Services\r\nLot 2: Lot 2 - Payroll Services\r\nLot 3: Lot 3 - Employee Screening Services \r\nLot 4: Lot 4 - DBS Screening Services\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17950.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17950 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": 11700000,
+    "deadline": "2026-07-01",
+    "relevance_score": 53.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 27.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5d7b000c-f7ea-4e63-b25a-4d34b75c5606-900364",
+    "procurement_process": {
+      "type": "Framework Agreement",
+      "rounds": "Multiple call-offs",
+      "details": [
+        "Framework with potential mini-competitions"
+      ]
+    },
+    "date_found": "2026-06-03",
+    "scored_at": "2026-06-03T10:58:09.396868",
+    "last_updated": "2026-06-03T10:58:09.396870",
+    "added_date": "2026-06-03",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-03T10:58:09.396875",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-2822ea871a95",
+    "rfp_title": "Tree Works in our Public Parks and Open Spaces within Taunton",
+    "issuing_entity": "Taunton Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Tree works, including but not limited to felling, reducing and clearing, to be carried out during business hours. This does not include emergency or out of hours works.\r\nThe contractor must possess, maintain, and have access to all necessary equipment to effectively and safely execute tree work during business hours. This includes, but is not limited to:\r\nVehicles - Robust 4x4 vehicles suitable for park access (with appropriate clearance/permissions), fully insured and equipped with secure storage and lighting.\r\nChainsaw - A range of professional chainsaws(ground and climbing saws) with appropriate guide bars for large and small material, and spare parts.\r\nAccess, Climbing - Full set of specialist climbing Personal Protective Equipment (PPE), including harnesses, ropes, friction devices, and emergency descent/rescue equipment.\r\nLifting, Rigging - Rigging equipment (slings, blocks, ropes, port-a-wraps) and winches (vehicle-mounted or manual) for securing and controlling large/fallen timber.\r\nLighting - High-intensity, self-powered lighting towers/generators for safe work visibility during night-time operations.\r\nWelfare, Safety - Full Personal Protective Equipment (PPE) for all crew (helmets, visors, chainsaw trousers, boots, hearing protection), mobile welfare facilities, and traffic management signage/cones.\r\nClearance - Woodchipper and/or tipper truck/trailer capacity suitable for immediate removal or large volumes of timber and brushwood.",
+    "budget_eur": 35100,
+    "deadline": "2026-07-13",
+    "relevance_score": 50.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "233d3b45-83f7-4edc-b4d8-1983bbf226cf-900261",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-03",
+    "scored_at": "2026-06-03T10:58:09.399561",
+    "last_updated": "2026-06-03T10:58:09.399562",
+    "added_date": "2026-06-03",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-03T10:58:09.399567",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
