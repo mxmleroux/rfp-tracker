@@ -4808,7 +4808,7 @@
     "scored_at": "2026-05-06T08:26:23.033138",
     "last_updated": "2026-05-06T08:26:23.033140",
     "added_date": "2026-05-06",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -4817,7 +4817,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-0187637594ea",
@@ -5335,7 +5335,7 @@
     "scored_at": "2026-05-08T07:41:41.066463",
     "last_updated": "2026-05-08T07:41:41.066465",
     "added_date": "2026-05-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5344,7 +5344,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-516006e6b918",
@@ -5423,7 +5423,7 @@
     "scored_at": "2026-05-08T07:41:41.067294",
     "last_updated": "2026-05-08T07:41:41.067295",
     "added_date": "2026-05-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5432,7 +5432,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-28a6dfb39062",
@@ -7705,6 +7705,358 @@
       {
         "status": "New",
         "date": "2026-06-03T10:58:09.399567",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-a8048f0b872e",
+    "rfp_title": "Future Employment Support",
+    "issuing_entity": "MAXIMUS UK SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Maximus intends to participate in DWP's upcoming procurement for Future Employment Support for out-of-work Universal Credit claimants. The service is expected to provide personalised and tailored support that is responsive to individual needs and local area. This may include skills, training and work experience; matching participants with employers through job trials, jobs fairs and job brokering; support with self-employment; intensive and repeated support with applications and interviewing; support in managing health conditions in the workplace; support with travel and childcare; and access to specialist support (e.g. ESOL, addiction).\r\n\r\nOur ambition is to work with a diverse network of partners who share our commitment to delivering high-quality, person-centred support and measurable impact. Maximus is interested in engaging with a diverse range of providers, including (but not limited to):\r\n\r\n- Specialist skills and training providers\r\n- Local and community-based organisations\r\n- Employer-facing and recruitment specialists\r\n- Health, wellbeing, and disability support providers\r\n- ESOL and inclusion-focused organisations\r\n- Organisations supporting individuals with complex or multiple barriers\r\n\r\nWe are particularly interested in organisations that can demonstrate:\r\n\r\n- Proven experience supporting individuals into employment\r\n- Ability to deliver personalised, intensive interventions\r\n- Strong local knowledge or presence\r\n- Employer engagement capability\r\n- Experience supporting individuals with complex needs\r\n- Innovative or evidence-based delivery models\r\n- Commitment to collaboration and partnership working\r\n \r\nMaximus will be undertaking a programme of market engagement activity to shape its supply chain and delivery model that may include:\r\n\r\n- Market engagement events / webinars\r\n- One-to-one discussions\r\n- Requests for information (RFI)\r\n \r\nParticipation in this engagement process will not guarantee involvement in any future procurement, but we are keen ",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f83f7a9d-fc71-4d1f-b354-0002dfc7d9c5-900675",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-06-05",
+    "scored_at": "2026-06-05T09:49:34.329498",
+    "last_updated": "2026-06-05T09:49:34.329499",
+    "added_date": "2026-06-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-05T09:49:34.329505",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f749cea82e4b",
+    "rfp_title": "RCoA NCAPC revised",
+    "issuing_entity": "London Universities Purchasing Consortium",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Data collection for a new national clinical audit, the National Clinical Audit of Perioperative Care (NCAPC) to start in October 2026.   \r\n\r\nTo produce a scalable, secure and interoperable platform to support the National Clinical Audit of Perioperative Care (NCAPC), enabling:\r\n•\tCollection of national perioperative audit data\r\n•\tLinkage with UK NHS datasets (HES, ECDS)\r\n•\tDelivery of clinical dashboard and public reporting",
+    "budget_eur": null,
+    "deadline": "2026-06-19",
+    "relevance_score": 40.9,
+    "win_probability": "Medium",
+    "feature_alignment_score": 4.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 37.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 3,
+        "max": 10,
+        "strong_matches": [
+          "dashboard"
+        ],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "77951900-d4d2-4eb0-a0ff-57349396be41-900679",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-05",
+    "scored_at": "2026-06-05T09:49:34.329875",
+    "last_updated": "2026-06-05T09:49:34.329876",
+    "added_date": "2026-06-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-05T09:49:34.329880",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-1da25f128249",
+    "rfp_title": "SUPPLY CHAIN NOTICE - WP063-Hard Landscaping",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Kier Construction propose to subcontract for supply and install the External works; Hard landscaping. This works package will be constructed at Keogh Barracks, Aldershot.\r\nThis is a future opportunity notice for suppliers to register their interest in being selected for inclusion on the tender list.  Please note this is a pipeline notice only and there is no further information at this time. \r\nAll values and dates in this notice are estimated only and we reserve the right to amend any of the information prior to issuing an invitation to tender",
+    "budget_eur": 702000,
+    "deadline": "",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d9896a35-38c3-408f-a675-7fd355c15cf6-900629",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-05",
+    "scored_at": "2026-06-05T09:49:34.331548",
+    "last_updated": "2026-06-05T09:49:34.331550",
+    "added_date": "2026-06-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-05T09:49:34.331555",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-5d30ef25146f",
+    "rfp_title": "SUPPLY CHAIN NOTICE - WP064 External works; Soft landscaping",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Kier Construction propose to subcontract to supply and install the External works; Soft landscaping. This works package will be constructed at Keogh Barracks, Aldershot.\r\nThis is a future opportunity notice for suppliers to register their interest in being selected for inclusion on the tender list.  Please note this is a pipeline notice only and there is no further information at this time. \r\nAll values and dates in this notice are estimated only and we reserve the right to amend any of the information prior to issuing an invitation to tender.",
+    "budget_eur": 1755000,
+    "deadline": "",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "cb3f4d03-bf2c-48e1-8efb-cfecbdd9df39-900609",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-05",
+    "scored_at": "2026-06-05T09:49:34.332721",
+    "last_updated": "2026-06-05T09:49:34.332722",
+    "added_date": "2026-06-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-05T09:49:34.332727",
         "by": "scanner"
       }
     ],
