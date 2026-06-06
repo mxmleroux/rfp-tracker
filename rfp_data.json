@@ -5073,7 +5073,7 @@
     "scored_at": "2026-05-08T07:41:41.062146",
     "last_updated": "2026-05-08T07:41:41.062148",
     "added_date": "2026-05-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5082,7 +5082,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-6386370d1725",
@@ -7089,7 +7089,7 @@
     "scored_at": "2026-05-29T09:53:35.559037",
     "last_updated": "2026-05-29T09:53:35.559041",
     "added_date": "2026-05-29",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7098,7 +7098,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-9d8c8dd7dc21",
@@ -8057,6 +8057,98 @@
       {
         "status": "New",
         "date": "2026-06-05T09:49:34.332727",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-74d66be4c46f",
+    "rfp_title": "GB-Abingdon: STEP Risk Management Support",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The STEP programme is entering a critical phase as it transitions from framework development into active delivery, coinciding with Construction Partner (CP) mobilisation and the establishment of Integrated Project Teams (IPTs) from September 2026.\r\n      \r\n      To successfully navigate this transition, UKFE requires a robust and operational risk management capability embedded within the STEP Programme and Project Management Office (PPMO). This capability is essential to support informed decision‐making, manage uncertainty, and protect programme outcomes as delivery activity accelerates.\r\n      \r\n      Arcadis has played a central role in developing the STEP Project Controls Framework, including the risk discipline. As the programme moves into delivery, continuity of expertise is required to ensure that risk management processes are aligned to the established framework, adopted consistently across delivery teams, and embedded as part of early business‐as‐usual (BAU) operations.\r\n\r\nAdditional information: Call-off from framework agreement (MCF4) via direct award. Direct award permitted under framework terms (Regulation 33 PCR 2015).",
+    "budget_eur": 172687,
+    "deadline": "2026-06-07",
+    "relevance_score": 44.9,
+    "win_probability": "Medium",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 27.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 3,
+        "max": 25,
+        "strong_matches": [
+          "bau"
+        ],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "90ceed67-9e5e-487e-a12d-15420e1396b0-900751",
+    "procurement_process": {
+      "type": "Framework Agreement",
+      "rounds": "Multiple call-offs",
+      "details": [
+        "Framework with potential mini-competitions"
+      ]
+    },
+    "date_found": "2026-06-06",
+    "scored_at": "2026-06-06T08:32:40.900882",
+    "last_updated": "2026-06-06T08:32:40.900884",
+    "added_date": "2026-06-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-06T08:32:40.900889",
         "by": "scanner"
       }
     ],
