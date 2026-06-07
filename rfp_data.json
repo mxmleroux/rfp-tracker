@@ -2731,94 +2731,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-9c99e0f48ceb",
-    "rfp_title": "FLJ 1&2 Structural Tee Beam Repairs - Design and Delivery",
-    "issuing_entity": "KBS Maritime Ltd",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "We are seeking expressions of interest from suitably qualified and experienced contractors for the following opportunity:\r\nProject scope\r\nFountain Lake Jetty Berth 1 & 2 contain four longitudinal pre-cast reinforced inverted T-beams. These beams support the suspended deck, with each beam extending at a length of approximately 350m east to west. Subsequently, the beams are supported by steel piled foundations.\r\nThe scope includes temporary works and access design, concrete beam repairs (four longitudinal pre-cast reinforced inverted T-beams), steel pile repairs (58 raking piles), cathodic protection system design and installation, management and reinstatement of live services, and compliance with MMO, environmental and CDM 2015 requirements, all delivered in phased execution to maintain berth availability and naval operations.\r\nTenderers must demonstrate proven capability to design, manage and deliver marine structural maintenance works to live and operational assets, specifically reinforced concrete jetty structures and steel piled foundations in tidal and corrosive environments. \r\nTenderers must evidence recent experience on comparable marine or port infrastructure projects, in house or integrated design capability (including temporary works and cathodic protection), and appropriate competence in quality, safety and environmental management. As a minimum, organisations shall hold or demonstrate equivalent certification to ISO 9001, ISO 14001 and ISO 45001, operate to recognised temporary works procedures, and deploy suitably qualified personnel including a temporary works coordinator and cathodic protection specialist. Innovation in repair methods and corrosion protection solutions that improve durability, constructability, safety or whole life carbon performance is encouraged, subject to compliance with statutory and Authority requirements.",
-    "budget_eur": 7371000,
-    "deadline": "2026-05-07",
-    "relevance_score": 46.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "8b6a8dc0-b091-401f-b8aa-855625c53542-892313",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-04-10",
-    "scored_at": "2026-04-10T07:27:56.712393",
-    "last_updated": "2026-04-10T07:27:56.712394",
-    "added_date": "2026-04-10",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-10T07:27:56.712399",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-ad94d4d5b651",
     "rfp_title": "CA17568 - RFQ 2026/04 - Events Management Training Programme for Newry and Crotlieve",
     "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
@@ -4650,7 +4562,7 @@
     "description": "Interpretation Fit-Out Build Contractor - The Leach Pottery, St Ives, Cornwall\r\n\r\nThe Bernard Leach (St Ives) Trust Ltd invites tenders from suitably experienced contractors to deliver interpretation/exhibition fit-out works across the Leach Pottery site in St Ives, Cornwall. This commission forms part of a major £10 million capital redevelopment of one of the world's most significant studio pottery heritage sites, funded with support from the National Lottery Heritage Fund.\r\n\r\nContract Value: £375,000 - £400,000 (exclusive of VAT)\r\nContract Form: JCT Intermediate Building Contract with Contractor's Design (ICD) 2024\r\n\r\nPractical Completion: 4 June 2027\r\nSite Opening: 18 June 2027\r\n\r\nScope of Works:\r\nThe appointed contractor will act as Principal Designer and Principal Contractor, responsible for the manufacture, supply, and installation of four main packages: setworks and 3D elements; display showcases (including Government Indemnity Scheme standard cases); graphics and 2D elements production; and exhibition lighting supply. \r\n\r\nWorks span multiple spaces, including the historic Grade II listed Pottery buildings; refurbished 2008 extensions; new build Learning studios and reception areas; outdoor spaces, and cross-site wayfinding. \r\n\r\nFull coordination with the client (The Bernard Leach (St Ives) Trust Ltd), base build contractors (Dow Jones Architects), interpretive designers (Extended Studio), and the separately appointed AV contractor will be required. Audiovisual hardware and software are contracted separately and are out of scope.\r\n\r\nKey Dates as per ITT document:\r\n* Site visits (compulsory): Tuesday, 28 April - Thursday, 28 May 2026\r\n* Clarification deadline: Noon, Friday, 29 May 2026\r\n* Clarifications published: Monday 1 June 2026\r\n* Submission deadline: Noon, Friday, 12 June 2026\r\n* Evaluation: w/c Monday 15 June 2026\r\n* Interviews (shortlisted): Friday, 26 June and Monday, 29 June 2026\r\n* Contract award (notification): Tuesday, 30 June 2026\r\n* Online kick-",
     "budget_eur": 468000,
     "deadline": "2026-06-12",
-    "relevance_score": 45.7,
+    "relevance_score": 45.0,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -4703,7 +4615,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "platform",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "920bb370-1618-4726-847a-2bdc2e2e56c4-895662",
@@ -4716,7 +4628,7 @@
     },
     "date_found": "2026-05-01",
     "scored_at": "2026-05-01T08:11:11.789140",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-07",
     "added_date": "2026-05-01",
     "status": "New",
     "notes": "",
