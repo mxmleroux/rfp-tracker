@@ -8065,5 +8065,182 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-6de52c42e00d",
+    "rfp_title": "Enabling offshore wind port development and investment",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThe Philippines is scaling up offshore wind to meet ambitious renewable energy targets, with upcoming auction rounds expected to unlock significant capacity. As the sector advances, attention is shifting toward enabling infrastructure particularly ports, which are critical for construction, staging, installation, and long-term operations. While initial assessments by partners such as ADB and GWEC have focused on public ports, the scale of planned deployment requires expanded port capacity and stronger private sector participation. However, there remains limited clarity on how to structure offshore wind port development to attract investment that is technically viable, commercially sound, and aligned with Department of Energy (DOE) deployment timelines. UK PACT, working with DOE and other agencies, seeks to address this gap by supporting privately led port development and strengthening decision-making, investment readiness, and early market engagement.\r\nThis intervention will be delivered in two phases. Phase 1 will establish the foundations for private sector participation by drawing on UK experience, developing a Private Offshore Wind Port Development Framework, and identifying and prioritizing suitable port locations particularly in areas such as South Mindoro and Negros Occidental based on technical suitability and readiness. Phase 2 will undertake detailed technical and commercial feasibility assessments of three shortlisted sites, including infrastructure requirements, cost and financial analysis, environmental and regulatory considerations, and market validation\r\n\r\nInterested suppliers/consortia are encouraged to review the RfQ documentation and submit your proposal in accordance with the instructions above by the Clo",
+    "budget_eur": 549900,
+    "deadline": "2026-07-13",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e6168f0c-d23e-4fe6-a6bd-078b229abb71-901450",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Multi-stage",
+      "details": [
+        "Multiple evaluation stages",
+        "Pre-qualification or shortlisting step"
+      ]
+    },
+    "date_found": "2026-06-10",
+    "scored_at": "2026-06-10T09:59:11.985503",
+    "last_updated": "2026-06-10T09:59:11.985505",
+    "added_date": "2026-06-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-10T09:59:11.985510",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f962fb33052f",
+    "rfp_title": "Pre-Market Engagement for Home Office Quality Assurance & Testing (QAT) Contracts",
+    "issuing_entity": "Home Office",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Home Office (referred to hereafter as the Authority) is inviting prospective bidders to take part in a series of pre-market engagement activities for the Authority&apos;s planned QAT procurements.\r\n\r\nThe Authority currently has a number of contracts for QAT capability, aligned to portfolios across the Home Office. The future commercial strategy is to consolidate these services into two core testing capability contracts by Autumn 2027.\r\nThe exact scope, duration and values of the new contracts is still to be confirmed, however the current expectation is that each contract will have a minimum term of 3-years, with a maximum spend of £150m (including any extensions).\r\nThe intention is to compete these contracts via the GCA Dynamic Purchasing System, RM6148, however the pre-market engagement is open to all suppliers.\r\n\r\nBefore any tender activity is launched, the Authority wishes to invite feedback from prospective bidders on the proposed strategy and gather information that will help it to refine its procurement and contracting approach further.\r\n\r\nKey topics that the Authority wishes to explore include, but are not limited to:\r\n1. Route to market\r\n2. Transition approach\r\n3. Key Performance Indicators & contractual incentives (i.e. Service Credits)\r\n4. Cost drivers\r\n5. The use of innovation and AI to drive efficiency\r\n6. Roles and Capability\r\n7. Tooling and hardware \r\n8. Removing barriers for SMEs\r\n9. Support in the transformation from a Programme SDLC to a Product SDLC, including using experience gained from other clients to help shape and drive the change\r\n10. Support in the transformation from Quality Assurance to Quality Engineering, including using experience gained from other clients to help shape and drive the change\r\n\r\nThis engagement shall start with an in-person event from 10:30 until 13:00 on Monday 27th July at the TechUK office in London; 10 Saint Bride St, London, EC4A 4AD.\r\n\r\nEach supplier may bring a maximum of 2 delegates to the day, and should ",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.9,
+    "win_probability": "Low",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 3,
+        "max": 15,
+        "strong_matches": [
+          "key performance indicators"
+        ],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "76b20993-42be-4209-9b09-e46661735243-901446",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-10",
+    "scored_at": "2026-06-10T09:59:11.986760",
+    "last_updated": "2026-06-10T09:59:11.986761",
+    "added_date": "2026-06-10",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-10T09:59:11.986766",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
