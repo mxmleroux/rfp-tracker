@@ -2731,92 +2731,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-ad94d4d5b651",
-    "rfp_title": "CA17568 - RFQ 2026/04 - Events Management Training Programme for Newry and Crotlieve",
-    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Newry Mourne & Down District Council's PEACEPLUS Action Plan includes the delivery of Capacity Building and Engagement Programmes under Strand 2 - Thriving and Peaceful Communities. Strand 2 focuses on eight identified priority projects encompassing a broad range of initiatives focused on capacity building, leadership development, cross community relationship building interaction and engagement, social and emotional support, events and festivals and community justice interventions.\r\n\r\nCompetent consultancy companies are hereby invited to tender to design, develop and deliver a Capacity Building Programme.  This programme will build the capacity of local organisations/ communities through cross community collaboration and support sustainable service provision within the district.  This project will deliver 2 events management training programmes for community groups and volunteers, one will be held within the Newry DEA and one will be held within the Crotlieve DEA.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17568.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17568 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-05-11",
-    "relevance_score": 47.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "3a5bc50b-1273-431d-b990-29cb95447c7b-892594",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-14",
-    "scored_at": "2026-04-14T07:45:43.504367",
-    "last_updated": "2026-04-14T07:45:43.504369",
-    "added_date": "2026-04-14",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-14T07:45:43.504374",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-48fbd139ee59",
     "rfp_title": "FDIS - Brecon External Refurbishments to 3 properties - FY2026/27 - Amey Central Region - Wales",
     "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
@@ -8238,6 +8152,182 @@
       {
         "status": "New",
         "date": "2026-06-10T09:59:11.986766",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e6bb94924390",
+    "rfp_title": "Bangkok Congestion Charge Policy Detailed Legislative Development",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to deliver technical assistance facility in Thailand\r\n\r\nThailand's transport sector remains a major contributor to greenhouse gas emissions, urban congestion, and air pollution particularly in Bangkok. In response, the Government of Thailand has identified congestion charging as a key policy tool to reduce traffic demand, lower emissions, and promote more sustainable urban mobility.\r\n\r\nThe Office of Transport and Traffic Policy and Planning (OTP), under the Ministry of Transport, is seeking a qualified supplier to support the next phase of this flagship initiative. Building on extensive feasibility studies and policy development work delivered under the Thailand-UK PACT programme, this assignment will focus on bridging the gap between policy design and implementation.\r\n\r\nThe selected supplier will provide expert legislative analysis and drafting support to translate the existing congestion charge policy into a legally viable and implementation-ready framework. This work will play a critical role in preparing the policy for formal government consideration and advancing implementation targeted for 2029-2030.\r\n\r\nThe delivery approach should be structured across the following phases: \r\n  1.\tInception Phase (July-August 2026)   \r\n2.\tLegislative Draft Development (September-November 2026)    \r\n3.\tGovernment Stakeholder Consultation (September-November 2026)   \r\n4.\tLegislative Recommendation (November-December 2026)   \r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: expertdeployments@ukpact.co.uk",
+    "budget_eur": 46800,
+    "deadline": "2026-06-30",
+    "relevance_score": 41.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 55.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "fba4aa8d-194a-406a-907c-542c839cc89d-901656",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-11",
+    "scored_at": "2026-06-11T10:22:58.587003",
+    "last_updated": "2026-06-11T10:22:58.587005",
+    "added_date": "2026-06-11",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-11T10:22:58.587010",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-cb87081511d0",
+    "rfp_title": "CA18031 - ITT 28/2026 - Dog Kennelling Services Newry, Mounre & Down District Council",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Council requires a reliable, resilient and welfare-focused kennelling service that ensures full statutory compliance, protects animal welfare, and provides assurance of continuity of service under all circumstances.\r\n\r\nThe Supplier must demonstrate the ability to deliver a secure, professionally managed facility capable of meeting fluctuating demand while maintaining consistent standards of care, record-keeping and cooperation with Council officers.\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18031.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18031 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": null,
+    "deadline": "2026-06-25",
+    "relevance_score": 36.7,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 37.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "6a05cfa7-6596-4ac7-a283-85ea0e3d0943-901540",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-06-11",
+    "scored_at": "2026-06-11T10:22:58.590706",
+    "last_updated": "2026-06-11T10:22:58.590709",
+    "added_date": "2026-06-11",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-11T10:22:58.590717",
         "by": "scanner"
       }
     ],
