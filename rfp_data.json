@@ -4208,92 +4208,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-9c3010eeac29",
-    "rfp_title": "Supply of Neurodiversity Assessment Tool",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Neurodiversity Assessment Tool. The procurement covers the supply of neurodiversity assessment tools that meet the required authorisation standards.\r\n\r\nRequirement Details\r\nSupply of neurodiversity assessment tool must meet authorised for use by the SpLD Standards Authority, and by the Joint Council of Qualifications (JCQ).\r\n\r\nAbout the Unite Procurement Platform\r\nThe Unite Procurement Platform offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement. This platform provides a streamlined approach to supplier engagement and procurement management.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest.\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\nContact Information\r\nFor any enquiries and interest, please email defence.support@unite.eu with the subject title 'TSS 688 Opportunity'.",
-    "budget_eur": 117000,
-    "deadline": "2026-05-12",
-    "relevance_score": 49.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 33.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "51f6dd44-1b83-496b-999f-3894846b795b-895195",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-29",
-    "scored_at": "2026-04-29T08:18:15.115560",
-    "last_updated": "2026-04-29T08:18:15.115562",
-    "added_date": "2026-04-29",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-29T08:18:15.115566",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-8c44fb72afce",
     "rfp_title": "Outpatient Pharmacy Services - Pre Market Engagement",
     "issuing_entity": "Worcestershire Acute Hospitals NHS Trust",
@@ -7086,7 +7000,7 @@
     "scored_at": "2026-06-02T10:22:39.083135",
     "last_updated": "2026-06-02T10:22:39.083136",
     "added_date": "2026-06-02",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7095,7 +7009,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-395da1fd2cd0",
@@ -8328,6 +8242,180 @@
       {
         "status": "New",
         "date": "2026-06-11T10:22:58.590717",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e6c33234f2b4",
+    "rfp_title": "Dorset Peat Partnership restoration works - Greenlands 2026",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Site works to restore the headwaters of the Greenlands mire system within the Purbeck Heaths National Nature Reserve, as part of a wider delivery programme led by the Dorset Peatland Partnership. The aim is to secure peat forming habitats, improve peat condition, slow flow rates and maximise Carbon capture within currently degraded mire systems.\r\nThis will be achieved using a range of sensitive restoration techniques that are described in more detail in the attached restoration plans and project specifications. Activities include creating peat bunds and in-channel dams, mulching molinia vegetation and sallow tree removal.\r\nContractors will be chosen based on capacity, capability, relevant experience including of working in sensitive habitats on protected sites, proposed solution and cost.\r\nFull details including of how to apply are in the attached Request for Proposals document.",
+    "budget_eur": 86580,
+    "deadline": "2026-07-09",
+    "relevance_score": 49.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "eff9c7e3-c6c6-4a7e-9632-af8a47d8e1fe-901779",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-12",
+    "scored_at": "2026-06-12T10:12:24.606222",
+    "last_updated": "2026-06-12T10:12:24.606224",
+    "added_date": "2026-06-12",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-12T10:12:24.606229",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-bd43b8daac61",
+    "rfp_title": "Defence Medical Services Research Steering Group",
+    "issuing_entity": "MINISTRY OF DEFENCE",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Defence Medical Services Research Steering Group (DMSRSG) is the primary mechanism through which the DMS endorses and funds research activity. The research project must be of military relevance, scientifically robust, and offer value for money.\r\n\r\nDMSRSG supports military-relevant medical research. Projects are not restricted to a particular methodological approach or technology readiness level (TRL). We will support foundational science through to applied research. Where foundational science / early TRL activity is proposed there must be a feasible pathway to impact on clinical delivery or operational capability.\r\n\r\nResearch must be predominantly medical or healthcare focused and we welcome qualitative, quantitative, and mixed methods research.\r\n\r\nThere is no limit on the amount of funding that can be requested per application. However, the overall commitment budget at any one DMSRSG meeting is approximately £500k and we support multiple proposals at each round. Funding requests should always be commensurate with the activity proposed and can be multi-year.\r\n\r\nPriority areas are outlined in the calling notice.\r\n\r\nPlease note that the EOI process is open all year round with no deadline.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 41.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 15.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "fe8eac49-fc38-4220-9102-74281fcb9263-901767",
+    "procurement_process": {
+      "type": "Restricted Procedure",
+      "rounds": "Two stages",
+      "details": [
+        "Stage 1: Pre-qualification; Stage 2: Invited tender"
+      ]
+    },
+    "date_found": "2026-06-12",
+    "scored_at": "2026-06-12T10:12:24.609343",
+    "last_updated": "2026-06-12T10:12:24.609345",
+    "added_date": "2026-06-12",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-12T10:12:24.609349",
         "by": "scanner"
       }
     ],
