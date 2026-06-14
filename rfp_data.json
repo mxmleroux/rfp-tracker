@@ -4300,96 +4300,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-0187637594ea",
-    "rfp_title": "Strategic Market Intelligence - Fit-for-Market Forest Products",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Multistakeholder Forestry Programme Phase 5 (MFP5), funded by the UK FCDO, supports Indonesia in achieving its FOLU Net Sink 2030 targets by strengthening sustainable forest management, forest governance, and inclusive market engagement. Under this programme, Palladium is procuring a consultant or team to develop a practical, market intelligence package that helps Indonesia capture higher-value opportunities in global timber and non-timber forest product markets, responding to evolving sustainability, traceability, and regulatory demands. \r\n\r\nThe assignment will prioritise key markets and product segments, analyse recognition and non tariff barriers, match Indonesian supply to specific market opportunities, define actionable market entry and conversion pathways.\r\n\r\nDelivered over 3-4 months with a budget of up to GBP 125,000, the work requires strong expertise in international trade, regulatory analysis, and multi-stakeholder engagement, and will be procured through a two stage competitive tender process beginning with an Expression of Interest due on 14th May 2026.",
-    "budget_eur": 146250,
-    "deadline": "2026-05-14",
-    "relevance_score": 40.3,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 15,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 1,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": [
-          "stakeholder engagement"
-        ]
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "consulting_only",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "19998fdd-32cf-4188-bdd7-1b517b3f71c5-896149",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-07",
-    "scored_at": "2026-05-07T08:33:11.883042",
-    "last_updated": "2026-05-07T08:33:11.883043",
-    "added_date": "2026-05-07",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-07T08:33:11.883048",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-b55c4a04cb5f",
     "rfp_title": "Environment Agency Natural Flood Management Programme Phase 2 - Swan Brook Wetlands Year 3",
     "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
@@ -6848,7 +6758,7 @@
     "description": "Requirement is for the design and delivery of a fully operational Coastguard Rescue Station (CRS) to support frontline response capability, staff welfare, and statutory health and safety compliance.\r\nThe completed facility must provide fit-for-purpose accommodation and operational infrastructure for Coastguard Rescue Teams, meeting MCA standards and enabling safe, resilient and effective emergency response operations.\r\n\r\nAdditional information: \r\nThe further competition for this requirement is available on the Department for Transport Sourcing Portal:\r\n\r\nhttps://dft.app.jaggaer.com/ \r\n\r\nTo participate in the further competition, you must first register on the portal - you can do this by clicking the grey \"click here to register!\" button on the link above and following the instructions.\r\n\r\nPlease note that if you are an existing supplier to the DfT, you may be notified that you already exist within the new system. If this is the case, please email mycommercial@dft.gov.uk with your preferred email address for registration. This will be updated on the system where you will then be able to check and update all your details accurately.\r\n\r\nIn addition, please note that you will require a DUNS number (Dun and Bradstreet) to register. If you do not know your number access the following link to find yours: https://www.dnb.co.uk/duns-number/lookup.html, click on the D-U-N-S number section. If a DUNS number is not found there is guidance on how to acquire one in the same place.\r\n\r\nShould you have any technical issue registering on the system please contact the Jaggaer Helpdesk in the first instance:\r\n\r\nPhone: 0800 069 8630\r\n\r\nhelp_uk@jaggaer.com",
     "budget_eur": 292500,
     "deadline": "2026-07-10",
-    "relevance_score": 51.3,
+    "relevance_score": 50.9,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -6914,7 +6824,7 @@
     },
     "date_found": "2026-06-02",
     "scored_at": "2026-06-02T10:22:39.085398",
-    "last_updated": "2026-06-13",
+    "last_updated": "2026-06-14",
     "added_date": "2026-06-02",
     "status": "New",
     "notes": "",
@@ -8344,7 +8254,7 @@
     "description": "Fedcap is exploring the opportunity to deliver the National Jobs Guarantee Scheme Grant released by the Department for Work and Pensions (DWP).\r\nThe Jobs Guarantee is a national employment programme designed to support young people aged 18-24 who have been unemployed and claiming Universal Credit for 18 months or more. It aims to break the cycle of long-term unemployment by offering every eligible participant a guaranteed, fully funded six month paid job, alongside tailored support to help them succeed and progress.\r\n\r\nDelivered by specialist Delivery Partners, the programme focuses on an employment-first approach, where young people move quickly into real jobs rather than extended pre-employment training. Partners work closely with local employers to source suitable roles -funded for up to 25 hours per week at the relevant minimum wage - and match participants based on their skills, interests, and needs.",
     "budget_eur": 1,
     "deadline": "2026-06-22",
-    "relevance_score": 31.9,
+    "relevance_score": 31.5,
     "win_probability": "Low",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -8408,7 +8318,7 @@
     },
     "date_found": "2026-06-13",
     "scored_at": "2026-06-13T08:57:25.101945",
-    "last_updated": "2026-06-13T08:57:25.101947",
+    "last_updated": "2026-06-14",
     "added_date": "2026-06-13",
     "status": "New",
     "notes": "",
