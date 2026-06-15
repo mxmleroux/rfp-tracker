@@ -3167,94 +3167,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-0116afe845d8",
-    "rfp_title": "Lower Cambourne Playpark works",
-    "issuing_entity": "Community Centre",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Introduction\r\nCambourne Town Council (\"the Council\") wishes to appoint a suitably qualified and experienced Contractor to undertake refurbishment works at the Lower Cambourne Play Area.\r\nProspective Contractors are invited to submit a quotation to meet the Council's requirements as set out within this document and the accompanying play park upgrade brief.\r\n\r\n2. Project Overview\r\nThe Council is seeking to upgrade the Lower Cambourne Play Area to provide:\r\n•\tImproved infrastructure\r\n•\tEnhanced and modernised play equipment\r\n•\tIncreased play value and opportunities\r\nThe Council has allocated funding as part of its commitment to improving the health and wellbeing of residents.\r\nThe appointed Contractor will be expected to work collaboratively with the Council to deliver a high-quality, inclusive, and engaging play space.\r\n\r\n\r\n3. Design Principles\r\nInclusivity and accessibility are central to the Council's objectives. The Contractor must demonstrate:\r\n•\tExperience in delivering inclusive and accessible play environments\r\n•\tConsideration of a wide range of ages and abilities\r\n•\tInnovative design solutions that maximise play value\r\nA meeting prior tender submission is crucial to ensure that the Councils vision for this play park is understood. Please contact Clerk@cambournetowncouncil.gov.uk \r\n\r\n4. Scope of Works\r\nThe works will include (but are not limited to):\r\n•\tDesign and installation of new play equipment\r\n•\tLandscaping and associated infrastructure works\r\n•\tRemoval and safe disposal of all existing play equipment and associated services\r\n•\tRecycling and reuse of materials where practicable, including potential relocation of serviceable equipment to alternative sites (subject to agreement with the Council)\r\n\r\n5. Community Engagement\r\nThe Contractor will be required to support public consultation as part of the design process:\r\n•\tTwo public consultation events shall be held:\r\no\tOne following the development of the initial design proposal\r\no\tA second follow-up consultat",
-    "budget_eur": 122850,
-    "deadline": "2026-05-15",
-    "relevance_score": 47.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 70.4,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "545b0238-c3e6-46db-b795-4dece6e6d566-893744",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-04-22",
-    "scored_at": "2026-04-22T07:46:41.728792",
-    "last_updated": "2026-04-22T07:46:41.728793",
-    "added_date": "2026-04-22",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-22T07:46:41.728799",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-a34db306ae4b",
     "rfp_title": "CA17654 - Walsall College Portland Street Roof Replacement",
     "issuing_entity": "Walsall College",
@@ -8307,7 +8219,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "79a70e13-efad-498e-b38a-bd4338e9ec5a-901963",
@@ -8318,7 +8230,7 @@
     },
     "date_found": "2026-06-13",
     "scored_at": "2026-06-13T08:57:25.101945",
-    "last_updated": "2026-06-14",
+    "last_updated": "2026-06-15",
     "added_date": "2026-06-13",
     "status": "New",
     "notes": "",
@@ -8412,6 +8324,94 @@
       {
         "status": "New",
         "date": "2026-06-13T08:57:25.105631",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-611235fb3038",
+    "rfp_title": "National Trust-MEE-Midlands Nature Funder Landscape Research, Governance Recommendations",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The National Trust is commissioning a one-off consultancy to deliver Midlands Nature Funder Landscape Research, Governance Recommendations and Resources. The work will help Midlands Nature understand the current and future nature finance landscape across the Midlands, including demand for nature finance products, relevant policy and regulatory drivers, and implications of devolution and local authority reorganisation. It will also develop recommendations on governance and operating models, sector readiness for investment, engagement with investors and policymakers, and practical tools and frameworks to support investable nature projects. The commission will be delivered as a coherent phased programme across market and policy research, strategy and governance recommendations, and tools/frameworks application. The contract is anticipated to start on 3 August 2026, with Phase 1 outputs due by 31 October 2026 and Phases 2 and 3 due by 31 January 2027. The work covers the Midlands region of England and depends on effective engagement with Midlands Nature partners, policymakers, investors and the Community of Practice.\r\n\r\nAdditional information: This opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/ \r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustomer name - The National Trust\r\nAll communication is to be carried out via the Proactis portal.\r\nParticipating Suppliers will bear their own costs, and seek appropriate advice, for the preparation of their response.",
+    "budget_eur": 58500,
+    "deadline": "2026-07-14",
+    "relevance_score": 50.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 92.6,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "investable"
+        ]
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "bee6d8d3-f6d6-4c13-bd46-cc0eb5b06edc-902147",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-15",
+    "scored_at": "2026-06-15T12:12:24.654660",
+    "last_updated": "2026-06-15T12:12:24.654662",
+    "added_date": "2026-06-15",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-15T12:12:24.654667",
         "by": "scanner"
       }
     ],
