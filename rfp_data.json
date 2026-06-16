@@ -5431,7 +5431,7 @@
     "scored_at": "2026-05-19T09:41:37.206888",
     "last_updated": "2026-05-19T09:41:37.206890",
     "added_date": "2026-05-19",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5440,7 +5440,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-ae67f967d4d1",
@@ -8412,6 +8412,94 @@
       {
         "status": "New",
         "date": "2026-06-15T12:12:24.654667",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-824938f36fac",
+    "rfp_title": "FDIS - Glasgow Home Office/Garden Room for 1 property - FY2026/27 - Amey North Region - Scotland",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "North Region - Scotland\r\n\r\nBrief scope of works:\r\n•\tProvision of a fully winterised home office/garden rm, paved access/patio area \r\n•\tElectrical services/trench/duct \r\n•\tIncl. electric htg/power points; no water servs req'd. \r\n•\tStepped access \r\n•\tExtl finish to be in keeping with main house\r\n•\tSize: can't be less than statutory minimum for a single person office, can't be so big it takes up the garden!\r\n•\tReasonable glass expanse \r\n•\tTo be within permitted development criteria\r\n\r\nADS have been tasked by the DIO through the FDIS to deliver the RAMS for the North Region.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nFor ADS to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Cttr (essential req't);\r\n•\ta Verified member of Constructionline (GOLD), relevant Wk Cat \r\nMUST show that Subcontracting is possible, and the 'Bldg Safety\r\n•\tcapable of working in a BIM Level 2 environment (where appl);\r\n•\tcompliant with DefStan 05-138 (required if you are likely to handle MoD Identifiable Information on your IT system);\r\n•\twilling to work with Amey to deliver Social Value to our Client; ideally, complete the Social Value Goal within the Constructionline platform.\r\n\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a Corporate Social Responsibility policy;\r\n•\thave a Business Continuity and Disaster Recovery Plan\r\n\r\nIf successful the subcontractor will need to pass a PQQ, sign up to Amey Terms and Conditions, and meet the MoD Security Requirements. \r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\n\r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\n\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreeme",
+    "budget_eur": 407160,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e78f3875-2675-4b81-9bbc-e14fbda94f25-902169",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-06-16",
+    "scored_at": "2026-06-16T11:09:42.973582",
+    "last_updated": "2026-06-16T11:09:42.973583",
+    "added_date": "2026-06-16",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-16T11:09:42.973589",
         "by": "scanner"
       }
     ],
