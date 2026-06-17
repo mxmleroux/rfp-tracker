@@ -7730,8 +7730,8 @@
     "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to deliver technical assistance facility in Thailand\r\n\r\nThailand's transport sector remains a major contributor to greenhouse gas emissions, urban congestion, and air pollution particularly in Bangkok. In response, the Government of Thailand has identified congestion charging as a key policy tool to reduce traffic demand, lower emissions, and promote more sustainable urban mobility.\r\n\r\nThe Office of Transport and Traffic Policy and Planning (OTP), under the Ministry of Transport, is seeking a qualified supplier to support the next phase of this flagship initiative. Building on extensive feasibility studies and policy development work delivered under the Thailand-UK PACT programme, this assignment will focus on bridging the gap between policy design and implementation.\r\n\r\nThe selected supplier will provide expert legislative analysis and drafting support to translate the existing congestion charge policy into a legally viable and implementation-ready framework. This work will play a critical role in preparing the policy for formal government consideration and advancing implementation targeted for 2029-2030.\r\n\r\nThe delivery approach should be structured across the following phases: \r\n  1.\tInception Phase (July-August 2026)   \r\n2.\tLegislative Draft Development (September-November 2026)    \r\n3.\tGovernment Stakeholder Consultation (September-November 2026)   \r\n4.\tLegislative Recommendation (November-December 2026)   \r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: expertdeployments@ukpact.co.uk",
     "budget_eur": 46800,
     "deadline": "2026-06-30",
-    "relevance_score": 41.1,
-    "win_probability": "Medium",
+    "relevance_score": 38.8,
+    "win_probability": "Low",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
     "budget_fit_score": 100,
@@ -7796,7 +7796,7 @@
     },
     "date_found": "2026-06-11",
     "scored_at": "2026-06-11T10:22:58.587003",
-    "last_updated": "2026-06-11T10:22:58.587005",
+    "last_updated": "2026-06-17",
     "added_date": "2026-06-11",
     "status": "New",
     "notes": "",
@@ -8500,6 +8500,182 @@
       {
         "status": "New",
         "date": "2026-06-16T11:09:42.973589",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4e0f976d03bf",
+    "rfp_title": "Development of Electricity Regulatory and Institutional Frameworks for Nigeria's Clean Energy Transition",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to deliver technical assistance facility in Nigeria\r\n\r\nNigeria's power sector is undergoing a major transformation following the enactment of the 2023 Electricity Act, which decentralises the market and empowers States to regulate electricity generation, transmission, and distribution. This reform aligns with national priorities under the Energy Transition Plan (ETP), Nationally Determined Contribution (NDC), and Mini-Grid Regulation 2023, all of which seek to expand renewable energy adoption, enhance efficiency, and reduce emissions. Despite this progress, implementation remains constrained by institutional capacity gaps, evolving regulatory mandates, and limited technical and data systems needed for effective oversight and planning.\r\n\r\nTo address these challenges, this Expert Deployment (ED) will provide targeted technical assistance to the Nigerian Electricity Regulatory Commission (NERC) across three priority areas:\r\n (i) Institutionalising emissions tracking within the Nigerian Electricity Supply Industry (NESI)\r\n(ii) Developing demand forecasting guidelines for electricity distribution companies (DisCos)\r\n (iii) Conducting an Institutional Capability Assessment (ICA) to strengthen NERC's organisational effectiveness.\r\n\r\nThis assignment is designed to complement existing donor support while addressing critical gaps not currently covered by ongoing initiatives. The scope of work focuses on developing practical, scalable regulatory frameworks and tools that can be embedded within NERC's operations. \r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: expertdeployments@ukpact.co.uk",
+    "budget_eur": 90090,
+    "deadline": "2026-07-17",
+    "relevance_score": 45.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 96.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "b1ce31d4-281e-4d1f-a801-c616605ad1b5-902445",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-17",
+    "scored_at": "2026-06-17T10:55:06.587990",
+    "last_updated": "2026-06-17T10:55:06.587991",
+    "added_date": "2026-06-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-17T10:55:06.587996",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-46029e67b41a",
+    "rfp_title": "PRP317(525100) Landscaping Works at Spring Cottage, Grin Low Road Buxton, SK17 6UJ",
+    "issuing_entity": "Derbyshire County Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Derbyshire County Council is seeking to appoint a suitably qualified and fully accredited Principal Contractor to undertake external landscaping works at Spring Cottage, Buxton.\r\nThe scope of works will include, but is not limited to:\r\n\r\nInstallation of a new asphalt driveway\r\nPaving works\r\nInstallation of fencing\r\nTree and shrub planting, including seeding\r\n\r\nThe appointed contractor must hold all relevant accreditations and demonstrate experience delivering similar works to a high standard within a local authority or comparable environment.\r\nSite Visits:\r\nAll site visits are strictly by appointment ONLY and will be arranged by contacting:\r\n\r\nbecky.lomas@concertus.co.uk\r\n\r\nFurther details, including specification and tender requirements, are available within the tender documentation\r\n",
+    "budget_eur": 134550,
+    "deadline": "2026-07-07",
+    "relevance_score": 46.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 59.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "58a166d0-239a-4e67-be04-491bb65c9e6e-902377",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-06-17",
+    "scored_at": "2026-06-17T10:55:06.589409",
+    "last_updated": "2026-06-17T10:55:06.589410",
+    "added_date": "2026-06-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-17T10:55:06.589415",
         "by": "scanner"
       }
     ],
