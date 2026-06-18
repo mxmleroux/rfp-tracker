@@ -3167,264 +3167,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-a34db306ae4b",
-    "rfp_title": "CA17654 - Walsall College Portland Street Roof Replacement",
-    "issuing_entity": "Walsall College",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Portland Street Roof Replacement project proposes the full replacement of the existing roof covering and associated components to address end-of-life asset condition, water ingress and declining thermal performance. The project forms part of the College's capital investment programme and supports strategic objectives relating to estate condition, asset protection, sustainability and continuity of teaching operations\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17654.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17654 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-05-18",
-    "relevance_score": 41.2,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 81.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "39760d40-c8f1-4e81-b9a0-b2eb9ea86dc6-893839",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-22",
-    "scored_at": "2026-04-22T07:46:41.729312",
-    "last_updated": "2026-04-22T07:46:41.729314",
-    "added_date": "2026-04-22",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-22T07:46:41.729318",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-897305f2764b",
-    "rfp_title": "CA17653 - Walsall College Chillers Replacement Heating and Cooling Heat Pumps.",
-    "issuing_entity": "Walsall College",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Chillers Replacement with Heating and Cooling Heat Pumps project proposes the replacement of three existing end-of-life chiller units at Wisemore Campus with modern integrated heat pump systems capable of providing both heating and cooling. The project forms part of the College's capital investment programme and supports strategic objectives relating to estate condition, energy efficiency, decarbonisation, resilience and learning environment quality.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17653.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17653 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-05-18",
-    "relevance_score": 41.2,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 81.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "e2416269-8af0-4f62-8d62-1d710582de86-893830",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-22",
-    "scored_at": "2026-04-22T07:46:41.729806",
-    "last_updated": "2026-04-22T07:46:41.729807",
-    "added_date": "2026-04-22",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-22T07:46:41.729811",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-1129de7939fa",
-    "rfp_title": "CA17650 - Walsall College Lift Upgrades",
-    "issuing_entity": "Walsall College",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Lift Replacement project proposes the full replacement and provision of new passenger lift installations at Wisemore, Green Lane and Broadway campuses. The project includes the installation of five new lifts at Wisemore campus, two new lifts at Green Lane campus and one new lift at Broadway campus. The existing lifts have reached the end of their operational lifecycle and are increasingly unreliable, resulting in frequent breakdowns, high reactive maintenance costs and extended periods of downtime. The project forms part of the College's capital investment programme and supports strategic objectives relating to estate condition, accessibility, health and safety and business continuity.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17650.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17650 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-05-18",
-    "relevance_score": 41.2,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 81.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "9f9ace5a-06bd-4070-a6c5-6fe80167a65b-893815",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-22",
-    "scored_at": "2026-04-22T07:46:41.730434",
-    "last_updated": "2026-04-22T07:46:41.730435",
-    "added_date": "2026-04-22",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-22T07:46:41.730440",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-4c0238d4dc52",
     "rfp_title": "CA17651 - RFQ 2026/06 - PEACEPLUS Cross Community Festival - Rowallane Beyond - Taste and Traditions",
     "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
@@ -4736,99 +4478,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-47d7185783d4",
-    "rfp_title": "Development and Integration of a Unified Data System for Sustainable Forest Management",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Multistakeholder Forestry Programme (MFP) is a long-term bilateral cooperation between Indonesia and the UK (since 2000) aimed at strengthening forest governance, tackling illegal logging, and improving livelihoods. Now in Phase 5 (launched 2026), it promotes sustainable management, timber legality (SVLK), and community-based forestry to support Indonesia's FOLU Net Sink 2030 target. \r\n\r\nThrough this Two-Stage Open Tender process, the Multistakeholder Forestry Programme Phase 5 (MFP5) seeks to find a qualified technology service provider for the development of an integrated and reliable Forest Data Governance System. The initiative aims to improve data integration, consistency, and accessibility across existing systems, and to support analysis, monitoring, and decision-making through a comprehensive dashboard reflecting key forest management processes. \r\n\r\nThe budget for this work is estimated to be in the range of IDR 2.750.000.000 to IDR 3.500.000.000.  Interested organizations are invited to submit an Expressions of Interest (EOI) demonstrating relevant technical capability and organizational capacity to deliver the services. The closing date for EOI submission is 18th May 2026, 1:00 PM, Jakarta Time. The full information is provided in the Term of Reference (TOR), available in English and Bahasa Indonesia.",
-    "budget_eur": 173160,
-    "deadline": "2026-05-18",
-    "relevance_score": 46.2,
-    "win_probability": "Medium",
-    "feature_alignment_score": 4.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 18.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "monitoring"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 3,
-        "max": 10,
-        "strong_matches": [
-          "dashboard"
-        ],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "platform",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "496c805c-8b8c-475b-80b6-1e64da071cd4-896386",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Multi-stage",
-      "details": [
-        "Multiple evaluation stages",
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-05-09",
-    "scored_at": "2026-05-09T07:55:59.204132",
-    "last_updated": "2026-05-10",
-    "added_date": "2026-05-09",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-09T07:55:59.204138",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-e716007268c7",
     "rfp_title": "Cheshire and Warrington Community Energy Support",
     "issuing_entity": "ENTERPRISE CHESHIRE AND WARRINGTON",
@@ -5863,7 +5512,7 @@
     "scored_at": "2026-05-23T08:19:34.246672",
     "last_updated": "2026-05-25",
     "added_date": "2026-05-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5872,7 +5521,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-caf98133991d",
@@ -6128,7 +5777,7 @@
     "scored_at": "2026-05-28T10:00:02.115616",
     "last_updated": "2026-05-28T10:00:02.115619",
     "added_date": "2026-05-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6137,7 +5786,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e318bdeba356",
@@ -6216,7 +5865,7 @@
     "scored_at": "2026-05-28T10:00:02.117605",
     "last_updated": "2026-05-28T10:00:02.117606",
     "added_date": "2026-05-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6225,7 +5874,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-afb65f4abdb7",
@@ -6478,7 +6127,7 @@
     "scored_at": "2026-06-02T10:22:39.080505",
     "last_updated": "2026-06-02T10:22:39.080506",
     "added_date": "2026-06-02",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6487,7 +6136,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-24a96d99ddad",
