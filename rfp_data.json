@@ -3167,92 +3167,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-4c0238d4dc52",
-    "rfp_title": "CA17651 - RFQ 2026/06 - PEACEPLUS Cross Community Festival - Rowallane Beyond - Taste and Traditions",
-    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Newry Mourne & Down District Council's PEACEPLUS Action Plan includes the delivery of Collaborative Interaction Programmes under Strand 2 - Thriving and Peaceful Communities. Strand 2 focuses on eight identified priority projects encompassing a broad range of initiatives focused on capacity building, leadership development, cross community relationship building interaction and engagement, social and emotional support, events and festivals and community justice interventions.\r\n\r\nCompetent Consultancy companies are hereby invited to tender to design, develop and deliver a PEACEPLUS Cross Community Festival Programme \"Rowallane & Beyond - Tastes and Traditions. The aim is to designing and delivering a series of cross community workshops that explore good practice in creating inclusive celebrations, with a particular emphasis on the rich relationship between food and cultural traditions both within the local Rowallane area and around the world.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17651.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17651 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 0151 482 9230.",
-    "budget_eur": null,
-    "deadline": "2026-05-19",
-    "relevance_score": 47.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "a8262ff0-c6b1-467b-8f59-a3a3e8915016-893811",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-22",
-    "scored_at": "2026-04-22T07:46:41.731095",
-    "last_updated": "2026-04-22T07:46:41.731096",
-    "added_date": "2026-04-22",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-22T07:46:41.731100",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-97fe196b226b",
     "rfp_title": "FDIS - Bassingbourn External Refurbishments to 4 large properties - FY2026/27 - Amey Central Region - East",
     "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
@@ -5600,7 +5514,7 @@
     "scored_at": "2026-05-27T09:48:30.649380",
     "last_updated": "2026-05-27T09:48:30.649382",
     "added_date": "2026-05-27",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5609,7 +5523,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-9b8294bef2e0",
@@ -7202,7 +7116,7 @@
     "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThe Philippines is scaling up offshore wind to meet ambitious renewable energy targets, with upcoming auction rounds expected to unlock significant capacity. As the sector advances, attention is shifting toward enabling infrastructure particularly ports, which are critical for construction, staging, installation, and long-term operations. While initial assessments by partners such as ADB and GWEC have focused on public ports, the scale of planned deployment requires expanded port capacity and stronger private sector participation. However, there remains limited clarity on how to structure offshore wind port development to attract investment that is technically viable, commercially sound, and aligned with Department of Energy (DOE) deployment timelines. UK PACT, working with DOE and other agencies, seeks to address this gap by supporting privately led port development and strengthening decision-making, investment readiness, and early market engagement.\r\nThis intervention will be delivered in two phases. Phase 1 will establish the foundations for private sector participation by drawing on UK experience, developing a Private Offshore Wind Port Development Framework, and identifying and prioritizing suitable port locations particularly in areas such as South Mindoro and Negros Occidental based on technical suitability and readiness. Phase 2 will undertake detailed technical and commercial feasibility assessments of three shortlisted sites, including infrastructure requirements, cost and financial analysis, environmental and regulatory considerations, and market validation\r\n\r\nInterested suppliers/consortia are encouraged to review the RfQ documentation and submit your proposal in accordance with the instructions above by the Clo",
     "budget_eur": 549900,
     "deadline": "2026-07-13",
-    "relevance_score": 47.5,
+    "relevance_score": 44.9,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -7269,7 +7183,7 @@
     },
     "date_found": "2026-06-10",
     "scored_at": "2026-06-10T09:59:11.985503",
-    "last_updated": "2026-06-10T09:59:11.985505",
+    "last_updated": "2026-06-19",
     "added_date": "2026-06-10",
     "status": "New",
     "notes": "",
