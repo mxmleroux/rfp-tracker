@@ -6655,7 +6655,7 @@
     "scored_at": "2026-06-05T09:49:34.329875",
     "last_updated": "2026-06-05T09:49:34.329876",
     "added_date": "2026-06-05",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6664,7 +6664,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-1da25f128249",
@@ -6939,8 +6939,8 @@
     "description": "We invite proposals for the delivery of the UK-ASEAN Energy Cooperation Forum 2026 and Study Visit in the UK, convening senior ASEAN stakeholders and UK industry leaders at a pivot moment for the region's energy transition.\r\n\r\nInterested suppliers are encouraged to review the tender pack and submit their proposals by 29 June 12:00",
     "budget_eur": 146250,
     "deadline": "2026-06-29",
-    "relevance_score": 41.8,
-    "win_probability": "Medium",
+    "relevance_score": 37.4,
+    "win_probability": "Low",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
     "budget_fit_score": 100,
@@ -7006,7 +7006,7 @@
     },
     "date_found": "2026-06-08",
     "scored_at": "2026-06-08T10:53:34.160919",
-    "last_updated": "2026-06-08T10:53:34.160921",
+    "last_updated": "2026-06-20",
     "added_date": "2026-06-08",
     "status": "New",
     "notes": "",
