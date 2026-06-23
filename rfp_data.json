@@ -7621,7 +7621,7 @@
     "scored_at": "2026-06-13T08:57:25.101945",
     "last_updated": "2026-06-15",
     "added_date": "2026-06-13",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7630,7 +7630,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-c0961e510851",
@@ -8164,7 +8164,7 @@
     "issuing_entity": "TULLIE HOUSE MUSEUM AND ART GALLERY TRUST",
     "country": "GB",
     "market": "UK + Ireland",
-    "description": "Project Tullie is a phased capital development programme to transform Tullie over the next 10-15 years. Our vision is to create an innovative, welcoming, and sustainable cultural hub that represents local communities and connects Carlisle and Cumbria to the world.\r\n\r\nInformation relating to live Invitation to Tender can be shared upon request. Please contact sale@appleyardandtrew.co.uk\r\n\r\n\r\nProject Tullie Phase 3 Exhibition Racking Contractor\r\n\r\nTullie House Museum and Art Gallery Trust (the Trust) is seeking to establish an Agreement for the provision of Exhibition fit-out Contractor for Project Tullie (Phase 3) at the existing Tullie House Museum, which includes with all associated works stated in the tender, henceforth the \"Services\". The Base Build and Exhibition Fit-out Contractors are appointed separately. The Contractor will allow for any liaising with Base Build and Exhibition Fit-out Contractors accordingly. The Exhibition Perimeter Racking Contract's scope is outlined in tender documents as enclosed in this ITT. It is intended that the Exhibition Perimeter Racking Contractor will be directly appointed by the Trust as the \"Employer\".\r\n\r\nThe tender documents can be shared upon request. Please contact sale@appleyardandtrew.co.uk.\r\n\r\nAdditional information: Project Tullie is a phased capital development programme to transform Tullie over the next 10-15 years. Our vision is to create an innovative, welcoming, and sustainable cultural hub that represents local communities and connects Carlisle and Cumbria to the world.\r\n\r\nInformation relating to live Invitation to Tender can be shared upon request. Please contact sale@appleyardandtrew.co.uk\r\n\r\n\r\nProject Tullie Phase 3 Exhibition Racking Contractor\r\n\r\nTullie House Museum and Art Gallery Trust (the Trust) is seeking to establish an Agreement for the provision of Exhibition fit-out Contractor for Project Tullie (Phase 3) at the existing Tullie House Museum, which includes with all associated works stated in the ten",
+    "description": "Project Tullie is a phased capital development programme to transform Tullie over the next 10-15 years. Our vision is to create an innovative, welcoming, and sustainable cultural hub that represents local communities and connects Carlisle and Cumbria to the world.\r\n\r\nInformation relating to live Invitation to Tender can be shared upon request. Please contact sale@appleyardandtrew.co.uk\r\n\r\n\r\nProject Tullie Phase 3 Exhibition Racking Contractor\r\n\r\nTullie House Museum and Art Gallery Trust (the Trust) is seeking to establish an Agreement for the provision of Exhibition Racking Contractor for Project Tullie (Phase 3) at the existing Tullie House Museum, which includes with all associated works stated in the tender, henceforth the \"Services\". The Base Build and Exhibition Fit-out Contractors are appointed separately. The Contractor will allow for any liaising with Base Build and Exhibition Fit-out Contractors accordingly. The Exhibition Perimeter Racking Contract's scope is outlined in tender documents as enclosed in this ITT. It is intended that the Exhibition Perimeter Racking Contractor will be directly appointed by the Trust as the \"Employer\".\r\n\r\nThe tender documents can be shared upon request. Please contact sale@appleyardandtrew.co.uk.\r\n\r\nAdditional information: Project Tullie is a phased capital development programme to transform Tullie over the next 10-15 years. Our vision is to create an innovative, welcoming, and sustainable cultural hub that represents local communities and connects Carlisle and Cumbria to the world.\r\n\r\nInformation relating to live Invitation to Tender can be shared upon request. Please contact sale@appleyardandtrew.co.uk\r\n\r\n\r\nProject Tullie Phase 3 Exhibition Racking Contractor\r\n\r\nTullie House Museum and Art Gallery Trust (the Trust) is seeking to establish an Agreement for the provision of Exhibition Racking Contractor for Project Tullie (Phase 3) at the existing Tullie House Museum, which includes with all associated works stated in the ten",
     "budget_eur": null,
     "deadline": "2026-08-03",
     "relevance_score": 43.0,
@@ -8231,7 +8231,7 @@
     },
     "date_found": "2026-06-22",
     "scored_at": "2026-06-22T11:52:51.282034",
-    "last_updated": "2026-06-22T11:52:51.282036",
+    "last_updated": "2026-06-23",
     "added_date": "2026-06-22",
     "status": "New",
     "notes": "",
@@ -8239,6 +8239,266 @@
       {
         "status": "New",
         "date": "2026-06-22T11:52:51.282042",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4677f09af2d1",
+    "rfp_title": "Christmas Lights",
+    "issuing_entity": "Higham Ferrers Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Higham Ferrers invites suitably experienced Christmas illumination specialists to submit a tender for the Christmas lights for a 3 year contract for Christmas 2026, 2027 and 2028. The 3-year contract period commencing no later than 1st October 2026.\r\n\r\nThe supplier should be capable of installation, maintenance and testing of the Council's current Christmas lights and equipment and also supply of new lights and equipment.\r\n\r\nThe supplier should be capable of supply and installation of power supply cabinets, bollards, or any other form of power supply to allow for the improvement of the installation system over the contract period if it proves necessary. \r\n\r\nThe Christmas light display  is a continuation of the install of the Town Council owned display aside the requirement for supply and install new lights to the Town Hall building and a light to the top of the Christmas Tree.\r\n\r\nTenders are preferred electronically and can be sent to:\r\n\r\nclerk@highamferrers-tc.gov.uk\r\nSubject Line: Christmas Lights 2026 Tender Submission",
+    "budget_eur": 45630,
+    "deadline": "2026-08-10",
+    "relevance_score": 50.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5d1a436e-fe8b-4479-87a4-0eb2b4831a41-903033",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-23",
+    "scored_at": "2026-06-23T09:37:34.730708",
+    "last_updated": "2026-06-23T09:37:34.730709",
+    "added_date": "2026-06-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-23T09:37:34.730715",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f08608f7ab50",
+    "rfp_title": "GB-London: IT Managed Services - Stage 1 Assessment",
+    "issuing_entity": "The Careers and Enterprise Company",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Initial assessment of suppliers' suitability and capability to deliver IT Managed Services, prior to invitation to the next stage of the procurement process.\r\n\r\nAdditional information: The contracting authority considers that this contract may be suitable for economic operators that are small or medium enterprises (SMEs). However, any selection of tenderers will be based solely on the criteria set out for the procurement.",
+    "budget_eur": 1170000,
+    "deadline": "2026-07-06",
+    "relevance_score": 40.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "eec4f6d7-6ca4-4b08-a014-db69a7906db0-903083",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-23",
+    "scored_at": "2026-06-23T09:37:34.733307",
+    "last_updated": "2026-06-23T09:37:34.733313",
+    "added_date": "2026-06-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-23T09:37:34.733318",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-a05d69281dde",
+    "rfp_title": "MEGRFI/01008 - Hostile Vehicle Mitigation (HVM) Vehicle Security Barriers RFI",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This is a Request for Information and not currently an opportunity to tender.\r\n\r\nThe Authority is seeking to explore Hostile Vehicle Mitigation (HVM) solutions, specifically in the form of Vehicle Security Barriers (VSBs). This includes the potential establishment of a comprehensive through-life support including installations and maintenance contract, anticipated to span approximately 10 years, incorporating provisions for capability upgrades, technology refresh, and asset sustainment.\r\nThe Authority welcomes input from subject matter experts and relevant suppliers to better understand the level of market interest and capability in delivering a requirement of this nature in the future. This also provides an opportunity for industry to offer feedback, highlight any concerns, and identify potential risks or constraints that may impact delivery.\r\n\r\nPlease see documents attached on this notice.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "10e8d741-5c96-47ef-ac2c-74c43309be31-903068",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-23",
+    "scored_at": "2026-06-23T09:37:34.734561",
+    "last_updated": "2026-06-23T09:37:34.734562",
+    "added_date": "2026-06-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-23T09:37:34.734566",
         "by": "scanner"
       }
     ],
