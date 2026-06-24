@@ -8503,5 +8503,95 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-31c3244bbc27",
+    "rfp_title": "Digital Service Provision",
+    "issuing_entity": "Health Innovation North East and North Cumbria",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "A national programme is being established to encourage increased levels of physical activity and sustained participation in movement across England. The programme comprises a number of complementary workstreams, including marketing and communications, partnerships and engagement, rewards and recognition, educational content, and a digital component intended to support participation, engagement and long-term habit formation.\r\nThe contracting authority is considering the future procurement of a supplier to design, build, operate and support the digital elements of the programme. A digital discovery exercise is currently underway and will provide an evidence-based recommendation for the future digital service, including user needs, service design, delivery approach and implementation roadmap. Whilst the final solution has not yet been determined, the discovery is expected to narrow the scope significantly and provide sufficient detail to support rapid delivery.\r\nThe digital service may comprise a digital product, web-based service, social and community capability, AI-enabled engagement service, integration with existing consumer platforms, or a combination of these approaches. The successful supplier will be expected to take the outputs of the discovery phase through detailed design, build, deployment and live operation.\r\nThe appointed supplier will work alongside other specialist partners responsible for marketing, communications, partnerships, rewards and wider programme delivery. The role of the digital supplier will be to translate programme objectives into effective digital services and experiences rather than duplicate functions delivered elsewhere within the programme.\r\nThe programme is operating to ambitious timescales, with an initial digital capability expected to be launched before the end of 2026 and subsequently enhanced through live operation. The authority is therefore interested in engaging with suppliers who can demonstrate experience of delivering, op",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "roadmap"
+        ]
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "745d2f5c-d1f1-4a42-894f-3823cd496194-903256",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-06-24",
+    "scored_at": "2026-06-24T09:28:20.090715",
+    "last_updated": "2026-06-24T09:28:20.090717",
+    "added_date": "2026-06-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-24T09:28:20.090722",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
