@@ -4658,94 +4658,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-594d70da8ff3",
-    "rfp_title": "Capital repair of the passenger elevator with a lifting  capacity of 500 kg, including the installation of accessibility  features for persons with disabilities and other groups with  limited mobility, in the building of Academic Building No. 4 of the  National Technical University \"Dnipro Polytechnic\" located at: 19  Dmytro Yavornytskyi Ave., Dnipro.",
-    "issuing_entity": "Chemonics International, Inc.",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Chemonics Group UK Limited, implementing the Partnership Fund for a Resilient Ukraine - Phase 2 (PFRU-2) project within the framework of international technical assistance, invites you to submit a Tender Proposal for the capital repair of a passenger lift with a load capacity of 500 kg, including the installation of accessibility features for persons with disabilities and other persons with limited mobility, in Academic Building No. 4 of the National Technical University \"Dnipro Polytechnic\", located at: 19 Dmytra Yavornytskoho Ave., Dnipro.\r\nPFRU-2 is a multi-donor program managed by the UK Foreign, Commonwealth & Development Office (FCDO) in cooperation with the Government of Ukraine.\r\nWithin the framework of its project activities, PFRU-2 is seeking a service provider for the capital repair of a 500 kg passenger lift, including accessibility arrangements for persons with disabilities and other low-mobility groups, at the above-mentioned location.\r\nPlease note the following important tender provisions:\r\n\r\nThe deadline for submission of proposals is May 25, 2026, at 15:00 Kyiv time;\r\nAll questions regarding the tender must be submitted no later than May 21, 2026, at 15:00 Kyiv time;\r\nAll communication regarding the tender must be conducted exclusively in writing via: pfruprocurement@chemonics.com;\r\nThe PFRU-2 project is exempt from taxes, duties, and VAT in the partner country. Therefore, PFRU-2 will pay for goods and services without VAT;\r\nEmail address for proposal submission: pfruprocurement@chemonics.com;\r\nWhen submitting proposals or questions via email, the subject line must обязательно include the reference number: PFRU2-2025-476.\r\n\r\nProposal Submission Instructions:\r\n\r\nInvitation to Tender No. PFRU2-2025-476 - review for detailed tender requirements;\r\nAnnex 1 - Cover Letter - complete either the English or Ukrainian version, sign the original, and submit a scanned copy or convert to PDF and sign electronically (must be included in the proposal);\r\nAnnex 3 - ",
-    "budget_eur": 1,
-    "deadline": "2026-05-25",
-    "relevance_score": 23.5,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 10,
-    "timeline_score": 15,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "5de79416-f4ee-4a88-af5b-a484119e01f0-897772",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-18",
-    "scored_at": "2026-05-18T10:02:47.758599",
-    "last_updated": "2026-05-18T10:02:47.758601",
-    "added_date": "2026-05-18",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-18T10:02:47.758606",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-06791b26557a",
     "rfp_title": "CA17851 - RFQ 2026/12 - PEACEPLUS Mental Health First Aid Training for The Mournes, Downpatrick Rowallane Areas",
     "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
@@ -6942,7 +6854,7 @@
     "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThe Philippines is scaling up offshore wind to meet ambitious renewable energy targets, with upcoming auction rounds expected to unlock significant capacity. As the sector advances, attention is shifting toward enabling infrastructure particularly ports, which are critical for construction, staging, installation, and long-term operations. While initial assessments by partners such as ADB and GWEC have focused on public ports, the scale of planned deployment requires expanded port capacity and stronger private sector participation. However, there remains limited clarity on how to structure offshore wind port development to attract investment that is technically viable, commercially sound, and aligned with Department of Energy (DOE) deployment timelines. UK PACT, working with DOE and other agencies, seeks to address this gap by supporting privately led port development and strengthening decision-making, investment readiness, and early market engagement.\r\nThis intervention will be delivered in two phases. Phase 1 will establish the foundations for private sector participation by drawing on UK experience, developing a Private Offshore Wind Port Development Framework, and identifying and prioritizing suitable port locations particularly in areas such as South Mindoro and Negros Occidental based on technical suitability and readiness. Phase 2 will undertake detailed technical and commercial feasibility assessments of three shortlisted sites, including infrastructure requirements, cost and financial analysis, environmental and regulatory considerations, and market validation\r\n\r\nInterested suppliers/consortia are encouraged to review the RfQ documentation and submit your proposal in accordance with the instructions above by the Clo",
     "budget_eur": 549900,
     "deadline": "2026-07-13",
-    "relevance_score": 44.9,
+    "relevance_score": 42.7,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -6995,7 +6907,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "unknown",
-    "deadline_status": "open",
+    "deadline_status": "closing_soon",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "e6168f0c-d23e-4fe6-a6bd-078b229abb71-901450",
@@ -7009,7 +6921,7 @@
     },
     "date_found": "2026-06-10",
     "scored_at": "2026-06-10T09:59:11.985503",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-25",
     "added_date": "2026-06-10",
     "status": "New",
     "notes": "",
@@ -8589,6 +8501,95 @@
       {
         "status": "New",
         "date": "2026-06-24T09:28:20.090722",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-eaec38a1dcc9",
+    "rfp_title": "Modular Building Construction",
+    "issuing_entity": "KBS Maritime Ltd",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "There is a requirement for the replacement of the existing Portacabins with new modular office complex. RIBA4 consultation and delivery of RIBA 5 onwards. Including all Civil, landscaping and MEP works required. This includes small refurbishment works to an existing office. Bidders must have SC Clearance and Cyber Essentials Plus to proceed to Tender stage.",
+    "budget_eur": 1170000,
+    "deadline": "2026-07-21",
+    "relevance_score": 45.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 81.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Minor disqualification signal: building construction",
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "2798c748-8ffa-4292-b2b9-084e504b9b0d-903406",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-25",
+    "scored_at": "2026-06-25T09:20:27.905371",
+    "last_updated": "2026-06-25T09:20:27.905372",
+    "added_date": "2026-06-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-25T09:20:27.905377",
         "by": "scanner"
       }
     ],
