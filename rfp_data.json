@@ -165,7 +165,7 @@
     "scored_at": "2026-02-25T07:02:14.903135",
     "last_updated": "2026-02-25T07:02:14.903137",
     "added_date": "2026-02-25",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -174,7 +174,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-ada024e43d02",
@@ -3337,92 +3337,6 @@
       {
         "status": "New",
         "date": "2026-04-23T07:52:38.483028",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-bcc432c38eb6",
-    "rfp_title": "Opportunity for DSA Cyber Security Services",
-    "issuing_entity": "Home Office",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Home Office Data Services and Analytics (DSA) which sits within the Buyer's Home Office Digital (HOD) division, has a requirement for the procurement of specialist client-side cyber security support capabilities detailed within the Statement of Requirements document and the Book of Work. \r\nThe Buyer Cyber Security capability is currently provided under a service-based offering from a third-party supplier. The supplier delivers a range of services and provides assurance to the Buyer's Independent Assurer that IT systems are compliant with National Cyber Security Centre (NCSC) standards Cyber security advice for public sector organisations | National Cyber Security Centre - NCSC.GOV.UK\r\nThe Buyer is establishing a more capable cyber function which is still defining its Target Operating Model. It is envisaged that there will be a range of shared capabilities and processes that the Buyer's service will need to align with or onboard to. This is following Secure by Design principles\r\nLiaison and collaboration with NCSC and other UK Intelligence and Law Enforcement Agencies is also a key requirement of the service to ensure 3rd party stakeholders are assured of the Buyer's Cyber security.\r\nThe Supplier will deliver the Services in each operational area in a multi-disciplinary / multi-vendor environment. The Supplier shall be expected to develop strong and collaborative working relationships with the existing DSA portfolio teams and with other suppliers supporting the Buyer's HOD division with whom the Supplier will work.\r\nThe Services will be delivered within DSA Security Team. The Security Architecture across DSA Programmes and Projects is at different levels of maturity. \r\nThe Service needs the ability to flex for urgent requirements and to change throughout the term of the Agreement as threats and consequent requirements evolve. This will result in the need for additional, ad hoc services, which are not listed in the DSA Book of Work requiring Supplier support. Such",
-    "budget_eur": 3510000,
-    "deadline": "2026-05-26",
-    "relevance_score": 46.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "c50f2536-a499-4227-abb8-6228a82168ce-894552",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-04-25",
-    "scored_at": "2026-04-25T07:16:20.527353",
-    "last_updated": "2026-04-27",
-    "added_date": "2026-04-25",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-04-25T07:16:20.527359",
         "by": "scanner"
       }
     ],
@@ -7187,7 +7101,7 @@
     "scored_at": "2026-06-11T10:22:58.590706",
     "last_updated": "2026-06-11T10:22:58.590709",
     "added_date": "2026-06-11",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7196,7 +7110,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e6c33234f2b4",
