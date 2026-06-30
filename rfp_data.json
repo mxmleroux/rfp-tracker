@@ -6396,7 +6396,7 @@
     "scored_at": "2026-06-08T10:53:34.160919",
     "last_updated": "2026-06-21",
     "added_date": "2026-06-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6405,7 +6405,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-67d92ae2544b",
@@ -8240,6 +8240,276 @@
       {
         "status": "New",
         "date": "2026-06-25T09:20:27.905377",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-a301983cdbe9",
+    "rfp_title": "GB-Cromer: PROC151 Landscape Capacity Study of Designated Landscapes and review of undeveloped Coast Designation",
+    "issuing_entity": "North Norfolk District Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Provide a robust review of the landscape capacity of the designations - Norfolk Coast National Landscape, Heritage Coast and Undeveloped Coast (taking into consideration their settings)  and areas adjacent to them as their settings, in relation to the of the designations to accommodate part of the council's growth requirements under the new style North Norfolk Local Plan",
+    "budget_eur": 117000,
+    "deadline": "2026-07-21",
+    "relevance_score": 41.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component.",
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a5ebece6-bb62-4c8b-9304-572cd1895072-903861",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-30",
+    "scored_at": "2026-06-30T09:34:34.618786",
+    "last_updated": "2026-06-30T09:34:34.618788",
+    "added_date": "2026-06-30",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-30T09:34:34.618794",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-23abf532637f",
+    "rfp_title": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+    "issuing_entity": "East Sussex County Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Proposed Taxi Route:\r\nFrom:  See service specification\r\nTo:   Cuckmere House \r\n\r\nFrequency: 5 days a week\r\nDaily School Time: Primary 08:30-14:30 Secondary 09:00-15:10 Tower House 09:00-15:00\r\n\r\nComments for Operator:  \r\nSee service specification and note that due to the complex nature of this contract, bidders will need to complete a further round of clarification questions as part of the award selection criteria.\r\n\r\nAs a guide to the selection criteria, vehicle capacity, staff training and staff resources will need to be demonstrated prior to contract award in July 2026.\r\n\r\nIMPORTANT: You need to submit the TOTAL DAILY COST of all routes on Sproc.net and attach a document which provides the costs per route, split by vehicle and PA.\r\n\r\n\r\n This opportunity has been distributed on SProc.net",
+    "budget_eur": null,
+    "deadline": "2026-07-03",
+    "relevance_score": 37.5,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "4c804915-cd69-4d55-bc47-6c553ee458c3-903846",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-06-30",
+    "scored_at": "2026-06-30T09:34:34.619692",
+    "last_updated": "2026-06-30T09:34:34.619694",
+    "added_date": "2026-06-30",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-30T09:34:34.619699",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f8ba80ad0f5f",
+    "rfp_title": "Institutional Capacity Enhancement for International Sustainability Standards Board (ISSB) Adoption in Thailand.",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThailand is currently undergoing a pivotal transition toward the adoption of International Sustainability Standards Board (ISSB) sustainability disclosure standards, with the goal of elevating its reporting framework to a globally recognised baseline. The Securities and Exchange Commission (SEC), as the primary regulator of Thailand's capital market, plays a central role in this process by setting disclosure requirements, supervising listed entities, and ensuring market readiness. Following its established roadmap, the SEC has adopted a phased approach requiring alignment with IFRS S1 and IFRS S2, with mandatory disclosure beginning in 2027. This marks a significant milestone, expanding corporate reporting beyond traditional financial metrics to include sustainability-related risks and opportunities material to investors. However, the transition presents substantial supervisory and technical challenges, requiring strengthened internal expertise, enhanced review mechanisms, and robust enforcement processes aligned with international best practice. In response, the Thailand-UK PACT programme has engaged with the SEC to provide targeted technical assistance, building on ongoing collaboration to develop ISSB-aligned guidance and integrate disclosure requirements into the 56-1 One Report framework.\r\nThe objective of the proposed expert deployment is to strengthen the SEC's regulatory capacity through the design and delivery of structured, regulator-focused training on ISSB-aligned disclosures. This includes developing comprehensive training modules on IFRS S1 and S2 requirements from a supervisory perspective, supported by practical exercises, case studies, and guidance on risk-based review approaches, assessment methodologies, ",
+    "budget_eur": 87750,
+    "deadline": "2026-07-31",
+    "relevance_score": 52.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "roadmap"
+        ]
+      },
+      "monitoring_tracking": {
+        "score": 2,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "metrics",
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "15842abb-57c1-4ba0-9960-c7cfbb657828-903788",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-06-30",
+    "scored_at": "2026-06-30T09:34:34.622135",
+    "last_updated": "2026-06-30T09:34:34.622137",
+    "added_date": "2026-06-30",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-06-30T09:34:34.622142",
         "by": "scanner"
       }
     ],
