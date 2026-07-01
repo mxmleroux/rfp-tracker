@@ -4640,7 +4640,7 @@
     "scored_at": "2026-05-22T09:22:14.804886",
     "last_updated": "2026-05-22T09:22:14.804887",
     "added_date": "2026-05-22",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -4649,7 +4649,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-4e242a2e2ece",
@@ -6749,7 +6749,7 @@
     "scored_at": "2026-06-11T10:22:58.587003",
     "last_updated": "2026-06-17",
     "added_date": "2026-06-11",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6758,7 +6758,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-cb87081511d0",
@@ -8510,6 +8510,350 @@
       {
         "status": "New",
         "date": "2026-06-30T09:34:34.622142",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-84cff64abc53",
+    "rfp_title": "CA18146 - ITT 43/2026 - PEACEPLUS Collaborative Interaction Programme - Sustaining Cross Community Relationships",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "To deliver seven standalone PEACEPLUS cross community projects, one in each District Electoral Area (DEA), engaging individuals and communities who are not typically involved in peacebuilding. Through structured contact, facilitated dialogue, and capacity building, the programme will strengthen relationships, empower communities, and support the development of shared visions for local areas. This work will contribute to the gradual removal of psychological and physical barriers and promote long term reconciliation.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18146.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18146 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": null,
+    "deadline": "2026-08-05",
+    "relevance_score": 46.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "81c7f5ce-7b07-4d11-9989-be89c73f8919-904119",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-01",
+    "scored_at": "2026-07-01T09:44:38.622606",
+    "last_updated": "2026-07-01T09:44:38.622608",
+    "added_date": "2026-07-01",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-01T09:44:38.622613",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-7c86667413d6",
+    "rfp_title": "Photonic Component Testing System",
+    "issuing_entity": "University of Bristol",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Funding is available to purchase a laser-based photonic component testing system which is capable of rapidly modifying the wavelength (>100 nm/s sweep rate) with a high level of precision (sub-picometer wavelength resolution). Such a system must also be able to accurately measure the wavelength-dependent power to allow for characterisation of a device under test (DUT). Such a system would strongly complement the photonics capabilities available to the QTIC/BIZ community.",
+    "budget_eur": 99450,
+    "deadline": "2026-07-16",
+    "relevance_score": 44.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 40.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5b465ae6-1c39-4a0a-84c0-dc7fdf01db16-904108",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-01",
+    "scored_at": "2026-07-01T09:44:38.623324",
+    "last_updated": "2026-07-01T09:44:38.623325",
+    "added_date": "2026-07-01",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-01T09:44:38.623330",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-eb0a9a896959",
+    "rfp_title": "Die Bonding System",
+    "issuing_entity": "University of Bristol",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Funding is available to purchase a die attach/bonding system capable of performing a wide range of bonding processes, including ultrasonic, flip-chip, and UV curing, which is suitable for prototyping and light production runs. As a result, a crucial aspect for any die attach system under is the ability to be used for bonding runs as small as a single die should this be required. This stipulation lends itself to a semi-automated (i.e. motorised) system, ideally with the capacity to store process recipes to maximise reproducibility should the system be used for light production runs.",
+    "budget_eur": 251550,
+    "deadline": "2026-07-16",
+    "relevance_score": 44.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 40.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "21933349-7465-49c1-a0c0-59f1caeb33ed-904105",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-01",
+    "scored_at": "2026-07-01T09:44:38.623698",
+    "last_updated": "2026-07-01T09:44:38.623699",
+    "added_date": "2026-07-01",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-01T09:44:38.623703",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-8fc0c5e64d72",
+    "rfp_title": "CA18156 - Tender 42/2026 - Integrated Consultancy Team for Extension to Struell Cemetery, Downpatrick",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The purpose of these services is to appoint a suitably qualified Consultant to support the Council in the delivery of the Struell Cemetery extension, Downpatrick. The Consultant will provide the necessary technical, design, procurement, and contract administration services to enable the successful expansion of burial capacity and associated infrastructure. The services are being commissioned to ensure the scheme is developed, procured, and delivered in a coordinated and efficient manner, meeting the Council's Programme, budget, and operational requirements, while maintaining appropriate standards within an active cemetery environment.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18156.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18156 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": null,
+    "deadline": "2026-07-24",
+    "relevance_score": 40.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 70.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "92301ebd-0ec1-4ba3-abc3-d2ff2c5bec12-904020",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-01",
+    "scored_at": "2026-07-01T09:44:38.626123",
+    "last_updated": "2026-07-01T09:44:38.626124",
+    "added_date": "2026-07-01",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-01T09:44:38.626129",
         "by": "scanner"
       }
     ],
