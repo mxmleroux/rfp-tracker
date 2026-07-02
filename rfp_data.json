@@ -4306,94 +4306,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-06898586b2ce",
-    "rfp_title": "North Sea Job Service (NSJS) - Supply Chain Partnerships",
-    "issuing_entity": "FEDCAP EMPLOYMENT LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Fedcap is undertaking early market engagement and partnership development activity ahead of the anticipated release of the Department for Energy Security & Net Zero (DESNZ) North Sea Job Service Invitation to Tender (ITT).\r\n\r\nThis RFP will help Fedcap identify organisations that may contribute to the design and delivery of a high-quality, employer-led workforce transition service supporting oil and gas workers into sustainable employment within priority growth sectors.\r\n\r\nFedcap is particularly interested in engaging organisations that can demonstrate:\r\n\r\n· National or sector-specific employer reach\r\n\r\n· Workforce transition and employability support capability\r\n\r\n· Technical training capacity aligned to priority sectors\r\n\r\n· Regional delivery infrastructure and local labour market knowledge\r\n\r\n· Employer-led workforce pathways linked to real vacancies\r\n\r\n· Scalable mobilisation and delivery capability",
-    "budget_eur": 1,
-    "deadline": "2026-06-01",
-    "relevance_score": 31.5,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 10,
-    "timeline_score": 18.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "8c21a146-d9ed-4ea4-80fd-6d8b0cc3a97a-897529",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-05-16",
-    "scored_at": "2026-05-16T08:04:14.321287",
-    "last_updated": "2026-05-28",
-    "added_date": "2026-05-16",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-16T08:04:14.321293",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-06791b26557a",
     "rfp_title": "CA17851 - RFQ 2026/12 - PEACEPLUS Mental Health First Aid Training for The Mournes, Downpatrick Rowallane Areas",
     "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
@@ -4908,92 +4820,6 @@
       {
         "status": "New",
         "date": "2026-05-27T09:48:30.649387",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-9b8294bef2e0",
-    "rfp_title": "St Oswald's Church, Coney Hill: To prepare for a Sustainable Future",
-    "issuing_entity": "Arnold Bartosch Ltd",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The proposed work is as follows: \r\n\r\n•\tRainwater goods - repairs, replacement/refurbishment\r\n•\tRoof Repairs - repairs to clay tiling, timber soffit and South Aisle lead abutments. \r\n•\tVestry Parapet Repairs - dismantling and rebuilding parapet with lead damp proof course.\r\n•\tNorth Chimney stack - dismantle and roof repairs.\r\n•\tExternal repointing - to Chancel and isolated areas elsewhere.\r\n•\tInternal plaster repairs and redecoration - to Chancel and Vestry.\r\n•\tExternal doors - repairs and redecoration.\r\n•\tNew glazed entrance doors.\r\n•\tNew lighting installation\r\n•\tNew heating installation\r\n•\tExternal landscaping (access improvements)\r\n\r\nTo apply please email office@arnoldbartosch.co.uk\r\n\r\nThe contract will only be awarded if the church is successful with its Delivery Phase grant application to the National Lottery Heritage Fund.",
-    "budget_eur": 585000,
-    "deadline": "2026-06-01",
-    "relevance_score": 39.0,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 15,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "475de3d5-764b-4f41-8c9f-053cf1afdff8-899194",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-27",
-    "scored_at": "2026-05-27T09:48:30.650869",
-    "last_updated": "2026-05-27T09:48:30.650871",
-    "added_date": "2026-05-27",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-27T09:48:30.650875",
         "by": "scanner"
       }
     ],
@@ -5777,7 +5603,7 @@
     "scored_at": "2026-06-03T10:58:09.396868",
     "last_updated": "2026-06-03T10:58:09.396870",
     "added_date": "2026-06-03",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5786,7 +5612,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-2822ea871a95",
