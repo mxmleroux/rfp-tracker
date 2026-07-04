@@ -6310,7 +6310,7 @@
     "scored_at": "2026-06-09T09:42:32.694328",
     "last_updated": "2026-06-09T09:42:32.694329",
     "added_date": "2026-06-09",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6319,7 +6319,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-6de52c42e00d",
@@ -8237,7 +8237,7 @@
     "scored_at": "2026-06-30T09:34:34.619692",
     "last_updated": "2026-06-30T09:34:34.619694",
     "added_date": "2026-06-30",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8246,7 +8246,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-f8ba80ad0f5f",
@@ -8770,6 +8770,94 @@
       {
         "status": "New",
         "date": "2026-07-03T09:16:46.944405",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-d74fe2084495",
+    "rfp_title": "Opportunity to Tender - Track / Access Matting - Regional Framework Lots (England) - J. Murphy & Sons",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "J. Murphy & Sons invites expressions of interest from experienced track matting suppliers subcontractor for inclusion on a framework of regional lots across England, supporting major infrastructure programmes.\r\n\r\nThe framework will provide opportunities to supply and install temporary access solutions on a call off basis, aligned to project locations and regional delivery teams.\r\n\r\nProject Portfolio Includes\r\nNetwork Rail CP7\r\nTransPennine Route Upgrade TRU\r\nPeel Ports\r\nOther rail and infrastructure projects across England\r\n\r\nScope of Services\r\nSupply and installation of temporary access trackway\r\nWorking platforms, access roads, crane pads and compounds\r\nMaintenance and removal of track matting\r\nReactive and project based requirements\r\n\r\nSuitable For\r\nTrack matting specialists with construction or infrastructure experience\r\nSMEs and regional suppliers encouraged\r\nDemonstrable H&S, environmental and quality performance\r\nAbility to mobilise to live and constrained sites\r\n\r\nHow to Apply\r\nSuppliers must express interest through CompeteFor to receive further tender information, including lot structure and next steps.\r\n\r\nAbout the buyer's selection process\r\nRegional Approach\r\nThe framework will be structured into regional lots within England, enabling suppliers to tender for one or more regions based on capability, capacity and coverage.",
+    "budget_eur": 1170000,
+    "deadline": "2026-07-10",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "de62f81c-cb37-433a-bc18-0a10b3414ac4-904549",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-07-04",
+    "scored_at": "2026-07-04T08:35:45.256360",
+    "last_updated": "2026-07-04T08:35:45.256361",
+    "added_date": "2026-07-04",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-04T08:35:45.256366",
         "by": "scanner"
       }
     ],
