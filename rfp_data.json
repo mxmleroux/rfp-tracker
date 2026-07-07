@@ -7355,7 +7355,7 @@
     "scored_at": "2026-06-23T09:37:34.733307",
     "last_updated": "2026-06-23T09:37:34.733313",
     "added_date": "2026-06-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7364,7 +7364,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-a05d69281dde",
@@ -8418,6 +8418,92 @@
       {
         "status": "New",
         "date": "2026-07-04T08:35:45.256366",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e7043bab096c",
+    "rfp_title": "Supply Of Mobilisation Packages, Furniture & White Goods",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "CRH intends to appoint suppliers capable of delivering a comprehensive, end-to-end accommodation inventory solution. This will include, but not be limited to, the sourcing and procurement of goods, appropriate storage, coordinated delivery, assembly and installation where required, decommissioning of existing items where applicable and the responsible disposal or recycling of waste packaging, furniture and white goods in accordance with environmental and regulatory standards. Suppliers will be required to deliver to CRH-designated locations in London and Wales and support the full lifecycle management of inventory.",
+    "budget_eur": 1,
+    "deadline": "2026-07-30",
+    "relevance_score": 34.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 10,
+    "timeline_score": 70.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9d850c50-9982-45b8-88ea-be1dd436d363-904835",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-07",
+    "scored_at": "2026-07-07T09:39:34.206285",
+    "last_updated": "2026-07-07T09:39:34.206287",
+    "added_date": "2026-07-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-07T09:39:34.206292",
         "by": "scanner"
       }
     ],
