@@ -5613,98 +5613,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-74d66be4c46f",
-    "rfp_title": "GB-Abingdon: STEP Risk Management Support",
-    "issuing_entity": "BIP SOLUTIONS LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The STEP programme is entering a critical phase as it transitions from framework development into active delivery, coinciding with Construction Partner (CP) mobilisation and the establishment of Integrated Project Teams (IPTs) from September 2026.\r\n      \r\n      To successfully navigate this transition, UKFE requires a robust and operational risk management capability embedded within the STEP Programme and Project Management Office (PPMO). This capability is essential to support informed decision‐making, manage uncertainty, and protect programme outcomes as delivery activity accelerates.\r\n      \r\n      Arcadis has played a central role in developing the STEP Project Controls Framework, including the risk discipline. As the programme moves into delivery, continuity of expertise is required to ensure that risk management processes are aligned to the established framework, adopted consistently across delivery teams, and embedded as part of early business‐as‐usual (BAU) operations.\r\n\r\nAdditional information: Call-off from framework agreement (MCF4) via direct award. Direct award permitted under framework terms (Regulation 33 PCR 2015).",
-    "budget_eur": 172687,
-    "deadline": "2026-06-07",
-    "relevance_score": 44.9,
-    "win_probability": "Medium",
-    "feature_alignment_score": 3.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 15,
-    "competitive_score": 70,
-    "strategic_value_score": 27.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 3,
-        "max": 25,
-        "strong_matches": [
-          "bau"
-        ],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "consulting_only",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "90ceed67-9e5e-487e-a12d-15420e1396b0-900751",
-    "procurement_process": {
-      "type": "Framework Agreement",
-      "rounds": "Multiple call-offs",
-      "details": [
-        "Framework with potential mini-competitions"
-      ]
-    },
-    "date_found": "2026-06-06",
-    "scored_at": "2026-06-06T08:32:40.900882",
-    "last_updated": "2026-06-06T08:32:40.900884",
-    "added_date": "2026-06-06",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-06T08:32:40.900889",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-1aa89bafda9d",
     "rfp_title": "Energy Connect - UK-ASEAN Energy Cooperation Forum and Study Visit in London",
     "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
@@ -7007,7 +6915,7 @@
     "scored_at": "2026-06-17T10:55:06.589409",
     "last_updated": "2026-06-17T10:55:06.589410",
     "added_date": "2026-06-17",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7016,7 +6924,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-25a993d38982",
@@ -8504,6 +8412,528 @@
       {
         "status": "New",
         "date": "2026-07-07T09:39:34.206292",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-09ceffebc6b9",
+    "rfp_title": "Supply of Bodyworn Energy Data Logger",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Bodyworn Energy Data Logger. The procurement covers the supply of specialist power measurement equipment designed to accurately measure and log power consumption from soldier-carried and operated systems.\r\n\r\nObjectives\r\n•\tPurchase of equipment capable of measuring the power usage of operator-carried systems\r\n•\tContinued storage and issue of power loggers to projects, thereby informing overall power demand\r\n•\tMeasurement and data processing of power information\r\n•\tNett Warrior connector compatibility\r\nExclusions\r\n•\tProlonged data analysis\r\n•\tEquipment updates or upgrades\r\n•\tAdaptors required for non-compatible equipment (responsibility of the system under test)\r\n•\tOperating costs for the equipment (a secondary activity for personnel already engaged in the projects under test)\r\n6. Technical Requirements\r\n•\tMust measure power draw from a battery source to a connected portable system\r\n•\tMust be compatible with Nett Warrior connectors\r\n•\tMust export data at Official classification\r\n•\tMust be supplied with appropriate connectors to interface with standard computers (expected: USB)\r\nAcceptance Criteria\r\nUpon delivery, a brief trial of each item will be conducted, including monitoring of power used by a representative system, followed by upload of data to a standalone laptop. Successful completion of this trial will constitute acceptance and clearance for use in future activities.\r\nAcceptance criteria include successful power measurement recording, accurate data export, and successful data transfer to standard computer systems via USB interface.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, technical specifications, and delivery capabilities. Further information on the onboarding process f",
+    "budget_eur": 140400,
+    "deadline": "2026-08-05",
+    "relevance_score": 55.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "monitoring"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a7f6811e-5027-41dc-866a-d7de03d29d1a-904831",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-08",
+    "scored_at": "2026-07-08T08:26:51.660048",
+    "last_updated": "2026-07-08T08:26:51.660050",
+    "added_date": "2026-07-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-08T08:26:51.660055",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-766819b08b6b",
+    "rfp_title": "Supply of Silent Phone Booths",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Silent Phone Booths. The procurement covers the supply, installation, and maintenance of acoustic phone booths designed for secure and confidential communications in office and operational environments.\r\n\r\nRequirement Overview\r\nProcurement of silent phone booths with acoustic insulation and noise reduction capabilities. The booths will provide secure communication spaces for personnel requiring confidential conversations in shared office environments. Supply will include installation support, user training, and ongoing maintenance services to ensure optimal acoustic performance and operational reliability.\r\nRequire dedicated acoustic phone booths to provide secure, confidential communication spaces for personnel across multiple office locations. These booths must deliver high-quality sound insulation to prevent eavesdropping and external noise interference, enabling secure conversations for sensitive operational, administrative, and personnel matters. The booths must be modular, easy to install, and capable of accommodating standard office telecommunications equipment. They will support compliance with security protocols and enhance operational effectiveness by providing designated secure communication areas.\r\nUnite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform. The Unite Procurement Platform offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, acoustic specifications, installation capabilities, and maintenance services. Further information on the onboarding process for the",
+    "budget_eur": 117000,
+    "deadline": "2026-08-05",
+    "relevance_score": 58.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a77c394e-62a5-4028-a7d0-96e94294ad39-905137",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-08",
+    "scored_at": "2026-07-08T08:26:51.660825",
+    "last_updated": "2026-07-08T08:26:51.660826",
+    "added_date": "2026-07-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-08T08:26:51.660829",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-061496bb88bb",
+    "rfp_title": "Supply of Ancillaries including cables, leads, cutters and connectors",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Ancillaries including cables, leads, cutters and connectors. The procurement covers the supply, maintenance, calibration, and support services for specialist firing systems and associated equipment.\r\n\r\nRequirement Overview \r\nThe user requires an Emergency Disablement capability for general contingency operations and Specialist Users to aid EOD. The means of Firing needs to be a self-contained system, housed within a ruggedised container. It will also include support services. \r\nUnite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform. The Unite Procurement Platform offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest.\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dyna",
+    "budget_eur": 117000,
+    "deadline": "2026-08-05",
+    "relevance_score": 55.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "68b46c70-3f36-457d-bb47-c98f3bb42b97-904834",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-08",
+    "scored_at": "2026-07-08T08:26:51.661581",
+    "last_updated": "2026-07-08T08:26:51.661582",
+    "added_date": "2026-07-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-08T08:26:51.661585",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ad9c1da1c298",
+    "rfp_title": "National Trust - Clumber Park - Diamond-backed Spider Recovery Project Consultancy Services (A)",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The National Trust is seeking suitably qualified ecological consultants to support the recovery of the Critically Endangered Diamond-backed Spider (Thanatus formicinus). The commission is divided into three work packages. This opportunity relates to Package A: spider ecology, monitoring and research across Clumber Park and the Sherwood Forest landscape. The project will improve understanding of the species' ecology, breeding phenology and dispersal, provide habitat management guidance, assess habitat connectivity, and develop a translocation methodology and implementation plan by 2029. Work will be undertaken in collaboration with the National Trust, British Arachnological Society, University of Nottingham and other stakeholders. The project runs from 2026-2029.\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal. \r\nhttps://supplierlive.proactisp2p.com/ \r\nIf you would like to be involved, please ensure you have access to your Proactis account and let us know your supplier number so that we can make sure you have access to the tender pack.\r\nIf you do not have a Proactis account please create one and let us know your supplier number. There is no cost to have a Proactis account.",
+    "budget_eur": 42029,
+    "deadline": "2026-07-31",
+    "relevance_score": 48.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 4.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 70.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 3,
+        "max": 15,
+        "strong_matches": [
+          "implementation plan"
+        ],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "monitoring"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5da93aca-a01f-4a7e-9f96-2ede2a1444a2-905080",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-08",
+    "scored_at": "2026-07-08T08:26:51.662812",
+    "last_updated": "2026-07-08T08:26:51.662813",
+    "added_date": "2026-07-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-08T08:26:51.662816",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-82f24a2f6fc2",
+    "rfp_title": "CA17655 - Walsall College lighting upgrade",
+    "issuing_entity": "Walsall College",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Campus Lighting Upgrade project proposes a comprehensive replacement of legacy lighting systems with modern energy-efficient LED luminaires across campus buildings. The project includes upgrades to emergency lighting, installation of intelligent lighting controls and associated electrical testing and certification. The project forms a key component of the College's capital investment programme and supports strategic objectives relating to estate condition, sustainability, energy efficiency and the learning environment.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17655.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17655 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": null,
+    "deadline": "2026-08-01",
+    "relevance_score": 40.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 74.1,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1f9c378a-778b-4b8c-a01d-9fea37ddb500-905037",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-08",
+    "scored_at": "2026-07-08T08:26:51.663375",
+    "last_updated": "2026-07-08T08:26:51.663376",
+    "added_date": "2026-07-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-08T08:26:51.663379",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f882187417e0",
+    "rfp_title": "VOLUNTARY EX ANTE TRANSPARENCY (VEAT) NOTICE Provision of Medical Malpractice and Professional Indemnity Insurance (Care Agency)",
+    "issuing_entity": "HM Government of Gibraltar",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Transparency Notice\r\n\r\nThis notice is published voluntarily for transparency purposes only and does not seek expressions of interest or responses from the market.\r\n\r\nContract Description\r\n\r\nThe contract is for the provision of Medical Malpractice Insurance and Professional Indemnity Insurance for the Care Agency (Department).\r\n\r\nProcurement Background\r\n\r\nSeparate procurement exercises were undertaken for each requirement following market engagement intended to encourage greater competition. Only one tender was received in response to each exercise. The sole tenderer proposed a combined insurance placement covering both requirements and maintained this position following clarification that the requirements had been tendered separately.\r\n\r\nMarket Response\r\n\r\nThe Contracting Authority has concluded that the tenders received were not suitable for award in the form originally tendered, as they were not capable, without substantial amendment to the procurement structure, of meeting the requirements set out in the procurement documents.\r\n\r\nMarket feedback from another interested economic operator also indicated that there was no appetite within the insurance market to submit a tender for these requirements.\r\n\r\nProposed Arrangement\r\n\r\nThe proposed contract will provide continuous cover through a single combined insurance arrangement.\r\n\r\nContract Value\r\n\r\nEstimated annual value: £370,000.\r\nEstimated total value: £740,000 over an initial two-year term.\r\nValue breakdown: net annual premium £296,000; broker fee £74,000.\r\n\r\nLegal Basis\r\n\r\nThe Contracting Authority intends to award the contract without prior publication of a further contract notice pursuant to Regulation 32A(2)(a) of the Procurement (Public Sector Contracts) Regulations 2016.\r\n\r\nJustification\r\n\r\nThe Department requires uninterrupted insurance protection for its clinical and operational activities. The combined arrangement has been reviewed by the Department and is considered capable of meeting its operational req",
+    "budget_eur": 865800,
+    "deadline": "2026-07-17",
+    "relevance_score": 39.4,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 18.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1ded3547-1ec5-46cf-b61a-c2fa7624a727-904963",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-08",
+    "scored_at": "2026-07-08T08:26:51.664262",
+    "last_updated": "2026-07-08T08:26:51.664263",
+    "added_date": "2026-07-08",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-08T08:26:51.664266",
         "by": "scanner"
       }
     ],
