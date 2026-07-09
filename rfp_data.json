@@ -3778,94 +3778,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-82c770fb3e92",
-    "rfp_title": "Provision of Beach Safety Service in Sandown",
-    "issuing_entity": "Sandown Town Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Notice is hereby given that potential suppliers are formally invited to submit expressions of interest as outlined below. If your company is interested in being considered for this contract, please contact the Council for the tender documentation. \r\n\r\nProvision of Beach Safety Service in Sandown.\r\nThe service shall include:\r\n- Preventative beach supervision\r\n- Emergency response capability\r\n- Public safety engagement\r\n- Operational management and reporting\r\n- Provision of equipment \r\n- First Aid Support for Town Council Events including Remembrance. \r\n- Support delivery of Beach Wheel Chair Services",
-    "budget_eur": 29250,
-    "deadline": "2026-06-08",
-    "relevance_score": 49.3,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "reporting"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "553557a6-665e-4f14-b347-afd8dd84a85b-896658",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-12",
-    "scored_at": "2026-05-12T08:39:24.707649",
-    "last_updated": "2026-05-12T08:39:24.707650",
-    "added_date": "2026-05-12",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-12T08:39:24.707655",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-bdf3e20156ad",
     "rfp_title": "Request for Information - Medical Device Quality Control (QC) Testing Capacity",
     "issuing_entity": "UK Health Security Agency",
@@ -4645,94 +4557,6 @@
       {
         "status": "New",
         "date": "2026-05-28T10:00:02.117610",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-9d8c8dd7dc21",
-    "rfp_title": "The Delivery of a Digital Assessment to Action Programme for Winchester District Businesses",
-    "issuing_entity": "Winchester City Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The council is seeking a local delivery partner to provide ten local (micro or small) businesses with a digital assessment that evaluates their current digital capability across key operational and commercial areas. This delivery partner must be local to the Winchester district due to the need to complete the majority of this programme in person. The assessment will be followed by a structured action plan, prioritising immediate improvements alongside longer-term strategic opportunities.\r\n\r\nDigital assessment pathway:\r\n\r\n1. Digital assessment: each business to be assessed in-person to establish baseline digital capability across key operational and commercial areas.\r\n\r\n2.Tailored digital action plan: findings from the assessment are translated into a practical action plan, including prioritised recommendations, signposting to relevant support, introductions and funding opportunities where appropriate. (Provided within two weeks of the assessment date).\r\n\r\n3. One-to-one digital support: businesses can receive up to four hours of tailored one-to-one digital support, focused on implementing priority actions (level of support dependent on complexity and need).\r\n\r\n4.Progress check with each business: a check-in to review progress against the action plan, address barriers and refine next steps if required.\r\n\r\n5.Final review and close with each business: a final review to summarise progress, capture outcomes and impact and formally close the support. If continued support is required, signposting to further support is essential.\r\n\r\n6.Final report to the council of project summary: A full final programme report will be required at the end of the project. Including, business names, location, size of businesses, summary of assessments and their action plans and recommendations. Case studies of at least three businesses taking part that can be used for publicity and learning. All assessments and action plans to also be submitted to the council.\r\n\r\nBidders may seek clarification",
-    "budget_eur": 11700,
-    "deadline": "2026-06-08",
-    "relevance_score": 33.5,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 76.9,
-    "timeline_score": 18.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "5f8725b0-d8ae-49a5-93a1-978d948733b3-899683",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-30",
-    "scored_at": "2026-05-30T08:27:25.647493",
-    "last_updated": "2026-06-02",
-    "added_date": "2026-05-30",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-30T08:27:25.647499",
         "by": "scanner"
       }
     ],
@@ -8339,8 +8163,8 @@
     "market": "UK + Ireland",
     "description": "CRH intends to appoint suppliers capable of delivering a comprehensive, end-to-end accommodation inventory solution. This will include, but not be limited to, the sourcing and procurement of goods, appropriate storage, coordinated delivery, assembly and installation where required, decommissioning of existing items where applicable and the responsible disposal or recycling of waste packaging, furniture and white goods in accordance with environmental and regulatory standards. Suppliers will be required to deliver to CRH-designated locations in London and Wales and support the full lifecycle management of inventory.",
     "budget_eur": 1,
-    "deadline": "2026-07-30",
-    "relevance_score": 34.0,
+    "deadline": "2026-08-31",
+    "relevance_score": 37.0,
     "win_probability": "Low",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -8404,7 +8228,7 @@
     },
     "date_found": "2026-07-07",
     "scored_at": "2026-07-07T09:39:34.206285",
-    "last_updated": "2026-07-07T09:39:34.206287",
+    "last_updated": "2026-07-09",
     "added_date": "2026-07-07",
     "status": "New",
     "notes": "",
