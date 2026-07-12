@@ -4737,92 +4737,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-d1895535c4cf",
-    "rfp_title": "Outsourced Activity 2026 - 85100000",
-    "issuing_entity": "UNIVERSITY HOSPITALS COVENTRY AND WARWICKSHIRE NHS TRUST",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The activity relates to carrying our surgery for long waiter patients on the waiting lists of specific surgeons in the hospital. There is insuffiicient capacity in existing NHS core hours to carry out the surgery for these patients and so we are seeking additional capacity from outside of the NHS. The activity in scope of the outsourcing relates to specific surgoens who have practising privileges to operate privately at this particular Independent Sector Provider. The advantages of ensuring the continuity of the surgeon is that the patient will not require to be reviewed as an outpatient and will not require diagnostic tests to be repeated  - this saves both time and money, and is less demanding on the patient in terms of taking time out to attend repeat additional and avoidable outpatient attendances - which in some cases can also involve radiological diagnostic investigations.",
-    "budget_eur": null,
-    "deadline": "2026-06-11",
-    "relevance_score": 34.9,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 18.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "d1cf6639-98fe-46f7-87a8-beeed1e303fc-900009",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-02",
-    "scored_at": "2026-06-02T10:22:39.083135",
-    "last_updated": "2026-06-02T10:22:39.083136",
-    "added_date": "2026-06-02",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-02T10:22:39.083140",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-395da1fd2cd0",
     "rfp_title": "Fit out and Alteration Works of Broadford Coastguard Rescue Station (CRS)",
     "issuing_entity": "MCA - Maritime and Coastguard Agency",
@@ -8758,6 +8672,92 @@
       {
         "status": "New",
         "date": "2026-07-08T08:26:51.664266",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-c3585a1039e4",
+    "rfp_title": "CA18219 - ITT 10/2026 - PEACEPLUS PP2014 - Moneydarragh community Hub Ltd - Creation of new outdoor classroom - Re-Tender",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Applications are invited from Contractors, under the terms of the NEC4 ECSC Short Contract,\r\n\r\nfor the following PEACEPLUS project: Moneydarragh Community Hub Ltd - Creation of new outdoor\r\n\r\nclassroom - PP2014: Supply and installation of new outdoor Messy Play activity area and\r\n\r\nassociated site works at Moneydarragh Community Hub, Annalong.\r\n\r\nThe works will be for Civil Engineering - 45200000-9, Landscaping - 45112700-2, Paved\r\n\r\nAreas - 45233200-1, Land Clearance - 45111220-6, Works for complete or part construction\r\n\r\nand civil engineering work - 45200000, Ground Maintenance - 77314000-4 for a period of 3\r\n\r\nweeks and will commence not before August 2026.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18219.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18219 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": null,
+    "deadline": "2026-07-31",
+    "relevance_score": 38.6,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 55.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "8370701e-6ab2-4bb7-b18e-375d027b6ba7-905744",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-12",
+    "scored_at": "2026-07-12T08:15:34.446214",
+    "last_updated": "2026-07-12T08:15:34.446215",
+    "added_date": "2026-07-12",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-12T08:15:34.446220",
         "by": "scanner"
       }
     ],
