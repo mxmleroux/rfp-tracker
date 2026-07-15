@@ -6213,7 +6213,7 @@
     "scored_at": "2026-06-15T12:12:24.654660",
     "last_updated": "2026-06-15T12:12:24.654662",
     "added_date": "2026-06-15",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6222,7 +6222,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-824938f36fac",
@@ -8758,6 +8758,358 @@
       {
         "status": "New",
         "date": "2026-07-14T08:03:03.538526",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-75659e4ad962",
+    "rfp_title": "CA18230 - Nova Education Trust Tender for Catering Services",
+    "issuing_entity": "Nova Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Nova Education Trust is a multi-academy trust serving communities throughout the East Midlands.  The trust is seeking to appoint a catering partner capable of delivering an exceptional service across all 18 academies.  This opportunity represents one of the most significant service partnerships within Nova and requires a provider with the scale, expertise and commitment to operate consistently across a diverse portfolio of primary and secondary settings whilst remaining responsive to the unique needs of each school community. Nova Education Trust is looking for a contractor whose values align closely with those of the Trust: honesty, integrity, humility and professionalism.  These principles are embedded throughout the organisation and must be evident in every aspect of service delivery, from leadership and governance through to daily interactions with pupils, colleagues and parents.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18230.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18230 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": 12850359,
+    "deadline": "2026-08-21",
+    "relevance_score": 45.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5fa6a14f-d18b-48bd-bedf-bbd485a02408-906203",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-15",
+    "scored_at": "2026-07-15T08:08:11.178327",
+    "last_updated": "2026-07-15T08:08:11.178329",
+    "added_date": "2026-07-15",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-15T08:08:11.178335",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ff79a500ef01",
+    "rfp_title": "Opportunity to Tender - Civils - Regional Framework Lots (England) - J. Murphy & Sons copy",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "J. Murphy & Sons invites expressions of interest from experienced track matting suppliers / subcontractor for inclusion on a framework of regional lots across England, supporting major infrastructure programmes.\r\nThe framework will provide opportunities to supply and install temporary access solutions on a call off basis, aligned to project locations and regional delivery teams.\r\n\r\nProject Portfolio Includes:\r\nNetwork Rail CP7\r\nTransPennine Route Upgrade (TRU)\r\nPeel Ports\r\nOther rail and infrastructure projects across England\r\n\r\nScope of Services:\r\nGeneral civil engineering works\r\nEarthworks, drainage and foundations\r\nConcrete works and structures\r\nMinor and major civils packages\r\nPlanned and reactive works\r\n\r\nHow to Apply:\r\nSuppliers must express interest through CompeteFor to receive further tender information, including lot structure and next steps.\r\n\r\n\r\nAbout the buyer's selection process:\r\nRegional Approach:\r\nThe framework will be structured into regional lots within England, allowing suppliers to tender for one or more regions based on capability, capacity and local presence.\r\nSuitable For:\r\n\r\nCivils contractors with infrastructure experience\r\nSMEs and regional contractors encouraged\r\nStrong health, safety, environmental and quality performance\r\nAbility to deliver within live and constrained environments",
+    "budget_eur": 1170000,
+    "deadline": "2026-07-21",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c84e435f-579c-4737-8baf-241798640e1c-906162",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-15",
+    "scored_at": "2026-07-15T08:08:11.179344",
+    "last_updated": "2026-07-15T08:08:11.179345",
+    "added_date": "2026-07-15",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-15T08:08:11.179351",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-99014768226d",
+    "rfp_title": "Opportunity to Tender - Drainage - Regional Framework Lots (England) - J. Murphy & Sons",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "J. Murphy & Sons invites expressions of interest from experienced civil engineering subcontractors for inclusion on a framework of regional lots across England, supporting major infrastructure programmes.\r\nThe framework will provide call off opportunities aligned to regional delivery teams and project locations.\r\n\r\nProject Portfolio Includes:\r\nNetwork Rail CP7\r\nTransPennine Route Upgrade (TRU)\r\nPeel Ports\r\nOther rail and infrastructure projects across England\r\n\r\nScope of Services:\r\nThe framework will cover the provision of drainage and sewer maintenance services, including:\r\nDrainage Survey & Inspection\r\nCCTV drainage surveys, including condition assessment and defect identification\r\nProduction of comprehensive survey reports, including video, mapping and recommendations\r\nInspection of foul, surface water and combined drainage systems\r\n\r\nDrain Cleaning & Maintenance\r\nHigh pressure water jetting of drainage systems\r\nRemoval of blockages, debris and build up within pipework\r\nPreventative and reactive drainage maintenance\r\n\r\nDrainage Operations\r\nCatch pit cleaning and maintenance\r\nOperation and maintenance of drainage assets and chambers\r\nRoutine servicing of network components\r\n\r\nOver Pumping & Flow Management\r\nProvision of over pumping services to maintain flows during works or emergencies\r\nTemporary bypass systems and flow control solutions\r\nSupport for planned works and emergency response situations\r\n\r\nReactive & Emergency Services\r\nRapid response to drainage incidents, including blockages, flooding and system failures\r\n24/7 call out capability where required\r\nTemporary works to maintain service continuity\r\n\r\nData & Reporting\r\nProcessing of CCTV and survey data\r\nDelivery of reports, including defect classification, asset condition and recommendations\r\nProvision of outputs in line with industry standards and client requirements\r\n\r\nHow to Apply:\r\nSuppliers must express interest through CompeteFor to receive further tender information, including lot structure and next",
+    "budget_eur": 1170000,
+    "deadline": "2026-07-21",
+    "relevance_score": 39.3,
+    "win_probability": "Low",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "cab54caa-0fe7-49f3-9a4b-385a477166bd-906161",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-07-15",
+    "scored_at": "2026-07-15T08:08:11.180296",
+    "last_updated": "2026-07-15T08:08:11.180297",
+    "added_date": "2026-07-15",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-15T08:08:11.180301",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-87470b730109",
+    "rfp_title": "Opportunity to Tender - Scaffolding - Regional Framework Lots (England) - J. Murphy & Sons",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "J. Murphy & Sons invites expressions of interest from experienced civil engineering subcontractors for inclusion on a framework of regional lots across England, supporting major infrastructure programmes.\r\nThe framework will provide call off opportunities aligned to regional delivery teams and project locations.\r\n\r\nProject Portfolio Includes:\r\nNetwork Rail CP7\r\nTransPennine Route Upgrade (TRU)\r\nPeel Ports\r\nOther rail and infrastructure projects across England\r\n\r\nScope of Services:\r\nThe framework will cover the provision of scaffolding supply, installation and associated services, including:\r\nScaffolding Design & Engineering\r\nDesign of scaffolding solutions to meet project specific requirements\r\nProvision of temporary works designs and calculations where required\r\nDevelopment of safe systems for access, support and protection\r\n\r\nScaffolding Supply & Installation\r\nErection, alteration and dismantling of scaffolding structures\r\nProvision of a range of scaffold types, including:\r\nIndependent scaffolds\r\nBirdcage scaffolds\r\nCantilever scaffolds\r\nMobile towers\r\nAccess scaffolds for structures and infrastructure assets\r\nInstallation of edge protection, handrails, ladders and safe access systems\r\n\r\nInspection, Maintenance & Compliance\r\nStatutory scaffold inspections in accordance with regulations (e.g. Working at Height Regulations)\r\nOngoing maintenance, adjustments and safety checks\r\nTagging and certification of scaffolding structures\r\n\r\nSpecialist & Complex Access Solutions\r\nScaffolding for restricted, complex or high risk environments, including:\r\nRail, highways and infrastructure corridors\r\nConfined or live operational sites\r\nIntegration with other access methods (e.g. rope access where required)\r\n\r\nTemporary Works & Ancillary Items\r\nProvision of temporary structures such as:\r\nTemporary roofs and encapsulation systems\r\nHoardings and site protection measures\r\nDebris netting and containment systems\r\n\r\nPlanned & Reactive Services\r\nPlanned scaffolding works aligned to projec",
+    "budget_eur": 1170000,
+    "deadline": "2026-07-21",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "922d7388-9fcb-4087-aa20-79a17e4b93af-906160",
+    "procurement_process": {
+      "type": "Restricted Procedure",
+      "rounds": "Two stages",
+      "details": [
+        "Stage 1: Pre-qualification; Stage 2: Invited tender"
+      ]
+    },
+    "date_found": "2026-07-15",
+    "scored_at": "2026-07-15T08:08:11.181140",
+    "last_updated": "2026-07-15T08:08:11.181146",
+    "added_date": "2026-07-15",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-15T08:08:11.181150",
         "by": "scanner"
       }
     ],
