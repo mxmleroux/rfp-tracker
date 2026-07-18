@@ -3948,92 +3948,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-2c06ab09c613",
-    "rfp_title": "CA17886 - Subcontract delivery for 2026_2027",
-    "issuing_entity": "New College Swindon",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "NCS are requesting tenders from suppliers interested in working in partnership across a number of subcontract delivery contracts within the radius of Swindon for up to £2.67m gross income over the 2026/27 academic year, with the intended outcome of selecting the most advantageous tender(s) (MAT) to deliver a fixed-term contract from 01 August 2026 to 31 July 2027. Spend details are indicative only, award of funding is subject to the criteria detailed within this Guidance, and NCS reserve the right to make multiple awards where best value can be achieved and in accordance with NCS subcontract strategy.\r\n\r\nThe tender has been split into the following requirements:\r\n\r\n1.\tAdult Skills Fund (ASF) Programmes (Level 2 and upwards)\r\n2.\tAdult Skills Fund (ASF) Tailored Learning (any level)\r\n3.\tApprenticeships (Level 2 and upwards)\r\n4.\t16-18 Provision (Level 3 and upwards - consideration will be given to Level 2)\r\n5.\tHigher Education (Level 3 and upwards)\r\n\r\nFace to face and distance learning offers will be considered however all learners must reside within 60 miles of Swindon.  \r\n\r\nTenderer's are invited to apply for one or all Lots in accordance with their own technical capability and capacity.  \r\n\r\n\r\nIncludes Lots: \r\nLot 1: Lot 1\r\nLot 2: Lot 2\r\nLot 3: Lot 3\r\nLot 4: Lot 4\r\nLot 5: Lot 5\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA17886.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA17886 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
-    "budget_eur": 3127867,
-    "deadline": "2026-06-17",
-    "relevance_score": 44.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 77.8,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "bc07e8f6-cfd1-442f-bd3c-5119ff38f293-898835",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-23",
-    "scored_at": "2026-05-23T08:19:34.246672",
-    "last_updated": "2026-05-25",
-    "added_date": "2026-05-23",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-23T08:19:34.246678",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-caf98133991d",
     "rfp_title": "Supply Chain Notice: WAT0149-01 B Lock Penstock Replacements- Portsmouth Naval Base",
     "issuing_entity": "Ministry of Defence",
@@ -4116,273 +4030,6 @@
       {
         "status": "New",
         "date": "2026-05-27T09:48:30.649387",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-a0037c3996ad",
-    "rfp_title": "CROSS Marketing & Communications",
-    "issuing_entity": "UK Atomic Energy Authority",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "UKAEA requires a consultant capable of delivering integrated marketing and communications support across campaign delivery, content creation, stakeholder engagement and media activity for Year 1. The Consultant may be required to provide communications planning and advisory support aligned to the evolving needs of the CROSS programme.",
-    "budget_eur": null,
-    "deadline": "2026-06-17",
-    "relevance_score": 37.2,
-    "win_probability": "Low",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 59.3,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 1,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": [
-          "stakeholder engagement"
-        ]
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component.",
-      "Low confidence: score based on brief text only. Full document may score differently."
-    ],
-    "score_confidence": "low",
-    "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "b50c0cae-e1a5-484e-b005-ad3d9549f511-899421",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-28",
-    "scored_at": "2026-05-28T10:00:02.115616",
-    "last_updated": "2026-05-28T10:00:02.115619",
-    "added_date": "2026-05-28",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-28T10:00:02.115627",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-e318bdeba356",
-    "rfp_title": "Supply of Embroidered Badges with Name and Motif",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support Supply of Embroidered Badges with Name and Motif. The procurement covers;\r\n\r\nRequirement Overview \r\nThe Ministry of Defence requires the supply of embroidered badges featuring both names and qualification motifs. Further to this, we invite suppliers for the following. \r\nBelts, safety boots, base layer short, thermal layer and FR outer layer. \r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their:\r\n\r\nEmbroidery capabilities and experience\r\nProduct range and customisation options\r\nQuality assurance processes\r\nDelivery timescales and capacity\r\nPricing structure\r\nFurther information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\n\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\n\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dynamic and responsive supplier network.\r\n\r\nContact Information\r\nFor any enquiries and interest,",
-    "budget_eur": 885690,
-    "deadline": "2026-06-17",
-    "relevance_score": 49.7,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 59.3,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "roi"
-        ]
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "d6397e7b-9a5e-4e95-b635-b2f7c1f6c39b-899319",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-28",
-    "scored_at": "2026-05-28T10:00:02.117605",
-    "last_updated": "2026-05-28T10:00:02.117606",
-    "added_date": "2026-05-28",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-28T10:00:02.117610",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-fcbc4846798e",
-    "rfp_title": "Bransdale and Raisdale Projects - Consultancy Support",
-    "issuing_entity": "North York Moors National Park Authority",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The North York Moors National Park Authority is seeking an experienced Consultant to work with its Head of Farming and Land Management and Nature Recovery Project Development Manager to scope and prepare a pipeline of practical interventions that will reduce emissions, enhance carbon sequestration, and strengthen climate resilience in Bransdale and Raisdale, with broader landscape-scale benefits across the North York Moors National Park.",
-    "budget_eur": 180180,
-    "deadline": "2026-06-17",
-    "relevance_score": 44.6,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 40.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Low confidence: score based on brief text only. Full document may score differently."
-    ],
-    "score_confidence": "low",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "c7eba404-a7b4-4c31-9e4a-872e2740bf96-900045",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-02",
-    "scored_at": "2026-06-02T10:22:39.080505",
-    "last_updated": "2026-06-02T10:22:39.080506",
-    "added_date": "2026-06-02",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-02T10:22:39.080510",
         "by": "scanner"
       }
     ],
@@ -6303,7 +5950,7 @@
     "scored_at": "2026-06-17T10:55:06.587990",
     "last_updated": "2026-06-17T10:55:06.587991",
     "added_date": "2026-06-17",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6312,7 +5959,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-46029e67b41a",
@@ -8404,7 +8051,7 @@
     "scored_at": "2026-07-08T08:26:51.664262",
     "last_updated": "2026-07-08T08:26:51.664263",
     "added_date": "2026-07-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8413,7 +8060,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-c3585a1039e4",
