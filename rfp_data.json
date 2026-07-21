@@ -5506,7 +5506,7 @@
     "scored_at": "2026-06-13T08:57:25.105627",
     "last_updated": "2026-06-13T08:57:25.105628",
     "added_date": "2026-06-13",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5515,7 +5515,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-611235fb3038",
@@ -8045,7 +8045,7 @@
     "scored_at": "2026-07-14T08:03:03.537723",
     "last_updated": "2026-07-14T08:03:03.537725",
     "added_date": "2026-07-14",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8054,7 +8054,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-5ce45b717f97",
@@ -8133,7 +8133,7 @@
     "scored_at": "2026-07-14T08:03:03.538521",
     "last_updated": "2026-07-14T08:03:03.538522",
     "added_date": "2026-07-14",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8142,7 +8142,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-75659e4ad962",
@@ -8491,6 +8491,180 @@
       {
         "status": "New",
         "date": "2026-07-15T08:08:11.181150",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-24c7e9611416",
+    "rfp_title": "Cheshire and Warrington Growth Hub  Business Support Services",
+    "issuing_entity": "ENTERPRISE CHESHIRE AND WARRINGTON",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This ITT sets out the information which is required in order to assess the suitability of bidders in terms of their capacity to deliver flexible, responsive business support, quality assurance processes, relationship management, service levels and innovative solutions to meet the requirements of ECW for Cheshire and Warrington Growth Hub Support Services\r\nAcross Cheshire and Warrington, businesses have had access to a wide range of support offers. However, this provision is often time limited, programme specific, or fragmented across organisations, which can make navigation difficult for SMEs. Businesses frequently report uncertainty about who does what, leading to disengagement after initial enquiry. The available services have been curtailed recently due to funding reductions.\r\nECW is commissioning a service to address this gap on an interim basis via an embedded service within the existing Cheshire and Warrington Growth Hub. The service should be designed to also add resource to the National Business Growth Service by ensuring businesses receive timely, proportionate, hands on support that helps them take action and progress.\r\nThe additional service will operate as part of the Growth Hub and is intended to complement, existing provision at a national, regional and local level. The interim provision will include practical delivery, hands on adviser support, follow up, and business readiness -ensuring clear referral pathways, feedback loops, and effective navigation across the ecosystem.\r\n\r\nECW wish to secure efficiencies and economies of scale by means of a procurement exercise for meeting the requirements detailed within this documentation. The principle benefits anticipated by ECW in this procurement include;\r\n•\tAbility to maximise opportunities for best value and efficient services\r\n•\tTo allow bidders to explore efficiencies, which may be possible by suggesting innovative and cost-effective solutions\r\n•\tPresentation of cost savings to ECW in order to maximise e",
+    "budget_eur": 163800,
+    "deadline": "2026-07-31",
+    "relevance_score": 42.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 22.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f707ca70-1c67-4710-9950-8ef40494eaee-907104",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-07-21",
+    "scored_at": "2026-07-21T08:26:51.695637",
+    "last_updated": "2026-07-21T08:26:51.695638",
+    "added_date": "2026-07-21",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-21T08:26:51.695643",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-0ed5f7fc88d4",
+    "rfp_title": "RA359362 - Occupational Health",
+    "issuing_entity": "LondonEnergy Ltd",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Please see specification below. Please contact lewis.atkinson@londonenergyltd.com with any proposals or clarifications. \r\n\r\ni.\tLondonEnergy Ltd (\"LEL\") is seeking to appoint a suitable qualified and experienced Occupational Health (\"OH\") provider to deliver a comprehensive, responsive and proactive Occupational Health Service to support the health, wellbeing and attendance management of our 350+ workforce.\r\n\r\nThe appointed provider will work in partnership with LEL to deliver high-quality occupational health services that support employee wellbeing, promote fitness for work, facilitate effective case management and assist the organisation in meeting its legal and statutory obligations under relevant health and safety and employment legislation.\r\n\r\nLEL employs a diverse workforce operating across office-based, operational and engineering environments, with employees undertaking a range of safety-critical and physically demanding roles. As such, the Occupational Health Service must be capable of providing timely, pragmatic and evidence-based advice to managers, employees and the Human Resources team.\r\n\r\nThe successful provider will be expected to deliver a modern, flexible and customer-focused service incorporating both remote and face-to-face appointments where appropriate, supported by secure digital systems, robust management information and effective account management.\r\n\r\nii.\tGeneral\r\n•\tAbility to book face-to-face OH appointments where the case would benefit from a face-to-face appt.\r\n•\tLocal clinic or local hub where face-to-face appointments can be held located close to Eco Park, Tottenham Hale or Liverpool Street. \r\n•\tAbility to book urgent OH appointments and not just rely on cancellations being available to do so.\r\n•\tRegular meetings with our client relationship manager.\r\n•\tAbility to have a case conference call with the OH doctor, if possible, for complex cases.      \r\n•\tSupply of useful data to us by OH provider on a quarterly basis to feed into the Board",
+    "budget_eur": null,
+    "deadline": "2026-07-31",
+    "relevance_score": 35.2,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 22.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "376884b7-36dc-4e75-95f2-e35f4bb9755a-907208",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-21",
+    "scored_at": "2026-07-21T08:26:51.697909",
+    "last_updated": "2026-07-21T08:26:51.697910",
+    "added_date": "2026-07-21",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-21T08:26:51.697916",
         "by": "scanner"
       }
     ],
