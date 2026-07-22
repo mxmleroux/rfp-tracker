@@ -6471,7 +6471,7 @@
     "scored_at": "2026-06-25T09:20:27.905371",
     "last_updated": "2026-06-25T09:20:27.905372",
     "added_date": "2026-06-25",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6480,7 +6480,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-a301983cdbe9",
@@ -6560,7 +6560,7 @@
     "scored_at": "2026-06-30T09:34:34.618786",
     "last_updated": "2026-06-30T09:34:34.618788",
     "added_date": "2026-06-30",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6569,7 +6569,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-23abf532637f",
@@ -8307,7 +8307,7 @@
     "scored_at": "2026-07-15T08:08:11.179344",
     "last_updated": "2026-07-15T08:08:11.179345",
     "added_date": "2026-07-15",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8316,7 +8316,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-99014768226d",
@@ -8397,7 +8397,7 @@
     "scored_at": "2026-07-15T08:08:11.180296",
     "last_updated": "2026-07-15T08:08:11.180297",
     "added_date": "2026-07-15",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8406,7 +8406,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-87470b730109",
@@ -8485,7 +8485,7 @@
     "scored_at": "2026-07-15T08:08:11.181140",
     "last_updated": "2026-07-15T08:08:11.181146",
     "added_date": "2026-07-15",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8494,7 +8494,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-24c7e9611416",
