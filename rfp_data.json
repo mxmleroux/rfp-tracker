@@ -5346,92 +5346,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-f2f54e16af4b",
-    "rfp_title": "The Jobs Guarantee - RFP",
-    "issuing_entity": "FEDCAP EMPLOYMENT LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Fedcap is exploring the opportunity to deliver the National Jobs Guarantee Scheme Grant released by the Department for Work and Pensions (DWP).\r\nThe Jobs Guarantee is a national employment programme designed to support young people aged 18-24 who have been unemployed and claiming Universal Credit for 18 months or more. It aims to break the cycle of long-term unemployment by offering every eligible participant a guaranteed, fully funded six month paid job, alongside tailored support to help them succeed and progress.\r\n\r\nDelivered by specialist Delivery Partners, the programme focuses on an employment-first approach, where young people move quickly into real jobs rather than extended pre-employment training. Partners work closely with local employers to source suitable roles -funded for up to 25 hours per week at the relevant minimum wage - and match participants based on their skills, interests, and needs.",
-    "budget_eur": 1,
-    "deadline": "2026-06-22",
-    "relevance_score": 31.5,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 10,
-    "timeline_score": 18.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "79a70e13-efad-498e-b38a-bd4338e9ec5a-901963",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-13",
-    "scored_at": "2026-06-13T08:57:25.101945",
-    "last_updated": "2026-06-15",
-    "added_date": "2026-06-13",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-13T08:57:25.101952",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-c0961e510851",
     "rfp_title": "Fire Escape Handrail Replacement and Concrete Repairs Work at Kenworthy House, 98-104 George St, Hull HU1 3DT",
     "issuing_entity": "Hull City Council",
@@ -8665,6 +8579,184 @@
       {
         "status": "New",
         "date": "2026-07-21T08:26:51.697916",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-6d9b29975707",
+    "rfp_title": "Expression of Interest: Future Employment Support",
+    "issuing_entity": "REED IN PARTNERSHIP LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Reed in Partnership intends to participate in the Department for Work and Pensions (DWP) Future Employment Support (FES) opportunity and is inviting organisations to express an interest in delivering the service with us. Together with our partners, we will deliver high-quality employability support that transforms people's lives and their communities. \r\n\r\nThe programme will provide personalised employment support to out-of-work Universal Credit claimants, helping people overcome barriers to work and achieve sustained employment. This may include skills development, work experience, health-related employment support, self-employment guidance and employer engagement activities tailored to local labour market needs. Referrals to the programme will be made via JCPs. \r\n\r\nWe encourage applications from organisations across the public, private and VCSE sectors, including SMEs. We are particularly keen to hear from organisations who can demonstrate proven experience in: \r\n\r\n- Supporting individuals into sustained employment \r\n- Delivering personalised interventions that improve employment outcomes \r\n- Employer engagement and workforce development \r\n- Supporting people with health conditions and complex barriers \r\n- Delivering services informed by local labour market needs \r\n- Innovative, proven services to support people to secure and sustain work \r\n\r\nHow to Respond\r\nTo support organisations of different sizes and specialisms, we are running two EOI routes: \r\n\r\n1. EOI A: For end-to-end delivery providers \r\nFor organisations with a proven track record of delivering high-performing employment services and the capacity to deliver across part or all of one or more CPAs please see here: https://forms.office.com/e/cvax9sttdA\r\n\r\n2. EOI B: Specialist and Innovation Partners  \r\nFor organisations offering specialist expertise or innovative solutions that complement end-to-end provision, please see here: https://forms.office.com/e/e1tbAA1rDz\r\n\r\nTo support applications, please find a f",
+    "budget_eur": null,
+    "deadline": "2026-08-28",
+    "relevance_score": 41.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f6c06f22-8ec1-4500-8ad2-74e7c9dcf2bd-907484",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-07-23",
+    "scored_at": "2026-07-23T08:28:18.538123",
+    "last_updated": "2026-07-23T08:28:18.538124",
+    "added_date": "2026-07-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-23T08:28:18.538129",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-50f45d57441c",
+    "rfp_title": "Accelerating high-voltage direct current (HVDC) development in Vietnam",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to provide technical assistance to Electricity of Vietnam (EVN) and the National Power Transmission Corporation (EVNNPT) to strengthen institutional, technical, and regulatory capacity for the development and deployment of High Voltage Direct Current (HVDC) transmission infrastructure in Vietnam.\r\n\r\nVietnam's rapidly growing power system faces increasing challenges associated with the uneven geographical distribution of generation resources and demand centres. As renewable energy deployment accelerates, particularly offshore wind and large-scale solar power, the national grid is experiencing growing transmission constraints, power losses, and risks to system stability. Limited land availability for new transmission corridors has highlighted the importance of modern transmission technologies to support the country's energy transition.\r\n\r\nThe Revised National Power Development Plan (PDP8) identifies HVDC infrastructure as a strategic priority for strengthening transmission capacity, improving grid flexibility and reliability, reducing electrical losses, and enabling higher penetration of renewable energy. The plan includes the development of multiple HVDC transmission corridors, converter stations, and associated infrastructure from 2031 onwards.\r\n\r\nThrough this assignment, UK PACT will support EVN and EVNNPT to assess the technical, economic, institutional, and regulatory requirements for HVDC deployment in Vietnam. The selected supplier will review the existing policy and regulatory framework, evaluate the feasibility of planned HVDC investments, assess suitable technology options, and develop practical tools and guidance documents to support investment decision-making.\r\n\r\nThe supplier will also undertake stakeholder mapping, assess capacity gaps within key institutions, and provide targeted technical assistance and trai",
+    "budget_eur": 342108,
+    "deadline": "2026-08-12",
+    "relevance_score": 41.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 59.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "ca25b528-3873-4047-bc87-47e394c4d76c-907692",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-23",
+    "scored_at": "2026-07-23T08:28:18.539059",
+    "last_updated": "2026-07-23T08:28:18.539061",
+    "added_date": "2026-07-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-23T08:28:18.539065",
         "by": "scanner"
       }
     ],
