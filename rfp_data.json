@@ -6999,7 +6999,7 @@
     "scored_at": "2026-07-01T09:44:38.626123",
     "last_updated": "2026-07-01T09:44:38.626124",
     "added_date": "2026-07-01",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7008,7 +7008,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-351cff67b63e",
