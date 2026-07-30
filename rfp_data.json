@@ -4467,95 +4467,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-1aa89bafda9d",
-    "rfp_title": "Energy Connect - UK-ASEAN Energy Cooperation Forum and Study Visit in London",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "We invite proposals for the delivery of the UK-ASEAN Energy Cooperation Forum 2026 and Study Visit in the UK, convening senior ASEAN stakeholders and UK industry leaders at a pivot moment for the region's energy transition.\r\n\r\nInterested suppliers are encouraged to review the tender pack and submit their proposals by 29 June 12:00",
-    "budget_eur": 146250,
-    "deadline": "2026-06-29",
-    "relevance_score": 37.0,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 63.0,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component.",
-      "Low confidence: score based on brief text only. Full document may score differently."
-    ],
-    "score_confidence": "low",
-    "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "375f00e8-89a0-426c-9ffa-32fb4843dc69-901025",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-08",
-    "scored_at": "2026-06-08T10:53:34.160919",
-    "last_updated": "2026-06-21",
-    "added_date": "2026-06-08",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-08T10:53:34.160926",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-67d92ae2544b",
     "rfp_title": "Contract for the development of a car park and Garden of Remembrance",
     "issuing_entity": "Oswestry Rural Parish Council",
@@ -5683,7 +5594,7 @@
     "scored_at": "2026-06-21T09:49:26.595494",
     "last_updated": "2026-06-21T09:49:26.595496",
     "added_date": "2026-06-21",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5692,7 +5603,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-52ed681c1cc5",
