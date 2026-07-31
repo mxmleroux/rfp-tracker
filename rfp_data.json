@@ -3773,92 +3773,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-c005f6bf54ed",
-    "rfp_title": "Frome Town Hall - External maintenance works",
-    "issuing_entity": "Frome Town Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "A?planned maintenance report for the Town Hall was commissioned in July 2024 and refreshed in February 2026(see attached document). The project will address building externals identified as year 1 priorities in this report.\r\nThe Applicant must include a breakdown of costs for the Project proposal, including.\r\nRainwater goods - Repair and refurbishment of cast iron and UPVC guttering and downpipes\r\nExternal walls - stone repairs and cleaning to all elevations. Repointing of mortar where joints have deteriorated and recessed. Check integrity of ornate pinnacles and parapet balustrades\r\nExternal joinery - Timber fascia and soffit boarding. Remove and replace decayed sections of timber and decorate\r\nFront entrance steps and stone balustrade - remedial repair to include rebedding loose stone and filling loose joints. Repaint nosings\r\nStone boundary walls - Repair works to cracked car park wall and stone capings at left elevation\r\nExternal walls (Elliot building) - Fix all loose and lifting cladding panels and renew open joints\r\nAccess requirements\r\nAny other items (please detail)\r\nThe Contractor will be required to ensure that all relevant licences and permissions are in place and correct. Such as waste storage and removal, scaffolding licences etc.\r\nThe contractor will provide all relevant plans and drawings for client approval prior to works starting. To include specifications of all materials to be used.",
-    "budget_eur": 117000,
-    "deadline": "2026-06-30",
-    "relevance_score": 50.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "1a44c864-e9b1-4c04-b3a1-381fe441a0f2-898678",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-05-22",
-    "scored_at": "2026-05-22T09:22:14.804886",
-    "last_updated": "2026-05-22T09:22:14.804887",
-    "added_date": "2026-05-22",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-05-22T09:22:14.804892",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-24a96d99ddad",
     "rfp_title": "Facilities Management",
     "issuing_entity": "Southborough Town Council",
@@ -4730,94 +4644,6 @@
       }
     ],
     "pass_reason": ""
-  },
-  {
-    "id": "rfp-e6bb94924390",
-    "rfp_title": "Bangkok Congestion Charge Policy Detailed Legislative Development",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to deliver technical assistance facility in Thailand\r\n\r\nThailand's transport sector remains a major contributor to greenhouse gas emissions, urban congestion, and air pollution particularly in Bangkok. In response, the Government of Thailand has identified congestion charging as a key policy tool to reduce traffic demand, lower emissions, and promote more sustainable urban mobility.\r\n\r\nThe Office of Transport and Traffic Policy and Planning (OTP), under the Ministry of Transport, is seeking a qualified supplier to support the next phase of this flagship initiative. Building on extensive feasibility studies and policy development work delivered under the Thailand-UK PACT programme, this assignment will focus on bridging the gap between policy design and implementation.\r\n\r\nThe selected supplier will provide expert legislative analysis and drafting support to translate the existing congestion charge policy into a legally viable and implementation-ready framework. This work will play a critical role in preparing the policy for formal government consideration and advancing implementation targeted for 2029-2030.\r\n\r\nThe delivery approach should be structured across the following phases: \r\n  1.\tInception Phase (July-August 2026)   \r\n2.\tLegislative Draft Development (September-November 2026)    \r\n3.\tGovernment Stakeholder Consultation (September-November 2026)   \r\n4.\tLegislative Recommendation (November-December 2026)   \r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: expertdeployments@ukpact.co.uk",
-    "budget_eur": 46800,
-    "deadline": "2026-06-30",
-    "relevance_score": 38.8,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 55.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "fba4aa8d-194a-406a-907c-542c839cc89d-901656",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-11",
-    "scored_at": "2026-06-11T10:22:58.587003",
-    "last_updated": "2026-06-17",
-    "added_date": "2026-06-11",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-11T10:22:58.587010",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e6c33234f2b4",
@@ -6315,8 +6141,8 @@
     "market": "UK + Ireland",
     "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThailand is currently undergoing a pivotal transition toward the adoption of International Sustainability Standards Board (ISSB) sustainability disclosure standards, with the goal of elevating its reporting framework to a globally recognised baseline. The Securities and Exchange Commission (SEC), as the primary regulator of Thailand's capital market, plays a central role in this process by setting disclosure requirements, supervising listed entities, and ensuring market readiness. Following its established roadmap, the SEC has adopted a phased approach requiring alignment with IFRS S1 and IFRS S2, with mandatory disclosure beginning in 2027. This marks a significant milestone, expanding corporate reporting beyond traditional financial metrics to include sustainability-related risks and opportunities material to investors. However, the transition presents substantial supervisory and technical challenges, requiring strengthened internal expertise, enhanced review mechanisms, and robust enforcement processes aligned with international best practice. In response, the Thailand-UK PACT programme has engaged with the SEC to provide targeted technical assistance, building on ongoing collaboration to develop ISSB-aligned guidance and integrate disclosure requirements into the 56-1 One Report framework.\r\nThe objective of the proposed expert deployment is to strengthen the SEC's regulatory capacity through the design and delivery of structured, regulator-focused training on ISSB-aligned disclosures. This includes developing comprehensive training modules on IFRS S1 and S2 requirements from a supervisory perspective, supported by practical exercises, case studies, and guidance on risk-based review approaches, assessment methodologies, ",
     "budget_eur": 87750,
-    "deadline": "2026-07-31",
-    "relevance_score": 52.4,
+    "deadline": "2026-08-04",
+    "relevance_score": 43.9,
     "win_probability": "Medium",
     "feature_alignment_score": 3.0,
     "geographic_fit_score": 100,
@@ -6376,7 +6202,7 @@
     ],
     "score_confidence": "high",
     "rfp_type": "consulting_only",
-    "deadline_status": "open",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "15842abb-57c1-4ba0-9960-c7cfbb657828-903788",
@@ -6387,7 +6213,7 @@
     },
     "date_found": "2026-06-30",
     "scored_at": "2026-06-30T09:34:34.622135",
-    "last_updated": "2026-06-30T09:34:34.622137",
+    "last_updated": "2026-07-31",
     "added_date": "2026-06-30",
     "status": "New",
     "notes": "",
@@ -8663,6 +8489,180 @@
       {
         "status": "New",
         "date": "2026-07-28T08:32:15.330419",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-0b8dc6a172af",
+    "rfp_title": "Tender for the Supply of Mid-Size Buses 2026",
+    "issuing_entity": "HM Government of Gibraltar",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "HM Government of Gibraltar invites tenders for the supply and delivery of mid-size public service buses for use by the Gibraltar Bus Company Ltd.\r\n\r\nThe Contracting Authority intends to purchase an initial six (6) vehicles following contract award, with the option to purchase additional vehicles during the contract period, up to a maximum aggregate quantity of twenty-four (24) vehicles over ten (10) years, subject to operational requirements, available funding and the terms of the Contract.\r\n\r\nVehicles may be offered using electric, hybrid, HVO-compatible diesel or hydrogen fuel-cell electric propulsion and must comply fully with the technical, operational, accessibility, passenger-capacity and route-performance requirements contained in the Contract Documents. The requirement includes associated spare parts, consumables, diagnostic and specialist equipment, warranties, training, technical support and, where applicable, charging or refuelling infrastructure.\r\n\r\nThe contract will be awarded to a single Economic Operator on the basis of the most economically advantageous tender. Evaluation will include life-cycle costs, vehicle quality and performance, passenger capacity and configuration, delivery timescales and environmental performance.\r\n\r\nEconomic Operators must download and review all Request Documents and complete the online questionnaire and pricing document. Tender submissions, supporting evidence and all required attachments must be submitted electronically through the HM Government of Gibraltar Supplier Portal (https://hmgogsupplier.gibraltar.gov.gi/)  by the deadline stated in this notice. Clarification requests must also be submitted through the portal's messaging facility.\r\n\r\nAdditional information: Gibraltar does not participate in the Agreement on Government Procurement (GPA) under the World Trade Organization (WTO). HM Government of Gibraltar therefore reserves the right to consider only those bids from eligible tenderers in Gibraltar, the UK, or a cou",
+    "budget_eur": 9828000,
+    "deadline": "2026-09-04",
+    "relevance_score": 53.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d946efba-4762-4027-8cc3-01e51d0d8c2b-909045",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-31",
+    "scored_at": "2026-07-31T08:47:52.833934",
+    "last_updated": "2026-07-31T08:47:52.833936",
+    "added_date": "2026-07-31",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-31T08:47:52.833942",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-059be0b0dabd",
+    "rfp_title": "Future Employment Support - EOI",
+    "issuing_entity": "FEDCAP EMPLOYMENT LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Fedcap is inviting organisations across England to register their interest in partnering with Fedcap to deliver the Department for Work and Pensions' Future Employment Support programme.\r\nWe're looking for organisations with strong local relationships, specialist expertise and a commitment to helping people overcome barriers to employment. Whether you're an SME, VCSE, employer network, training provider, health organisation or community partner, we'd like to hear from you.\r\nAs a not-for-profit organisation delivering employment, skills and health services across the UK, we believe the strongest employment services are built through genuine local partnerships. We invest in long-term relationships with organisations that bring local knowledge, trusted community connections and specialist support that complements our own delivery.\r\nWe are keen to hear from organisations that can bring expertise and local insight to future service delivery, including (but not limited to):\r\nEmployability, skills and training providers\r\nLocal, community-based and VCSE organisations\r\nEmployer engagement, recruitment and business support specialists\r\nHealth, wellbeing, disability and inclusion support providers\r\nOrganisations supporting people facing complex or multiple barriers to employment",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 40.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "40e05dc1-8f9a-43c4-80a5-3a7d35e68220-908967",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-07-31",
+    "scored_at": "2026-07-31T08:47:52.834755",
+    "last_updated": "2026-07-31T08:47:52.834756",
+    "added_date": "2026-07-31",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-07-31T08:47:52.834760",
         "by": "scanner"
       }
     ],
