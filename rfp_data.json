@@ -4293,94 +4293,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-67d92ae2544b",
-    "rfp_title": "Contract for the development of a car park and Garden of Remembrance",
-    "issuing_entity": "Oswestry Rural Parish Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "1. New Car parking Area and Associated Drainage Works At Trefarclawdd Cemetery, Trefonen, Oswestry, Shropshire SY10 9AY.\r\n2. The Works include new permeable car park, associated drainage, fencing and landscaping works referred to in Specification and listed in the Scope of Work",
-    "budget_eur": 140400,
-    "deadline": "2026-07-03",
-    "relevance_score": 47.9,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 74.1,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Low confidence: score based on brief text only. Full document may score differently."
-    ],
-    "score_confidence": "low",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "5a98892b-46fc-49b5-b849-85bb8811bc38-901119",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-09",
-    "scored_at": "2026-06-09T09:42:32.694328",
-    "last_updated": "2026-06-09T09:42:32.694329",
-    "added_date": "2026-06-09",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-09T09:42:32.694332",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-6de52c42e00d",
     "rfp_title": "Enabling offshore wind port development and investment",
     "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
@@ -5952,94 +5864,6 @@
       {
         "status": "New",
         "date": "2026-06-30T09:34:34.618794",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-23abf532637f",
-    "rfp_title": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
-    "issuing_entity": "East Sussex County Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Proposed Taxi Route:\r\nFrom:  See service specification\r\nTo:   Cuckmere House \r\n\r\nFrequency: 5 days a week\r\nDaily School Time: Primary 08:30-14:30 Secondary 09:00-15:10 Tower House 09:00-15:00\r\n\r\nComments for Operator:  \r\nSee service specification and note that due to the complex nature of this contract, bidders will need to complete a further round of clarification questions as part of the award selection criteria.\r\n\r\nAs a guide to the selection criteria, vehicle capacity, staff training and staff resources will need to be demonstrated prior to contract award in July 2026.\r\n\r\nIMPORTANT: You need to submit the TOTAL DAILY COST of all routes on Sproc.net and attach a document which provides the costs per route, split by vehicle and PA.\r\n\r\n\r\n This opportunity has been distributed on SProc.net",
-    "budget_eur": null,
-    "deadline": "2026-07-03",
-    "relevance_score": 37.5,
-    "win_probability": "Low",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 15,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "4c804915-cd69-4d55-bc47-6c553ee458c3-903846",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-06-30",
-    "scored_at": "2026-06-30T09:34:34.619692",
-    "last_updated": "2026-06-30T09:34:34.619694",
-    "added_date": "2026-06-30",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-30T09:34:34.619699",
         "by": "scanner"
       }
     ],
@@ -8575,6 +8399,264 @@
       {
         "status": "New",
         "date": "2026-07-31T08:47:52.834760",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ea02970d0cda",
+    "rfp_title": "Supply of Airborne Operations Equipment",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited, on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the supply of Airborne Operations Equipment Procurement.\r\n1. Oakley Alpha Operators Kit (Goggles and Protective Eyewear)\r\nLightweight eyewear system for freefall and static line parachuting operations. Includes clear and smoke-tinted lenses with anti-mist/anti-fog capabilities. Compatible with Ops Core helmets and in-service oxygen systems. Suitable for operations from 12,000 ft to 25,000 ft, providing protection from wind blast, airborne debris and sun glare.\r\n2. Benchmade Model 7 Hook Rescue Cutter with Holster\r\nLightweight rescue knife designed for rapid cutting of parachute cordage and suspension lines during emergencies. Features protected hook-style blade (5.1 cm blade length, 10.5 cm overall length, 45 g weight). Supplied with MOLLE-compatible holster and attachment hardware for secure carriage on harnesses and plate carriers.\r\n3. Juggernaut PALS Armour Mount (Phone/GPS Mount)\r\nMOLLE-compatible mounting solution for secure carriage of navigation devices on body armour and chest rigs. Provides stable platform for smartphone-based navigation aids during airborne operations. Integrates with Juggernaut navigation system and allows easy viewing and operation whilst under canopy.\r\n4. Juggernaut ADVNTR Case for Samsung Galaxy S23\r\nRuggedised protective case for Samsung Galaxy S23 smartphones used as navigation aids. Provides shock and impact protection whilst integrating with Juggernaut mounting ecosystem. Allows full smartphone operation whilst mounted and enables rapid attachment/removal from compatible mounting solutions. Supports sat-nav style navigation to designated Drop Zones.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, acoustic specifications, installation capabilities, and maintenance services. Further informatio",
+    "budget_eur": 468000,
+    "deadline": "2026-08-24",
+    "relevance_score": 49.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "6a65bff7-4f23-438a-ab0e-e8d04ea1bc45-907855",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-03",
+    "scored_at": "2026-08-03T09:42:16.699842",
+    "last_updated": "2026-08-03T09:42:16.699843",
+    "added_date": "2026-08-03",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-03T09:42:16.699847",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-47d34f709113",
+    "rfp_title": "Integrated Children's Occupational Therapy Service",
+    "issuing_entity": "London Borough of Hackney",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Delivering interventions that support children take part in everyday activities; ensuring they can care for themselves, undertake productive occupations (e.g., writing, learning), play, and have fun. The service will also equip parents/carers, and professionals with the tools and knowledge to support children with illnesses or Special Educational Needs and Disabilities (SEND). This provision will work across Hackney's Virtual School and Disabled Children's Service.\r\n\r\nThis contract will include the provision of Occupational Therapists as part of the Hackney Experts at Hand team, in line with requirements related to the Department for Education's Experts at Hand initiative. This initiative is seeking to improve the capability of mainstream education settings to meet the needs of children and young people with SEND more effectively, by providing a new route to access expert advice and support from health professionals.\r\n\r\nThe contract start date is expected to be 1st April 2027 with an initial term of 3 years, and two extension options each of a year; for a total possible contract length of 5 years.",
+    "budget_eur": 5576363,
+    "deadline": "2026-09-06",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "2d2f3826-a78c-432d-a0f1-0f685e2f1010-909205",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-03",
+    "scored_at": "2026-08-03T09:42:16.700356",
+    "last_updated": "2026-08-03T09:42:16.700357",
+    "added_date": "2026-08-03",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-03T09:42:16.700361",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b1add0d4ea55",
+    "rfp_title": "Children's Integrated Speech and Language Therapy Service",
+    "issuing_entity": "London Borough of Hackney",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Delivering interventions to children with speech, language, communication, or swallowing and eating needs to help them reach their full communication potential. This includes delivering direct interventions in line with a Child's Education, Health, and Care Plan (EHCP), as well as offering indirect support through professional training and parent/carer guidance. This provision will work across Young Hackney, Youth Justice Virtual School, Schools, and Early Years provision.\r\n\r\nThis contract will include for the provision of Speech and Language Therapists as part of the Hackney Experts at Hand team, in line with requirements related to the Department for Education's Experts at Hand initiative. This initiative is seeking to improve the capability of mainstream education settings to meet the needs of children and young people with SEND more effectively, by providing a new route to access expert advice and support from health professionals.\r\n\r\nThe contract start date is expected to be 1st April 2027 with an initial term of 3 years, and two extension options each of a year; for a total possible contract length of 5 years.",
+    "budget_eur": 14355881,
+    "deadline": "2026-09-06",
+    "relevance_score": 50.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "724e0eb0-3a1c-4f27-8172-9bd1fdff51e7-909204",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-03",
+    "scored_at": "2026-08-03T09:42:16.700819",
+    "last_updated": "2026-08-03T09:42:16.700820",
+    "added_date": "2026-08-03",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-03T09:42:16.700823",
         "by": "scanner"
       }
     ],
