@@ -5330,7 +5330,7 @@
     "scored_at": "2026-06-22T11:52:51.282034",
     "last_updated": "2026-06-23",
     "added_date": "2026-06-22",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5339,7 +5339,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-4677f09af2d1",
@@ -8657,6 +8657,96 @@
       {
         "status": "New",
         "date": "2026-08-03T09:42:16.700823",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e2e6170fb2ed",
+    "rfp_title": "Leicester College Call for Turing Scheme Partners 2026/27",
+    "issuing_entity": "Leicester College",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "In June 2026, Leicester College secured both FE and HE Turing Scheme contracts for 2026/27. To enable selected 2026/27 student cohorts to benefit from overseas further education-based mobility placements, we are currently welcoming applications from experienced and reputable organisations to support us by organising, managing, and delivering these international mobility placements.\r\n\r\nLeicester College intends to contract to one or more providers within the contract period.\r\n\r\nThe anticipated annual value of the services is approximately £25,000 to £125,000 depending on your capacity, costs and our student volumes.\r\n\r\nTo be considered as a partner organisation we require, as a minimum:\r\n\r\n\tDemonstrable experience of supporting international mobility placements with UK further education students, including apprentices\r\n\tEvidence of working with disadvantaged, underrepresented, and SEND students, with tailored support approaches\r\n\tProvision of high-quality work placements with external employers that enable students to enhance transferable skills and improve educational and career prospects\r\n\tPlacements for 14 or 15 days (with a minimum of 10 work/study days), or at least 7 days for students with SEND\r\n\tPlacements scheduled between 1 October 2026 and 31 August 2027\r\n\tClear understanding of Turing Scheme funding categories and the DfE grant rates for chosen destinations\r\n\r\nLeicester College will consider destinations where partners have strong employer networks and can deliver value for money within DfE funding rates. \r\n\r\nDestinations will be assessed against:\r\n\r\n\tGovernment Foreign, Commonwealth and Development Office (FCDO) travel advice, with particular attention to any regions affected by ongoing political instability or conflict.\r\n\r\n\tCollege risk assessment protocols. For example, the recent Middle East conflict which could affect stopover plans and cause travel disruptions.",
+    "budget_eur": 146250,
+    "deadline": "2026-09-14",
+    "relevance_score": 45.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "67b781d1-0586-4c2b-ae9f-86c4926da9f4-908810",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-08-04",
+    "scored_at": "2026-08-04T08:34:41.985234",
+    "last_updated": "2026-08-04T08:34:41.985236",
+    "added_date": "2026-08-04",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-04T08:34:41.985241",
         "by": "scanner"
       }
     ],
