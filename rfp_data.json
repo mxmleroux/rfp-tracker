@@ -5428,94 +5428,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-f08608f7ab50",
-    "rfp_title": "GB-London: IT Managed Services - Stage 1 Assessment",
-    "issuing_entity": "The Careers and Enterprise Company",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Initial assessment of suppliers' suitability and capability to deliver IT Managed Services, prior to invitation to the next stage of the procurement process.\r\n\r\nAdditional information: The contracting authority considers that this contract may be suitable for economic operators that are small or medium enterprises (SMEs). However, any selection of tenderers will be based solely on the criteria set out for the procurement.",
-    "budget_eur": 1170000,
-    "deadline": "2026-07-06",
-    "relevance_score": 40.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 33.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Low confidence: score based on brief text only. Full document may score differently."
-    ],
-    "score_confidence": "low",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "eec4f6d7-6ca4-4b08-a014-db69a7906db0-903083",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-23",
-    "scored_at": "2026-06-23T09:37:34.733307",
-    "last_updated": "2026-06-23T09:37:34.733313",
-    "added_date": "2026-06-23",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-23T09:37:34.733318",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-a05d69281dde",
     "rfp_title": "MEGRFI/01008 - Hostile Vehicle Mitigation (HVM) Vehicle Security Barriers RFI",
     "issuing_entity": "Ministry of Defence",
@@ -6037,7 +5949,7 @@
     "scored_at": "2026-07-01T09:44:38.622606",
     "last_updated": "2026-07-01T09:44:38.622608",
     "added_date": "2026-07-01",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6046,7 +5958,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-7c86667413d6",
@@ -6647,7 +6559,7 @@
     "scored_at": "2026-07-08T08:26:51.660048",
     "last_updated": "2026-07-08T08:26:51.660050",
     "added_date": "2026-07-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6656,7 +6568,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-766819b08b6b",
@@ -6733,7 +6645,7 @@
     "scored_at": "2026-07-08T08:26:51.660825",
     "last_updated": "2026-07-08T08:26:51.660826",
     "added_date": "2026-07-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6742,7 +6654,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-061496bb88bb",
@@ -6819,7 +6731,7 @@
     "scored_at": "2026-07-08T08:26:51.661581",
     "last_updated": "2026-07-08T08:26:51.661582",
     "added_date": "2026-07-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6828,7 +6740,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-ad9c1da1c298",
@@ -8747,6 +8659,270 @@
       {
         "status": "New",
         "date": "2026-08-04T08:34:41.985241",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b4fe9da24e4c",
+    "rfp_title": "Regional Clean Energy Skills Coordination and Action Planning",
+    "issuing_entity": "ENTERPRISE CHESHIRE AND WARRINGTON",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Enterprise Cheshire and Warrington (ECW), working alongside the Department for Energy Security and Net Zero (DESNZ) and the North West Net Zero Hub (NWNZH) is seeking to appoint an individual consultant or small group of consultants to oversee the implementation of the Clean Energy Skills Regional Action Plan (CESRAP), and in partnership with relevant neighbouring regions. \r\n\r\nThe CESRAP brings together evidence from extensive stakeholder consultation, employer engagement, provider input, and regional modelling to identify where demand for clean energy skills is growing most quickly and where the provision is already strong. It identifies an urgent need to intervene in the skills ecosystem so that local people, employers, and their supply chains can develop the skills needed to benefit from the transition to clean energy to meet a significant increase in demand in 2030 and beyond.\r\n\r\nIt sets out recommendations for local leaders and policymakers, proposals for a near-term programme of skills interventions, and a framework for long-term collaboration to enable joined-up local delivery of the Government's Clean Energy Jobs Plan . \r\n\r\nIt is intended to be a practical, living framework that can guide immediate implementation, support regional collaboration, and adapt as policy, investment pipelines, and labour market conditions evolve. ECW is seeking consultancy support to implement the plan in the period up to March 31st, 2027.\r\n\r\nThe work is funded by The North West Net Zero Hub. The consultant/s will need to identify one to two people who will be available to act as the Regional Lead for an agreed number of days per week, for the length of the project.",
+    "budget_eur": 93600,
+    "deadline": "2026-08-25",
+    "relevance_score": 46.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 55.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "2df82153-5a38-4ae5-b3ca-e3405eea6665-909574",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-06",
+    "scored_at": "2026-08-06T08:34:00.605148",
+    "last_updated": "2026-08-06T08:34:00.605149",
+    "added_date": "2026-08-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-06T08:34:00.605154",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b96b5baa82e4",
+    "rfp_title": "EOI - Curriculum experts - Provision of Primary Curriculum and Early Years Foundation Stage Expert resource for the Standards and Testing Agency 2026 - 2028",
+    "issuing_entity": "Department for Education",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "EOI for Provision of Primary Curriculum Experts - Key Stage 1 English grammar, punctuation and spelling \r\n\r\nSTA is looking to appoint an Assessment Advisor for the development of KS1 and 2 assessment materials for English grammar, punctuation and spelling, as well as a Curriculum Advisor for the development of KS1 assessment materials for English grammar, punctuation and spelling.\r\n\r\nAssessment Advisor\r\nSTA is seeking an Assessment Advisor to work alongside test development colleagues on the preparation of KS1 and 2 assessment materials for English grammar, punctuation and spelling.\r\nSuitable candidates will have KS1-2 teaching experience, with a specialism in English writing/grammar - perhaps developed as an English or literacy curriculum leader in a school or trust. They will also have familiarity with the national curriculum and associated assessment materials, which may have been gained through teaching the curriculum, administering KS1/2 assessments, and/or supporting teachers in their teaching and assessment practice. Additionally, applicants will have experience of critical engagement with test materials, which may have been developed during teaching or as part of work on review panels.\r\n\r\nThis may be your first role in test development; applicants need not have worked in the capacity of Assessment Advisor before.\r\n\r\nCurriculum Advisor\r\nSTA is also seeking to engage a Curriculum Advisor for the KS1 grammar, punctuation and spelling tests. Suitable candidates will have substantial and recent expertise in KS1 grammar, punctuation and spelling, with a rigorous understanding of the curriculum. They will also have experience in critically analysing assessment materials and an understanding of the issues raised by recent reviews and consultations relating to assessment and how subsequent implementation may affect the future structure and strategy of the assessments.\r\nApplicants will demonstrate the ability to communicate effectively with various stakeholders, provi",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 37.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "359d0ab4-7d8d-43b1-8d4d-52f28892ae7b-909571",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-08-06",
+    "scored_at": "2026-08-06T08:34:00.606314",
+    "last_updated": "2026-08-06T08:34:00.606315",
+    "added_date": "2026-08-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-06T08:34:00.606319",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-423b7b9f9843",
+    "rfp_title": "Passenger Transport Services For Dispersals & Appointments",
+    "issuing_entity": "BIP SOLUTIONS LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "CRH intends to appoint suitably qualified suppliers capable of delivering a safe, reliable, responsive and scalable transport services. The requirement includes planned and short-notice journeys, single and return trips and travel to authorised destinations, including accommodation sites, healthcare facilities and other approved locations. Suppliers will be expected to provide sufficient geographic coverage, vehicle availability and booking capacity to respond to fluctuating demand, while meeting clearly defined service standards for compliance, safeguarding, safety and contract management. Tenderers will be invited to submit proposals for the provision of taxi services for Service Users across the following locations in England and Wales: •LOT 1: Devon & Cornwall; •LOT 2: Somerset & Dorset; •LOT 3: Bristol & Gloucestershire; •LOT 4: Wiltshire & Hampshire; •LOT 5: Berkshire, Oxfordshire & Surrey; •LOT 6: East & West Sussex; •LOT 7: Kent; •LOT 8: Essex; •LOT 9: Hertfordshire & Bedfordshire; •LOT 10: Central London; •LOT 11: Greater London; •LOT 12: South Wales; •LOT 13: North, Mid & West Wales. As well as a taxi service, 16 & between 49 - 53 Seaters coaches will be required where larger group movements or longer-distance journeys are required. Please be advised that this notice is not a call for competition, rather it's an early indication our upcoming procurement plans which is due to. If you or your organisation is interested in participating once the formal invitation to tender (ITT) begins, please register your interest with Clearsprings Procurement: crhtenders@clearsprings.co.uk before the PIN closing date on 6th September 2026. The ITT will commence on the 7th September 2026. We hope this opportunity is of interest to you.",
+    "budget_eur": null,
+    "deadline": "2026-09-07",
+    "relevance_score": 43.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f56c80ff-26fb-433b-a7b1-594f5269c67f-909541",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-06",
+    "scored_at": "2026-08-06T08:34:00.607441",
+    "last_updated": "2026-08-06T08:34:00.607442",
+    "added_date": "2026-08-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-06T08:34:00.607446",
         "by": "scanner"
       }
     ],
