@@ -5080,94 +5080,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-46029e67b41a",
-    "rfp_title": "PRP317(525100) Landscaping Works at Spring Cottage, Grin Low Road Buxton, SK17 6UJ",
-    "issuing_entity": "Derbyshire County Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Derbyshire County Council is seeking to appoint a suitably qualified and fully accredited Principal Contractor to undertake external landscaping works at Spring Cottage, Buxton.\r\nThe scope of works will include, but is not limited to:\r\n\r\nInstallation of a new asphalt driveway\r\nPaving works\r\nInstallation of fencing\r\nTree and shrub planting, including seeding\r\n\r\nThe appointed contractor must hold all relevant accreditations and demonstrate experience delivering similar works to a high standard within a local authority or comparable environment.\r\nSite Visits:\r\nAll site visits are strictly by appointment ONLY and will be arranged by contacting:\r\n\r\nbecky.lomas@concertus.co.uk\r\n\r\nFurther details, including specification and tender requirements, are available within the tender documentation\r\n",
-    "budget_eur": 134550,
-    "deadline": "2026-07-07",
-    "relevance_score": 46.4,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 59.3,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "58a166d0-239a-4e67-be04-491bb65c9e6e-902377",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-06-17",
-    "scored_at": "2026-06-17T10:55:06.589409",
-    "last_updated": "2026-06-17T10:55:06.589410",
-    "added_date": "2026-06-17",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-17T10:55:06.589415",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-25a993d38982",
     "rfp_title": "Leys Park Changing Pavilion Dagenham, Refurbishment",
     "issuing_entity": "London Borough of Barking and Dagenham",
@@ -8923,6 +8835,268 @@
       {
         "status": "New",
         "date": "2026-08-06T08:34:00.607446",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-39fd53890a3a",
+    "rfp_title": "University of Sheffield - Energy Centre & Heat Network Decarbonisation: Supplier Engagement Webinar.  Premarket Engagement",
+    "issuing_entity": "UNIVERSITY OF SHEFFIELD",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "University of Sheffield - Energy Centre & Heat Network Decarbonisation: Supplier Engagement Webinar\r\n\r\nThe University of Sheffield is undertaking a major programme to decarbonise a significant part of its heat and energy supply, replacing plant at the the campus energy centre with low carbon heat generation and extending the associated heat network to additional buildings.\r\n\r\n \r\n\r\nAhead of taking this programme to market, we are inviting interested contractors and suppliers to a short engagement webinar. The session will introduce the opportunity, outline the indicative scope and programme, and explain how you can take part. Questions will follow by email after the session, and your responses will help shape how we approach procurement.  \r\n\r\nThu, Aug 13, 2026 11:00 AM - 11:30 AM \r\nWebinar registration link here: https://events.teams.microsoft.com/event/758ccc39-d68a-4c14-8999-2e520854f4df@ca18acb0-3312-44f2-869d-5b01ed8bb47d",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: university"
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "516ee5e4-4c5c-44a8-8d23-56a6d0db0a0f-909786",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-07",
+    "scored_at": "2026-08-07T07:13:22.113816",
+    "last_updated": "2026-08-07T07:13:22.113818",
+    "added_date": "2026-08-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-07T07:13:22.113824",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b8720aa8e9b1",
+    "rfp_title": "Intelligent Automation (RPA) Capability Development and Automation Delivery Partner",
+    "issuing_entity": "Oldham Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Oldham Council is seeking to appoint a specialist Intelligent Automation partner to establish a sustainable Robotic Process Automation capability while delivering a programme of automations across Council services. \r\n\r\nThe Council's objective is not simply to buy development resource. The requirement is to build an internal automation capability that can be sustained beyond the initial contract period through knowledge transfer, governance, training, reusable assets and operational enablement. \r\n\r\nThe appointed supplier will be expected to deliver a minimum of 15 production-ready automations and support the Council to establish the operating model, standards and internal skills needed to continue delivery after the contract ends.",
+    "budget_eur": 251550,
+    "deadline": "2026-09-04",
+    "relevance_score": 55.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9dec3987-bb51-4dfd-b4cb-aeaf54aba7ab-909780",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-07",
+    "scored_at": "2026-08-07T07:13:22.114366",
+    "last_updated": "2026-08-07T07:13:22.114368",
+    "added_date": "2026-08-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-07T07:13:22.114372",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f92f6686ebd5",
+    "rfp_title": "LAMP testing (Loop-mediated isothermal amplification)",
+    "issuing_entity": "Manchester University NHS Foundation Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Procurement of LAMP (Loop-mediated isothermal amplification) assay for DPYD, CYP2C19 and HFE testing.\r\n\r\nAdditional information: \r\nThe bidder must be able to provide an assay which detects the variants for DPYD, CYP2C19 and HFE as stated on the national genomics test directory. Please note: due to the laboratory's UKAS 15189; 2022 accreditation we require any kits to be CE marked. The assay must be ready for clinical use.\r\n\r\nThe bidder must provide full details of the validation of this solution used to determine the values provided for analytical sensitivity and specificity for detection of nucleotide changes included in each assay. Analytical sensitivity and specificity should be 100%. The assay should produce results that are repeatable, with concordant results for samples replicated within runs. The assay should demonstrate reproducibility, where typical test-to-test variability does not impact the result. Concordant results should be achieved for samples replicated across runs.\r\n\r\nThe assay must be validated to detect variants, with a need to differentiate between wild type and mutant alleles, and can therefore detect homozygous wildtype, heterozygous mutant and homozygous mutant genotypes.\r\n\r\nThe technical failure rate should be <5%.\r\n\r\nThe kit should be possible to process a sample within 4 hours, end to end. \r\n\r\nThe Bidder must provide assurance they have capacity based on the following indicative sample numbers\r\n\r\nDPYD- approx. 6000/year\r\nCYP2C19- approx. 400/ year\r\nHFE- approx. 7000/ year\r\n\r\n\r\n\r\nTo express interest and participate in the tender, please register and apply via Atamis e-sourcing portal https://health-family.force.com/s/Welcome\r\n\r\nShould Tenderers have any queries, or having problems using the portal, they should contact Helpdesk at:\r\n\r\nPhone: 0800 9956035\r\n\r\nE-mail: support-health@atamis.co.uk",
+    "budget_eur": 269100,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9334424b-0f5e-44f1-8052-f69e68a3497c-909740",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-08-07",
+    "scored_at": "2026-08-07T07:13:22.115581",
+    "last_updated": "2026-08-07T07:13:22.115583",
+    "added_date": "2026-08-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-07T07:13:22.115588",
         "by": "scanner"
       }
     ],
