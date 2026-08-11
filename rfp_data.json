@@ -5154,7 +5154,7 @@
     "scored_at": "2026-06-23T09:37:34.730708",
     "last_updated": "2026-06-23T09:37:34.730709",
     "added_date": "2026-06-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5163,7 +5163,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-a05d69281dde",
@@ -7695,7 +7695,7 @@
     "scored_at": "2026-07-28T08:32:15.329679",
     "last_updated": "2026-07-28T08:32:15.329680",
     "added_date": "2026-07-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7704,7 +7704,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-3b8b163bc09d",
@@ -7781,7 +7781,7 @@
     "scored_at": "2026-07-28T08:32:15.330415",
     "last_updated": "2026-07-28T08:32:15.330416",
     "added_date": "2026-07-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7790,7 +7790,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-0b8dc6a172af",
@@ -8930,6 +8930,180 @@
       {
         "status": "New",
         "date": "2026-08-08T06:50:59.454520",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b26ff98eba80",
+    "rfp_title": "Supply of Bayonet Training Dummies for Phase 1 Basic Trainin",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Bayonet Training Dummies. \r\n\r\nThe procurement covers;\r\n\r\nThe Ministry of Defence requires robust, safe and realistic bayonet training\r\ndummies to support Phase 1 Basic Training establishments. \r\n\r\nTwo types of equipment are required:\r\n-Ground Mounted Bayonet Dummies - stable, fixed installations for\r\nindividual and collective bayonet assault drills\r\n- Hook Mounted Suspended Bayonet Dummies - suspended targets providing\r\ndynamic training scenarios\r\nThe equipment shall be suitable for use in indoor and outdoor training\r\nenvironments, withstand intensive daily use by recruits, and support delivery of\r\nthe Combat Bayonet Fighting syllabus. Training dummies must replicate human\r\ntorso dimensions, provide realistic target areas for thrusting and striking, and\r\nminimise damage to training rifles and bayonet equipment.\r\nEquipment must be weather resistant, UV resistant, require minimal maintenance,\r\nand remain serviceable following repeated impact by training rifles fitted with\r\nauthorised training bayonets. The dummies shall contain no exposed sharp edges,\r\npresent no snagging hazards, and be manufactured from non-toxic materials in\r\ncompliance with UK health and safety legislation.\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a\r\ncompliant route to market for UK Public Sector organisations to manage low-\r\nvalue, high-volume procurement.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite\r\nProcurement UK Limited and provide details of their product range, modification\r\ncapabilities, and maintenance services. Further information on the onboarding\r\nprocess for the Unite Procurement Platform will be provided upon expression of\r\ninterest and can also be found at the link attached.\r\nUnite Procurement UK Limi",
+    "budget_eur": 140400,
+    "deadline": "2026-08-24",
+    "relevance_score": 52.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "0be507d3-4eb8-4946-8ead-197fdb2782ec-909275",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-11",
+    "scored_at": "2026-08-11T07:05:30.700610",
+    "last_updated": "2026-08-11T07:05:30.700611",
+    "added_date": "2026-08-11",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-11T07:05:30.700616",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-5ced78831323",
+    "rfp_title": "RFI - Royal Navy Maritime Autonomous Systems Platform Authority Industry Engagement",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Authority is seeking industry input on the establishment of a Platform Authority for Maritime Uncrewed Systems, capable of providing the governance, engineering expertise, certification support and through-life assurance necessary to enable the safe and effective operation of current and future capabilities.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 44.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "65074d65-de2f-4506-80f1-20201c1092a7-910059",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-11",
+    "scored_at": "2026-08-11T07:05:30.702129",
+    "last_updated": "2026-08-11T07:05:30.702130",
+    "added_date": "2026-08-11",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-11T07:05:30.702135",
         "by": "scanner"
       }
     ],
