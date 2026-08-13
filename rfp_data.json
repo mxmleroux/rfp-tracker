@@ -3859,92 +3859,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-2822ea871a95",
-    "rfp_title": "Tree Works in our Public Parks and Open Spaces within Taunton",
-    "issuing_entity": "Taunton Town Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Tree works, including but not limited to felling, reducing and clearing, to be carried out during business hours. This does not include emergency or out of hours works.\r\nThe contractor must possess, maintain, and have access to all necessary equipment to effectively and safely execute tree work during business hours. This includes, but is not limited to:\r\nVehicles - Robust 4x4 vehicles suitable for park access (with appropriate clearance/permissions), fully insured and equipped with secure storage and lighting.\r\nChainsaw - A range of professional chainsaws(ground and climbing saws) with appropriate guide bars for large and small material, and spare parts.\r\nAccess, Climbing - Full set of specialist climbing Personal Protective Equipment (PPE), including harnesses, ropes, friction devices, and emergency descent/rescue equipment.\r\nLifting, Rigging - Rigging equipment (slings, blocks, ropes, port-a-wraps) and winches (vehicle-mounted or manual) for securing and controlling large/fallen timber.\r\nLighting - High-intensity, self-powered lighting towers/generators for safe work visibility during night-time operations.\r\nWelfare, Safety - Full Personal Protective Equipment (PPE) for all crew (helmets, visors, chainsaw trousers, boots, hearing protection), mobile welfare facilities, and traffic management signage/cones.\r\nClearance - Woodchipper and/or tipper truck/trailer capacity suitable for immediate removal or large volumes of timber and brushwood.",
-    "budget_eur": 35100,
-    "deadline": "2026-07-13",
-    "relevance_score": 50.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "233d3b45-83f7-4edc-b4d8-1983bbf226cf-900261",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-03",
-    "scored_at": "2026-06-03T10:58:09.399561",
-    "last_updated": "2026-06-03T10:58:09.399562",
-    "added_date": "2026-06-03",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-03T10:58:09.399567",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-a8048f0b872e",
     "rfp_title": "Future Employment Support",
     "issuing_entity": "MAXIMUS UK SERVICES LIMITED",
@@ -4203,95 +4117,6 @@
       }
     ],
     "pass_reason": ""
-  },
-  {
-    "id": "rfp-6de52c42e00d",
-    "rfp_title": "Enabling offshore wind port development and investment",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThe Philippines is scaling up offshore wind to meet ambitious renewable energy targets, with upcoming auction rounds expected to unlock significant capacity. As the sector advances, attention is shifting toward enabling infrastructure particularly ports, which are critical for construction, staging, installation, and long-term operations. While initial assessments by partners such as ADB and GWEC have focused on public ports, the scale of planned deployment requires expanded port capacity and stronger private sector participation. However, there remains limited clarity on how to structure offshore wind port development to attract investment that is technically viable, commercially sound, and aligned with Department of Energy (DOE) deployment timelines. UK PACT, working with DOE and other agencies, seeks to address this gap by supporting privately led port development and strengthening decision-making, investment readiness, and early market engagement.\r\nThis intervention will be delivered in two phases. Phase 1 will establish the foundations for private sector participation by drawing on UK experience, developing a Private Offshore Wind Port Development Framework, and identifying and prioritizing suitable port locations particularly in areas such as South Mindoro and Negros Occidental based on technical suitability and readiness. Phase 2 will undertake detailed technical and commercial feasibility assessments of three shortlisted sites, including infrastructure requirements, cost and financial analysis, environmental and regulatory considerations, and market validation\r\n\r\nInterested suppliers/consortia are encouraged to review the RfQ documentation and submit your proposal in accordance with the instructions above by the Clo",
-    "budget_eur": 549900,
-    "deadline": "2026-07-13",
-    "relevance_score": 42.7,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "e6168f0c-d23e-4fe6-a6bd-078b229abb71-901450",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Multi-stage",
-      "details": [
-        "Multiple evaluation stages",
-        "Pre-qualification or shortlisting step"
-      ]
-    },
-    "date_found": "2026-06-10",
-    "scored_at": "2026-06-10T09:59:11.985503",
-    "last_updated": "2026-06-25",
-    "added_date": "2026-06-10",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-10T09:59:11.985510",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-f962fb33052f",
@@ -7609,7 +7434,7 @@
     "scored_at": "2026-07-23T08:28:18.539059",
     "last_updated": "2026-07-23T08:28:18.539061",
     "added_date": "2026-07-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7618,7 +7443,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-6328f6942340",
@@ -9104,6 +8929,178 @@
       {
         "status": "New",
         "date": "2026-08-11T07:05:30.702135",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-c58ffd72bbab",
+    "rfp_title": "The Supply of MAMMUT PRO 2.0 3L HOODED JACKET",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the procurement of Mammut Pro 2.0 3L Hooded Jackets.  \r\n\r\nRequirement Overview \r\n\r\nThe current stock of Mountain Equipment (ME) Makalu student winter jackets received through procurement in 2025 are not fit for purpose for winter training delivery. The jacket is more suited to summer delivery and requires replacement prior to winter delivery this year. \r\n\r\nTo ensure suitable student jackets are available for winter delivery in the future, the currently held ME jackets will be replaced with a more appropriate alternative identified through subject matter expert guidance. The existing ME Makalu jackets will be repurposed to support summer delivery courses, thereby extending equipment longevity through seasonal rotation. \r\n\r\n \r\n\r\n \r\n\r\nThe Mammut Pro 2.0 3L Hooded Jacket was proposed by the supplier and has been verified by subject matter experts as highly suitable for the requirement. \r\n\r\nThe Mammut Pro 2.0 3L Hooded Jacket offers: \r\n\r\nExcellent suitability for winter training delivery \r\n\r\nAvailability at the full quantity required \r\n\r\nAvailability in fire red colour to maintain student fleet identification \r\n\r\nCompetitive value for money \r\n\r\nGore-Tex protection and durability for demanding training environments \r\n\r\nThe existing ME Makalu jackets will transition to summer delivery support at both training locations, optimising the equipment fleet through seasonal use. \r\n\r\nThe Unite Procurement Platform \r\n\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement. \r\n\r\nHow to Apply \r\n\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further info",
+    "budget_eur": 163800,
+    "deadline": "2026-09-09",
+    "relevance_score": 55.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c2b8abec-fe45-40e7-b3db-07a47206a746-910356",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-13",
+    "scored_at": "2026-08-13T07:24:54.975825",
+    "last_updated": "2026-08-13T07:24:54.975827",
+    "added_date": "2026-08-13",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-13T07:24:54.975832",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-2a770f011859",
+    "rfp_title": "Clinical Decision Support & Medical Knowledge Platform",
+    "issuing_entity": "Barts Health NHS Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "THIS IS AN EARLY MARKET ENGAGEMENT NOTICE ONLY FOR THE PURPOSES OF IDENTIFYING SUPPLIERS AND IS NOT A CALL FOR COMPETITION \r\n\r\nThe Contracting Authority is seeking to identify Suppliers who possess the capability for the following requirements in order to inform a potential below FTS threshold purchase.\r\n\r\nBudget Holder Requirement:\r\nThe Authority is seeking to contract with a Service Provider who is capable of meeting the Trust's requirements for a single, integrated clinical knowledge platform supporting patient care, education, training, research and service improvement activities across all Authority sites.\r\n\r\nThe software platform solution must combine clinical decision support, full-text journals, full-text textbooks, medical images, procedural videos, patient education and drug information within a single searchable interface.\r\n\r\nThe Authority's specification of requirement can be downloaded via the attached link.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 45.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "dac50c18-de10-42fc-bd73-6005e4b00bf8-910450",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-13",
+    "scored_at": "2026-08-13T07:24:54.976315",
+    "last_updated": "2026-08-13T07:24:54.976317",
+    "added_date": "2026-08-13",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-13T07:24:54.976321",
         "by": "scanner"
       }
     ],
