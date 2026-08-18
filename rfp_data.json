@@ -7713,8 +7713,8 @@
     "market": "UK + Ireland",
     "description": "Enterprise Cheshire and Warrington (ECW), working alongside the Department for Energy Security and Net Zero (DESNZ) and the North West Net Zero Hub (NWNZH) is seeking to appoint an individual consultant or small group of consultants to oversee the implementation of the Clean Energy Skills Regional Action Plan (CESRAP), and in partnership with relevant neighbouring regions. \r\n\r\nThe CESRAP brings together evidence from extensive stakeholder consultation, employer engagement, provider input, and regional modelling to identify where demand for clean energy skills is growing most quickly and where the provision is already strong. It identifies an urgent need to intervene in the skills ecosystem so that local people, employers, and their supply chains can develop the skills needed to benefit from the transition to clean energy to meet a significant increase in demand in 2030 and beyond.\r\n\r\nIt sets out recommendations for local leaders and policymakers, proposals for a near-term programme of skills interventions, and a framework for long-term collaboration to enable joined-up local delivery of the Government's Clean Energy Jobs Plan . \r\n\r\nIt is intended to be a practical, living framework that can guide immediate implementation, support regional collaboration, and adapt as policy, investment pipelines, and labour market conditions evolve. ECW is seeking consultancy support to implement the plan in the period up to March 31st, 2027.\r\n\r\nThe work is funded by The North West Net Zero Hub. The consultant/s will need to identify one to two people who will be available to act as the Regional Lead for an agreed number of days per week, for the length of the project.",
     "budget_eur": 93600,
-    "deadline": "2026-08-25",
-    "relevance_score": 46.4,
+    "deadline": "2026-08-28",
+    "relevance_score": 43.0,
     "win_probability": "Medium",
     "feature_alignment_score": 1.0,
     "geographic_fit_score": 100,
@@ -7780,7 +7780,7 @@
     },
     "date_found": "2026-08-06",
     "scored_at": "2026-08-06T08:34:00.605148",
-    "last_updated": "2026-08-06T08:34:00.605149",
+    "last_updated": "2026-08-18",
     "added_date": "2026-08-06",
     "status": "New",
     "notes": "",
@@ -8667,6 +8667,274 @@
       {
         "status": "New",
         "date": "2026-08-13T07:24:54.976321",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b9119256bf35",
+    "rfp_title": "CA18353 - R9321 - SHGH - Roof Works 2",
+    "issuing_entity": "Epsom & St Helier University Hospitals NHS Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Trust is seeking a suitably experienced roofing contractor to undertake repair and refurbishment works to sections of the existing flat roof serving the A2 Main Building. The works comprise approximately 170m² of roof area, subject to contractor verification and remeasurement on site, including removal of vegetation and debris, preparation and localised repair of the existing roof/deck, and application of an Instaseal Ultra Low VOC roof coating system, including treatment of associated upstands to approximately 150mm and all necessary detailing to provide a complete watertight installation.\r\nThe works shall also include localised remedial treatment to defective roof substrates; temporary removal and reinstatement of supports/access grilles associated with existing rooftop plant where required; cleaning and unblocking of roof drainage hoppers/outlets; temporary removal and reinstatement of lightning protection; repairs and repointing to parapet walls; redressing and making good existing lead flashings; and associated making good. Approximately 20m² of localised deck repair and 40 linear metres of parapet repairs are to be allowed for, with final quantities verified on site.\r\nThe scope additionally includes renewal of the identified external roof access/fire escape door with a new one-hour fire-resistant timber doorset, including associated ironmongery, lockset and weather protection, together with preparation and redecoration of existing metal railings and temporary safety provisions where railings require removal to facilitate the works.\r\n\r\nAccess to the roof is anticipated via the existing external fire escape identified within the tender information. The contractor shall undertake all necessary surveys, verify dimensions and existing conditions prior to commencement, and provide all access, temporary works, protection, health and safety measures and infection-control precautions required for working within an operational NHS environment. The works are to compl",
+    "budget_eur": 87750,
+    "deadline": "2026-09-02",
+    "relevance_score": 44.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 40.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "aa57f133-43e4-44d4-acd2-310678d6f06b-911032",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-18",
+    "scored_at": "2026-08-18T06:40:20.982684",
+    "last_updated": "2026-08-18T06:40:20.982687",
+    "added_date": "2026-08-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-18T06:40:20.982694",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-46371055e5ad",
+    "rfp_title": "SUPPLY CHAIN NOTICE - :  WC1857703 - (EP0060) Replace the asbestos wall and roof cement cladding with corrugated galvanised steel sheeting, Episkopi, Cyprus",
+    "issuing_entity": "Ministry of Defence",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "(EP0060) Replace the asbestos wall and roof cement cladding with corrugated galvanised steel sheeting, Episkopi, Cyprus \r\n\r\nThe scope of works includes a range of structural alterations, demolition works and new installations throughout the building. \r\nThe demolition and alteration works include the safe removal of asbestos-containing materials, including roof sheets, canopies, wall cladding and ceiling debris, which will be carried out by a licensed contractor. \r\nRemovals include internal timber coverings, partitions, doors and windows, and regarding the roof all the purlins, timber rafters and roof trusses with one exception. \r\nA new roof will be supplied and installed including steel trusses, bracings, SHS beams, Z-purlins and RHS girts for supporting the false ceiling. \r\nThe roof and the walls will be cladded with rockwool insulated panels and a suspended plasterboard ceiling will be installed. \r\nThe works further include the erection of a blockwall, capping beams, installation of aluminium doors and windows, an electrically operated roller shutter, uPVC gutters and rainwater downpipes, together with internal and external decoration. \r\nThe scope also allows for the required mechanical removals and associated electrical works.\r\n\r\nThe Provisional Key Tender dates for the project are as follows:\r\n\r\n-\tExpression of interest return: 31/08/2026\r\n-\tInvitation to Tender:  10/09/2026\r\n-\tTender Return Date: 16/10/2026\r\n-\tContract award: 11/01/2027\r\n-\tCommencement of work: 01/02/2027\r\n-\tCompletion of work: 15/09/2027\r\n\r\nWork commencement and completion dates will be subject to MOD DIO's agreement, as they will be dictated by the Operating Authority to avoid Operational Restrictions.\r\n\r\nThe currency of this project is Euro (€).\r\n\r\nThe location of this project is Cyprus (British Forces, Episkopi).\r\n\r\nAdditional information: \r\nAny company wishing to participate in this tender should complete the Pre-Qualification Questionnaire (PQQ) and the EOI form which are attached and ret",
+    "budget_eur": 625950,
+    "deadline": "2026-08-31",
+    "relevance_score": 40.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "08692843-101a-4a78-84d7-52dbf1f7ffcd-910994",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-08-18",
+    "scored_at": "2026-08-18T06:40:20.984155",
+    "last_updated": "2026-08-18T06:40:20.984157",
+    "added_date": "2026-08-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-18T06:40:20.984162",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b54296d85185",
+    "rfp_title": "Balfour Beatty - Roads North of the Thames-LTC - Concrete & Polymer Reinforced Crib Walls",
+    "issuing_entity": "BALFOUR BEATTY CIVIL ENGINEERING LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Concrete & Polymer Reinforced Crib Walls - Design, Supply & Install\r\n\r\nWe are inviting expressions of interest from experienced suppliers to undertake the design, manufacture, supply and installation of concrete and/or polymer reinforced crib wall retaining structures as part of the Lower Thames Crossing Roads North programme.\r\n\r\nThe package comprises approximately 3.5km of crib wall retaining structures across multiple locations. Suppliers will support the development of practical, buildable and cost-effective solutions that integrate with the wider scheme design.\r\n\r\nPackage Scope\r\nThe package includes:\r\nDesign and design checking of crib wall systems.\r\nSupport to Approval in Principle (AiP) and design development.\r\nInternal stability assessments and coordination with project stakeholders.\r\nManufacture and supply of crib wall components.\r\nBIM and/or 3D modelling where applicable.\r\nTemporary works design and management.\r\nDelivery and installation of crib wall systems.\r\nCoordination of drainage, foundation and geotechnical interfaces.\r\nQuality assurance, inspection, testing and handover documentation.\r\n\r\nWhat We're Looking For\r\nSuppliers should demonstrate experience in:\r\nDesigning, manufacturing, supplying and/or installing crib wall retaining structures.\r\nDelivering highways, infrastructure, earthworks or civil engineering projects.\r\nSafe and efficient construction planning and delivery.\r\nDesign management, quality assurance and stakeholder collaboration.\r\nSupporting projects with demanding programme requirements.\r\n\r\nSMEs are encouraged to express interest, either independently or as part of a wider supply chain.\r\n\r\nExperience & Standards\r\nWe are seeking organisations with:\r\nRelevant crib wall or retaining structure experience.\r\nAppropriate engineering and design capability.\r\nExperience supporting design development and approvals processes.\r\nStrong health, safety, environmental and quality management systems.\r\nThe ability to support Lower Thames Crossing objectives",
+    "budget_eur": 1170000,
+    "deadline": "2026-08-27",
+    "relevance_score": 39.7,
+    "win_probability": "Low",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 18.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: foundation"
+    ],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "94d3f3c4-41e7-4c58-a1f1-2ee331fcc1c5-910974",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-08-18",
+    "scored_at": "2026-08-18T06:40:20.985118",
+    "last_updated": "2026-08-18T06:40:20.985119",
+    "added_date": "2026-08-18",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-18T06:40:20.985124",
         "by": "scanner"
       }
     ],
