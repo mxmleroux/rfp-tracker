@@ -7714,7 +7714,7 @@
     "description": "Enterprise Cheshire and Warrington (ECW), working alongside the Department for Energy Security and Net Zero (DESNZ) and the North West Net Zero Hub (NWNZH) is seeking to appoint an individual consultant or small group of consultants to oversee the implementation of the Clean Energy Skills Regional Action Plan (CESRAP), and in partnership with relevant neighbouring regions. \r\n\r\nThe CESRAP brings together evidence from extensive stakeholder consultation, employer engagement, provider input, and regional modelling to identify where demand for clean energy skills is growing most quickly and where the provision is already strong. It identifies an urgent need to intervene in the skills ecosystem so that local people, employers, and their supply chains can develop the skills needed to benefit from the transition to clean energy to meet a significant increase in demand in 2030 and beyond.\r\n\r\nIt sets out recommendations for local leaders and policymakers, proposals for a near-term programme of skills interventions, and a framework for long-term collaboration to enable joined-up local delivery of the Government's Clean Energy Jobs Plan . \r\n\r\nIt is intended to be a practical, living framework that can guide immediate implementation, support regional collaboration, and adapt as policy, investment pipelines, and labour market conditions evolve. ECW is seeking consultancy support to implement the plan in the period up to March 31st, 2027.\r\n\r\nThe work is funded by The North West Net Zero Hub. The consultant/s will need to identify one to two people who will be available to act as the Regional Lead for an agreed number of days per week, for the length of the project.",
     "budget_eur": 93600,
     "deadline": "2026-08-28",
-    "relevance_score": 43.0,
+    "relevance_score": 42.7,
     "win_probability": "Medium",
     "feature_alignment_score": 1.0,
     "geographic_fit_score": 100,
@@ -7780,7 +7780,7 @@
     },
     "date_found": "2026-08-06",
     "scored_at": "2026-08-06T08:34:00.605148",
-    "last_updated": "2026-08-18",
+    "last_updated": "2026-08-19",
     "added_date": "2026-08-06",
     "status": "New",
     "notes": "",
@@ -8935,6 +8935,267 @@
       {
         "status": "New",
         "date": "2026-08-18T06:40:20.985124",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-e0015c3549f7",
+    "rfp_title": "Request for Information (RFI) Exercise for Home Office Quality Assurance & Testing (QAT) Contracts",
+    "issuing_entity": "Home Office",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Home Office (referred to hereafter as the Authority) is seeking further input from prospective suppliers through a Request for Information (RFI) exercise in support of its planned Quality Assurance and Testing (QAT) procurements.\r\n\r\nThe Authority currently has a number of contracts for QAT capability aligned to portfolios across the Home Office and is developing a future commercial strategy that is expected to consolidate these services into two core testing capability contracts by Autumn 2027.\r\n\r\nFollowing the Authority&apos;s recent supplier engagement event on 27th July, this RFI forms the next stage of pre-market engagement. The event provided an opportunity to introduce our objectives and gather initial market feedback. Building on the insights received, the Authority is now seeking more detailed information from suppliers to help refine its requirements, further develop its procurement strategy, and inform decisions regarding the future commercial and contracting approach.\r\n\r\nThe Authority is particularly interested in supplier views and experience relating to procurement and delivery models, transition and mobilisation, commercial and performance management approaches, the use of innovation, automation and Artificial Intelligence, tooling and technical capabilities, support for SMEs, and experience of supporting organisations to transition towards product-centric delivery models and Quality Engineering practices.\r\n\r\nThe exact scope, duration and value of the future contracts remains under development. However, the current expectation is that each contract will have a minimum term of three years, with a maximum spend of £150m (including any extensions).\r\n\r\nWhile the current intention is to compete these contracts through the GCA&apos;s Quality Assurance and Testing for IT Systems 2 Dynamic Purchasing System (RM6148), the Authority continues to assess its options and welcomes responses from all interested suppliers.\r\n\r\nThis RFI is for information gatheri",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d826ef16-2d49-4f6c-9157-d7512d48277a-911202",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-19",
+    "scored_at": "2026-08-19T06:40:54.092923",
+    "last_updated": "2026-08-19T06:40:54.092925",
+    "added_date": "2026-08-19",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-19T06:40:54.092930",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-cbf6b8ce6970",
+    "rfp_title": "Request for Information - External Digital Experience: CMS Discovery - 2026-3565-RFI-CMS Disc-DL-PST",
+    "issuing_entity": "UNIVERSITY OF MANCHESTER",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The University is undertaking discovery work under the External Digital Experience (EDE) Programme. This RFI is intended to test the market before any formal procurement decision is made. It is not a tender and it does not commit the University to procure a solution or to follow a particular route.\r\n\r\nThe purpose of this RFI is to gather supplier perspectives on a future Content Management System (CMS) and the implementation, migration, governance and operating model considerations that would support a more coherent external digital experience.\r\n\r\nThe RFI is CMS-only. The University is not seeking CRM supplier proposals through this exercise. CRM should only be referenced where it relates to CMS integration, enquiry/form hand-off, campaign source tracking, consent capture, student journey data, or future interoperability.\r\n\r\nThis RFI is intended to help the University:\r\n•\tunderstand credible CMS options available in the market, including traditional, headless, hybrid, composable or DXP-aligned approaches\r\n•\ttest assumptions from CMS discovery, the EDE Strategy and the CMS Discovery Checklist\r\n•\tunderstand how suppliers would support content governance, structured content, publishing workflows, accessibility, IA, SEO, internal search, migration and editor experience\r\n•\tunderstand how a CMS could integrate with CRM and other systems without making CRM part of this RFI\r\n•\tobtain indicative views on delivery approach, sequencing, risks, University-side resourcing and cost drivers;\r\n•\tinform any subsequent CMS business case, procurement strategy, RFP/tender documentation and evaluation criteria.\r\n\r\nThe University of Manchester no longer meets the criteria of a 'body governed by public law' and is therefore not considered a contracting authority for the purposes of the Public Contracts Regulations 2015 and/or any replacement legislation. As a result, the University of Manchester will no longer be subject to the regime contained in The Public Contracts Regulations 2015 and",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "eaf2ff31-d5c1-419e-82f0-fd0c979f7e64-911186",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-19",
+    "scored_at": "2026-08-19T06:40:54.094934",
+    "last_updated": "2026-08-19T06:40:54.094936",
+    "added_date": "2026-08-19",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-19T06:40:54.094941",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ace71dd37c73",
+    "rfp_title": "RA359924 - Dynamic Market - Surfacing Works",
+    "issuing_entity": "LondonEnergy Ltd",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "LondonEnergy Ltd (LEL) is establishing a Dynamic Market for the provision of surfacing, resurfacing and associated highways/civils works across LEL sites and other locations for which LEL is responsible.\r\n\r\nPlease apply via Delta eSourciing Platform using access code 86S9883S36.\r\nPlease email Lewis.atkinson@londonenergyltd.com if you have any questions. \r\n\r\nThe Dynamic Market is intended to provide LEL with access to suitably qualified, experienced and competent contractors capable of delivering surfacing works on an as-required basis. Individual requirements will be competed or awarded through the Dynamic Market in accordance with the applicable procurement documents and award procedures.\r\n\r\nThe scope of works may include, but is not limited to:\r\n\r\nAsphalt and tarmac surfacing and resurfacing;\r\nRoadway, access road, yard and car park surfacing;\r\nRemoval and replacement of existing surfacing;\r\nSurface repairs, patching and pothole repairs;\r\nPlaning and preparation of existing surfaces;\r\nInstallation and repair of kerbs, edgings and channels;\r\nFootway and pedestrian area surfacing;\r\nConcrete repairs and associated minor civils works;\r\nDrainage adjustments associated with surfacing works;\r\nRoad markings, line marking and associated finishes;\r\nFormation and reinstatement of areas following excavation or other works;\r\nPreparation of sub-base and base layers where required;\r\nTemporary surfacing and emergency repairs; and\r\nAny other ancillary works reasonably associated with the delivery of surfacing and resurfacing activities.\r\n\r\nWorks may vary in value, size, complexity and location, ranging from minor reactive repairs through to larger planned resurfacing projects.\r\n\r\nSuppliers appointed to the Dynamic Market will be expected to demonstrate appropriate technical capability, experience, resources, health and safety arrangements, insurances, accreditations and competence relevant to the works being undertaken.\r\n\r\nSpecific requirements, specifications, quantities, program",
+    "budget_eur": null,
+    "deadline": "2036-02-21",
+    "relevance_score": 46.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a6c205ac-45f7-4d70-ba2d-dc4f373146bd-911168",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required",
+        "Evaluated on price-quality criteria"
+      ]
+    },
+    "date_found": "2026-08-19",
+    "scored_at": "2026-08-19T06:40:54.096129",
+    "last_updated": "2026-08-19T06:40:54.096131",
+    "added_date": "2026-08-19",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-19T06:40:54.096135",
         "by": "scanner"
       }
     ],
