@@ -6642,7 +6642,7 @@
     "scored_at": "2026-08-03T09:42:16.699842",
     "last_updated": "2026-08-03T09:42:16.699843",
     "added_date": "2026-08-03",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6651,7 +6651,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-47d34f709113",
@@ -7611,7 +7611,7 @@
     "scored_at": "2026-08-11T07:05:30.700610",
     "last_updated": "2026-08-11T07:05:30.700611",
     "added_date": "2026-08-11",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7620,7 +7620,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-5ced78831323",
@@ -8578,6 +8578,270 @@
       {
         "status": "New",
         "date": "2026-08-21T06:43:09.733537",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-8bb076228923",
+    "rfp_title": "Invitation to Tender - Evaluation Impact Case Studies",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "CONTEXT\r\nThe Future Parks Accelerator (FPA) programme ran from 2019 to 2022 working intensively with 8 Local Authorities to help identify and develop new ways to care for the urban natural environment, create a step change in how people engaged with parks and greenspaces in the participant cities; and identify new ways to fund parks and greenspaces for the long term, putting the management and funding of green space on a more sustainable footing. \r\n7 of the FPA Cohort remained closely involved with the project partners following the completion of the programme and helped to co-design the follow-on ten-year programme. Nature Towns and Cities, launched in 2025, was designed to support transformative change in up to 100 towns and cities. These 7 places form the Nature Towns and Cities pioneer cohort continue to receive support from the programme while also supporting and mentoring new participants.\r\nAlthough evaluated throughout the programme, it was anticipated that on-the ground impacts would lag behind the implementation of these changes. \r\n\r\nTHIS COMMISSION\r\nThis commission seeks to understand and evidence the change that has taken place in each of the 7 places that have remained involved. We are seeking a consultant to undertake a follow-up study of the 7 places still participating in the Nature Towns and Cities Pioneer Cohort to understand what has happened since 2019 (and especially since 2022), and to generate robust, independent evidence of longer-term impact, including write up stories of whole place change, evidence the benefit to places and communities of investing in capacity-building and systems-change approaches and support Nature Towns and Cities & Pioneer Cohort to understand and articulate the causal link between the interventions and their longer-term impacts.\r\n\r\nINFORMATION TO BE RETURNED\r\nSubmissions should include the following information: \r\n·\tOutline of your proposed approach to the project, including project plan and high-level risk log\r\n·\tDesc",
+    "budget_eur": 29250,
+    "deadline": "2026-09-14",
+    "relevance_score": 44.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 59.3,
+    "competitive_score": 70,
+    "strategic_value_score": 20.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5545ee74-3654-4bdf-ab69-6037bccacdb3-911893",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-25",
+    "scored_at": "2026-08-25T06:44:12.853456",
+    "last_updated": "2026-08-25T06:44:12.853457",
+    "added_date": "2026-08-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-25T06:44:12.853462",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-c7836406b155",
+    "rfp_title": "Unlocking Commercial and Industrial Captive Renewable Energy in Uganda: Market Sizing and Regulatory Reform",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to Uganda's Electricity Regulatory Authority (ERA).\r\n\r\nUganda's electricity sector is predominantly powered by renewable energy and demand is growing rapidly. However, uptake of commercial and industrial (C&I) captive renewable energy remains limited due to regulatory gaps, insufficient market data, and barriers to investment. This is particularly significant given the growing role of behind-the-meter renewable energy as a means of reducing diesel reliance, improving energy security, and supporting economic growth.\r\n\r\nThe assignment will support ERA, in partnership with the Ministry of Energy and Mineral Development (MEMD) and electricity distributors UEDCL, WENRECO and KIS, to strengthen the enabling environment for C&I captive renewable energy. The work will establish an evidence base on market demand, existing captive generation and grid capacity, review Uganda's regulatory framework and international best practice, and develop targeted regulatory and market-enabling solutions.\r\n\r\nKey outputs are expected to include recommendations for a mid-tier regulatory framework, updated settlement and implementation guidance, standardised commercial documentation, and financing pathways to improve project bankability. The project aims to increase private-sector investment in captive renewable energy, accelerate deployment, reduce dependence on diesel generation, and strengthen Uganda's energy security and grid resilience.\r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: targetedfund@ukpact.co.uk",
+    "budget_eur": 409500,
+    "deadline": "2026-09-21",
+    "relevance_score": 44.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "financing"
+        ]
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d34191ce-097a-4cbe-8245-70af0072eccd-911867",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-25",
+    "scored_at": "2026-08-25T06:44:12.854362",
+    "last_updated": "2026-08-25T06:44:12.854363",
+    "added_date": "2026-08-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-25T06:44:12.854366",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-13dea0c103c8",
+    "rfp_title": "Digital Pharmacy Solutions",
+    "issuing_entity": "Midlands Partnership University Foundation Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Midlands Partnership University NHS Foundation Trust is seeking to identify providers able to deliver both an Electronic Prescribing and Medicines Administration (ePMA) system and an Electronic Prescription Service (EPS) capability, with implementation and go live anticipated from Financial Year 2028 onwards.\r\n\r\nThe Trust is seeking to engage with suitably qualified and experienced suppliers who may be able to provide an integrated solution covering both elements of the requirement.\r\n\r\nThe anticipated requirement is for a provider that can support the Trust with:\r\n•\tAn Electronic Prescribing and Medicines Administration (ePMA) system; \r\n•\tAn Electronic Prescription Service (EPS) capability; \r\n•\tImplementation, configuration, integration and associated technical services; \r\n•\tTraining, support and ongoing system maintenance; and \r\n•\tAny associated services necessary to deliver a fully operational solution. \r\n\r\nThe Trust is particularly interested in hearing from providers who can offer both the ePMA and EPS elements of the requirement, either through a single integrated solution or through an appropriate delivery model that provides the required functionality.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d17f27a9-f7e9-4ca0-b410-2281bd11f3a5-911862",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-25",
+    "scored_at": "2026-08-25T06:44:12.854910",
+    "last_updated": "2026-08-25T06:44:12.854911",
+    "added_date": "2026-08-25",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-25T06:44:12.854914",
         "by": "scanner"
       }
     ],
