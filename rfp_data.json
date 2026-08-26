@@ -8846,5 +8846,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-f3e631c6b30b",
+    "rfp_title": "Digital CYPMH",
+    "issuing_entity": "Midlands Partnership NHS Foundation Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Midlands Partnership University NHS Foundation Trust (MPFT) is seeking supplier input to support the development of a service specification and inform its procurement strategy for digital CYP Mental Health Services.\r\n\r\nMPFT intends to conduct preliminary market engagement to inform the model of the future provision of digital support for CYP Mental Health Services in South Staffordshire. We are inviting suppliers with relevant experience and capability to express interest in participating in this engagement. The purpose is to gather insights that will help shape our service specification, procurement approach, and ensure alignment with best practice and regulatory standards. Any supplier wishing to participate in this preliminary market engagement exercise must be willing to share insights to improve service quality, performance, and value.\r\n\r\nDemand for children and young people's mental health support has continued to grow, with record numbers accessing services and significant numbers still waiting. A digital, evidence-based offer can expand reach, provide safe, effective help earlier, and reduce waits while maintaining quality.\r\n\r\nWe are, therefore, seeking a digital service for CYP in the South Staffordshire footprint of MPFT that:\r\n\r\n·\tAligns to the NHS ambitions of widening access for CYP to mental health support.\r\n·\tSupports transparent access and waiting time reporting.\r\n·\tOffers increased capacity and patient choice through offering safe, guided digital intervention, self-management and therapist-assisted tools for CYP with moderate to severe mental health needs.\r\n\r\nFeedback from providers is not binding but will help MPFT shape a comprehensive and effective specification and procurement approach.\r\nThe current contract is in place until 6th December 2026.",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.3,
+    "win_probability": "Low",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "46948843-5ff0-4af8-b146-5511a7402eab-912038",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-26",
+    "scored_at": "2026-08-26T06:46:57.925574",
+    "last_updated": "2026-08-26T06:46:57.925575",
+    "added_date": "2026-08-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-26T06:46:57.925580",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
