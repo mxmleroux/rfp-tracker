@@ -5084,96 +5084,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-351cff67b63e",
-    "rfp_title": "​​Carbon Market Opportunity Assessment​",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to deliver an economy-wide assessment of carbon market opportunities and institutional capacity strengthening support in the Philippines.\r\n\r\nThe Philippines has committed to an ambitious Nationally Determined Contribution (NDC), targeting a 75% reduction and avoidance of greenhouse gas emissions by 2030. Achieving this target will require significant international support, strengthened institutional capacity, and the mobilisation of climate finance to accelerate mitigation action across priority sectors.\r\n\r\nCarbon markets are increasingly recognised as a potential mechanism to unlock climate finance and support cost-effective emissions reductions. As the Philippines advances implementation of its updated NDC, Nationally Determined Contribution Implementation Plan (NDCIP), and Long-Term Strategy (LTS), there is a timely opportunity to assess how carbon markets, including potential participation under Article 6 of the Paris Agreement, can contribute to national climate objectives while maintaining environmental integrity and alignment with national priorities.\r\n\r\nThe Climate Change Commission (CCC) is seeking a qualified supplier to support the next phase of this UK PACT partnership. Building on previous support provided through UK PACT, including the development of the Philippine Emissions Pathway Calculator (PEPC), this assignment will strengthen the evidence base and institutional capacity required to guide the development of carbon markets in the Philippines.\r\n\r\nThe selected supplier will undertake an economy-wide assessment of carbon market opportunities, including indicative mitigation and revenue potential across priority sectors, sector prioritisation, and the development of a preliminary pipeline of carbon market opportunities. In parallel, the supplier will provide targeted technical assistance and capacity-build",
-    "budget_eur": 146250,
-    "deadline": "2026-07-27",
-    "relevance_score": 43.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 3.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 74.1,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 3,
-        "max": 15,
-        "strong_matches": [
-          "implementation plan"
-        ],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "f2258fd3-f905-4718-aa61-b9332e22a733-904512",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-07-03",
-    "scored_at": "2026-07-03T09:16:46.944400",
-    "last_updated": "2026-07-03T09:16:46.944401",
-    "added_date": "2026-07-03",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-03T09:16:46.944405",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-e7043bab096c",
     "rfp_title": "Supply Of Mobilisation Packages, Furniture & White Goods",
     "issuing_entity": "BIP SOLUTIONS LIMITED",
@@ -8930,6 +8840,266 @@
       {
         "status": "New",
         "date": "2026-08-26T06:46:57.925580",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f6de4139f1b9",
+    "rfp_title": "National Trust NI - Lead Consultant, Carrick-a-Rede capital works Infrastructure Project",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The National Trust is seeking to appoint a Lead Consultant for the Carrick-a-Rede Visitor Infrastructure Project through a single-stage Request for Proposal (RFP1) process. Bidders will be assessed on their capability, experience, financial standing, proposed methodology, and price.\r\n\r\nThe project aims to sustainably enhance Carrick-a-Rede as a premier visitor destination on the Causeway Coast, supporting increased visitor numbers while protecting the site's natural and cultural heritage, delivering a world-class visitor experience, and minimising impacts on the local community. \r\n\r\nThis commission will develop detailed proposals, and ultimately manage delivery of site infrastructure which is required to support planned growth at the site.\r\n\r\nClosing Date for RFP - 23rd September 2026\r\nDeadline for Queries - 16th September  2026\r\nAward Contract - 1st  October 2026\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/\r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustomer name - The National Trust\r\nAll communication is to be carried out via the Proactis portal",
+    "budget_eur": 46800,
+    "deadline": "2026-09-23",
+    "relevance_score": 49.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9a77349f-e5a2-4dda-bf26-321cbb513238-912254",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-27",
+    "scored_at": "2026-08-27T17:21:32.053928",
+    "last_updated": "2026-08-27T17:21:32.053930",
+    "added_date": "2026-08-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-27T17:21:32.053934",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-15d3ad352fa9",
+    "rfp_title": "Strengthening Carbon Market Readiness and Article 6 Operationalisation in Cameroon",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to the Government of Cameroon.\r\n\r\nCameroon, situated within the Congo Basin and home to significant forest carbon resources, is seeking to strengthen its readiness to participate in high-integrity international carbon markets, including Article 6 of the Paris Agreement, the Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA), and voluntary carbon markets. While the country has considerable potential to generate climate finance through carbon markets and support implementation of its Nationally Determined Contribution (NDC), key legal, institutional, and operational gaps continue to constrain effective participation.\r\n\r\nThis assignment will provide targeted technical assistance and capacity building to support the Government of Cameroon in establishing the governance frameworks, institutional arrangements, and regulatory systems required to operationalise carbon market participation. Working closely with relevant government institutions, including the Ministry of Environment, Nature Protection and Sustainable Development (MINEPDED), the Ministry of Forestry and Wildlife (MINFOF), the Ministry of Finance (MINFI), and other key stakeholders, the project will strengthen carbon market governance, Article 6 implementation readiness, project approval systems, and institutional coordination mechanisms.\r\n\r\nKey outputs are expected to include a comprehensive carbon market readiness assessment, a carbon market governance framework defining the roles and responsibilities of key institutions, operational procedures for Article 6 participation and Internationally Transferred Mitigation Outcomes (ITMOs), a national carbon project approval system, and a structured capacity-building programme for government counterparts. The project will also support the integration of gender equality",
+    "budget_eur": 351000,
+    "deadline": "2026-09-22",
+    "relevance_score": 46.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 81.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "04a3aa0a-c3ed-4afc-8b07-4511a46230b3-912354",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-27",
+    "scored_at": "2026-08-27T17:21:32.055098",
+    "last_updated": "2026-08-27T17:21:32.055099",
+    "added_date": "2026-08-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-27T17:21:32.055103",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-cc3e0c300179",
+    "rfp_title": "DNWP0073 - Lot 1B/In-SEP ID - Controlled Area Initial Decommissioning Operations",
+    "issuing_entity": "Altrad AtkinsRealis Joint Venture (A2R JV)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The anticipated scope for DNWP0073 is indicatively only.  The Contractor requires support to the Inside Controlled Area (In-SEP) Decommissioning Operations. This will take the form of the provision of resource, up to 30 Full Time Equivalent (FTE), with an appropriate ratio of blue:white collar resources to be determined by the Subcontractor to best meet the Initial Decommissioning (ID) activities required by the Contractor. \r\n    \r\n    A current contract is in place until 31st March 2027 to prove the concept and develop an initial operating capability.  This EOI relates to the longer-term works anticipated to commence thereafter, with an estimated duration of 24 months.\r\n    \r\n    The tasks undertaken will be broad and varied, and will be located in existing In-SEP and any future In-SEP buildings. Broadly, the Subcontractor will be required to provide Operational Support to the ID capability, build upon the previously developed ID capability, drive future improvements and assist in building scope of ID workload. Specific work and details will be decided by the ID In-SEP, Delivery Board and locally on plant at Plant Operations Control Centres (POCCs).  \r\n    \r\n    Initial works will include waste removal, waste packaging and despatch and size reduction. Deplanting, involving the removal, lifting, size reduction and transport of redundant plant will also be required. Works will grow and develop in complexity as the capability matures, subject to providing ongoing Value for Money. (VFM)\r\n    \r\n    Tasks which meet the definition of 'Construction' (CDM 2015 Part 1 Regulation 2) should now be anticipated and appropriate management and supervision arrangements incorporated. This Contract Opporutnity represents a long-term commitment by the Contractor to further develop the Suitably Qualified and Experienced Person (SQEP) workforce of the Subcontractor to undertake works in uniquely hazardous facilities requiring prior knowledge and experience.  \r\n    \r\n    The Subcontract",
+    "budget_eur": 23400000,
+    "deadline": "2026-09-17",
+    "relevance_score": 43.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "8a4922ab-f26c-4229-acf5-47feda729b9d-912348",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-27",
+    "scored_at": "2026-08-27T17:21:32.056303",
+    "last_updated": "2026-08-27T17:21:32.056304",
+    "added_date": "2026-08-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-27T17:21:32.056308",
         "by": "scanner"
       }
     ],
