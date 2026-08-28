@@ -8049,7 +8049,7 @@
     "scored_at": "2026-08-18T06:40:20.985118",
     "last_updated": "2026-08-18T06:40:20.985119",
     "added_date": "2026-08-18",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8058,7 +8058,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-e0015c3549f7",
@@ -9100,6 +9100,92 @@
       {
         "status": "New",
         "date": "2026-08-27T17:21:32.056308",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-1396e67a7cb8",
+    "rfp_title": "Request for information - Liquid Handling Robots",
+    "issuing_entity": "UK Health Security Agency",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The key dates for this RFI are as follows:\r\n\r\nRFI Published: 28 August 2026\r\nRFI Response: 11 September 2026\r\n\r\nShould you have any questions or queries relating to this RFI, please use the Atamis portal's messaging centre to direct your questions to us for a response.\r\n\r\nIf a response is not received by the RFI response deadline this will have no impact on your ability to tender for the opportunity in the future. UKHSA will not enter into contracts on the basis of replies to this RFI.  \r\n\r\nDescription of Scope of Requirements:\r\n\r\nThe UK Health Security Agency (UKHSA) is responsible for protecting every member of every community from the impact of infectious diseases, chemical, biological, radiological and nuclear incidents and other health threats. We provide intellectual, scientific and operational leadership at national and local level, as well as on the global stage, to make the nation's health secure.\r\n\r\nBackground:\r\n\r\nThe UKHSA Sequencing Laboratories in Bristol, Colindale, Manchester, and Porton Down offer nucleic acid sequencing services to support a variety of public health and clinical functions. These services currently include ongoing pathogen surveillance programmes, clinical metagenomics sequencing, and outbreak detection. As part of the UKHSA Pathogen Genomics Strategy and Pandemic Preparedness Programme, we are looking to maintain and expand the capacity and efficiency of our Genomics services. We therefore wish to explore available liquid handling robotics to support sequencing laboratory processing.\r\n\r\nShould you wish to respond to this Request for Information or require more information, please follow the link below:\r\n\r\nhttps://atamis-1928--prospend.vf.force.com/apex/CS_ContractPage?filters=&page=1&Preview=Yes&searchStr=&SearchType=Projects&sortStr=Alphabetical&uid=a07Pz00001uBE2zIAG&sfdcIFrameOrigin=https://atamis-1928.lightning.force.com",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f890efff-d994-4608-bbb6-dcb5b2aae8cf-912417",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-08-28",
+    "scored_at": "2026-08-28T18:14:21.835809",
+    "last_updated": "2026-08-28T18:14:21.835811",
+    "added_date": "2026-08-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-08-28T18:14:21.835816",
         "by": "scanner"
       }
     ],
