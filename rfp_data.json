@@ -4469,94 +4469,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-25a993d38982",
-    "rfp_title": "Leys Park Changing Pavilion Dagenham, Refurbishment",
-    "issuing_entity": "London Borough of Barking and Dagenham",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The London Borough of Barking and Dagenham are pleased to invite you to tender for the conversion of current changing rooms into a new gym through an open tender process. The procurement strategy being adopted for this project is a single-stage traditional below threshold procurement route. In accordance with the Procurement act 2023, Tenderers are invited to submit a Single Stage Traditional Tender for the carrying out of the Works as further described in this Invitation to Tender.\r\n\r\nThe works comprise of the refurbishment of the Leys Sports Pavilion including remodelling and alterations to the gym area. The successful Contractor will be appointed under the JCT Minor Works Building Contract with Contractors Design 2024, with LBBD Contract Amendments, as amended by the London Borough of Barking & Dagenham (refer to Annex 9). Upon submitting a tender for this project, the tenderer is to have read, understood and agreed to these Special Conditions. Any proposed Contractor amendments are to be submitted with the tender return. As such, the Contractor must be both willing and capable of controlling the design development and construction phases to ensure that the project is completed to quality time and budget constraints.  \r\n\r\nAt publication the Tender is due to close 29th July 2026\r\n\r\nAdditional information: \r\nTender Documents are available free to access on the e-Tender portal",
-    "budget_eur": null,
-    "deadline": "2026-07-29",
-    "relevance_score": 43.3,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "c468ff00-848d-471b-ae83-6bf211ade3b6-902912",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-21",
-    "scored_at": "2026-06-21T09:49:26.595494",
-    "last_updated": "2026-06-21T09:49:26.595496",
-    "added_date": "2026-06-21",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-21T09:49:26.595501",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-52ed681c1cc5",
     "rfp_title": "Exhibition Racking Contractor - Project Tullie (Phase 3) Works INVITATION TO TENDER",
     "issuing_entity": "TULLIE HOUSE MUSEUM AND ART GALLERY TRUST",
@@ -6032,7 +5944,7 @@
     "scored_at": "2026-07-23T08:28:18.538123",
     "last_updated": "2026-07-23T08:28:18.538124",
     "added_date": "2026-07-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6041,7 +5953,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-50f45d57441c",
@@ -6902,7 +6814,7 @@
     "scored_at": "2026-08-06T08:34:00.605148",
     "last_updated": "2026-08-19",
     "added_date": "2026-08-06",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6911,7 +6823,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-b96b5baa82e4",
