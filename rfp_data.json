@@ -8756,5 +8756,99 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-2b9e5f2b3b1f",
+    "rfp_title": "Pakistan NDC 3.0 Delivery Coordination Mechanism (Federal-Provincial Coordination and Tracking)",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to the Government of Pakistan.\r\n\r\nPakistan has committed to reducing projected greenhouse gas emissions by 50% by 2035 through its Nationally Determined Contribution (NDC) 3.0. Delivering this target will depend heavily on action at the provincial level, where responsibility for many climate-relevant sectors rests. While the Government of Pakistan has established new coordination arrangements through the National Climate Finance Strategy (NCFS), challenges remain around federal-provincial coordination, implementation tracking, climate finance visibility, and reporting progress against national climate commitments.\r\n\r\nThe assignment will provide targeted technical assistance to support the Ministry of Climate Change and Environmental Coordination (MoCC&EC), the Pakistan Climate Change Authority (PCCA), and provincial governments to establish and operationalise a practical federal-provincial coordination and tracking mechanism for NDC 3.0 implementation. The project will strengthen institutional coordination, improve monitoring and reporting of climate actions and investments, build government capacity, and support the mobilisation of climate finance. The intervention will also integrate Gender Equality, Disability and Social Inclusion (GEDSI) considerations to promote more inclusive climate governance and decision-making.\r\n\r\nKey outputs are expected to include a federal-provincial NDC coordination framework, a standardised NDC tracking and reporting framework, an interoperability pilot connecting existing government climate and public-sector data systems, operational support for a Tactical Climate Coordination Forum, and a sustainability and scale-up roadmap. The project aims to strengthen Pakistan's ability to implement and report on its climate commitments, improve evidence-based decision-",
+    "budget_eur": 292500,
+    "deadline": "2026-09-25",
+    "relevance_score": 43.7,
+    "win_probability": "Medium",
+    "feature_alignment_score": 4.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 70.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 2,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "implementation tracking",
+          "roadmap"
+        ]
+      },
+      "monitoring_tracking": {
+        "score": 2,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "monitoring",
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f9613a96-8a56-4f2f-b0e6-04b7e416ae1c-912660",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-02",
+    "scored_at": "2026-09-02T10:42:54.454446",
+    "last_updated": "2026-09-02T10:42:54.454448",
+    "added_date": "2026-09-02",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-02T10:42:54.454453",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
