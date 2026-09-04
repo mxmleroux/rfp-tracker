@@ -4731,99 +4731,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-f8ba80ad0f5f",
-    "rfp_title": "Institutional Capacity Enhancement for International Sustainability Standards Board (ISSB) Adoption in Thailand.",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Palladium as the delivery partner for the Foreign, Commonwealth and Development Office (FCDO) funded UK Partnering for Accelerate Climate Transitions (UK PACT) programme invites you to submit a quotation for the services detailed in this RFQ. \r\n\r\nThailand is currently undergoing a pivotal transition toward the adoption of International Sustainability Standards Board (ISSB) sustainability disclosure standards, with the goal of elevating its reporting framework to a globally recognised baseline. The Securities and Exchange Commission (SEC), as the primary regulator of Thailand's capital market, plays a central role in this process by setting disclosure requirements, supervising listed entities, and ensuring market readiness. Following its established roadmap, the SEC has adopted a phased approach requiring alignment with IFRS S1 and IFRS S2, with mandatory disclosure beginning in 2027. This marks a significant milestone, expanding corporate reporting beyond traditional financial metrics to include sustainability-related risks and opportunities material to investors. However, the transition presents substantial supervisory and technical challenges, requiring strengthened internal expertise, enhanced review mechanisms, and robust enforcement processes aligned with international best practice. In response, the Thailand-UK PACT programme has engaged with the SEC to provide targeted technical assistance, building on ongoing collaboration to develop ISSB-aligned guidance and integrate disclosure requirements into the 56-1 One Report framework.\r\nThe objective of the proposed expert deployment is to strengthen the SEC's regulatory capacity through the design and delivery of structured, regulator-focused training on ISSB-aligned disclosures. This includes developing comprehensive training modules on IFRS S1 and S2 requirements from a supervisory perspective, supported by practical exercises, case studies, and guidance on risk-based review approaches, assessment methodologies, ",
-    "budget_eur": 87750,
-    "deadline": "2026-08-04",
-    "relevance_score": 43.9,
-    "win_probability": "Medium",
-    "feature_alignment_score": 3.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "roadmap"
-        ]
-      },
-      "monitoring_tracking": {
-        "score": 2,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "metrics",
-          "reporting"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "15842abb-57c1-4ba0-9960-c7cfbb657828-903788",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-06-30",
-    "scored_at": "2026-06-30T09:34:34.622135",
-    "last_updated": "2026-07-31",
-    "added_date": "2026-06-30",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-06-30T09:34:34.622142",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-84cff64abc53",
     "rfp_title": "CA18146 - ITT 43/2026 - PEACEPLUS Collaborative Interaction Programme - Sustaining Cross Community Relationships",
     "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
@@ -8760,6 +8667,180 @@
       {
         "status": "New",
         "date": "2026-09-02T10:42:54.454453",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ff1280728432",
+    "rfp_title": "SDA Capability Map 2026 update",
+    "issuing_entity": "Defence Science and Technology Laboratory",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Note, this activity is not directly related to a specific procurement and any information provided are without commitment and prejudice for all parties. \r\n\r\nAll information provided in this data collection exercise will remain confidential, in-line with the Civil Service Code, with access granted only to UK Government departments and agencies. Where specific handling is required please do note this in the spreadsheet in the \"Comments on Data Handling\" section.  \r\n\r\nPlease keep all data entry at no higher than UK OFFICIAL. All returns will be treated as UK OFFICIAL-SENSITIVE COMMERCIAL. Please do let us know if you have information you would like to share at a higher classification and we can facilitate this. \r\n\r\nThis is not a procurement activity, therefore the will be no contracts issued as a result. This is for information purposes.\r\n\r\nPlease submit any responses to ssa@dstl.gov.uk",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "6a7c818a-2df4-4b60-b934-4c48a9f9ea3f-912933",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-04",
+    "scored_at": "2026-09-04T10:40:37.899760",
+    "last_updated": "2026-09-04T10:40:37.899761",
+    "added_date": "2026-09-04",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-04T10:40:37.899767",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-1b31c108c2aa",
+    "rfp_title": "Artificial Intelligence as a Service Delivery Partner - Early Engagement Notice",
+    "issuing_entity": "Home Office",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Home Office will be adopting the Government Commercial Agency (GCA) Dynamic Purchasing System (RM6200) for Artificial Intelligence as the route to market. This market engagement notice is to notify the AI supplier community of the potential opportunity and to enable suppliers to register or align themselves via the GCA Dynamic Purchasing System (DPS). \r\n\r\nTherefore, to be able to submit a tender and participate, you must be registered as a supplier on the Dynamic Purchasing System ASAP. Please note that this can take up to 15 days;\r\n\tBe registered on the DPS by following the below link by COP 5th November 2026 https://supplierregistration.cabinetoffice.gov.uk/organisation/register \r\n\tThe Home Office will pull a shortlist on 6th November 2026 based on the available suppliers being registered and available on the AI Dynamic Purchasing System.\r\n\tPlease note that it is the Suppliers responsibility to ensure they are registered on the DPS and showing live prior to this date.\r\n\tPlease note only suppliers who get shortlisted will be added and invited to the ITT tender stage and be able to view & submit a bid via the GCA Public Procurement Gateway portal. If you do not hear from the Home Office this means your company has not been successful with the shortlisting process.\r\n\r\nThe Home Office is looking to award a 3-year contract with the option to extend for a further 1 year. The Home Office requires an AI delivery partner to maintain, enhance and develop it's AI as a Service platform capability which provides reusable AI services, multi-cloud infrastructure and an assured delivery model to business areas across Home Office. \r\n\r\nIf you have any queries concerning this Market Engagement Notice, these should be sent to HODigitalCentralContracts@homeoffice.gov.uk. Please include \"Project_21011\" in the email subject for any correspondence. \r\n\r\nDisclaimer: \r\n1.\tThis early market engagement notice does not indicate that any procurement activity has started, will start, nor tha",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 42.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "59e303fc-b728-4783-9e34-119e6b473705-912903",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step"
+      ]
+    },
+    "date_found": "2026-09-04",
+    "scored_at": "2026-09-04T10:40:37.900863",
+    "last_updated": "2026-09-04T10:40:37.900865",
+    "added_date": "2026-09-04",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-04T10:40:37.900869",
         "by": "scanner"
       }
     ],
