@@ -4731,92 +4731,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-84cff64abc53",
-    "rfp_title": "CA18146 - ITT 43/2026 - PEACEPLUS Collaborative Interaction Programme - Sustaining Cross Community Relationships",
-    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "To deliver seven standalone PEACEPLUS cross community projects, one in each District Electoral Area (DEA), engaging individuals and communities who are not typically involved in peacebuilding. Through structured contact, facilitated dialogue, and capacity building, the programme will strengthen relationships, empower communities, and support the development of shared visions for local areas. This work will contribute to the gradual removal of psychological and physical barriers and promote long term reconciliation.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18146.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18146 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
-    "budget_eur": null,
-    "deadline": "2026-08-05",
-    "relevance_score": 46.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "81c7f5ce-7b07-4d11-9989-be89c73f8919-904119",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-07-01",
-    "scored_at": "2026-07-01T09:44:38.622606",
-    "last_updated": "2026-07-01T09:44:38.622608",
-    "added_date": "2026-07-01",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-01T09:44:38.622613",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-e7043bab096c",
     "rfp_title": "Supply Of Mobilisation Packages, Furniture & White Goods",
     "issuing_entity": "BIP SOLUTIONS LIMITED",
@@ -4897,266 +4811,6 @@
       {
         "status": "New",
         "date": "2026-07-07T09:39:34.206292",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-09ceffebc6b9",
-    "rfp_title": "Supply of Bodyworn Energy Data Logger",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Bodyworn Energy Data Logger. The procurement covers the supply of specialist power measurement equipment designed to accurately measure and log power consumption from soldier-carried and operated systems.\r\n\r\nObjectives\r\n•\tPurchase of equipment capable of measuring the power usage of operator-carried systems\r\n•\tContinued storage and issue of power loggers to projects, thereby informing overall power demand\r\n•\tMeasurement and data processing of power information\r\n•\tNett Warrior connector compatibility\r\nExclusions\r\n•\tProlonged data analysis\r\n•\tEquipment updates or upgrades\r\n•\tAdaptors required for non-compatible equipment (responsibility of the system under test)\r\n•\tOperating costs for the equipment (a secondary activity for personnel already engaged in the projects under test)\r\n6. Technical Requirements\r\n•\tMust measure power draw from a battery source to a connected portable system\r\n•\tMust be compatible with Nett Warrior connectors\r\n•\tMust export data at Official classification\r\n•\tMust be supplied with appropriate connectors to interface with standard computers (expected: USB)\r\nAcceptance Criteria\r\nUpon delivery, a brief trial of each item will be conducted, including monitoring of power used by a representative system, followed by upload of data to a standalone laptop. Successful completion of this trial will constitute acceptance and clearance for use in future activities.\r\nAcceptance criteria include successful power measurement recording, accurate data export, and successful data transfer to standard computer systems via USB interface.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, technical specifications, and delivery capabilities. Further information on the onboarding process f",
-    "budget_eur": 140400,
-    "deadline": "2026-08-05",
-    "relevance_score": 55.7,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 88.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "monitoring"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "a7f6811e-5027-41dc-866a-d7de03d29d1a-904831",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-07-08",
-    "scored_at": "2026-07-08T08:26:51.660048",
-    "last_updated": "2026-07-08T08:26:51.660050",
-    "added_date": "2026-07-08",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-08T08:26:51.660055",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-766819b08b6b",
-    "rfp_title": "Supply of Silent Phone Booths",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Silent Phone Booths. The procurement covers the supply, installation, and maintenance of acoustic phone booths designed for secure and confidential communications in office and operational environments.\r\n\r\nRequirement Overview\r\nProcurement of silent phone booths with acoustic insulation and noise reduction capabilities. The booths will provide secure communication spaces for personnel requiring confidential conversations in shared office environments. Supply will include installation support, user training, and ongoing maintenance services to ensure optimal acoustic performance and operational reliability.\r\nRequire dedicated acoustic phone booths to provide secure, confidential communication spaces for personnel across multiple office locations. These booths must deliver high-quality sound insulation to prevent eavesdropping and external noise interference, enabling secure conversations for sensitive operational, administrative, and personnel matters. The booths must be modular, easy to install, and capable of accommodating standard office telecommunications equipment. They will support compliance with security protocols and enhance operational effectiveness by providing designated secure communication areas.\r\nUnite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform. The Unite Procurement Platform offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, acoustic specifications, installation capabilities, and maintenance services. Further information on the onboarding process for the",
-    "budget_eur": 117000,
-    "deadline": "2026-08-05",
-    "relevance_score": 58.4,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 88.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "a77c394e-62a5-4028-a7d0-96e94294ad39-905137",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-07-08",
-    "scored_at": "2026-07-08T08:26:51.660825",
-    "last_updated": "2026-07-08T08:26:51.660826",
-    "added_date": "2026-07-08",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-08T08:26:51.660829",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-061496bb88bb",
-    "rfp_title": "Supply of Ancillaries including cables, leads, cutters and connectors",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the Supply of Ancillaries including cables, leads, cutters and connectors. The procurement covers the supply, maintenance, calibration, and support services for specialist firing systems and associated equipment.\r\n\r\nRequirement Overview \r\nThe user requires an Emergency Disablement capability for general contingency operations and Specialist Users to aid EOD. The means of Firing needs to be a self-contained system, housed within a ruggedised container. It will also include support services. \r\nUnite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform. The Unite Procurement Platform offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest.\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving requirements and to maintain a dyna",
-    "budget_eur": 117000,
-    "deadline": "2026-08-05",
-    "relevance_score": 55.4,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 88.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "68b46c70-3f36-457d-bb47-c98f3bb42b97-904834",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-07-08",
-    "scored_at": "2026-07-08T08:26:51.661581",
-    "last_updated": "2026-07-08T08:26:51.661582",
-    "added_date": "2026-07-08",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-08T08:26:51.661585",
         "by": "scanner"
       }
     ],
@@ -5675,7 +5329,7 @@
     "scored_at": "2026-07-31T08:47:52.833934",
     "last_updated": "2026-07-31T08:47:52.833936",
     "added_date": "2026-07-31",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5684,7 +5338,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-059be0b0dabd",
@@ -6549,7 +6203,7 @@
     "scored_at": "2026-08-07T07:13:22.114366",
     "last_updated": "2026-08-07T07:13:22.114368",
     "added_date": "2026-08-07",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6558,7 +6212,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-f92f6686ebd5",
@@ -8678,7 +8332,7 @@
     "issuing_entity": "Defence Science and Technology Laboratory",
     "country": "GB",
     "market": "UK + Ireland",
-    "description": "Note, this activity is not directly related to a specific procurement and any information provided are without commitment and prejudice for all parties. \r\n\r\nAll information provided in this data collection exercise will remain confidential, in-line with the Civil Service Code, with access granted only to UK Government departments and agencies. Where specific handling is required please do note this in the spreadsheet in the \"Comments on Data Handling\" section.  \r\n\r\nPlease keep all data entry at no higher than UK OFFICIAL. All returns will be treated as UK OFFICIAL-SENSITIVE COMMERCIAL. Please do let us know if you have information you would like to share at a higher classification and we can facilitate this. \r\n\r\nThis is not a procurement activity, therefore the will be no contracts issued as a result. This is for information purposes.\r\n\r\nPlease submit any responses to ssa@dstl.gov.uk",
+    "description": "Note, this activity is not directly related to a specific procurement and any information provided are without commitment and prejudice for all parties. Therefore, there will not be a contract issued following this exercise. \r\n\r\nThe purpose of this spreadsheet is to understand how different systems, sensors, products and data solutions provided by industry could address the UK Cross-Government SDA requirements. This may help to inform the potential contributions to a UK SDA Systems of Systems that will address these requirements operationally.  UK government will use the data provided in the creation of a Capability Map, allowing analysis of current UK capabilities against the requirement set, including consideration of how commercial offerings could close gaps. Furthermore, gap analysis on the full Capability Map will allow UK government to identify areas where further research and development activity may be required, when no sovereign or commercial offerings are available to meet a requirement.  \r\n\r\nWith the 2026 update to the SDA Requirements, and in order to keep the Capability Map current, this RFI activity is a continuation of the previous call  and will likely be repeated in the future. This RFI provides the standardised format for commercial to demonstrate current capabilities and reflect growth, and UK government to track the health of  the sector and available capabilities.  \r\n\r\nWe ask that respondees complete the spreadsheet for the systems etc they offer. This may require multiple returns, depending on the commercial capability. If you have responded to a previous call please do so again with your current capabilities. Note, this activity is not directly related to a specific procurement and any information provided are without commitment and prejudice for all parties.  \r\n\r\nAll information provided in this data collection exercise will remain confidential, in-line with the Civil Service Code, with access granted only to UK Government departments and age",
     "budget_eur": null,
     "deadline": "",
     "relevance_score": 39.0,
@@ -8745,7 +8399,7 @@
     },
     "date_found": "2026-09-04",
     "scored_at": "2026-09-04T10:40:37.899760",
-    "last_updated": "2026-09-04T10:40:37.899761",
+    "last_updated": "2026-09-05",
     "added_date": "2026-09-04",
     "status": "New",
     "notes": "",
