@@ -8589,5 +8589,179 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-6c3ed4599a56",
+    "rfp_title": "Children Affected by Parental Offending",
+    "issuing_entity": "Bristol City Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Bristol City Council wishes to test the level of market interest in this contract. The contract would be for a single supplier to deliver three services; \r\n\r\n1. Training for professionals to raise awareness\r\nIncrease awareness amongst professionals working with children (e.g. schools, family help, family hubs and social care) about CAPO through training and networking events and serving as a point of contact for professionals seeking support or resources for families they are supporting.\r\n\r\n2. Direct support to children and families\r\nDirect support for children and young people affected by parental offending which takes a whole family approach, supporting the wider family and remaining parent, as required.  This will be tailored one-to-one support for children and peer support groups and activities for children, as well as for the non-offending parent.\r\n\r\n3. Parenting courses for parents in prison\r\nProvide parents with the necessary skills to maintain strong relationships with their children despite being separated.  These courses aim to improve family dynamics and reduce reoffending rates.\r\n\r\nFurther information, as well as the Expression of Interest form which needs to be completed can be found once you have registered your interest on the advert. This is purely to test the level of market interest.",
+    "budget_eur": 93600,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5c68738f-b26d-4b6c-a2b3-9f7b02a44a2f-913395",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-09",
+    "scored_at": "2026-09-09T10:49:16.502952",
+    "last_updated": "2026-09-09T10:49:16.502953",
+    "added_date": "2026-09-09",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-09T10:49:16.502959",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4f8ebd805dcb",
+    "rfp_title": "CA18436 - Provision of PPA funded Solar PV Roof Array with battery storage",
+    "issuing_entity": "Chichester College Group",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The college continues its commitment to reducing emissions and further improving energy efficiency, in alignment with The Association of Colleges Carbon Neutral Agenda. A range of projects are ongoing including the continuing rollout of roof mounted solar arrays using the Power Purchase Agreement (PPA) funding model. This tender is for the provision of a PPA funded Solar PV Array with battery storage option for Haywards Heath College\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18436.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18436 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": 1053000,
+    "deadline": "2026-10-07",
+    "relevance_score": 49.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Edge case client type: ngo, association"
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a4e115c8-447e-4528-9abb-71ac816ec251-913390",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-09",
+    "scored_at": "2026-09-09T10:49:16.503716",
+    "last_updated": "2026-09-09T10:49:16.503717",
+    "added_date": "2026-09-09",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-09T10:49:16.503721",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]

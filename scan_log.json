@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2026-08-06T08:35:17.345515",
-    "portal": "simap",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-06T08:35:17.348911",
-    "portal": "germany",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-06T08:35:17.352291",
-    "portal": "austria",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-06T08:35:17.355680",
-    "portal": "ireland",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-06T08:35:17.359419",
-    "portal": "ungm",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.965773",
-    "portal": "sam",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.969283",
-    "portal": "ted",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.972834",
-    "portal": "uk",
-    "rfps_found": 3,
-    "new_rfps": 3,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.976583",
-    "portal": "scotland",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.979914",
-    "portal": "wales",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.983258",
-    "portal": "boamp",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.986565",
-    "portal": "worldbank",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.989884",
-    "portal": "tenderned",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.993226",
-    "portal": "doffin",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
-    "timestamp": "2026-08-07T07:14:37.996538",
-    "portal": "hilma",
-    "rfps_found": 0,
-    "new_rfps": 0,
-    "updated_rfps": 0,
-    "error": null
-  },
-  {
     "timestamp": "2026-08-07T07:14:37.999852",
     "portal": "simap",
     "rfps_found": 0,
@@ -3993,6 +3873,126 @@
   },
   {
     "timestamp": "2026-09-08T10:40:50.558445",
+    "portal": "ungm",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.251929",
+    "portal": "sam",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.255132",
+    "portal": "ted",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.258242",
+    "portal": "uk",
+    "rfps_found": 2,
+    "new_rfps": 2,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.261189",
+    "portal": "scotland",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.264099",
+    "portal": "wales",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.266963",
+    "portal": "boamp",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.269838",
+    "portal": "worldbank",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.272771",
+    "portal": "tenderned",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.275657",
+    "portal": "doffin",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.278517",
+    "portal": "hilma",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.281346",
+    "portal": "simap",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.287299",
+    "portal": "germany",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.290200",
+    "portal": "austria",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.293114",
+    "portal": "ireland",
+    "rfps_found": 0,
+    "new_rfps": 0,
+    "updated_rfps": 0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-09T10:50:34.295871",
     "portal": "ungm",
     "rfps_found": 0,
     "new_rfps": 0,
