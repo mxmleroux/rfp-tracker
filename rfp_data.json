@@ -4909,94 +4909,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-50f45d57441c",
-    "rfp_title": "Accelerating high-voltage direct current (HVDC) development in Vietnam",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting quotations from qualified suppliers or consortia to provide technical assistance to Electricity of Vietnam (EVN) and the National Power Transmission Corporation (EVNNPT) to strengthen institutional, technical, and regulatory capacity for the development and deployment of High Voltage Direct Current (HVDC) transmission infrastructure in Vietnam.\r\n\r\nVietnam's rapidly growing power system faces increasing challenges associated with the uneven geographical distribution of generation resources and demand centres. As renewable energy deployment accelerates, particularly offshore wind and large-scale solar power, the national grid is experiencing growing transmission constraints, power losses, and risks to system stability. Limited land availability for new transmission corridors has highlighted the importance of modern transmission technologies to support the country's energy transition.\r\n\r\nThe Revised National Power Development Plan (PDP8) identifies HVDC infrastructure as a strategic priority for strengthening transmission capacity, improving grid flexibility and reliability, reducing electrical losses, and enabling higher penetration of renewable energy. The plan includes the development of multiple HVDC transmission corridors, converter stations, and associated infrastructure from 2031 onwards.\r\n\r\nThrough this assignment, UK PACT will support EVN and EVNNPT to assess the technical, economic, institutional, and regulatory requirements for HVDC deployment in Vietnam. The selected supplier will review the existing policy and regulatory framework, evaluate the feasibility of planned HVDC investments, assess suitable technology options, and develop practical tools and guidance documents to support investment decision-making.\r\n\r\nThe supplier will also undertake stakeholder mapping, assess capacity gaps within key institutions, and provide targeted technical assistance and trai",
-    "budget_eur": 342108,
-    "deadline": "2026-08-12",
-    "relevance_score": 41.4,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 59.3,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "ca25b528-3873-4047-bc87-47e394c4d76c-907692",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-07-23",
-    "scored_at": "2026-07-23T08:28:18.539059",
-    "last_updated": "2026-07-23T08:28:18.539061",
-    "added_date": "2026-07-23",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-23T08:28:18.539065",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-0b8dc6a172af",
     "rfp_title": "Tender for the Supply of Mid-Size Buses 2026",
     "issuing_entity": "HM Government of Gibraltar",
@@ -8501,6 +8413,96 @@
       {
         "status": "New",
         "date": "2026-09-09T10:49:16.503721",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-cdb07d6690ae",
+    "rfp_title": "Bangladesh Carbon Market Governance & Readiness Sprint",
+    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to the government of Bangladesh. \r\n\r\nBangladesh is establishing the foundations for participation in high-integrity carbon markets, including Article 6, CORSIA and voluntary carbon markets. While progress has been made through the establishment of a carbon market framework and supporting governance arrangements, further support is needed to operationalise these systems across government, strengthen institutional coordination, and enable Bangladesh to use carbon markets to support delivery of its NDC 3.0 unconditional mitigation targets.\r\n\r\nThe assignment will provide targeted technical assistance and capacity building to strengthen Bangladesh's carbon market governance, authorisation processes, MRV, reporting and institutional readiness. Working with relevant government agencies, including MoEFCC, DoE, the Power Division, Ministry of Finance and other line ministries, the project will support practical implementation of carbon market rules, CORSIA readiness, UNFCCC reporting requirements, and inclusive, high-integrity market participation.\r\n\r\nKey outputs are expected to include governance and coordination tools, an authorisation and safeguards toolkit, CORSIA readiness and reporting support, a structured government capacity-building programme, and sector readiness briefs identifying future carbon market investment opportunities. The project aims to strengthen Bangladesh's ability to participate in high-integrity carbon markets, unlock climate finance, improve institutional capability, and support implementation of national climate targets.\r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: targetedfund@ukpact.co.uk",
+    "budget_eur": 292500,
+    "deadline": "2026-09-22",
+    "relevance_score": 41.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 22.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a32c67bc-0438-4c8e-91b9-3f03d459e8dc-913822",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-12",
+    "scored_at": "2026-09-12T10:09:54.012266",
+    "last_updated": "2026-09-12T10:09:54.012268",
+    "added_date": "2026-09-12",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-12T10:09:54.012273",
         "by": "scanner"
       }
     ],
