@@ -8507,5 +8507,181 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-8b2a6d96ce72",
+    "rfp_title": "Financial Accounting Solution for External Clients",
+    "issuing_entity": "The North Yorkshire Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "A contract award for the provision of an externally hosted, cloud-based Financial Accounting Solution, including implementation, software licensing, maintenance and support services, to provide financial system functionality for NY Highways Teckal Company, with the capability to support future rollout to other wholly owned companies and external clients.",
+    "budget_eur": 507650,
+    "deadline": "2026-09-14",
+    "relevance_score": 43.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "platform",
+    "deadline_status": "expired",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1e12caa4-2819-4267-8d0b-1c85be902e04-913950",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-14",
+    "scored_at": "2026-09-14T11:54:55.881323",
+    "last_updated": "2026-09-14T11:54:55.881324",
+    "added_date": "2026-09-14",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-14T11:54:55.881329",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-9248212cb047",
+    "rfp_title": "NHS CFA Market Engagement RFI - Resource & Capacity Management System",
+    "issuing_entity": "N H S Shared Business Services",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The NHS Counter Fraud Authority (NHSCFA) has a need to ensure visibility and allocation of staffing resources across the organisation. The organisation has many competing demands for work and a diverse workforce with varied skills. A solution is needed to help map staff resources by expertise and skill set (supply) to work demands.\r\n\r\nTherefore, the NHSCFA is seeking to procure a resource and capacity management solution that initially can be used by the managers within the organisation (circa 40 people) but should be a scalable service or system for further users to be added.\r\n\r\nThe solution must meet UK public sector requirements for data protection, cyber-resilience, operational efficiency, and regulatory compliance.\r\n\r\nPlease register interest and take part in the Market engagment exercise through SAP Ariba: https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110024901?anId=ANONYMOUS",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 44.9,
+    "win_probability": "Medium",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 3,
+        "max": 10,
+        "strong_matches": [
+          "dashboard"
+        ],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "bc58f4a2-d599-40fc-b710-2f595803bfce-913931",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-14",
+    "scored_at": "2026-09-14T11:54:55.882263",
+    "last_updated": "2026-09-14T11:54:55.882264",
+    "added_date": "2026-09-14",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-14T11:54:55.882269",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
