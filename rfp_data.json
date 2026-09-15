@@ -5419,7 +5419,7 @@
     "scored_at": "2026-08-04T08:34:41.985234",
     "last_updated": "2026-08-04T08:34:41.985236",
     "added_date": "2026-08-04",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -5428,7 +5428,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-b4fe9da24e4c",
@@ -7175,7 +7175,7 @@
     "scored_at": "2026-08-25T06:44:12.853456",
     "last_updated": "2026-08-25T06:44:12.853457",
     "added_date": "2026-08-25",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7184,7 +7184,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-c7836406b155",
@@ -8585,7 +8585,7 @@
     "scored_at": "2026-09-14T11:54:55.881323",
     "last_updated": "2026-09-14T11:54:55.881324",
     "added_date": "2026-09-14",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8594,7 +8594,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-9248212cb047",
@@ -8679,6 +8679,92 @@
       {
         "status": "New",
         "date": "2026-09-14T11:54:55.882269",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-67fc664c2132",
+    "rfp_title": "CA18456 - ESNEFT 3197 Charitable Funds Investment",
+    "issuing_entity": "East Suffolk and North Essex NHS FT",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "East Suffolk and North Essex NHS Foundation Trust (ESNEFT) is inviting qualified Suppliers to express an interest to participate in a tender exercise for; Charitable Funds Investment under the Procurement Act 2023. This expression of interest will require interested parties to: \r\n\r\n- Confirm interest\r\n- Complete and submit capability assessment attachment\r\n\r\nThe Capability Assessment submitted by interested parties will be reviewed to identify appropriate Suppliers to invite to tender.\r\n\r\nInvitation to Tender (ITT) with project timelines to be issued upon successful pass of this Capability Assessment stage. The Trust will aim to issue the ITT in October 2026.\r\n\r\nThe top four suppliers, based on the evaluation of their ITT submissions, will be invited to interview with the Trust. Accordingly, all suppliers should be advised that interviews are provisionally scheduled for the afternoon of 16 November 2026. As this date has been agreed with key stakeholders, it is not expected to change.\r\n\r\nEast Suffolk and North Essex NHS Foundation Trust (ESNEFT) is the largest NHS organisation in its region, formed on July 1, 2018, through the merger of Colchester Hospital University NHS Foundation Trust and The Ipswich Hospital NHS Trust.\r\n\r\nESNEFT provides comprehensive hospital and community healthcare services across multiple locations, including Colchester, Ipswich, Clacton, Halstead, Harwich, Felixstowe, and Aldeburgh. The trust offers a wide range of medical services such as acute medicine, cardiology, dermatology, emergency assessment, gastroenterology, neurology, and many more.\r\n\r\nESNEFT is committed to delivering high-quality care and continuously improving its facilities and services to meet the needs of the local communities. \r\n\r\nEvery year hundreds of individuals, community groups and businesses generously donate money to help us achieve our aims. It is our job to make sure that the money is spent carefully and for the purposes for which it was given.\r\n\r\nThe ESNEFT Char",
+    "budget_eur": 324675,
+    "deadline": "2026-10-10",
+    "relevance_score": 48.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 77.8,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d27cadf0-d018-44ed-aaa7-0ac5402d46b4-914055",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-15",
+    "scored_at": "2026-09-15T11:10:26.809347",
+    "last_updated": "2026-09-15T11:10:26.809348",
+    "added_date": "2026-09-15",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-15T11:10:26.809353",
         "by": "scanner"
       }
     ],
