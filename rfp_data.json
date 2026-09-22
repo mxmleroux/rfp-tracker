@@ -7177,7 +7177,7 @@
     "scored_at": "2026-08-25T06:44:12.854362",
     "last_updated": "2026-08-25T06:44:12.854363",
     "added_date": "2026-08-25",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7186,7 +7186,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-13dea0c103c8",
@@ -8145,7 +8145,7 @@
     "scored_at": "2026-09-08T10:39:33.839360",
     "last_updated": "2026-09-08T10:39:33.839361",
     "added_date": "2026-09-08",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8154,7 +8154,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-6c3ed4599a56",
@@ -8338,8 +8338,8 @@
     "market": "UK + Ireland",
     "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to the government of Bangladesh. \r\n\r\nBangladesh is establishing the foundations for participation in high-integrity carbon markets, including Article 6, CORSIA and voluntary carbon markets. While progress has been made through the establishment of a carbon market framework and supporting governance arrangements, further support is needed to operationalise these systems across government, strengthen institutional coordination, and enable Bangladesh to use carbon markets to support delivery of its NDC 3.0 unconditional mitigation targets.\r\n\r\nThe assignment will provide targeted technical assistance and capacity building to strengthen Bangladesh's carbon market governance, authorisation processes, MRV, reporting and institutional readiness. Working with relevant government agencies, including MoEFCC, DoE, the Power Division, Ministry of Finance and other line ministries, the project will support practical implementation of carbon market rules, CORSIA readiness, UNFCCC reporting requirements, and inclusive, high-integrity market participation.\r\n\r\nKey outputs are expected to include governance and coordination tools, an authorisation and safeguards toolkit, CORSIA readiness and reporting support, a structured government capacity-building programme, and sector readiness briefs identifying future carbon market investment opportunities. The project aims to strengthen Bangladesh's ability to participate in high-integrity carbon markets, unlock climate finance, improve institutional capability, and support implementation of national climate targets.\r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: targetedfund@ukpact.co.uk",
     "budget_eur": 292500,
-    "deadline": "2026-09-22",
-    "relevance_score": 40.7,
+    "deadline": "2026-09-24",
+    "relevance_score": 40.3,
     "win_probability": "Medium",
     "feature_alignment_score": 1.0,
     "geographic_fit_score": 100,
@@ -8396,7 +8396,7 @@
     ],
     "score_confidence": "medium",
     "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "a32c67bc-0438-4c8e-91b9-3f03d459e8dc-913822",
@@ -8407,7 +8407,7 @@
     },
     "date_found": "2026-09-12",
     "scored_at": "2026-09-12T10:09:54.012266",
-    "last_updated": "2026-09-13",
+    "last_updated": "2026-09-22",
     "added_date": "2026-09-12",
     "status": "New",
     "notes": "",
