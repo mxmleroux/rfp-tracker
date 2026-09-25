@@ -8237,7 +8237,7 @@
     "scored_at": "2026-09-12T10:09:54.012266",
     "last_updated": "2026-09-22",
     "added_date": "2026-09-12",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8246,7 +8246,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-8b2a6d96ce72",
