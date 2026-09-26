@@ -7709,7 +7709,7 @@
     "scored_at": "2026-09-02T10:42:54.454446",
     "last_updated": "2026-09-17",
     "added_date": "2026-09-02",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7718,7 +7718,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-ff1280728432",
@@ -8683,6 +8683,92 @@
       {
         "status": "New",
         "date": "2026-09-23T10:50:41.644645",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-598d83aeb560",
+    "rfp_title": "Children and Young People's Residential Placements Flexible Procurement System (Round 19)",
+    "issuing_entity": "Trafford Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The North West Local Authorities are developing a Flexible Procurement System (FPS) to facilitate the commissioning of high quality Children's Residential Placements. We are looking to knowledgeable and experienced providers to work with us to transform the lives of children, enabling them to break down barriers and turn challenging situations into positive ones. Through the FPS we are looking for sustainability, transformation and innovation with providers and Local Authorities and wider partners to work together to ensure each one of our children has the capacity, skills, independence and resilience they will need to meet the challenges of adult life in the 21st century.",
+    "budget_eur": 1298700000,
+    "deadline": "2026-10-30",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9566b75e-d76e-4674-b2fb-59a111017418-915557",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-26",
+    "scored_at": "2026-09-26T10:52:26.479304",
+    "last_updated": "2026-09-26T10:52:26.479306",
+    "added_date": "2026-09-26",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-26T10:52:26.479311",
         "by": "scanner"
       }
     ],
