@@ -4731,96 +4731,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-6d9b29975707",
-    "rfp_title": "Expression of Interest: Future Employment Support",
-    "issuing_entity": "REED IN PARTNERSHIP LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Reed in Partnership intends to participate in the Department for Work and Pensions (DWP) Future Employment Support (FES) opportunity and is inviting organisations to express an interest in delivering the service with us. Together with our partners, we will deliver high-quality employability support that transforms people's lives and their communities. \r\n\r\nThe programme will provide personalised employment support to out-of-work Universal Credit claimants, helping people overcome barriers to work and achieve sustained employment. This may include skills development, work experience, health-related employment support, self-employment guidance and employer engagement activities tailored to local labour market needs. Referrals to the programme will be made via JCPs. \r\n\r\nWe encourage applications from organisations across the public, private and VCSE sectors, including SMEs. We are particularly keen to hear from organisations who can demonstrate proven experience in: \r\n\r\n- Supporting individuals into sustained employment \r\n- Delivering personalised interventions that improve employment outcomes \r\n- Employer engagement and workforce development \r\n- Supporting people with health conditions and complex barriers \r\n- Delivering services informed by local labour market needs \r\n- Innovative, proven services to support people to secure and sustain work \r\n\r\nHow to Respond\r\nTo support organisations of different sizes and specialisms, we are running two EOI routes: \r\n\r\n1. EOI A: For end-to-end delivery providers \r\nFor organisations with a proven track record of delivering high-performing employment services and the capacity to deliver across part or all of one or more CPAs please see here: https://forms.office.com/e/cvax9sttdA\r\n\r\n2. EOI B: Specialist and Innovation Partners  \r\nFor organisations offering specialist expertise or innovative solutions that complement end-to-end provision, please see here: https://forms.office.com/e/e1tbAA1rDz\r\n\r\nTo support applications, please find a f",
-    "budget_eur": null,
-    "deadline": "2026-08-28",
-    "relevance_score": 41.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "f6c06f22-8ec1-4500-8ad2-74e7c9dcf2bd-907484",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-07-23",
-    "scored_at": "2026-07-23T08:28:18.538123",
-    "last_updated": "2026-07-23T08:28:18.538124",
-    "added_date": "2026-07-23",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-07-23T08:28:18.538129",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-0b8dc6a172af",
     "rfp_title": "Tender for the Supply of Mid-Size Buses 2026",
     "issuing_entity": "HM Government of Gibraltar",
@@ -5251,94 +5161,6 @@
       {
         "status": "New",
         "date": "2026-08-04T08:34:41.985241",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-b4fe9da24e4c",
-    "rfp_title": "Regional Clean Energy Skills Coordination and Action Planning",
-    "issuing_entity": "ENTERPRISE CHESHIRE AND WARRINGTON",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Enterprise Cheshire and Warrington (ECW), working alongside the Department for Energy Security and Net Zero (DESNZ) and the North West Net Zero Hub (NWNZH) is seeking to appoint an individual consultant or small group of consultants to oversee the implementation of the Clean Energy Skills Regional Action Plan (CESRAP), and in partnership with relevant neighbouring regions. \r\n\r\nThe CESRAP brings together evidence from extensive stakeholder consultation, employer engagement, provider input, and regional modelling to identify where demand for clean energy skills is growing most quickly and where the provision is already strong. It identifies an urgent need to intervene in the skills ecosystem so that local people, employers, and their supply chains can develop the skills needed to benefit from the transition to clean energy to meet a significant increase in demand in 2030 and beyond.\r\n\r\nIt sets out recommendations for local leaders and policymakers, proposals for a near-term programme of skills interventions, and a framework for long-term collaboration to enable joined-up local delivery of the Government's Clean Energy Jobs Plan . \r\n\r\nIt is intended to be a practical, living framework that can guide immediate implementation, support regional collaboration, and adapt as policy, investment pipelines, and labour market conditions evolve. ECW is seeking consultancy support to implement the plan in the period up to March 31st, 2027.\r\n\r\nThe work is funded by The North West Net Zero Hub. The consultant/s will need to identify one to two people who will be available to act as the Regional Lead for an agreed number of days per week, for the length of the project.",
-    "budget_eur": 93600,
-    "deadline": "2026-08-28",
-    "relevance_score": 42.7,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 55.7,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "2df82153-5a38-4ae5-b3ca-e3405eea6665-909574",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-06",
-    "scored_at": "2026-08-06T08:34:00.605148",
-    "last_updated": "2026-08-19",
-    "added_date": "2026-08-06",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-06T08:34:00.605154",
         "by": "scanner"
       }
     ],
@@ -8676,6 +8498,96 @@
       {
         "status": "New",
         "date": "2026-09-26T10:52:26.479311",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-29a33ac13d43",
+    "rfp_title": "Leighton Linslade Town Council Waste Contract",
+    "issuing_entity": "Leighton Linslade Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This is an excellent opportunity to work with the award winning Leighton Linslade Town Council running our waste contract across 5 sites in our portfolio. \r\nThe successful bid must align with our commitment to Carbon Neutrality by 2030 with all our suppliers being committed to reduce their carbon footprint.\r\nWe are a Town Council who prides themselves on our Biodiversity and Ecology work and the new waste contractor must also be able to demonstrate their work around protecting the environment for future generations to enjoy. \r\nWe expect consideration within the bid for alternatives to landfill and this will weigh heavily in our decision making process. The bid must understand the the changing seasons and be adaptable as our waste collection demands change accordingly. \r\nWe are a Town Council who's portfolio is growing so our new contractor must be able to grow with us should we take on more land and sites during the contract period. \r\nAll bids must be submitted in a sealed envelope and addressed to Richard Davis, Head of Grounds and Environmental Services, Leighton Linslade Town Council, Hockliffe Street, LU7 1HD\r\nFor an informal discussion please contact Richard Davis on 07960873551 or email richard.davis@leightonlinslade-tc.gov.uk",
+    "budget_eur": 315900,
+    "deadline": "2026-11-06",
+    "relevance_score": 50.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 1,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": [
+          "carbon footprint"
+        ]
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "3b13f915-d0c2-4e76-a28a-d9c482e2141c-915599",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-09-28",
+    "scored_at": "2026-09-28T13:00:59.430481",
+    "last_updated": "2026-09-28T13:00:59.430482",
+    "added_date": "2026-09-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-28T13:00:59.430488",
         "by": "scanner"
       }
     ],
