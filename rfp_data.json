@@ -6470,7 +6470,7 @@
     "scored_at": "2026-08-21T06:43:09.731071",
     "last_updated": "2026-08-21T06:43:09.731073",
     "added_date": "2026-08-21",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6479,7 +6479,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-32b02368aefc",
@@ -8588,6 +8588,180 @@
       {
         "status": "New",
         "date": "2026-09-28T13:00:59.430488",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-5e04d6188eb2",
+    "rfp_title": "Balfour Beatty - Roads North of the Thames - LTC - FRC Structures Package",
+    "issuing_entity": "BALFOUR BEATTY CIVIL ENGINEERING LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Lower Thames Crossing Roads, North Programme is seeking expressions of interest from suppliers with experience in reinforced concrete (FRC) and structural works.\r\n\r\nThe scope is expected to include elements such as reinforced concrete foundations, abutments, retaining walls, pile caps, reinforced earth structures, bridge structures and other civil engineering works. As part of our procurement planning, we are considering a range of packaging options, including splitting the works into multiple packages. Through this PQQ, we are looking to better understand the market's capability, capacity and preferred delivery models to help inform the final procurement strategy.\r\n\r\nWhat We're Looking For\r\nWe would like to hear from organisations with experience in one or more of the following:\r\n\r\nReinforced concrete foundations\r\nReinforced concrete abutments\r\nReinforced concrete retaining walls\r\nReinforced earth structures\r\nPile caps and substructures\r\nBridge and highway structures\r\nStructural concrete works\r\nCivil engineering and infrastructure projects\r\nDesign, construction, supply and installation services\r\nTemporary works design and management\r\nQuality assurance, testing and commissioning\r\n\r\nWe welcome responses from organisations of all sizes, including SMEs, either independently or as part of a consortium, joint venture or wider supply chain arrangement.\r\n\r\nHow to Apply\r\nIf you are interested in this opportunity, please complete the attached FRC Structures Package Eligibility Criteria Questionnaire and return it to the Supply Chain Team by 14.10.26 at:\r\nBBLTCProcurementandSupplyChain@balfourbeatty.com\r\n\r\nPlease ensure all sections of the questionnaire are completed, as this will help us gain a full understanding of your organisation's capabilities, capacity and experience. The qualification questions have been designed to assess your ability to meet Balfour Beatty and Lower Thames Crossing supply chain requirements and will help inform the final packaging strategy for t",
+    "budget_eur": 1170000,
+    "deadline": "2026-10-14",
+    "relevance_score": 41.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 37.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "bd6f6ea3-04bd-4c7b-8faa-6f6fdb0bad57-915909",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-09-30",
+    "scored_at": "2026-09-30T11:59:03.825975",
+    "last_updated": "2026-09-30T11:59:03.825977",
+    "added_date": "2026-09-30",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-30T11:59:03.825982",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f5a1a52cc113",
+    "rfp_title": "Cornwall College Group Print & Signage FE Prospectus Print and Distribution",
+    "issuing_entity": "Cornwall College",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Cornwall College Group (CCG) are looking for suppliers to provide high quality print and signage services for the group.\r\n \r\nCornwall College Group intends to establish arrangements with suppliers capable of delivering a responsive, reliable and high-quality print and signage service across a range of requirements.\r\n \r\nThe Works will include, but will not necessarily be limited to, digital and lithographic printing, prospectus and distribution printing, large-format print, business stationery, learning resources, vehicle livery, signage and installation services.\r\n \r\nDue to the varied nature of the Works, the procurement will be divided into separate Lots. Suppliers may bid for one, multiple or all Lots, subject to the final procurement documentation and requirements.\r\n \r\nCCG plan to go out to tender for the following lots.\r\n \r\nLOT 1 - FE Prospectus and Distribution Print\r\nLOT 2 - Litho and Digital Print\r\nLOT 3 - Large Format Print\r\nLOT 4 - Business Cards, Temp ID Pads, Learning Resource Print\r\nLOT 5 - Cornwall Signage & Installation\r\nLOT 6 - Devon Signage & Installation\r\n\r\nAdditional information: This Procurement will be completed via the Colleges In-Tend procurement portal as follows.\r\nPlease register as a new supplier (if not already registered):\r\n\r\nRegistering your company on In-Tend\r\nSupplier Side https://in-tendhost.co.uk/cornwall/aspx/Home\r\n•\tOverview of Portal\r\n•\tIntro to Project Summary Page/ Correspondence box\r\nUseful Contact Information: In-Tend Helpdesk 0845 5578079 email: support@in-tend.co.uk\r\n\r\nAll bidders / suppliers are ALSO required to be registered on the Government Central Digital Platform https://www.gov.uk/government/publications/procurement-act-2023-short-guides/central-digital-platform-factsheet-html",
+    "budget_eur": 479700,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "8e4d99e7-dc45-4a58-92b1-72b405c60482-915905",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-09-30",
+    "scored_at": "2026-09-30T11:59:03.826902",
+    "last_updated": "2026-09-30T11:59:03.826905",
+    "added_date": "2026-09-30",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-09-30T11:59:03.826910",
         "by": "scanner"
       }
     ],
