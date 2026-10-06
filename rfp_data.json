@@ -8333,5 +8333,179 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-0db624b2035a",
+    "rfp_title": "RFI_2992 | CRML0025 Lincolnshire - Street Lighting Expression of Interest",
+    "issuing_entity": "BALFOUR BEATTY LIVING PLACES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Balfour Beatty Living Places (BBLP) working on behalf of Lincolnshire County Council is undertaking an Expression of\r\nInterest (EOI) exercise to better understand the market for highway electrical, street lighting installations and utility\r\nconnection services across the Lincolnshire Highways contract.\r\n\r\nThe purpose of this exercise is to identify suppliers with relevant experience, capability and geographical coverage\r\nwho may be interested in supporting future works. This is not a tender and no commercial pricing is required at this\r\nstage. The information gathered will be used to assess market capability and develop a shortlist of suppliers that\r\nmay be invited to participate in a future procurement process. The focus is on suppliers with experience in highway\r\nelectrical infrastructure, street lighting installations, utility connections and works within Northern PowerGrid and\r\nNational Grid Electrical Distribution areas",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "7d078a2a-6552-4c75-87ab-1a4bcc0a37aa-916658",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step"
+      ]
+    },
+    "date_found": "2026-10-06",
+    "scored_at": "2026-10-06T12:49:15.479000",
+    "last_updated": "2026-10-06T12:49:15.479001",
+    "added_date": "2026-10-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-06T12:49:15.479004",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-035f406a958b",
+    "rfp_title": "National Trust-NI- Skernaghan Point - Woodland Creation",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The National Trust is seeking a suitably qualified contractor to deliver woodland creation, hedgerow planting, fencing, and associated landscape improvement works at Skernaghan Point, Islandmagee, County Antrim.\r\n \r\nThis project forms part of the National Trust's wider habitat restoration and nature recovery programme, aimed at enhancing biodiversity, improving habitat connectivity, and increasing climate resilience within this important coastal landscape.\r\nThe successful contractor will be responsible for the provision of all labour, materials, plant, equipment, supervision, and management required to complete the works. Key elements of the contract include:\r\n \r\n•\tNative woodland creation within designated planting areas.\r\n•\tEstablishment of native mixed-species hedgerows.\r\n•\tSupply and installation of stock-proof fencing.\r\n•\tInstallation of gates, access infrastructure, and drinking troughs where specified.\r\n•\tGround preparation, vegetation management, and ancillary establishment works.\r\n•\tSupply and installation of six timber dams (approximately 3m wide using larch rounds), with locations to be confirmed during the site visit.\r\n\r\nAll works must be completed in accordance with National Trust requirements, project specifications, and industry best practice. Contractors are invited to submit a fixed-price quotation for the delivery of the works.\"\r\n\r\nDate of Issue; 05/10/26\r\nClarification Deadline: 19/10/26\r\nRFP Return Deadline: 26/10/26\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/\r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustomer name - The National Trust\r\nAll communication is to be carried out via the Proactis portal.",
+    "budget_eur": 58500,
+    "deadline": "2026-10-26",
+    "relevance_score": 46.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 59.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "705f38d4-0e13-40c1-b57a-9d261b03f26e-916645",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-06",
+    "scored_at": "2026-10-06T12:49:15.479725",
+    "last_updated": "2026-10-06T12:49:15.479725",
+    "added_date": "2026-10-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-06T12:49:15.479732",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
