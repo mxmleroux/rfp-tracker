@@ -4733,178 +4733,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-47d34f709113",
-    "rfp_title": "Integrated Children's Occupational Therapy Service",
-    "issuing_entity": "London Borough of Hackney",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Delivering interventions that support children take part in everyday activities; ensuring they can care for themselves, undertake productive occupations (e.g., writing, learning), play, and have fun. The service will also equip parents/carers, and professionals with the tools and knowledge to support children with illnesses or Special Educational Needs and Disabilities (SEND). This provision will work across Hackney's Virtual School and Disabled Children's Service.\r\n\r\nThis contract will include the provision of Occupational Therapists as part of the Hackney Experts at Hand team, in line with requirements related to the Department for Education's Experts at Hand initiative. This initiative is seeking to improve the capability of mainstream education settings to meet the needs of children and young people with SEND more effectively, by providing a new route to access expert advice and support from health professionals.\r\n\r\nThe contract start date is expected to be 1st April 2027 with an initial term of 3 years, and two extension options each of a year; for a total possible contract length of 5 years.",
-    "budget_eur": 5576363,
-    "deadline": "2026-09-06",
-    "relevance_score": 47.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "2d2f3826-a78c-432d-a0f1-0f685e2f1010-909205",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-03",
-    "scored_at": "2026-08-03T09:42:16.700356",
-    "last_updated": "2026-08-03T09:42:16.700357",
-    "added_date": "2026-08-03",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-03T09:42:16.700361",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
-    "id": "rfp-b1add0d4ea55",
-    "rfp_title": "Children's Integrated Speech and Language Therapy Service",
-    "issuing_entity": "London Borough of Hackney",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Delivering interventions to children with speech, language, communication, or swallowing and eating needs to help them reach their full communication potential. This includes delivering direct interventions in line with a Child's Education, Health, and Care Plan (EHCP), as well as offering indirect support through professional training and parent/carer guidance. This provision will work across Young Hackney, Youth Justice Virtual School, Schools, and Early Years provision.\r\n\r\nThis contract will include for the provision of Speech and Language Therapists as part of the Hackney Experts at Hand team, in line with requirements related to the Department for Education's Experts at Hand initiative. This initiative is seeking to improve the capability of mainstream education settings to meet the needs of children and young people with SEND more effectively, by providing a new route to access expert advice and support from health professionals.\r\n\r\nThe contract start date is expected to be 1st April 2027 with an initial term of 3 years, and two extension options each of a year; for a total possible contract length of 5 years.",
-    "budget_eur": 14355881,
-    "deadline": "2026-09-06",
-    "relevance_score": 50.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "724e0eb0-3a1c-4f27-8172-9bd1fdff51e7-909204",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-03",
-    "scored_at": "2026-08-03T09:42:16.700819",
-    "last_updated": "2026-08-03T09:42:16.700820",
-    "added_date": "2026-08-03",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-03T09:42:16.700823",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-e2e6170fb2ed",
     "rfp_title": "Leicester College Call for Turing Scheme Partners 2026/27",
     "issuing_entity": "Leicester College",
@@ -8503,6 +8331,180 @@
       {
         "status": "New",
         "date": "2026-10-06T12:49:15.479732",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-4134d31cc65d",
+    "rfp_title": "Supply of DSP 27 Battery Carrier Spare Parts",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the procurement of spare battery carriers for Detector Special Purpose (DSP) 27.\r\n\r\nThere is a requirement for a stock of spare battery carriers for Detector Special Purpose (DSP) 27. There is no other equipment which can be used in place of DSP 27.\r\n\r\nDSP 27 was brought in as a UOR, made by DSTL and Gill Research and Development Ltd, who now own the IPR and Manufacturers Data Pack. DSP 27 is a hand carried detector unit that consists of a lower 'Passive' receiving antenna head, main body, carry handle / control panel, battery carrier and upper receiving antenna.\r\n\r\nPurchase of x100 battery carriers to prevent a capability gap.\r\n\r\nThis is a procurement of a spare part only.\r\n\r\nThe battery carrier must be NSN 6160-99-667-2326.\r\n\r\nMilestones are not expected - immediate purchase will be the only output.\r\n\r\nUpon delivery, a short inspection of each item will be undertaken to ensure it is the correct part as expected. Success here will be seen as acceptance.\r\n\r\nOEM owns the IPR.\r\nGovernment Furnished Supplies\r\nNot required.\r\nApproach\r\nA pre-existing option already exists, developed by the OEM (who own the IPR and Technical Data Pack) and is deemed appropriate by the Requirements Manager.\r\nPayment\r\nOne off payment paid on delivery.\r\nContract Management Arrangements\r\nNo ongoing contract.\r\nEnd of Contract/Exit Strategy\r\nNot applicable.\r\nFinal Reminders\r\nThis item already exists and is in-service. NSN 6160-99-667-2326.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest.\r\nThe Unite Procurement Platform (Unite | Simplify indirect procur",
+    "budget_eur": 117000,
+    "deadline": "2026-10-28",
+    "relevance_score": 52.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "59c666d9-c7be-442e-9ed0-0c8ca72df16a-915687",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-07",
+    "scored_at": "2026-10-07T12:43:25.565039",
+    "last_updated": "2026-10-07T12:43:25.565040",
+    "added_date": "2026-10-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-07T12:43:25.565046",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ff7525a4e44b",
+    "rfp_title": "TD2340 - Framework for Highways Services",
+    "issuing_entity": "Derby City Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Council is seeking to establish a multi-supplier Highways Framework Agreement to support the delivery of highway maintenance, improvement, construction, specialist services, materials supply, plant hire and associated activities across the highway network and related infrastructure.\r\n\r\nThe Framework will provide a compliant and flexible route to market for planned and reactive works and services and will be divided into the following 11 lots:\r\n\r\nLot 1 - Road Markings & High Friction Surfacing\r\nLot 2 - Road Restraint Systems\r\nLot 3 - Temporary Traffic Management\r\nLot 4 - Traffic Signals\r\nLot 5 - Multi-Disciplined\r\nLot 6 - Carriageway Maintenance\r\nLot 7 - Carriageway and Footway Surface Treatments\r\nLot 8 - Hire of Equipment (with/without Operators)\r\nLot 9 - Haulage with Driver\r\nLot 10 - Supply of Asphalt\r\nLot 11 - Highways Resource Support\r\n\r\nThe Framework has an estimated core value of £72 million over its full term. In anticipation of Local Government Reorganisation (LGR), the Council reserves the right to vary the scope, value and volume of services procured through the Framework. Should additional requirements arise as a result of LGR, the total estimated Framework value may increase to a maximum of £108 million.\r\n\r\nThe values attributed to individual lots are indicative only and do not represent any guarantee of expenditure. Actual spend may vary between lots depending on operational requirements, available funding and any changes arising from LGR.\r\n\r\nCall-off contracts may include highway maintenance works, specialist highway services, traffic management, supply of materials, plant and equipment hire, haulage services and resource support. Requirements may range from small-scale reactive works to larger planned maintenance and capital improvement schemes.\r\n\r\nAppointment to the Framework does not guarantee any minimum value or volume of work. Call-off contracts may be awarded by direct award and/or further competition in accordance with the Framework terms an",
+    "budget_eur": null,
+    "deadline": "2026-11-02",
+    "relevance_score": 45.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 81.5,
+    "competitive_score": 70,
+    "strategic_value_score": 27.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "6c9bc3b0-a6c1-4686-982d-a8b85fe75838-916862",
+    "procurement_process": {
+      "type": "Framework Agreement",
+      "rounds": "Multiple call-offs",
+      "details": [
+        "Framework with potential mini-competitions"
+      ]
+    },
+    "date_found": "2026-10-07",
+    "scored_at": "2026-10-07T12:43:25.565928",
+    "last_updated": "2026-10-07T12:43:25.565930",
+    "added_date": "2026-10-07",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-07T12:43:25.565935",
         "by": "scanner"
       }
     ],
