@@ -4913,92 +4913,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-423b7b9f9843",
-    "rfp_title": "Passenger Transport Services For Dispersals & Appointments",
-    "issuing_entity": "BIP SOLUTIONS LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "CRH intends to appoint suitably qualified suppliers capable of delivering a safe, reliable, responsive and scalable transport services. The requirement includes planned and short-notice journeys, single and return trips and travel to authorised destinations, including accommodation sites, healthcare facilities and other approved locations. Suppliers will be expected to provide sufficient geographic coverage, vehicle availability and booking capacity to respond to fluctuating demand, while meeting clearly defined service standards for compliance, safeguarding, safety and contract management. Tenderers will be invited to submit proposals for the provision of taxi services for Service Users across the following locations in England and Wales: •LOT 1: Devon & Cornwall; •LOT 2: Somerset & Dorset; •LOT 3: Bristol & Gloucestershire; •LOT 4: Wiltshire & Hampshire; •LOT 5: Berkshire, Oxfordshire & Surrey; •LOT 6: East & West Sussex; •LOT 7: Kent; •LOT 8: Essex; •LOT 9: Hertfordshire & Bedfordshire; •LOT 10: Central London; •LOT 11: Greater London; •LOT 12: South Wales; •LOT 13: North, Mid & West Wales. As well as a taxi service, 16 & between 49 - 53 Seaters coaches will be required where larger group movements or longer-distance journeys are required. Please be advised that this notice is not a call for competition, rather it's an early indication our upcoming procurement plans which is due to. If you or your organisation is interested in participating once the formal invitation to tender (ITT) begins, please register your interest with Clearsprings Procurement: crhtenders@clearsprings.co.uk before the PIN closing date on 6th September 2026. The ITT will commence on the 7th September 2026. We hope this opportunity is of interest to you.",
-    "budget_eur": null,
-    "deadline": "2026-09-07",
-    "relevance_score": 43.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "f56c80ff-26fb-433b-a7b1-594f5269c67f-909541",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-06",
-    "scored_at": "2026-08-06T08:34:00.607441",
-    "last_updated": "2026-08-06T08:34:00.607442",
-    "added_date": "2026-08-06",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-06T08:34:00.607446",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-39fd53890a3a",
     "rfp_title": "University of Sheffield - Energy Centre & Heat Network Decarbonisation: Supplier Engagement Webinar.  Premarket Engagement",
     "issuing_entity": "UNIVERSITY OF SHEFFIELD",
@@ -7271,7 +7185,7 @@
     "scored_at": "2026-09-09T10:49:16.503716",
     "last_updated": "2026-09-09T10:49:16.503717",
     "added_date": "2026-09-09",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7280,7 +7194,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-cdb07d6690ae",
