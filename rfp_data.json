@@ -8423,5 +8423,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-c22ad1c4b58b",
+    "rfp_title": "Procurement of services of Integrated Review and Assessment of Youth Mental Health Needs and Youth Centre Response Capacity in Selected PFRU Target Oblasts",
+    "issuing_entity": "Chemonics International, Inc.",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Dear Sir/Madam,\r\nChemonics Group UK Limited, implementing the project \"Partnership Fund for a Resilient Ukraine\" Phase 2 (PFRU-2) referred under the international technical assistance, invites you to submit a proposal for:\r\nProcurement of services of Integrated Review and Assessment of Youth Mental Health Needs and Youth Centre Response Capacity in Selected PFRU Target Oblasts.\r\n\r\nThe goal of the Partnership Fund for a Resilient Ukraine Phase 2 is a multi-year, multi-donor-funded programme managed by the UK's Foreign, Commonwealth and Development Office (FCDO) in cooperation with the Government of Ukraine.\r\nPlease note the following important provisions of the tender: \r\n•\tthe deadline for submission of proposals is October 30, 2026, 15:00 Kyiv time;\r\n•\tall questions regarding the terms and conditions of the tender must be submitted no later than October 16, 2026, 17:00 Kyiv time;\r\n•\tall communication regarding the tender shall be made exclusively in writing to pfruprocurement@chemonics.com;\r\n•\tthe PFRU-2 project is exempt from taxes, duties, and VAT of the partner country. Therefore, the PFRU-2 will pay for the cost of goods and services without VAT;\r\n•\tThe e-mail address for submitting proposals is pfruprocurement@chemonics.com;\r\n•\tWhen submitting proposals and questions by e-mail, please indicate the number PFRU2-2025-794 in the subject line.\r\n\r\nInstructions for submitting a proposal:\r\n•\tInvitation_to_Tender_ITT-PFRU2-2025-794 - for familiarisation with the tender conditions;\r\n•\tITT_PRFU2-PAR-2025-794_Volume_3 - fill in and sign the original, then send a scanned copy or convert it to a PDF and sign it electronically. Provide the completed Excel file and the signed files as part of the proposal;\r\n•\tAnnex 1. Declarations - fill in the English or Ukrainian version of the document, sign the original and send a scan / convert to PDF and sign electronically (to be provided as part of the proposal);\r\n•\tCommercial and technical proposals must be signed;\r\n•\tThe Technical P",
+    "budget_eur": 2,
+    "deadline": "2026-10-30",
+    "relevance_score": 30.6,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 10,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 15.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a39a36f3-b7a0-4fa9-ac6d-9125a2492f80-917216",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-09",
+    "scored_at": "2026-10-09T12:38:30.039385",
+    "last_updated": "2026-10-09T12:38:30.039388",
+    "added_date": "2026-10-09",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-09T12:38:30.039394",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
