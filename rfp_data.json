@@ -7451,7 +7451,7 @@
     "scored_at": "2026-09-15T11:10:26.809347",
     "last_updated": "2026-09-15T11:10:26.809348",
     "added_date": "2026-09-15",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7460,7 +7460,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-d576c98b178a",
@@ -8435,7 +8435,7 @@
     "description": "Avon and Wiltshire Mental Health Partnership NHS Trust (AWP) provides mental health services across Bath and North East Somerset, Bristol, North Somerset, South Gloucestershire, Swindon and Wiltshire, from more than 90 community and inpatient sites and through partnerships with external organisations. Services include acute mental health, recovery, liaison and dementia services, forensic services, Child and Adolescent Mental Health Services and a range of highly specialist mental health services.\r\n\r\nAWP is currently in segment 3 of the NHS Oversight Framework and rated Amber-Green under the Provider Capability assessment. Following a Care Quality Commission inspection in 2024, reported in May 2025, the Trust's well-led rating was 'requires improvement'. AWP operates across two financially challenged Integrated Care Systems and works with the South West Provider Collaborative for mental health services. \r\n\r\nThe Board has invested in strengthening external stakeholder relationships and reviewing partnership working models. It has also experienced material membership changes since the previous well-led inspection, including a new Chair in autumn 2024 and three new Non-Executive Directors commencing in 2026. \r\n\r\nAWP now requires an independent, developmental review of leadership and governance against the Care Quality Commission well-led framework. The review will provide objective and constructive challenge, identify prioritised developmental actions and inform targeted improvement work to secure and sustain future performance.\r\n\r\nTo access this competition:\r\n\r\nRegistered:\r\n\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18544.\r\n\r\nNot registered:\r\n\r\nVisit https://suppliers.multiquote.com then register and quote CA18544 as the reason for registration.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18544.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register an",
     "budget_eur": 58500,
     "deadline": "2026-11-06",
-    "relevance_score": 49.0,
+    "relevance_score": 48.7,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -8499,7 +8499,7 @@
     },
     "date_found": "2026-10-10",
     "scored_at": "2026-10-10T11:58:08.179976",
-    "last_updated": "2026-10-10T11:58:08.179978",
+    "last_updated": "2026-10-11",
     "added_date": "2026-10-10",
     "status": "New",
     "notes": "",
@@ -8521,7 +8521,7 @@
     "description": "DoLS Mental Health Assessment. This is not a call for competition, this is to express interest in this opportunity. Kent County Council (KCC) are anticipating procuring a DoLS Mental Health Assessment with the tender anticipated to launch in November 2026; Kent County Council does not guarantee this. The opportunity that launches will seek a supplier, working in conjunction with Kent DoLS Service, to arrange and complete these assessments, through the delivery of a Mental Health Assessment Service. The assessments must be undertaken by Section 12 doctors, who are also full members of the Royal College of Psychiatrists, and/or on the GMC Specialist Register as a specialist in psychiatry; and, where appropriate, those assessors must complete recommendations under the Mental Capacity Act. KCC propose a Service Commencement date of 1 May 2027. The Service Contract is expected to be for 2 years, with a possible extension of up 2 years.",
     "budget_eur": 1282285,
     "deadline": "2026-11-01",
-    "relevance_score": 44.2,
+    "relevance_score": 43.8,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -8574,7 +8574,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "unknown",
-    "deadline_status": "open",
+    "deadline_status": "closing_soon",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "7f535a4e-3109-4949-8360-fa64a7b00df9-917284",
@@ -8585,7 +8585,7 @@
     },
     "date_found": "2026-10-10",
     "scored_at": "2026-10-10T11:58:08.180553",
-    "last_updated": "2026-10-10T11:58:08.180555",
+    "last_updated": "2026-10-11",
     "added_date": "2026-10-10",
     "status": "New",
     "notes": "",
