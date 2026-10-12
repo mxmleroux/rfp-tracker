@@ -8597,5 +8597,99 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-9f19d76b7e54",
+    "rfp_title": "Framework for Drawdown Technical Assistance - Transaction Advisory, Finance and Investment Support (BRAVE-IS)",
+    "issuing_entity": "DAI GLOBAL UK LTD",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "DAI Global UK is seeking proposals from firms to provide transaction advisory, finance and investment support to the Building Resilience and Addressing Vulnerability to Emergencies - Institutional Strengthening (BRAVE-IS) programme in Pakistan. BRAVE-IS is a multi-year (2026-2029) technical assistance programme funded by the UK Foreign, Commonwealth & Development Office (FCDO).\r\n\r\nBackground\r\nPakistan is among the countries most exposed to climate and disaster risk. The binding constraint on resilience investment is not policy but capability: government institutions lack the instruments and in-house capacity to turn identified needs into investable propositions that public, international and private financiers will fund.\r\n\r\nScope\r\nBRAVE-IS will appoint one firm under a Time and Materials drawdown framework, from which it can mobilise experts and, where needed, complete delivery teams. Work will be commissioned through individual task requests. Expertise is required in:\r\n\r\nTransaction advisory and project structuring, including PPP and blended finance\r\nFeasibility, financial modelling and economic appraisal\r\nInvestment pipeline development and project preparation\r\nPrivate sector engagement and investment mobilisation\r\nInstitutional and embedded delivery support within federal and provincial government bodies\r\n\r\nSupport must strengthen, not substitute for, government capacity, and tools and models must be handed over for continued use. Personnel will work in Islamabad, Lahore, Karachi and Peshawar, with travel elsewhere in Pakistan as required.\r\n\r\nContract\r\nThe initial period runs from date of award to 31 March 2027, extendable subject to programme requirements, performance and FCDO approval. No minimum volume of work is guaranteed. This is an open competition and rates are sought for locally based personnel.\r\n\r\nHow to apply\r\nSubmit one email to brave-is@dai.com with the subject line \"BRAVE-IS-001 - Proposal - [Firm name]\", attaching two separate PDF files: (1) a tech",
+    "budget_eur": null,
+    "deadline": "2026-10-20",
+    "relevance_score": 40.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 2.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 15.0,
+    "competitive_score": 85,
+    "strategic_value_score": 15.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "investable"
+        ]
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "Open competition with positive signals. Strong position to bid.",
+    "positive_signals": [
+      "open competition"
+    ],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "8f1cb997-6f6b-4279-9b3b-dd55442c2a61-917364",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-12",
+    "scored_at": "2026-10-12T14:31:58.323868",
+    "last_updated": "2026-10-12T14:31:58.323869",
+    "added_date": "2026-10-12",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-12T14:31:58.323873",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
