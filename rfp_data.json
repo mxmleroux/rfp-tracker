@@ -8691,5 +8691,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-7f4fdcff825b",
+    "rfp_title": "Traffic & Transport Consultancy Services (Swindon Lane Development)",
+    "issuing_entity": "Swindon Parish Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Swindon Parish Council seeks to appoint a qualified Traffic & Transport consultant to support its technical review of the forthcoming planning application for development at Swindon Lane (Cheltenham Borough Council ref: 26/00833/SCREEN).\r\n\r\nThe appointed consultant will provide technical assessment, transport modelling review, volunteer survey oversight, and written responses under a flexible call-off arrangement between October 2026 and March 2027.\r\n\r\nTasks will be commissioned incrementally on a capped Time & Materials basis up to a total contract spend ceiling of £15,000 (excl. VAT).\r\n\r\nSubmission Requirements:\r\nProposals must not exceed five pages (excluding CVs) and must include company details, relevant experience, team CVs, hourly rates schedule, insurance details, and a conflict of interest statement.\r\n\r\nProposals must be submitted in PDF format by email to parish.clerk@swindonparish.org.uk before the closing deadline stated in this notice. Full details are provided in the attached RFQ document.",
+    "budget_eur": 17550,
+    "deadline": "2026-10-23",
+    "relevance_score": 43.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 22.4,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1159dbf2-a8f6-4041-9c42-8c650021f021-917575",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-13",
+    "scored_at": "2026-10-13T13:38:20.149193",
+    "last_updated": "2026-10-13T13:38:20.149195",
+    "added_date": "2026-10-13",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-13T13:38:20.149200",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
