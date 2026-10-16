@@ -7277,7 +7277,7 @@
     "scored_at": "2026-09-18T10:38:33.922444",
     "last_updated": "2026-09-18T10:38:33.922446",
     "added_date": "2026-09-18",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7286,7 +7286,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-f07e8e548b0b",
@@ -7363,7 +7363,7 @@
     "scored_at": "2026-09-23T10:50:41.644639",
     "last_updated": "2026-09-29",
     "added_date": "2026-09-23",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7372,7 +7372,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-598d83aeb560",
@@ -8597,6 +8597,94 @@
       {
         "status": "New",
         "date": "2026-10-15T10:54:53.264347",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-746d9115d9b5",
+    "rfp_title": "Supply of Army Branded Clothing",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform.\r\n\r\nThe authority requires the supply of a standardised package of Army-branded clothing. Providing practical, recognisable and consistent clothing for public-facing recruitment and engagement events, routine travel and outdoor activity. \r\n\r\nA consistent clothing package is required to improve professional presentation, support Army branding and provide practical clothing suitable for the environments in which the teams operate.\r\n\r\nProvide a consistent and professional Army identity across Arms & Services Engagement Teams.\r\nProvide practical clothing suitable for travel, public events and outdoor engagement activity.\r\n\r\nDeliver a one-off issue that requires no ongoing maintenance, repair or replacement commitment from the Authority.\r\n\r\nIncluded: manufacture, Army branding, packaging and delivery of complete clothing packages in the sizes confirmed by the Authority.\r\nIncluded: one coordinated delivery, unless an alternative delivery schedule is agreed in writing by the Authority.\r\nExcluded: recurring supply, replacement for loss or damage, repair, laundering, alteration after acceptance, and ongoing stock management.\r\n\r\nRequirements\r\nThe Contractor shall provide complete clothing packages. Each package shall contain:\r\nOne quilted puffer jacket.\r\nOne softshell jacket.\r\nOne pair of stretch trousers.\r\nThree moisture-wicking T-shirts.\r\nThree pairs of physical training shorts.\r\n\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on th",
+    "budget_eur": 409500,
+    "deadline": "2026-11-02",
+    "relevance_score": 51.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 48.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "0413756e-7026-40e4-9dec-ac1a9a886a1c-917795",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-10-16",
+    "scored_at": "2026-10-16T10:46:52.401435",
+    "last_updated": "2026-10-16T10:46:52.401437",
+    "added_date": "2026-10-16",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-16T10:46:52.401441",
         "by": "scanner"
       }
     ],
