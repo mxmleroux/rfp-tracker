@@ -8329,7 +8329,7 @@
     "scored_at": "2026-10-12T14:31:58.323868",
     "last_updated": "2026-10-12T14:31:58.323869",
     "added_date": "2026-10-12",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8338,7 +8338,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-7f4fdcff825b",
