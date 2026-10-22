@@ -5701,96 +5701,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-c7836406b155",
-    "rfp_title": "Unlocking Commercial and Industrial Captive Renewable Energy in Uganda: Market Sizing and Regulatory Reform",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to Uganda's Electricity Regulatory Authority (ERA).\r\n\r\nUganda's electricity sector is predominantly powered by renewable energy and demand is growing rapidly. However, uptake of commercial and industrial (C&I) captive renewable energy remains limited due to regulatory gaps, insufficient market data, and barriers to investment. This is particularly significant given the growing role of behind-the-meter renewable energy as a means of reducing diesel reliance, improving energy security, and supporting economic growth.\r\n\r\nThe assignment will support ERA, in partnership with the Ministry of Energy and Mineral Development (MEMD) and electricity distributors UEDCL, WENRECO and KIS, to strengthen the enabling environment for C&I captive renewable energy. The work will establish an evidence base on market demand, existing captive generation and grid capacity, review Uganda's regulatory framework and international best practice, and develop targeted regulatory and market-enabling solutions.\r\n\r\nKey outputs are expected to include recommendations for a mid-tier regulatory framework, updated settlement and implementation guidance, standardised commercial documentation, and financing pathways to improve project bankability. The project aims to increase private-sector investment in captive renewable energy, accelerate deployment, reduce dependence on diesel generation, and strengthen Uganda's energy security and grid resilience.\r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: targetedfund@ukpact.co.uk",
-    "budget_eur": 409500,
-    "deadline": "2026-09-21",
-    "relevance_score": 44.3,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "financing"
-        ]
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "consulting_only",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "d34191ce-097a-4cbe-8245-70af0072eccd-911867",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-25",
-    "scored_at": "2026-08-25T06:44:12.854362",
-    "last_updated": "2026-08-25T06:44:12.854363",
-    "added_date": "2026-08-25",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-25T06:44:12.854366",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-13dea0c103c8",
     "rfp_title": "Digital Pharmacy Solutions",
     "issuing_entity": "Midlands Partnership University Foundation Trust",
@@ -6581,96 +6491,6 @@
       }
     ],
     "pass_reason": ""
-  },
-  {
-    "id": "rfp-901a9acd8762",
-    "rfp_title": "Technical Assistance to Embed Renewable Integration in Madagascar Mining Permits",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "La description de l'appel d'offres ainsi que les documents de soumission sont également disponibles en français. Veuillez consulter les pièces jointes pour plus d'informations.\r\n\r\nFollowing the reopening of mining permits in 2026, Madagascar has an opportunity to shape how new mining investments source power. While mining and environmental regulations are in place, renewable energy integration is not yet embedded within licensing and permitting requirements.\r\n\r\nThe assignment will support the Government of Madagascar to design, adopt and implement a Green Mining Energy Framework that embeds renewable energy requirements into mining licensing, environmental permitting and ESIA processes. \r\n\r\nKey outputs include a diagnostic and design options package, a Green Mining Energy Framework and supporting guidance for government adoption, and an implementation and compliance package with templates, monitoring tools and capacity-building support. The project aims to reduce future diesel dependence in the mining sector and support lower-emission mining development in Madagascar.\r\n\r\nInterested suppliers are invited to review the documentation provided in this notice, and submit their applications to: targetedfund@ukpact.co.uk",
-    "budget_eur": 409500,
-    "deadline": "2026-09-21",
-    "relevance_score": 39.1,
-    "win_probability": "Low",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 33.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "monitoring"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "93133394-1a8f-40e6-b007-ff000805a7f0-913239",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-09-08",
-    "scored_at": "2026-09-08T10:39:33.839360",
-    "last_updated": "2026-09-08T10:39:33.839361",
-    "added_date": "2026-09-08",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-09-08T10:39:33.839366",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-6c3ed4599a56",
@@ -8863,6 +8683,94 @@
       {
         "status": "New",
         "date": "2026-10-20T10:58:07.480742",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-5e736db50455",
+    "rfp_title": "Transport of slabs",
+    "issuing_entity": "Ferrovial BAM Rail Systems",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This opportunity supports the delivery of the HS2 programme and involves the transportation of precast concrete slab-track units from the PACADAR UK factory to multiple locations along the HS2 route. The requirement is for approximately 12,000 slabs, equating to around 2,400 HGV loads, making it a significant logistics package with a consistent volume of work.\r\n      \r\n      Suppliers will be required to provide suitable HGV transport capable of safely carrying five slab units per load while complying with all relevant transport, safety and load restraint regulations. Deliveries will be made to various locations along the HS2 corridor, with loading at the factory and offloading at site undertaken by others.\r\n      \r\n      Interested suppliers will be asked to demonstrate their transport capability, available fleet capacity and proposed delivery approach, together with competitive commercial rates. Further information on the scope, delivery requirements, indicative volumes and pricing structure is available within the attached documentation.",
+    "budget_eur": 117000,
+    "deadline": "2026-11-04",
+    "relevance_score": 43.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "802f333b-366a-4334-bc91-f31f6238d7f9-918707",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-10-22",
+    "scored_at": "2026-10-22T11:13:20.541756",
+    "last_updated": "2026-10-22T11:13:20.541757",
+    "added_date": "2026-10-22",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-22T11:13:20.541760",
         "by": "scanner"
       }
     ],
