@@ -5961,94 +5961,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-15d3ad352fa9",
-    "rfp_title": "Strengthening Carbon Market Readiness and Article 6 Operationalisation in Cameroon",
-    "issuing_entity": "PALLADIUM INTERNATIONAL LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The UK Government's Partnering for Accelerated Climate Transitions (UK PACT) programme is inviting proposals from qualified suppliers or consortia to deliver technical assistance to the Government of Cameroon.\r\n\r\nCameroon, situated within the Congo Basin and home to significant forest carbon resources, is seeking to strengthen its readiness to participate in high-integrity international carbon markets, including Article 6 of the Paris Agreement, the Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA), and voluntary carbon markets. While the country has considerable potential to generate climate finance through carbon markets and support implementation of its Nationally Determined Contribution (NDC), key legal, institutional, and operational gaps continue to constrain effective participation.\r\n\r\nThis assignment will provide targeted technical assistance and capacity building to support the Government of Cameroon in establishing the governance frameworks, institutional arrangements, and regulatory systems required to operationalise carbon market participation. Working closely with relevant government institutions, including the Ministry of Environment, Nature Protection and Sustainable Development (MINEPDED), the Ministry of Forestry and Wildlife (MINFOF), the Ministry of Finance (MINFI), and other key stakeholders, the project will strengthen carbon market governance, Article 6 implementation readiness, project approval systems, and institutional coordination mechanisms.\r\n\r\nKey outputs are expected to include a comprehensive carbon market readiness assessment, a carbon market governance framework defining the roles and responsibilities of key institutions, operational procedures for Article 6 participation and Internationally Transferred Mitigation Outcomes (ITMOs), a national carbon project approval system, and a structured capacity-building programme for government counterparts. The project will also support the integration of gender equality",
-    "budget_eur": 351000,
-    "deadline": "2026-09-22",
-    "relevance_score": 46.7,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 81.5,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "04a3aa0a-c3ed-4afc-8b07-4511a46230b3-912354",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-27",
-    "scored_at": "2026-08-27T17:21:32.055098",
-    "last_updated": "2026-08-27T17:21:32.055099",
-    "added_date": "2026-08-27",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-27T17:21:32.055103",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-1396e67a7cb8",
     "rfp_title": "Request for information - Liquid Handling Robots",
     "issuing_entity": "UK Health Security Agency",
@@ -8325,7 +8237,7 @@
     "scored_at": "2026-10-15T10:54:53.264340",
     "last_updated": "2026-10-15T10:54:53.264342",
     "added_date": "2026-10-15",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8334,7 +8246,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-746d9115d9b5",
@@ -8771,6 +8683,92 @@
       {
         "status": "New",
         "date": "2026-10-22T11:13:20.541760",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-95c2d45b0bde",
+    "rfp_title": "Fully Managed Renal Dialysis Satellite Unit in Crawley Area",
+    "issuing_entity": "Epsom and St Helier University Hospitals NHS Trust",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "South West London Procurement Partnership (SWLPP), on behalf of Epsom and St Helier University Hospitals NHS Trust (ESTH) (the \"Authority\") invites tenders from experienced and qualified organizations for the provision of a fully managed renal satellite dialysis satellite unit located in the Crawley area, providing all the facilities, equipment, consumables and renal nursing services required to deliver a fully managed renal dialysis satellite unit.\r\n\r\nThe objective of this competitive tender exercise is to select a single provider capable of delivering high-quality, cost-effective solutions in accordance with the specifications detailed in the Tender Pack. A detailed Specification of Requirements is included in the Tender Documentation.\r\n\r\nPlease note, the current Crawley renal dialysis satellite unit is a joint venture between Epsom and St Helier University Hospitals NHS Trust (ESTH) and University Hospitals Sussex NHS Foundation Trust (UHSx). Patients from both Trusts currently receive treatment at the Crawley unit. At the time of the pre-market engagement, both Trusts fully intended reprocuring the Crawley unit jointly. However, it has since been agreed that each Trust will independently procure a solution for their own cohort of patients from the Crawley area. This tender will only include activity numbers for patients under the treatment of Epsom and St Helier University Hospitals NHS Trust (ESTH). Current and estimated numbers will be included in the Tender Documentation.\r\n\r\nAdditional information: \r\nTo express interest and participate in the tender, please register and apply via Atamis e-sourcing portal https://health-family.force.com/s/Welcome.\r\n\r\nShould Tenderers have any queries, or having problems using the portal, they should contact Helpdesk at:\r\n\r\nPhone: 0800 9956035\r\n\r\nE-mail: support-health@atamis.co.uk",
+    "budget_eur": 23400000,
+    "deadline": "2026-12-02",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "20f6d307-e1f8-4f88-898f-3e279b22023f-918886",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-23",
+    "scored_at": "2026-10-23T11:04:36.757232",
+    "last_updated": "2026-10-23T11:04:36.757234",
+    "added_date": "2026-10-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-23T11:04:36.757239",
         "by": "scanner"
       }
     ],
