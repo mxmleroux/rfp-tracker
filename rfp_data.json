@@ -5875,92 +5875,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-f6de4139f1b9",
-    "rfp_title": "National Trust NI - Lead Consultant, Carrick-a-Rede capital works Infrastructure Project",
-    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The National Trust is seeking to appoint a Lead Consultant for the Carrick-a-Rede Visitor Infrastructure Project through a single-stage Request for Proposal (RFP1) process. Bidders will be assessed on their capability, experience, financial standing, proposed methodology, and price.\r\n\r\nThe project aims to sustainably enhance Carrick-a-Rede as a premier visitor destination on the Causeway Coast, supporting increased visitor numbers while protecting the site's natural and cultural heritage, delivering a world-class visitor experience, and minimising impacts on the local community. \r\n\r\nThis commission will develop detailed proposals, and ultimately manage delivery of site infrastructure which is required to support planned growth at the site.\r\n\r\nClosing Date for RFP - 23rd September 2026\r\nDeadline for Queries - 16th September  2026\r\nAward Contract - 1st  October 2026\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/\r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustomer name - The National Trust\r\nAll communication is to be carried out via the Proactis portal",
-    "budget_eur": 46800,
-    "deadline": "2026-09-23",
-    "relevance_score": 49.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 85.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "9a77349f-e5a2-4dda-bf26-321cbb513238-912254",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-27",
-    "scored_at": "2026-08-27T17:21:32.053928",
-    "last_updated": "2026-08-27T17:21:32.053930",
-    "added_date": "2026-08-27",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-27T17:21:32.053934",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-1396e67a7cb8",
     "rfp_title": "Request for information - Liquid Handling Robots",
     "issuing_entity": "UK Health Security Agency",
@@ -8149,7 +8063,7 @@
     "scored_at": "2026-10-13T13:38:20.149193",
     "last_updated": "2026-10-13T13:38:20.149195",
     "added_date": "2026-10-13",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8158,7 +8072,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-2949bc6af1d5",
@@ -8769,6 +8683,268 @@
       {
         "status": "New",
         "date": "2026-10-23T11:04:36.757239",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-ad44260c550d",
+    "rfp_title": "Framework for Call-down Technical Assistance - Engineering and Climate-Resilient Infrastructure Advisory Services (BRAVE-IS)",
+    "issuing_entity": "DAI GLOBAL UK LTD",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "DAI Global UK is seeking proposals from firms or consortia to provide engineering and climate-resilient infrastructure advisory services to the Building Resilience and Addressing Vulnerability to Emergencies - Institutional Strengthening (BRAVE-IS) programme in Pakistan. BRAVE-IS is a multi-year (2026-2029) technical assistance programme funded by the UK Foreign, Commonwealth & Development Office (FCDO).\r\n\r\nBackground\r\nPakistan's infrastructure is highly exposed to floods, extreme heat, drought, landslides and earthquakes. Government has introduced climate and disaster risk requirements into public investment planning, but institutions need specialist engineering support to apply them in how infrastructure is planned, designed, appraised and maintained.\r\n\r\nScope\r\nBRAVE-IS will appoint a firm or consortium under a Time and Materials call-down framework, from which it can mobilise engineering experts and, where needed, complete delivery teams. Work will be commissioned through individual task requests. Expertise is required in: climate-resilient infrastructure engineering and design; hydrology, hydraulics and flood-risk engineering; water resources, irrigation and drainage; infrastructure planning, appraisal and risk assessment; geospatial, digital and engineering software; and engineering institutional strengthening and capacity development. Support must strengthen, not substitute for, government capacity.\r\n\r\nEligibility\r\nApplicants must be legally registered in Pakistan and hold valid Pakistan Engineering Council (PEC) registration as a consulting engineering firm. Consortia of up to four members are welcome, led by a single lead member. Personnel will work in Islamabad, Lahore, Karachi, Peshawar and Gilgit, with travel elsewhere in Pakistan as required, and rates are sought for locally based personnel.\r\n\r\nContract\r\nThe initial period runs from date of award to 31 March 2027, extendable subject to programme requirements, performance and FCDO approval. Contracts will",
+    "budget_eur": null,
+    "deadline": "2026-11-09",
+    "relevance_score": 51.6,
+    "win_probability": "Medium",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 44.6,
+    "competitive_score": 70,
+    "strategic_value_score": 15.0,
+    "advisory_bonus": 9,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 3,
+        "max": 15,
+        "strong_matches": [
+          "investment plan"
+        ],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "7616d874-383e-479e-ab24-d97c0a2ce48f-919061",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-24",
+    "scored_at": "2026-10-24T10:21:09.535723",
+    "last_updated": "2026-10-24T10:21:09.535725",
+    "added_date": "2026-10-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-24T10:21:09.535729",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f4cca3d8b673",
+    "rfp_title": "Manchester International Airport Phase 2 - Overbridge Civils",
+    "issuing_entity": "Kier Transportation - CP7 NWC",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The planned introduction of longer train services to the Airport in response to future demand growth will mean that double stacking arrangements of trains as currently used will no longer be viable. Through the project's Delivery Steering Group, Northern and TransPennine Express have carried out analysis which has identified that additional platform capacity is needed at the airport in order to realise the full benefit of longer train services serving the airport.\r\n      \r\n      The scheme is part of a package of proposed measures in the Manchester area that are being designed/planned to boost capacity and resilience, emanating from the Cross Manchester Capacity and Reliability Improvement Study. Improving the operation of train services in the centre of Manchester and providing further capacity at Manchester Airport station, aligns with the strategic aims of Network Rail, TfGM, TfN and the wider industry.  This project in in Tranche 1 of the Manchester and North West Transformation Programme (MNTP):\r\n       \r\n      A remodelling of the station at Manchester Airport, specifically a platform addition or extension of multiple platforms, or provision of a new turnback facility, will be essential to accommodate the planned implementation of longer rolling stock services.\r\n           \r\n      The redevelopment of these platforms will enable permissive working of two 6x24m (144m) trains, in two of the four platforms at the Airport Station. This will allow for the unaltered retention of all existing TOC services both originating and terminating at the Airport Station under 'double-stacking' conditions.\r\n      \r\n      The works comprise the construction and completion of the bridge structure and associated highway infrastructure, including:\r\n      \r\n      •\tInstallation of client-supplied precast bridge components, including cills, beams and side walls, together with associated shear key reinforcement and grout connections.\r\n      •\tModification of existing bridge cill.\r\n   ",
+    "budget_eur": 1170000,
+    "deadline": "2026-10-30",
+    "relevance_score": 41.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 15,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "urgent",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "95829fc3-7441-4732-aadd-5507054df0b7-919052",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-24",
+    "scored_at": "2026-10-24T10:21:09.536844",
+    "last_updated": "2026-10-24T10:21:09.536845",
+    "added_date": "2026-10-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-24T10:21:09.536849",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-f1b189a9746b",
+    "rfp_title": "The Growth Company ITT for Training Providers for the Growth Hub Network Adviser Framework",
+    "issuing_entity": "The Growth Company",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Growth Company, as National Coordinator for the Growth Hub Network in England, has been asked by the Business Growth Service (part of the Department for Business Innovation Science and Trade) to develop an initial targeted national training programme for Growth Hub advisers to strengthen network capabilities and increase consistency. \r\n\r\nThe Growth Company is seeking to establish a small Framework of training providers to deliver training to Growth Hub Network Advisers across England targeting 6 key specialist topics.\r\n\r\nThe value of activity under this framework is estimated up to £250,000 inclusive of VAT until 31st March 2027, we are unable to estimate the value of any possible extension. The maximum value of the training modules contained in this tender inclusive of VAT are as follows:\r\n\r\n1) Consultative Skills Insights and Practice (£45k).\r\n2) Harnessing Action Learning Facilitation Skills (£60k).\r\n3) Account Management Best Practice (£33k).\r\n4) Maximising Mentoring Practice and Skills (£55k).\r\n5) Agile Marketing and Social Communications/Social Media Marketing Skills (£11k).\r\n6) Building Inclusive Engagement Capabilities (£46k).\r\n\r\nTraining providers selected to deliver this training, will be identified and prioritised through a network wide survey of skills and experience, designed to help stream and inform discussions with Growth Hubs about the distribution of training as part of an initial first wave of training to March 2027.\r\n\r\nWe are looking for providers with proven delivery experience and comprehensive subject matter expertise for each topic and therefore seek to minimise applications across multiple lots. \r\n\r\nBidders may apply for up to two lots in their strongest areas of delivery. \r\n\r\nTo apply for this tender opportunity, please register as a supplier on the Panacea Supplier Platform at the following web address: https://app.panacea-software.com/growth\r\n\r\nOnce you have accessed the site, to view the opportunity you need to navigate to 'Register ",
+    "budget_eur": null,
+    "deadline": "2026-11-06",
+    "relevance_score": 44.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "f9149556-eeb9-40a4-8f77-e3d133981ed8-918992",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-24",
+    "scored_at": "2026-10-24T10:21:09.538756",
+    "last_updated": "2026-10-24T10:21:09.538757",
+    "added_date": "2026-10-24",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-24T10:21:09.538760",
         "by": "scanner"
       }
     ],
