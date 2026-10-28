@@ -8853,5 +8853,181 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-05a2f42e3ebc",
+    "rfp_title": "AWARD Coroners Case Management and Workflow System",
+    "issuing_entity": "CENTRAL BEDFORDSHIRE COUNCIL",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Provision of a cloud-based Coroners Case Management and Workflow System for the Central Bedfordshire Coroner Service, including case and workflow management, reporting and search functionality, Ministry of Justice reporting, integrated calendar and website publishing, notification services, postcode and address lookup, software support, maintenance and hosting services.\r\n\r\nThe contract was awarded to WPC Software Limited through the CCS G-Cloud 14 Framework (RM1557.14), Lot 2 Cloud Software, following an assessment of supplier capability, published framework documentation and whole life costs.\r\n\r\nInitial term: 25/02/2027 - 24/02/2030\r\nOptional extension: to 24/02/2031",
+    "budget_eur": 122335,
+    "deadline": "2026-10-28",
+    "relevance_score": 43.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "expired",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1f9b4949-f510-4178-a18a-efa7aaae39c2-919451",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-28",
+    "scored_at": "2026-10-28T12:10:50.828406",
+    "last_updated": "2026-10-28T12:10:50.828407",
+    "added_date": "2026-10-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-28T12:10:50.828410",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-5213ad1659bf",
+    "rfp_title": "Specialist Rail Systems Personnel",
+    "issuing_entity": "Ferrovial BAM Rail Systems",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "FBJV is seeking an agency to provide specialist rail systems and assurance professionals to support a major UK high-speed rail infrastructure project.\r\n      \r\n      Required roles include:\r\n      \r\n      System Safety Engineer\r\n      System Safety Support Engineer\r\n      RAM Manager\r\n      Interoperability Lead\r\n      Environmental Manager\r\n      Earthing & Bonding Engineer\r\n      EMC Engineer\r\n      Cyber Security Specialist\r\n      Software Requirements Manager\r\n      Testing & Commissioning Manager\r\n      \r\n      This opportunity involves the provision of suitably qualified personnel to support systems assurance, safety, interoperability, environmental compliance, cyber security, software management, and testing & commissioning activities throughout the project lifecycle.\r\n      \r\n      Agencies should demonstrate experience supplying specialist rail resources for complex infrastructure projects and be capable of providing personnel with relevant technical expertise and industry knowledge.",
+    "budget_eur": 2925000,
+    "deadline": "2026-11-11",
+    "relevance_score": 46.2,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 37.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "feb3f774-76a0-4b8e-ac15-6c91276cfd3e-919450",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-10-28",
+    "scored_at": "2026-10-28T12:10:50.828808",
+    "last_updated": "2026-10-28T12:10:50.828809",
+    "added_date": "2026-10-28",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-28T12:10:50.828811",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
