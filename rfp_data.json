@@ -5529,92 +5529,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-667e5013be56",
-    "rfp_title": "Lean Maturity Specialist Support 2026-2028 Contract Award",
-    "issuing_entity": "National Highways Limited",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Lean activities support National Highways&apos; RIS3 efficiency objectives and help develop the skills and capabilities of both National Highways and supply chain teams through the adoption of Lean tools and techniques. This provision supports continuous improvement and supply chain efficiency, while reduced consultancy reliance has lowered costs and increased focus on delivering value. National Highways has undertaken a direct award of this contract to Bourton Group via the Government Commercial Agency (GCA) Low Value Purchasing System (LVPS). The award has been made in compliance with the framework terms and the Public Contracts Regulations 2015.",
-    "budget_eur": 52650,
-    "deadline": "2026-09-29",
-    "relevance_score": 50.5,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 100,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "4483f562-d16f-499c-bf85-1479a0772272-911540",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-08-21",
-    "scored_at": "2026-08-21T06:43:09.731071",
-    "last_updated": "2026-08-21T06:43:09.731073",
-    "added_date": "2026-08-21",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-08-21T06:43:09.731078",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-32b02368aefc",
     "rfp_title": "Maintenance of Parish Green Spaces in Exminster",
     "issuing_entity": "Exminster Parish Council",
@@ -9203,6 +9117,94 @@
       {
         "status": "New",
         "date": "2026-10-29T12:21:27.008793",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-fdc15d603925",
+    "rfp_title": "Court Appointed Intermediary Services - Framework Re-Opening October 2026",
+    "issuing_entity": "Ministry of Justice",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "This notice relates to the re-opening of framework agreements originally awarded following a procurement exercise conducted under the light tough regime, following a process similar to the open procedure.\r\n\r\nThe Ministry of Justice (MoJ) is inviting tenders for the provision of Court Appointed Intermediary Services (CAIS), to support vulnerable defendants in the criminal jurisdiction and vulnerable parties and witnesses in the civil, family and tribunal jurisdictions. These services will be provided in courts and tribunals in England and Wales and tribunals in Scotland.\r\n\r\nIntermediaries facilitate impartial communication to enable complete, coherent and accurate communication between vulnerable people and the courts/tribunals. Intermediaries may be instructed to provide an assessment of a person&apos;s communication needs, and provide recommendations on measures that could be put in place by the court to support vulnerable people, young people, children and other individuals who may need assistance during court proceedings. The intermediary may also be required to attend hearings to provide such assistance and support.\r\n\r\nFor the avoidance of doubt, the MoJ is only seeking tenders in relation to intermediary services that currently fall outside the remit of the MoJ Witness Intermediary Scheme (MoJ WIS). All requests for intermediary support for witnesses in criminal cases will continue to be managed via the MoJ WIS.\r\n\r\nAdditional information: \r\nThe MoJ invites tenders for Court Appointed Intermediary Services to support two existing framework agreements: the Managed & Approved Service Provider framework (MASP), and the Approved Service Provider framework (ASP).\r\n\r\nThe MASP framework seeks providers with the ability to manage multiple simultaneous bookings, and the capability to recruit, train and manage intermediaries to support a range of vulnerabilities, for deployment nationally.\r\n\r\nThe ASP framework seeks experienced and qualified intermediaries to support book",
+    "budget_eur": null,
+    "deadline": "2026-11-12",
+    "relevance_score": 40.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 27.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c32f774f-8897-4558-8ded-6c499500b751-919787",
+    "procurement_process": {
+      "type": "Open Procedure",
+      "rounds": "Single submission",
+      "details": [
+        "Evaluated on price-quality criteria"
+      ]
+    },
+    "date_found": "2026-10-30",
+    "scored_at": "2026-10-30T12:12:15.283682",
+    "last_updated": "2026-10-30T12:12:15.283684",
+    "added_date": "2026-10-30",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-30T12:12:15.283689",
         "by": "scanner"
       }
     ],
