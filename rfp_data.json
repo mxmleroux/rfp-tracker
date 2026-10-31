@@ -6739,7 +6739,7 @@
     "scored_at": "2026-09-26T10:52:26.479304",
     "last_updated": "2026-09-26T10:52:26.479306",
     "added_date": "2026-09-26",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6748,7 +6748,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-29a33ac13d43",
@@ -7439,7 +7439,7 @@
     "scored_at": "2026-10-09T12:38:30.039385",
     "last_updated": "2026-10-09T12:38:30.039388",
     "added_date": "2026-10-09",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7448,7 +7448,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-d4edb160de84",
@@ -8583,7 +8583,7 @@
     "scored_at": "2026-10-24T10:21:09.536844",
     "last_updated": "2026-10-24T10:21:09.536845",
     "added_date": "2026-10-24",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8592,7 +8592,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-f1b189a9746b",
@@ -9131,7 +9131,7 @@
     "description": "This notice relates to the re-opening of framework agreements originally awarded following a procurement exercise conducted under the light tough regime, following a process similar to the open procedure.\r\n\r\nThe Ministry of Justice (MoJ) is inviting tenders for the provision of Court Appointed Intermediary Services (CAIS), to support vulnerable defendants in the criminal jurisdiction and vulnerable parties and witnesses in the civil, family and tribunal jurisdictions. These services will be provided in courts and tribunals in England and Wales and tribunals in Scotland.\r\n\r\nIntermediaries facilitate impartial communication to enable complete, coherent and accurate communication between vulnerable people and the courts/tribunals. Intermediaries may be instructed to provide an assessment of a person&apos;s communication needs, and provide recommendations on measures that could be put in place by the court to support vulnerable people, young people, children and other individuals who may need assistance during court proceedings. The intermediary may also be required to attend hearings to provide such assistance and support.\r\n\r\nFor the avoidance of doubt, the MoJ is only seeking tenders in relation to intermediary services that currently fall outside the remit of the MoJ Witness Intermediary Scheme (MoJ WIS). All requests for intermediary support for witnesses in criminal cases will continue to be managed via the MoJ WIS.\r\n\r\nAdditional information: \r\nThe MoJ invites tenders for Court Appointed Intermediary Services to support two existing framework agreements: the Managed & Approved Service Provider framework (MASP), and the Approved Service Provider framework (ASP).\r\n\r\nThe MASP framework seeks providers with the ability to manage multiple simultaneous bookings, and the capability to recruit, train and manage intermediaries to support a range of vulnerabilities, for deployment nationally.\r\n\r\nThe ASP framework seeks experienced and qualified intermediaries to support book",
     "budget_eur": null,
     "deadline": "2026-11-12",
-    "relevance_score": 40.4,
+    "relevance_score": 40.0,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -9197,7 +9197,7 @@
     },
     "date_found": "2026-10-30",
     "scored_at": "2026-10-30T12:12:15.283682",
-    "last_updated": "2026-10-30T12:12:15.283684",
+    "last_updated": "2026-10-31",
     "added_date": "2026-10-30",
     "status": "New",
     "notes": "",
@@ -9205,6 +9205,268 @@
       {
         "status": "New",
         "date": "2026-10-30T12:12:15.283689",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-9e9747d9e23e",
+    "rfp_title": "Balfour Beatty - Roads North of the Thames - LTC - Bridge Bearings",
+    "issuing_entity": "BALFOUR BEATTY CIVIL ENGINEERING LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Lower Thames Crossing Roads North Programme is seeking expressions of interest from organisations with experience in the design support, manufacture, supply and installation of bridge bearings for major highway and infrastructure projects.\r\n\r\nThe scope comprises the provision of specialist bridge bearing product and methodology support to our Design Partner during the development of the detailed design, followed by the manufacture, supply, delivery and installation of bridge bearings to 16 structures across the Lower Thames Crossing Roads North project.\r\n\r\nAs part of our procurement planning, we are seeking to better understand market capability, capacity and preferred delivery models to help inform the final procurement strategy and packaging approach. Through this PQQ, we are looking to engage with experienced suppliers who can provide innovative, durable and cost-effective bridge bearing solutions whilst supporting collaborative design development and safe, efficient installation.\r\n\r\nWhat We're Looking For\r\n\r\nWe would like to hear from organisations with experience in one or more of the following:\r\n\r\nProven experience in the design support, manufacture and installation of bridge bearings for major highway and infrastructure projects.\r\nExperience of working collaboratively with design consultants and principal contractors during detailed design development.\r\nAppropriate quality management systems.\r\nRelevant health, safety and environmental accreditations.\r\nCapability to manufacture and deliver products to programme requirements.\r\nResources and expertise to undertake installation activities safely and efficiently.\r\nExperience of working within National Highways or similar major infrastructure environments is desirable.\r\n\r\nWe welcome responses from organisations of all sizes, including SMEs, either independently or as part of a consortium, joint venture or wider supply chain arrangement.\r\n\r\nHow to Apply\r\n\r\nIf you are interested in this opportunity, please comple",
+    "budget_eur": 585000,
+    "deadline": "2026-11-13",
+    "relevance_score": 38.8,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 33.5,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e4850a58-9d39-47a1-b152-abef8016498e-919879",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-10-31",
+    "scored_at": "2026-10-31T11:44:23.488535",
+    "last_updated": "2026-10-31T11:44:23.488536",
+    "added_date": "2026-10-31",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-31T11:44:23.488539",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-cab982eda362",
+    "rfp_title": "Embedded product team to develop the Alpha and Beta of the EEF's Digital Public Service and support the incubation of an agile product culture",
+    "issuing_entity": "THE EDUCATION ENDOWMENT FOUNDATION",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Our ambition is to build a Digital Public Service to support teachers and leaders to combine research with professional judgement to make decisions that improve outcomes in their settings, particularly for socio-economically disadvantaged children and young people.\r\n\r\nThis commission is much more than a technology refresh. It is the first critical step in a wider transformation of our technology, engagement model and ways of working. It should deliver two things:\r\n\r\nA working, user-centered digital product that helps educators find, understand and apply evidence when they need it.\r\n\r\nThe capabilities and product culture to deliver an effective service that the EEF can own, sustain and improve.\r\n\r\nAdditional information: Embedded product team to develop the Alpha and Beta of the EEF's Digital Public Service and support the incubation of an agile product culture",
+    "budget_eur": 854100,
+    "deadline": "2026-11-30",
+    "relevance_score": 47.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 96.3,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "612ec727-9bb1-4e65-99f4-1c68f8c05873-919870",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-31",
+    "scored_at": "2026-10-31T11:44:23.488964",
+    "last_updated": "2026-10-31T11:44:23.488964",
+    "added_date": "2026-10-31",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-31T11:44:23.488967",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-39a9395c00bb",
+    "rfp_title": "FDIS - LiDAR Scanning service provider for Defence Housing Service - FY2027/28 - Amey Central and North Regions",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - East / West / East Midlands & North\r\n\r\nNorth Region - Northern England / Scotland / Northern Ireland\r\n\r\nScope\r\nThis requirement sets the technical specification for point cloud surveys of the internal and external areas of Defence Housing Service (DHS) assets, and for delivery of the scan data to the Authority's Platform.\r\n\r\nAsset itemisation and photography, item 3 of version 1, is outside the scope of this version and is procured under separate commercial arrangements. Requirement references R13 and R14 are reserved for it.\r\n\r\nAmey have been tasked by the DIO through the FDIS to deliver the Regional Accommodation Maintenance Service for the Central and North Regions.\r\n\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\n\r\nThis opportunity is also advertised on Constructionline. \r\n\r\nADS does not bind itself to accept any tender and is not liable for any costs incurred by those expressing an interest or tendering for this opportunity.\r\n\r\nOutline specification\r\n1.\tColourised point cloud survey of the internal and external areas of each asset, including 360° photospheres, using a Leica RTC360 or equivalent static terrestrial laser scanner. External capture means the full external envelope of the dwelling and any attached outbuilding, captured from within the property's curtilage, including front and rear elevations.\r\n\r\n2.\tRegistration and cleaning of the captured point cloud data.\r\n\r\n3.\tRedaction of personal and sensitive content in the imagery before delivery, in accordance with clause 10.3.\r\n\r\n4.\tUpload of the deliverables to the Authority's Platform, to the location and using the credentials the Platform Provider issues.",
+    "budget_eur": 132210,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "e004e4c9-7238-4902-80c1-52f0650e4ca0-919847",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-10-31",
+    "scored_at": "2026-10-31T11:44:23.489791",
+    "last_updated": "2026-10-31T11:44:23.489792",
+    "added_date": "2026-10-31",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-10-31T11:44:23.489794",
         "by": "scanner"
       }
     ],
