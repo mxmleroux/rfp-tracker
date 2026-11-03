@@ -7351,7 +7351,7 @@
     "scored_at": "2026-10-07T12:43:25.565928",
     "last_updated": "2026-10-07T12:43:25.565930",
     "added_date": "2026-10-07",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7360,7 +7360,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-c22ad1c4b58b",
@@ -7969,7 +7969,7 @@
     "scored_at": "2026-10-16T10:46:52.401435",
     "last_updated": "2026-10-18",
     "added_date": "2026-10-16",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7978,7 +7978,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-137facb1b58f",
@@ -9555,6 +9555,92 @@
       {
         "status": "New",
         "date": "2026-11-02T14:51:41.784483",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-60628f71143a",
+    "rfp_title": "Jim Shields Garden Billericay - Landscaping Works",
+    "issuing_entity": "Billericay Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Town Council owns and manages a small green space known as Jim Shields Garden.  This area is situated at the end of Billericay High Street, post code CM12 9BA.  The garden is being enhanced by a redesign project and the Council is seeking tenders from professional companies/individuals who can deliver an exceptional landscaping service.\r\nThe documents are available on the Town Council's website:www.billericaytowncouncil.gov.uk or by application to the Town Clerk's email: townclerk@billericaytowncouncil.gov.uk",
+    "budget_eur": 35100,
+    "deadline": "2026-11-30",
+    "relevance_score": 49.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "3a478dfb-fe3f-4000-b141-0f1492c0518e-920352",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-03",
+    "scored_at": "2026-11-03T13:41:02.929786",
+    "last_updated": "2026-11-03T13:41:02.929787",
+    "added_date": "2026-11-03",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-03T13:41:02.929790",
         "by": "scanner"
       }
     ],
