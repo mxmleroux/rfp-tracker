@@ -6934,10 +6934,10 @@
     "issuing_entity": "Cornwall College",
     "country": "GB",
     "market": "UK + Ireland",
-    "description": "Cornwall College Group (CCG) are looking for suppliers to provide high quality print and signage services for the group.\r\n \r\nCornwall College Group intends to establish arrangements with suppliers capable of delivering a responsive, reliable and high-quality print and signage service across a range of requirements.\r\n \r\nThe Works will include, but will not necessarily be limited to, digital and lithographic printing, prospectus and distribution printing, large-format print, business stationery, learning resources, vehicle livery, signage and installation services.\r\n \r\nDue to the varied nature of the Works, the procurement will be divided into separate Lots. Suppliers may bid for one, multiple or all Lots, subject to the final procurement documentation and requirements.\r\n \r\nCCG plan to go out to tender for the following lots.\r\n \r\nLOT 1 - FE Prospectus and Distribution Print\r\nLOT 2 - Litho and Digital Print\r\nLOT 3 - Large Format Print\r\nLOT 4 - Business Cards, Temp ID Pads, Learning Resource Print\r\nLOT 5 - Cornwall Signage & Installation\r\nLOT 6 - Devon Signage & Installation\r\n\r\nAdditional information: This Procurement will be completed via the Colleges In-Tend procurement portal as follows.\r\nPlease register as a new supplier (if not already registered):\r\n\r\nRegistering your company on In-Tend\r\nSupplier Side https://in-tendhost.co.uk/cornwall/aspx/Home\r\n•\tOverview of Portal\r\n•\tIntro to Project Summary Page/ Correspondence box\r\nUseful Contact Information: In-Tend Helpdesk 0845 5578079 email: support@in-tend.co.uk\r\n\r\nAll bidders / suppliers are ALSO required to be registered on the Government Central Digital Platform https://www.gov.uk/government/publications/procurement-act-2023-short-guides/central-digital-platform-factsheet-html",
+    "description": "Cornwall College Group (CCG) are looking to create a framework of suppliers (DPS) to provide high quality print and signage services for the group.\r\n\r\nCornwall College Group intends to establish arrangements with suppliers capable of delivering a responsive, reliable and high-quality print and signage service across a range of requirements.\r\n\r\nThe Works will include, but will not necessarily be limited to, digital and lithographic printing, prospectus and distribution printing, large-format print, business stationery, learning resources, vehicle livery, signage and installation services.\r\n\r\nDue to the varied nature of the Works, the procurement will be divided into separate Lots. Suppliers may bid for one, multiple or all Lots, subject to the final procurement documentation and requirements.\r\n\r\nCCG plan to go out to tender for the following lots.\r\n\r\nLOT 1 - FE Prospectus and Distribution Print\r\nLOT 2 - Litho and Digital Print\r\nLOT 3 - Large Format Print\r\nLOT 4 - Business Cards, Temp ID Pads, Learning Resource Print\r\nLOT 5 - Cornwall Signage & Installation\r\nLOT 6 - Devon Signage & Installation\r\n\r\nAdditional information: This Procurement will be completed via the Colleges In-Tend procurement portal ONLY as follows.\r\nPlease register as a new supplier (if not already registered):\r\n\r\nRegistering your company on In-Tend\r\nSupplier Side https://in-tendhost.co.uk/cornwall/aspx/Home\r\n• Overview of Portal\r\n• Intro to Project Summary Page/ Correspondence box\r\nUseful Contact Information: In-Tend Helpdesk 0845 5578079 email: support@in-tend.co.uk\r\n\r\nAll bidders / suppliers are ALSO required to be registered on the Government Central Digital Platform https://www.gov.uk/government/publications/procurement-act-2023-short-guides/central-digital-platform-factsheet-html",
     "budget_eur": 479700,
-    "deadline": "",
-    "relevance_score": 49.5,
+    "deadline": "2026-11-20",
+    "relevance_score": 47.6,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -6990,7 +6990,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "platform",
-    "deadline_status": "unknown",
+    "deadline_status": "closing_soon",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "8e4d99e7-dc45-4a58-92b1-72b405c60482-915905",
@@ -7001,7 +7001,7 @@
     },
     "date_found": "2026-09-30",
     "scored_at": "2026-09-30T11:59:03.826902",
-    "last_updated": "2026-09-30T11:59:03.826905",
+    "last_updated": "2026-11-05",
     "added_date": "2026-09-30",
     "status": "New",
     "notes": "",
@@ -8057,7 +8057,7 @@
     "scored_at": "2026-10-20T10:58:07.478257",
     "last_updated": "2026-10-20T10:58:07.478259",
     "added_date": "2026-10-20",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8066,7 +8066,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-397e37800934",
@@ -8321,7 +8321,7 @@
     "scored_at": "2026-10-22T11:13:20.541756",
     "last_updated": "2026-10-22T11:13:20.541757",
     "added_date": "2026-10-22",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8330,7 +8330,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-95c2d45b0bde",
@@ -10085,6 +10085,270 @@
       {
         "status": "New",
         "date": "2026-11-04T13:49:57.478431",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-98946a3a1b3c",
+    "rfp_title": "Crane Provision Framework",
+    "issuing_entity": "KBS Maritime Ltd",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "KBS Maritime is seeking to establish a multi-supplier Framework for complete third-party crane services in support of Alongside Services operations. The Framework will supplement, not replace, KBS internal Heavy Lift capability and will provide planned surge, operational resilience, out-of-hours support, concurrent-lift capacity and specialist crane capability. This Framework will also cover the supply of Crane Operatives where required.",
+    "budget_eur": 4680000,
+    "deadline": "2026-12-03",
+    "relevance_score": 46.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Low confidence: score based on brief text only. Full document may score differently."
+    ],
+    "score_confidence": "low",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "60a48dfe-b2c0-461e-a34c-50e398cc9c9a-920669",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-05",
+    "scored_at": "2026-11-05T14:03:03.670521",
+    "last_updated": "2026-11-05T14:03:03.670522",
+    "added_date": "2026-11-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-05T14:03:03.670525",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-2b7bfa23272c",
+    "rfp_title": "Supply of SAPU Target Systems",
+    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the provision of SAPU Target Systems.\r\n\r\n\r\nOverview\r\nSAPU Target Systems represents a strategic capability requirement aimed at delivering robust, scalable, and secure target management solutions. This opportunity seeks qualified organisations with demonstrated expertise in:\r\n•\tImproved reliability compared to legacy SAPU systems.\r\n•\tAdvanced remote-control functionality.\r\n•\tEnhanced programmability and scenario management.\r\n•\tGreater operational flexibility.\r\n•\tReduced maintenance burden.\r\n•\tA proven and sustainable long-term replacement for existing target systems.\r\n\r\nThe Unite Procurement Platform\r\n(Unite | Simplify indirect procurement with our smarter platform) offers a compliant route to market for UK Public Sector organisations to manage low-value, high-volume procurement.\r\n\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest and can also be found at the link attached.\r\nUnite Procurement UK Limited does not intend to appoint a sole supplier for this requirement. Instead, multiple suppliers may be onboarded to the Unite Procurement Platform to ensure a diverse and competitive supply base, supporting flexibility and choice for the Ministry of Defence and associated organisations.\r\nSuppliers are encouraged to express their interest by the stated closing date to ensure early consideration. However, applications to join the Unite Procurement Platform will be welcome at any time beyond the initial deadline. Unite Procurement UK Limited reserves the right to review and onboard new suppliers on a rolling basis to meet evolving r",
+    "budget_eur": 234000,
+    "deadline": "2026-11-24",
+    "relevance_score": 54.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 55.7,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "5b8abbc2-61e7-4e6a-a3ce-53823d2e3c29-920351",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-05",
+    "scored_at": "2026-11-05T14:03:03.671704",
+    "last_updated": "2026-11-05T14:03:03.671705",
+    "added_date": "2026-11-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-05T14:03:03.671707",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-54e782d3f1e7",
+    "rfp_title": "National Trust - NI - Lead Designer & Multidisciplinary team for capital works for CaR Visitor Infrastructure Project",
+    "issuing_entity": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The National Trust is seeking to appoint a Lead Designer and multidisciplinary consultancy team to support the Carrick-a-Rede Visitor Infrastructure Project. This landmark project aims to sustainably grow visitor numbers to 250,000 annually within seven years, enhance the visitor experience, and strengthen Carrick-a-Rede's position as a premier destination along the Causeway Coastal Route. \r\n\r\nThe appointed team will help develop and deliver infrastructure improvements that support long-term growth, conservation objectives, and positive community outcomes. Interested organisations are invited to demonstrate their experience, capability, and innovative approach to delivering this high-profile visitor destination project.\r\n\r\nClosing Date for RFP - 2nd December 2026\r\nDeadline for Queries - 25th November 2026\r\nAward Contract - 9th December 2026\r\n\r\nThis opportunity is being conducted on the Proactis Plaza portal.\r\nhttps://supplierlive.proactisp2p.com/\r\n\r\nClick on the \"Opportunities\" button and filter on\r\nCustomer name - The National Trust\r\nAll communication is to be carried out via the Proactis portal",
+    "budget_eur": 46800,
+    "deadline": "2026-12-02",
+    "relevance_score": 49.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 85.2,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "a17cebab-4b5c-4273-8ffc-6d579de4a34d-920612",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-05",
+    "scored_at": "2026-11-05T14:03:03.673960",
+    "last_updated": "2026-11-05T14:03:03.673961",
+    "added_date": "2026-11-05",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-05T14:03:03.673963",
         "by": "scanner"
       }
     ],
