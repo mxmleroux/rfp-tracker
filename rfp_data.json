@@ -10353,5 +10353,444 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-36c269e9dbff",
+    "rfp_title": "Oldham Live Well Evaluation",
+    "issuing_entity": "Oldham Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "GM Live Well is Greater Manchester's commitment to ensuring great every day support is available in every neighbourhood. It represents a shift in how public services work with people and communities.\r\n\r\nLive Well is a partnership between NHS GM, 10GM and GMCA, the 10 local authorities, health, business, the Voluntary, Community, Faith and social enterprise sector and people and communities. Working together to create conditions for people to thrive, not just survive, removing barriers to opportunity and tackling health, social and economic inequalities.\r\n\r\nIn 2023, with support from The National Lottery Community Fund, the Live Well programme was launched, enabling five accelerator sites to lead work (one of which was Oldham) to tackle persistent barriers to Live Well. These areas are a part of a growing movement for community-led health and wellbeing, connecting and amplifying existing, brilliant support in GM's communities\r\n\r\nDuring 2025, Live Well's strategic remit has expanded, and it has grown to become Greater Manchester's catalyst for delivering long held prevention and reform ambitions. Live Well will bring about a radical shift in public service delivery at a neighbourhood level, underpinned by transformational and new ways of working between and across the statutory sector, Voluntary, Community Faith and Social Enterprise sector, and communities.\r\n\r\nLive Well is focussed on prevention and health creation. Live Well is not a programme or service but a whole system approach to changing how we work with communities and in our public service systems, to grow community power, wealth and action.\r\n\r\n• It is community-led - led by Greater Manchester's communities who determine and take action on what is important to them. This means supporting leadership, voice and capacity within communities of place, identity, interest and experience - particularly those most impacted by structural inequalities, racism and injustice.\r\n• It is system-enabled - it works to transfo",
+    "budget_eur": 70200,
+    "deadline": "2026-12-04",
+    "relevance_score": 53.3,
+    "win_probability": "Medium",
+    "feature_alignment_score": 3.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 20.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 3,
+        "max": 25,
+        "strong_matches": [
+          "whole system"
+        ],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "1b4f0fce-5799-4115-8741-f93f916d39b9-920793",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-06",
+    "scored_at": "2026-11-06T13:47:23.831648",
+    "last_updated": "2026-11-06T13:47:23.831649",
+    "added_date": "2026-11-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-06T13:47:23.831653",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-43007c9a7d48",
+    "rfp_title": "Activity & Interpretation Plan Consultant",
+    "issuing_entity": "Thetford Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The appointed consultant will prepare a comprehensive Activity & Interpretation Plan which demonstrates how people will engage with St Peter's Church and the wider heritage of Thetford through:\r\n\r\n•\tLearning;\r\n•\tVolunteering;\r\n•\tSkills development;\r\n•\tCommunity engagement;\r\n•\tInterpretation;\r\n•\tParticipation;\r\n•\tEvents;\r\n•\tTraining;\r\n•\tOutreach activities.\r\n\r\nThe consultant shall ensure that the Activity & Interpretation Plan is fully aligned with NLHF requirements and capable of supporting a successful Delivery Phase application.\r\n\r\nThe Activity Plan shall identify opportunities for community involvement, volunteering, learning, training, events and wider public engagement, together with recommendations for sustainable delivery and long-term legacy.\r\n\r\nThe Interpretation Plan shall identify and communicate the key heritage themes, stories and significance of St Peter's Church, establish target audiences, and develop recommendations for accessible and engaging interpretation that supports the project's vision and outcomes.\r\n\r\nThe Consultant shall ensure that both plans are fully integrated and aligned with the requirements of the National Lottery Heritage Fund and other funding stakeholders, providing a practical framework for implementation during the Delivery Phase.",
+    "budget_eur": 29250,
+    "deadline": "2026-11-27",
+    "relevance_score": 49.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "90d317a4-0657-495a-a9ea-57e035554822-920775",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-06",
+    "scored_at": "2026-11-06T13:47:23.832680",
+    "last_updated": "2026-11-06T13:47:23.832681",
+    "added_date": "2026-11-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-06T13:47:23.832685",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-49decd3c77f0",
+    "rfp_title": "Building Services Engineer (Mechanical & Electrical)",
+    "issuing_entity": "Thetford Town Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Thetford Town Council wishes to appoint an experienced Building Services Engineer with demonstrable experience in historic buildings and heritage environments.\r\n\r\nThe successful consultant will assist in developing a coordinated mechanical and electrical services strategy capable of supporting the future use of the building whilst minimising impacts upon historic fabric and significance.\r\n\r\nThe consultant will provide specialist advice throughout the Development Phase and contribute technical information required for the NLHF Delivery Phase Application.",
+    "budget_eur": 17550,
+    "deadline": "2026-11-30",
+    "relevance_score": 47.9,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 74.1,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "60b0ef0e-dc74-4612-9a82-27bd435143ce-920766",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-06",
+    "scored_at": "2026-11-06T13:47:23.833195",
+    "last_updated": "2026-11-06T13:47:23.833196",
+    "added_date": "2026-11-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-06T13:47:23.833199",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-c4b9e7f74342",
+    "rfp_title": "NU2251 High Resolution Maskless Lithography",
+    "issuing_entity": "Newcastle University",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The scope of this tender covers the supply, delivery, installation and ongoing maintenance of a high resolution maskless aligner for UV (375 nm) photolithography within the new Great Northeast Nanofab (GNN) facility. The GNN is a new micro/nanofabrication clean room, hosted at Newcastle University. The intention is for the GNN to act as a regional open-access clean room for academia and low TRL commercial developments, allowing other universities and sites to specialise in a hub-and-spoke model. High-resolution photolithography has been identified as a critical capability gap at the GNN. This procurement is externally funded by the Engineering and Physical Sciences Research Council (EPSRC).",
+    "budget_eur": 717620,
+    "deadline": "2026-11-27",
+    "relevance_score": 43.8,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 63.0,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "9957fc1e-8798-480f-ac2d-9e6b1d89928c-920765",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-06",
+    "scored_at": "2026-11-06T13:47:23.833530",
+    "last_updated": "2026-11-06T13:47:23.833531",
+    "added_date": "2026-11-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-06T13:47:23.833534",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-24654a79411f",
+    "rfp_title": "Support for Families with Disabled Children Programme.",
+    "issuing_entity": "Department for Education",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Department for Education is considering the future delivery of the Support for Families with Disabled Children (SFDC) programme in England.\r\n\r\nSFDC provides financial support to low-income families raising disabled or seriously ill children and young people, helping to address practical and financial barriers arising from disability or serious illness.\r\n\r\nDelivery of SFDC requires a provider capable of administering a national grant programme, managing public funds and maintaining appropriate safeguarding, information-security and fraud-prevention arrangements.\r\n\r\nThe Department is undertaking preliminary market engagement to inform the development of the future delivery model and potential procurement. This includes understanding market capability and capacity to deliver a national programme; approaches to assessment and grant administration; ability to build trust and engage sympathetically and empathetically with families in challenging circumstances, partnership and supply-chain models; mobilisation requirements; and potential barriers to market participation. In parallel with this market engagement, the Department is progressing the governance and contractual arrangements needed to maintain continuity of the existing service. These arrangements support ongoing delivery while the future delivery model is developed.\r\n\r\nThe Department&apos;s emerging policy approach is to focus support on interventions that address a defined disability-related barrier and contribute directly to outcomes for disabled children and young people, while avoiding duplication of suitable support genuinely available through other services.\r\n\r\nThe final scope, requirements, commercial model, contract value and procurement approach remain subject to policy development, market engagement and relevant approvals.\r\n\r\nTotal Value (estimated)\r\n\r\n£9,000,000 excluding VAT\r\n£10,8000,000 including VAT\r\n\r\nContract dates (estimated)\r\n\r\n1 September 2027 to 31 August 2029\r\nPossible extension to 31 Au",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "b7b4ce13-3af9-4a52-b827-969bc03979a2-920755",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Pre-qualification or shortlisting step",
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-06",
+    "scored_at": "2026-11-06T13:47:23.834350",
+    "last_updated": "2026-11-06T13:47:23.834351",
+    "added_date": "2026-11-06",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-06T13:47:23.834354",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
