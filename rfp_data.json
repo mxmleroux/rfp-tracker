@@ -6225,94 +6225,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-4f8ebd805dcb",
-    "rfp_title": "CA18436 - Provision of PPA funded Solar PV Roof Array with battery storage",
-    "issuing_entity": "Chichester College Group",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The college continues its commitment to reducing emissions and further improving energy efficiency, in alignment with The Association of Colleges Carbon Neutral Agenda. A range of projects are ongoing including the continuing rollout of roof mounted solar arrays using the Power Purchase Agreement (PPA) funding model. This tender is for the provision of a PPA funded Solar PV Array with battery storage option for Haywards Heath College\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18436.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18436 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
-    "budget_eur": 1053000,
-    "deadline": "2026-10-07",
-    "relevance_score": 49.4,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 88.9,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [
-      "Edge case client type: ngo, association"
-    ],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "open",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "a4e115c8-447e-4528-9abb-71ac816ec251-913390",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-09-09",
-    "scored_at": "2026-09-09T10:49:16.503716",
-    "last_updated": "2026-09-09T10:49:16.503717",
-    "added_date": "2026-09-09",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-09-09T10:49:16.503721",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-9248212cb047",
     "rfp_title": "NHS CFA Market Engagement RFI - Resource & Capacity Management System",
     "issuing_entity": "N H S Shared Business Services",
@@ -6829,7 +6741,7 @@
     "scored_at": "2026-09-28T13:00:59.430481",
     "last_updated": "2026-09-28T13:00:59.430482",
     "added_date": "2026-09-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6838,7 +6750,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-5e04d6188eb2",
@@ -7525,7 +7437,7 @@
     "scored_at": "2026-10-10T11:58:08.179976",
     "last_updated": "2026-10-11",
     "added_date": "2026-10-10",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -7534,7 +7446,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-0dfa9bdda4de",
@@ -8669,7 +8581,7 @@
     "scored_at": "2026-10-24T10:21:09.538756",
     "last_updated": "2026-10-25",
     "added_date": "2026-10-24",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8678,7 +8590,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-ada9246ef31f",
