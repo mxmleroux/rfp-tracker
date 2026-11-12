@@ -8759,7 +8759,7 @@
     "scored_at": "2026-10-28T12:10:50.828808",
     "last_updated": "2026-10-28T12:10:50.828809",
     "added_date": "2026-10-28",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8768,7 +8768,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-f3a7f1718213",
@@ -10628,7 +10628,7 @@
     "description": "Below is a summary please refer to the Job pack for detailed information \r\n\r\nThetford Town Council is seeking to appoint a single consultant practice to undertake the roles of:\r\n•\tLead Designer;\r\n•\tArchitect;\r\n•\tConservation Architect;\r\n•\tPrincipal Designer (CDM Regulations);\r\n•\tPrincipal Designer (Building Safety Act).\r\nThe successful consultant shall lead and coordinate the design for the Development Phase and prepare the project design for submission of the NLHF Delivery Phase Application. The consultant will work closely with the Project Manager, Quantity Surveyor, Structural Engineer and specialist advisers to prepare a robust and fully costed proposal capable of supporting a successful National Lottery Heritage Fund Delivery Phase application.\r\nThe NLHF Delivery Phase application will be managed by the Client Team and appointed Project Manager, however, the Architect may be required to attend NLHF meetings and workshops from time to time as reasonably requested by the Client or Project Manager.\r\nEquality, Inclusion & Environmental Sustainability \r\n\r\nThe project is shaped by NLHF's investment principles and Thetford's identity as a richly diverse town. Commissioned work should demonstrate: \r\n•\tInclusive engagement with communities underserved by heritage;\r\n•\tBarrier-free access to heritage learning and opportunities;\r\n•\tEnvironmentally responsible design, including re-use and carbon impact;\r\n•\tContribution to a sustainable operating model rooted in community need.\r\nProject Objectives\r\nThe project objectives are to:\r\n•\tRemove the building from the Heritage at Risk Register;\r\n•\tSecure the long-term conservation of the historic fabric;\r\n•\tDeliver inclusive and accessible community facilities;\r\n•\tSupport learning, heritage interpretation and skills development;\r\n•\tImprove environmental sustainability;\r\n•\tCreate a financially sustainable operational model and future for the site;\r\n•\tSupport regeneration within Thetford town centre.\r\n\r\nAll submissions should sent to ",
     "budget_eur": null,
     "deadline": "2026-11-20",
-    "relevance_score": 38.2,
+    "relevance_score": 37.5,
     "win_probability": "Low",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -10694,7 +10694,7 @@
     },
     "date_found": "2026-11-09",
     "scored_at": "2026-11-09T15:18:18.649195",
-    "last_updated": "2026-11-10",
+    "last_updated": "2026-11-12",
     "added_date": "2026-11-09",
     "status": "New",
     "notes": "",
