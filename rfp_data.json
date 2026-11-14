@@ -6667,94 +6667,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-5e04d6188eb2",
-    "rfp_title": "Balfour Beatty - Roads North of the Thames - LTC - FRC Structures Package",
-    "issuing_entity": "BALFOUR BEATTY CIVIL ENGINEERING LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The Lower Thames Crossing Roads, North Programme is seeking expressions of interest from suppliers with experience in reinforced concrete (FRC) and structural works.\r\n\r\nThe scope is expected to include elements such as reinforced concrete foundations, abutments, retaining walls, pile caps, reinforced earth structures, bridge structures and other civil engineering works. As part of our procurement planning, we are considering a range of packaging options, including splitting the works into multiple packages. Through this PQQ, we are looking to better understand the market's capability, capacity and preferred delivery models to help inform the final procurement strategy.\r\n\r\nWhat We're Looking For\r\nWe would like to hear from organisations with experience in one or more of the following:\r\n\r\nReinforced concrete foundations\r\nReinforced concrete abutments\r\nReinforced concrete retaining walls\r\nReinforced earth structures\r\nPile caps and substructures\r\nBridge and highway structures\r\nStructural concrete works\r\nCivil engineering and infrastructure projects\r\nDesign, construction, supply and installation services\r\nTemporary works design and management\r\nQuality assurance, testing and commissioning\r\n\r\nWe welcome responses from organisations of all sizes, including SMEs, either independently or as part of a consortium, joint venture or wider supply chain arrangement.\r\n\r\nHow to Apply\r\nIf you are interested in this opportunity, please complete the attached FRC Structures Package Eligibility Criteria Questionnaire and return it to the Supply Chain Team by 14.10.26 at:\r\nBBLTCProcurementandSupplyChain@balfourbeatty.com\r\n\r\nPlease ensure all sections of the questionnaire are completed, as this will help us gain a full understanding of your organisation's capabilities, capacity and experience. The qualification questions have been designed to assess your ability to meet Balfour Beatty and Lower Thames Crossing supply chain requirements and will help inform the final packaging strategy for t",
-    "budget_eur": 1170000,
-    "deadline": "2026-10-14",
-    "relevance_score": 41.2,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 37.2,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "bd6f6ea3-04bd-4c7b-8faa-6f6fdb0bad57-915909",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": [
-        "Presentation or demo may be required"
-      ]
-    },
-    "date_found": "2026-09-30",
-    "scored_at": "2026-09-30T11:59:03.825975",
-    "last_updated": "2026-09-30T11:59:03.825977",
-    "added_date": "2026-09-30",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-09-30T11:59:03.825982",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-f5a1a52cc113",
     "rfp_title": "Cornwall College Group Print & Signage FE Prospectus Print and Distribution",
     "issuing_entity": "Cornwall College",
@@ -9115,7 +9027,7 @@
     "scored_at": "2026-10-31T11:44:23.488535",
     "last_updated": "2026-11-01",
     "added_date": "2026-10-31",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -9124,7 +9036,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-cab982eda362",
@@ -9637,7 +9549,7 @@
     "scored_at": "2026-11-04T13:49:57.475099",
     "last_updated": "2026-11-04T13:49:57.475100",
     "added_date": "2026-11-04",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -9646,7 +9558,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-aab0f2d2d542",
