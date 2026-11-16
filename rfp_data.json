@@ -11936,5 +11936,93 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-aa96cbe4e460",
+    "rfp_title": "The Home Office Returns Reintegration Programme (HORRP)",
+    "issuing_entity": "Home Office",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "The Home Office Returns Reintegration Programme (HORRP) provides a range of support services to returning individuals once they are back in their country of return. \r\n\r\nThe programme supports both voluntary and enforced individuals returning from the United Kingdom (UK), including those who are returning from the community and Foreign National Offenders. \r\n\r\nThe funding will be for a 1-year period from 01/04/2027 to 31/03/2028. \r\n\r\nTo support the Home Office's key priorities of tackling irregular migration; removing those with no right to be in the UK; and protecting the vulnerable; the department is seeking a provider(s) to deliver reintegration services to support returning individuals from the UK. \r\n\r\nThe Home Office is now seeking to expand its current provision of reintegration support to Egypt - to determine both the extent and nature of implementing this expansion plan, we are now seeking an expression of interest (EOI) from eligible organisations with the appropriate experience and expertise in Egypt. \r\n\r\nPlease note: The EOI process is not a competitive call for funding. It is an exercise to gauge interest from eligible organisations that possess the capacity and capability to deliver these services. \r\n\r\nPURPOSE OF THE FUNDING \r\n\r\nFunding is to provide reintegration services and resettlement support to individuals who have been returned from the UK. Services include pre-departure information; airport reception and transportation; provision of temporary accommodation; counselling and mental health support; signposting to locally available services; redocumentation; assistance with setting up a business; accessing educational opportunities; and vocational training. Please note that this is not an exhaustive list and further details will be provided at the competition stage. \r\n\r\nKEY OUTCOMES\r\n\r\nReturning individuals become self-sufficient and are reintegrated socially, economically, and psychologically in their communities of return within 12 months (to be dis",
+    "budget_eur": null,
+    "deadline": "",
+    "relevance_score": 40.0,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 50,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 6,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [
+      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
+    ],
+    "score_confidence": "high",
+    "rfp_type": "consulting_only",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "eabe2e3c-b0c0-4265-97e3-d99aefe20023-921584",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-16",
+    "scored_at": "2026-11-16T14:53:36.455241",
+    "last_updated": "2026-11-16T14:53:36.455243",
+    "added_date": "2026-11-16",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-16T14:53:36.455247",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
