@@ -10011,7 +10011,7 @@
     "description": "The appointed consultant will prepare a comprehensive Activity & Interpretation Plan which demonstrates how people will engage with St Peter's Church and the wider heritage of Thetford through:\r\n\r\n•\tLearning;\r\n•\tVolunteering;\r\n•\tSkills development;\r\n•\tCommunity engagement;\r\n•\tInterpretation;\r\n•\tParticipation;\r\n•\tEvents;\r\n•\tTraining;\r\n•\tOutreach activities.\r\n\r\nThe consultant shall ensure that the Activity & Interpretation Plan is fully aligned with NLHF requirements and capable of supporting a successful Delivery Phase application.\r\n\r\nThe Activity Plan shall identify opportunities for community involvement, volunteering, learning, training, events and wider public engagement, together with recommendations for sustainable delivery and long-term legacy.\r\n\r\nThe Interpretation Plan shall identify and communicate the key heritage themes, stories and significance of St Peter's Church, establish target audiences, and develop recommendations for accessible and engaging interpretation that supports the project's vision and outcomes.\r\n\r\nThe Consultant shall ensure that both plans are fully integrated and aligned with the requirements of the National Lottery Heritage Fund and other funding stakeholders, providing a practical framework for implementation during the Delivery Phase.\r\n\r\nAll Submissions should sent to Susan Moore - susanmoore@thetfordtowncouncil.gov.uk",
     "budget_eur": 29250,
     "deadline": "2026-11-27",
-    "relevance_score": 48.7,
+    "relevance_score": 45.7,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -10077,7 +10077,7 @@
     },
     "date_found": "2026-11-06",
     "scored_at": "2026-11-06T13:47:23.832680",
-    "last_updated": "2026-11-09",
+    "last_updated": "2026-11-17",
     "added_date": "2026-11-06",
     "status": "New",
     "notes": "",
@@ -10415,7 +10415,7 @@
     "edge_case_flags": [],
     "score_confidence": "high",
     "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "cbc8d975-376f-4c40-b602-3b8a9b2435cc-920703",
@@ -10428,7 +10428,7 @@
     },
     "date_found": "2026-11-09",
     "scored_at": "2026-11-09T15:18:18.649195",
-    "last_updated": "2026-11-12",
+    "last_updated": "2026-11-17",
     "added_date": "2026-11-09",
     "status": "New",
     "notes": "",
@@ -12020,6 +12020,180 @@
       {
         "status": "New",
         "date": "2026-11-16T14:53:36.455247",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-526c46afbb3d",
+    "rfp_title": "CA18691 - RFQ 2026/48 - PEACEPLUS Roots Relationships Programme - Slieve Gullion DEA",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "To deliver a community-led Arts, Crafts and Heritage Capacity Building Programme in the Slieve Gullion DEA, working with community groups from the Forkhill and Newtownhamilton areas.\r\n\r\nThe programme should use arts, crafts, cultural heritage and creative skills development as a vehicle for building organisational capacity, increasing skills and confidence, supporting knowledge exchange, and creating opportunities for participants to learn from one another through practical activities, shared experiences and networking opportunities.\r\n\r\nThe programme should celebrate and explore the rich cultural and heritage assets of the area while creating opportunities for participants from different backgrounds to connect, collaborate and develop lasting relationships. Through shared learning and creative engagement, participants will strengthen both their individual skills and the sustainability of their community organisations.\r\n\r\nThis project will serve as both a community development initiative and a peacebuilding mechanism, creating sustained and meaningful contact across communities while strengthening local organisations and promoting appreciation of the area's diverse cultural heritage.\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18691.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18691 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": 11700,
+    "deadline": "2026-12-15",
+    "relevance_score": 48.9,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 76.9,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "91ce9ffa-4f4e-4f2c-826c-070b55e93f87-921794",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-17",
+    "scored_at": "2026-11-17T15:32:24.436951",
+    "last_updated": "2026-11-17T15:32:24.436952",
+    "added_date": "2026-11-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-17T15:32:24.436954",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-78d31ebfc7e1",
+    "rfp_title": "FDIS - Brampton Pump House Remediation - FY2026/27 - Amey Central  Region - East",
+    "issuing_entity": "AMEY DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Central Region - East \r\nBrief scope of works (subject to confirmation):\r\nA specialist inspection has identified significant defects with the existing pumping station, principally relating to the incoming electrical supply, flooding/water ingress, safe access arrangements and the condition of the pumps. \r\n1. Make safe / maintain isolation\r\n2. Resolve the incoming electrical supply\r\n3. Develop a permanent safe-access solution\r\n4. Address flooding and groundwater ingress\r\n5. Remove and inspect both pumps\r\n6. Undertake wet-well remedial works\r\n7. Investigate Inlet No. 2\r\n8. Review ancillary works\r\n9. Recommission only following remedial works\r\nFurther details on the attached.\r\nAmey have been tasked by the DIO through the FDIS to deliver the RAMS for the Central Region.\r\nThis notice is a call for competition and there may not be a further notice related to this opportunity.\r\nFor Amey to accept any EoI it is ESSENTIAL that any subcontractor is:\r\n•\twilling to act as Main Cttr;\r\n•\ta Verified member of Constructionline (G), relevant Wk Cat MUST show that Subctt is possible, and the 'BSAct - Std Con' must be Verified;\r\n•\tcapable of working in a BIM Level 2;\r\n•\tcompliant with DefStan 05-138;\r\n•\twilling to work with Amey to deliver Soc Val to our Client; ideally, complete the Soc Val Goal within the Constructionline platform.\r\nDESIRABLE attributes of our Supply Chain:\r\n•\thave a CSR policy;\r\n•\thave a Bus Cont and Disaster Recovery Plan\r\nIf successful the subcontractor will need to pass a PQQ, sign up to ADS T and C, and meet the MoD Security Requirements. \r\nThis future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. \r\nProcurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch).\r\nNote 1: The bidder must quote for all aspects of the Works.\r\nNote 2: Future works of a similar nature may be negotiated based upon submitted rates.\r\nNote 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Ag",
+    "budget_eur": 132210,
+    "deadline": "",
+    "relevance_score": 49.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "platform",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "0f7a1268-f357-40ec-9bf6-fdfa7764715c-921737",
+    "procurement_process": {
+      "type": "Negotiated Procedure",
+      "rounds": "Multiple rounds likely",
+      "details": [
+        "Negotiation phase expected after initial submission"
+      ]
+    },
+    "date_found": "2026-11-17",
+    "scored_at": "2026-11-17T15:32:24.438749",
+    "last_updated": "2026-11-17T15:32:24.438750",
+    "added_date": "2026-11-17",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-17T15:32:24.438752",
         "by": "scanner"
       }
     ],
