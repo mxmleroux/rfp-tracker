@@ -12208,7 +12208,7 @@
     "description": "Happywoods Nursery is seeking an experienced commercial main contractor to undertake the full internal conversion, refurbishment, and fit-out of 90 Hermon Hill, South Woodford, London, E18 1QB, converting a vacant former care home into a 105-place children's day nursery with top-floor administrative offices.\r\n      Scope & Design Specification Summary (per Dovetail Architects Design Brief Rev 0 & Drawings PL-100 to PL-122):\r\n      - Classrooms (Babies, Toddlers & 3-5 Years): Forbo welded non-slip vinyl with matching cap & cove; 3mm plaster skim with Dulux Matt Emulsion; Rockfon Blanka dB35 suspended ceilings (600x600mm grid); veneered fire doors with vision panels, finger guards, closers/back-checks & kick plates; adult/child-height handleless base units, 28mm square-edge worktops (mason's mitre), 400mm WhiteRoc splashbacks & SS 1.5 bowl sinks.\r\n      - WCs & Nappy Change: Forbo welded vinyl; 1200mm WhiteRoc wall panelling; 18mm HPL IPS enclosures & 1100mm cubicles; Armitage Shanks Contour 21 Splash WCs (305/355mm); Franke Wave trough sinks with Avon 21 self-closing taps; Concept Arc 55cm basins; full DDA sanitary packs.\r\n      - First Floor Commercial Kitchen & Laundry: Full-height WhiteRoc wall panelling; handleless units; min. 2 sinks plus hand-rinse basin; 304 food-grade fully welded SS extraction canopy with baffle filters, LED lights & speed-controlled fan; dedicated AC heating/cooling.\r\n      - Stair Cores, Offices & Staff Room: Forbo carpet tiles with 150x18mm single-groove MDF skirting; contrasting stair nosings; dual-height brushed 304 SS handrails; 10mm toughened clear glass balustrades; perimeter dado trunking at 850mm FFL; staff kitchenette with microwave housing & 400mm WhiteRoc splashback.\r\n      - MEP & Security: Central boiler serving Low Surface Temperature (LST) radiators throughout, supplemented by air conditioning units in classrooms, offices & kitchen/laundry; L1 fire alarm & secure video intercom.\r\n      - Acoustic & External Works (per Clear ",
     "budget_eur": 585000,
     "deadline": "2026-12-01",
-    "relevance_score": 40.8,
+    "relevance_score": 40.5,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -12272,7 +12272,7 @@
     },
     "date_found": "2026-11-18",
     "scored_at": "2026-11-18T15:09:49.215754",
-    "last_updated": "2026-11-18T15:09:49.215755",
+    "last_updated": "2026-11-19",
     "added_date": "2026-11-18",
     "status": "New",
     "notes": "",
@@ -12280,6 +12280,184 @@
       {
         "status": "New",
         "date": "2026-11-18T15:09:49.215760",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-1fe4e4c56c52",
+    "rfp_title": "MOD FM Maintenance East Anglia",
+    "issuing_entity": "VIVO DEFENCE SERVICES LIMITED",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "We are seeking expressions of interest from experienced Facilities Management providers to support the delivery of Facilities Maintenance services across the East Anglia region as part of the Ministry of Defence (MOD) Future Defence Infrastructure Services (FDIS) contract.\r\nThe anticipated annual contract value is approximately £6 million per annum, with potential for additional workload and revenue growth subject to operational requirements, contract performance, and future programme demands.\r\nThe successful supplier will be responsible for the delivery of planned preventative maintenance, reactive maintenance, and associated facilities engineering services across a diverse estate portfolio. Services are expected to cover a broad range of mechanical and electrical building systems and associated infrastructure.\r\nScope of Services\r\nThe scope is expected to include, but is not limited to:\r\nMechanical maintenance services\r\nElectrical maintenance services\r\nPlanned Preventative Maintenance (PPM)\r\nReactive and corrective maintenance\r\nStatutory and mandatory compliance activities\r\nOut-of-hours and emergency response services\r\nMinor lifecycle and maintenance works\r\nAsset inspection, reporting and condition assessments\r\nSupplier Profile\r\nThis opportunity is likely to be best suited to an established Mechanical and Electrical Facilities Management provider with:\r\nDemonstrable experience delivering facilities maintenance services within complex and operationally critical environments.\r\nStrong self-delivery capability across mechanical and electrical disciplines.\r\nAn established directly employed workforce capable of delivering the majority of maintenance activities.\r\nExisting operational presence within, or close to, the East Anglia region.\r\nThe ability to mobilise and sustain a locally based workforce to support service delivery requirements.\r\nRobust health, safety, environmental and compliance management systems.\r\nWhilst organisations of all sizes are encouraged to express ",
+    "budget_eur": 7020000,
+    "deadline": "2026-12-18",
+    "relevance_score": 47.1,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 92.6,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 1,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": [
+          "reporting"
+        ]
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "afd07786-47ca-48b3-9ea9-8518b0e5a29a-922070",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-19",
+    "scored_at": "2026-11-19T15:17:59.819878",
+    "last_updated": "2026-11-19T15:17:59.819880",
+    "added_date": "2026-11-19",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-19T15:17:59.819885",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-1334623b4dfe",
+    "rfp_title": "CA18709 - RFQ 2026/50 - NMANDD PEACEPLUS Thriving Together - Minority Community Integration programme - Capturing Culture, An Ulster-Scots Film Project",
+    "issuing_entity": "Newry, Mourne and Down District Council (NMD)",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Competent consultancy companies are hereby invited to tender to design, develop and deliver a structured programme celebrating Ulster-Scots heritage - the project will support the integration of minority ethnic and newcomer residents living within the Mournes DEA, through a series of interactive workshops, cultural experiences and participatory film-making activities. Participants will work collaboratively to create a short documentary film that explores Ulster-Scots traditions, culture and identity.\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18709.\r\n\r\nNot registered:\r\nVisit https://suppliers.multiquote.com then register and quote CA18709 as the reason for registration. \r\n\r\n Any queries please contact MultiQuote on 020 3920 8054.",
+    "budget_eur": 11880,
+    "deadline": "2026-12-17",
+    "relevance_score": 49.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 78.2,
+    "timeline_score": 88.9,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 3,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 1,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": [
+          "interactive"
+        ]
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "c7f1c9a3-b333-477b-b15e-f960072ffcb0-922071",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-19",
+    "scored_at": "2026-11-19T15:17:59.820385",
+    "last_updated": "2026-11-19T15:17:59.820386",
+    "added_date": "2026-11-19",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-19T15:17:59.820390",
         "by": "scanner"
       }
     ],
