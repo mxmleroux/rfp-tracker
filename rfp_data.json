@@ -7183,100 +7183,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-9f19d76b7e54",
-    "rfp_title": "Framework for Drawdown Technical Assistance - Transaction Advisory, Finance and Investment Support (BRAVE-IS)",
-    "issuing_entity": "DAI GLOBAL UK LTD",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "DAI Global UK is seeking proposals from firms to provide transaction advisory, finance and investment support to the Building Resilience and Addressing Vulnerability to Emergencies - Institutional Strengthening (BRAVE-IS) programme in Pakistan. BRAVE-IS is a multi-year (2026-2029) technical assistance programme funded by the UK Foreign, Commonwealth & Development Office (FCDO).\r\n\r\nBackground\r\nPakistan is among the countries most exposed to climate and disaster risk. The binding constraint on resilience investment is not policy but capability: government institutions lack the instruments and in-house capacity to turn identified needs into investable propositions that public, international and private financiers will fund.\r\n\r\nScope\r\nBRAVE-IS will appoint one firm under a Time and Materials drawdown framework, from which it can mobilise experts and, where needed, complete delivery teams. Work will be commissioned through individual task requests. Expertise is required in:\r\n\r\nTransaction advisory and project structuring, including PPP and blended finance\r\nFeasibility, financial modelling and economic appraisal\r\nInvestment pipeline development and project preparation\r\nPrivate sector engagement and investment mobilisation\r\nInstitutional and embedded delivery support within federal and provincial government bodies\r\n\r\nSupport must strengthen, not substitute for, government capacity, and tools and models must be handed over for continued use. Personnel will work in Islamabad, Lahore, Karachi and Peshawar, with travel elsewhere in Pakistan as required.\r\n\r\nContract\r\nThe initial period runs from date of award to 31 March 2027, extendable subject to programme requirements, performance and FCDO approval. No minimum volume of work is guaranteed. This is an open competition and rates are sought for locally based personnel.\r\n\r\nHow to apply\r\nSubmit one email to brave-is@dai.com with the subject line \"BRAVE-IS-001 - Proposal - [Firm name]\", attaching two separate PDF files: (1) a tech",
-    "budget_eur": null,
-    "deadline": "2026-10-20",
-    "relevance_score": 40.6,
-    "win_probability": "Medium",
-    "feature_alignment_score": 2.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 50,
-    "timeline_score": 15.0,
-    "competitive_score": 85,
-    "strategic_value_score": 15.0,
-    "advisory_bonus": 6,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "investable"
-        ]
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "Open competition with positive signals. Strong position to bid.",
-    "positive_signals": [
-      "open competition"
-    ],
-    "edge_case_flags": [
-      "Consulting-only RFP – no platform requirement detected. ClimateView may fit as sub-component."
-    ],
-    "score_confidence": "high",
-    "rfp_type": "consulting_only",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "8f1cb997-6f6b-4279-9b3b-dd55442c2a61-917364",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-10-12",
-    "scored_at": "2026-10-12T14:31:58.323868",
-    "last_updated": "2026-10-12T14:31:58.323869",
-    "added_date": "2026-10-12",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-10-12T14:31:58.323873",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-7f4fdcff825b",
     "rfp_title": "Traffic & Transport Consultancy Services (Swindon Lane Development)",
     "issuing_entity": "Swindon Parish Council",
@@ -10011,7 +9917,7 @@
     "description": "The appointed consultant will prepare a comprehensive Activity & Interpretation Plan which demonstrates how people will engage with St Peter's Church and the wider heritage of Thetford through:\r\n\r\n•\tLearning;\r\n•\tVolunteering;\r\n•\tSkills development;\r\n•\tCommunity engagement;\r\n•\tInterpretation;\r\n•\tParticipation;\r\n•\tEvents;\r\n•\tTraining;\r\n•\tOutreach activities.\r\n\r\nThe consultant shall ensure that the Activity & Interpretation Plan is fully aligned with NLHF requirements and capable of supporting a successful Delivery Phase application.\r\n\r\nThe Activity Plan shall identify opportunities for community involvement, volunteering, learning, training, events and wider public engagement, together with recommendations for sustainable delivery and long-term legacy.\r\n\r\nThe Interpretation Plan shall identify and communicate the key heritage themes, stories and significance of St Peter's Church, establish target audiences, and develop recommendations for accessible and engaging interpretation that supports the project's vision and outcomes.\r\n\r\nThe Consultant shall ensure that both plans are fully integrated and aligned with the requirements of the National Lottery Heritage Fund and other funding stakeholders, providing a practical framework for implementation during the Delivery Phase.\r\n\r\nAll Submissions should sent to Susan Moore - susanmoore@thetfordtowncouncil.gov.uk",
     "budget_eur": 29250,
     "deadline": "2026-11-27",
-    "relevance_score": 45.7,
+    "relevance_score": 45.0,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -10064,7 +9970,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "90d317a4-0657-495a-a9ea-57e035554822-920775",
@@ -10077,7 +9983,7 @@
     },
     "date_found": "2026-11-06",
     "scored_at": "2026-11-06T13:47:23.832680",
-    "last_updated": "2026-11-17",
+    "last_updated": "2026-11-20",
     "added_date": "2026-11-06",
     "status": "New",
     "notes": "",
@@ -12458,6 +12364,94 @@
       {
         "status": "New",
         "date": "2026-11-19T15:17:59.820390",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-48e83d89e66e",
+    "rfp_title": "CA18704 - St Matthew's Primary School _ Luton",
+    "issuing_entity": "St Matthew's Primary School",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "St Matthew's Primary School is seeking an experienced, innovative, and customer-focused catering partner to deliver high-quality school meal services for our pupils and staff.\r\nLocated in the heart of Luton's historic Old Town, St Matthew's is a large and vibrant primary school with a diverse school community. We are committed to providing nutritious, enjoyable, and well-presented meals that support the health, wellbeing, and educational success of our pupils.\r\nWe are inviting expressions of interest from catering providers who can demonstrate:\r\n•\tA strong track record of delivering successful school catering services.\r\n•\tCommitment to providing fresh, nutritious, and balanced meals that meet or exceed School Food Standards.\r\n•\tInnovative menu development that reflects the diversity of our school community and promotes healthy eating.\r\n•\tExcellent customer service and engagement with pupils, staff, parents, and school leadership.\r\n•\tEffective management of kitchen operations, staffing, food safety, and compliance requirements.\r\n•\tInitiatives to increase meal uptake, particularly for Universal and Free School Meals.\r\n•\tA commitment to sustainability, waste reduction, and responsible sourcing.\r\nThe successful contractor will work in partnership with the school to create a positive dining experience, encourage healthy lifestyle choices, and support the wider educational objectives of the school.\r\nSuppliers interested in this opportunity will be expected to demonstrate financial stability, relevant experience within the education sector, robust safeguarding practices, and the capability to deliver a high-quality catering service throughout the contract term.\r\nSt Matthew's Primary School looks forward to engaging with suppliers who share our vision of delivering exceptional food and service to our school community.\r\n\r\n\r\nTo access this competition: \r\n\r\nRegistered:\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA18704.\r\n\r\nNot registered:\r\nVisit https:",
+    "budget_eur": 1158300,
+    "deadline": "2027-02-26",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "47b813e5-efbb-46cf-bdc2-312d91f38479-922135",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-20",
+    "scored_at": "2026-11-20T14:56:35.247279",
+    "last_updated": "2026-11-20T14:56:35.247280",
+    "added_date": "2026-11-20",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-20T14:56:35.247284",
         "by": "scanner"
       }
     ],
