@@ -6563,7 +6563,7 @@
     "scored_at": "2026-09-30T11:59:03.826902",
     "last_updated": "2026-11-05",
     "added_date": "2026-09-30",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -6572,7 +6572,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-0db624b2035a",
@@ -10005,7 +10005,7 @@
     "description": "Thetford Town Council wishes to appoint an experienced Building Services Engineer with demonstrable experience in historic buildings and heritage environments.\r\n\r\nThe successful consultant will assist in developing a coordinated mechanical and electrical services strategy capable of supporting the future use of the building whilst minimising impacts upon historic fabric and significance.\r\n\r\nThe consultant will provide specialist advice throughout the Development Phase and contribute technical information required for the NLHF Delivery Phase Application.\r\n\r\nAll submissions should sent to Susan Moore - susanmoore@thetfordtowncouncil.gov.uk",
     "budget_eur": 17550,
     "deadline": "2026-11-30",
-    "relevance_score": 46.4,
+    "relevance_score": 42.4,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -10071,7 +10071,7 @@
     },
     "date_found": "2026-11-06",
     "scored_at": "2026-11-06T13:47:23.833195",
-    "last_updated": "2026-11-10",
+    "last_updated": "2026-11-21",
     "added_date": "2026-11-06",
     "status": "New",
     "notes": "",
@@ -10336,7 +10336,7 @@
     "scored_at": "2026-11-09T15:18:18.649195",
     "last_updated": "2026-11-17",
     "added_date": "2026-11-09",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -10345,7 +10345,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-a265f8a663d1",
