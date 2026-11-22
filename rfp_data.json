@@ -7271,94 +7271,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-2949bc6af1d5",
-    "rfp_title": "Manchester International Airport - Rail Footprint Civils",
-    "issuing_entity": "Kier Transportation - CP7 NWC",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "The planned introduction of longer train services to the Airport in response to future demand growth will mean that double stacking arrangements of trains as currently used will no longer be viable. Through the project's Delivery Steering Group, Northern and TransPennine Express have carried out analysis which has identified that additional platform capacity is needed at the airport in order to realise the full benefit of longer train services serving the airport.\r\n      \r\n      The scheme is part of a package of proposed measures in the Manchester area that are being designed/planned to boost capacity and resilience, emanating from the Cross Manchester Capacity and Reliability Improvement Study. Improving the operation of train services in the centre of Manchester and providing further capacity at Manchester Airport station, aligns with the strategic aims of Network Rail, TfGM, TfN and the wider industry.  This project in in Tranche 1 of the Manchester and North West Transformation Programme (MNTP):\r\n       \r\n      A remodelling of the station at Manchester Airport, specifically a platform addition or extension of multiple platforms, or provision of a new turnback facility, will be essential to accommodate the planned implementation of longer rolling stock services.\r\n           \r\n      The redevelopment of these platforms will enable permissive working of two 6x24m (144m) trains, in two of the four platforms at the Airport Station. This will allow for the unaltered retention of all existing TOC services both originating and terminating at the Airport Station under 'double-stacking' conditions.\r\n      \r\n      The scope areas for this package are as follows:\r\n      - OLE Substructures & Foundations\r\n      - King Post Retaining Walls\r\n      - Ancillary Civils (Inclusive of but not limited to; Trough routes, small concrete foundations, UTX's and signage).",
-    "budget_eur": 1170000,
-    "deadline": "2026-10-22",
-    "relevance_score": 41.3,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 80,
-    "timeline_score": 15,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "consulting_with_platform",
-    "deadline_status": "urgent",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "c4620fdd-3423-4f3e-9dc9-7991ba1ef320-917948",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-10-15",
-    "scored_at": "2026-10-15T10:54:53.264340",
-    "last_updated": "2026-10-15T10:54:53.264342",
-    "added_date": "2026-10-15",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-10-15T10:54:53.264347",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-746d9115d9b5",
     "rfp_title": "Supply of Army Branded Clothing",
     "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
@@ -10005,7 +9917,7 @@
     "description": "Thetford Town Council wishes to appoint an experienced Building Services Engineer with demonstrable experience in historic buildings and heritage environments.\r\n\r\nThe successful consultant will assist in developing a coordinated mechanical and electrical services strategy capable of supporting the future use of the building whilst minimising impacts upon historic fabric and significance.\r\n\r\nThe consultant will provide specialist advice throughout the Development Phase and contribute technical information required for the NLHF Delivery Phase Application.\r\n\r\nAll submissions should sent to Susan Moore - susanmoore@thetfordtowncouncil.gov.uk",
     "budget_eur": 17550,
     "deadline": "2026-11-30",
-    "relevance_score": 42.4,
+    "relevance_score": 42.0,
     "win_probability": "Medium",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
@@ -10071,7 +9983,7 @@
     },
     "date_found": "2026-11-06",
     "scored_at": "2026-11-06T13:47:23.833195",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "added_date": "2026-11-06",
     "status": "New",
     "notes": "",
