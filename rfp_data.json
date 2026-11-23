@@ -7183,94 +7183,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-7f4fdcff825b",
-    "rfp_title": "Traffic & Transport Consultancy Services (Swindon Lane Development)",
-    "issuing_entity": "Swindon Parish Council",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Swindon Parish Council seeks to appoint a qualified Traffic & Transport consultant to support its technical review of the forthcoming planning application for development at Swindon Lane (Cheltenham Borough Council ref: 26/00833/SCREEN).\r\n\r\nThe appointed consultant will provide technical assessment, transport modelling review, volunteer survey oversight, and written responses under a flexible call-off arrangement between October 2026 and March 2027.\r\n\r\nTasks will be commissioned incrementally on a capped Time & Materials basis up to a total contract spend ceiling of £15,000 (excl. VAT).\r\n\r\nSubmission Requirements:\r\nProposals must not exceed five pages (excluding CVs) and must include company details, relevant experience, team CVs, hourly rates schedule, insurance details, and a conflict of interest statement.\r\n\r\nProposals must be submitted in PDF format by email to parish.clerk@swindonparish.org.uk before the closing deadline stated in this notice. Full details are provided in the attached RFQ document.",
-    "budget_eur": 17550,
-    "deadline": "2026-10-23",
-    "relevance_score": 43.0,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 22.4,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 1,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": [
-          "modelling"
-        ]
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "1159dbf2-a8f6-4041-9c42-8c650021f021-917575",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-10-13",
-    "scored_at": "2026-10-13T13:38:20.149193",
-    "last_updated": "2026-10-13T13:38:20.149195",
-    "added_date": "2026-10-13",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-10-13T13:38:20.149200",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-746d9115d9b5",
     "rfp_title": "Supply of Army Branded Clothing",
     "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
@@ -9970,7 +9882,7 @@
     "edge_case_flags": [],
     "score_confidence": "medium",
     "rfp_type": "unknown",
-    "deadline_status": "closing_soon",
+    "deadline_status": "urgent",
     "scoring_config_version": "1.0",
     "source_portal": "Contracts Finder (UK)",
     "source_url": "60b0ef0e-dc74-4612-9a82-27bd435143ce-920766",
@@ -9983,7 +9895,7 @@
     },
     "date_found": "2026-11-06",
     "scored_at": "2026-11-06T13:47:23.833195",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-23",
     "added_date": "2026-11-06",
     "status": "New",
     "notes": "",
@@ -12026,8 +11938,8 @@
     "description": "Happywoods Nursery is seeking an experienced commercial main contractor to undertake the full internal conversion, refurbishment, and fit-out of 90 Hermon Hill, South Woodford, London, E18 1QB, converting a vacant former care home into a 105-place children's day nursery with top-floor administrative offices.\r\n      Scope & Design Specification Summary (per Dovetail Architects Design Brief Rev 0 & Drawings PL-100 to PL-122):\r\n      - Classrooms (Babies, Toddlers & 3-5 Years): Forbo welded non-slip vinyl with matching cap & cove; 3mm plaster skim with Dulux Matt Emulsion; Rockfon Blanka dB35 suspended ceilings (600x600mm grid); veneered fire doors with vision panels, finger guards, closers/back-checks & kick plates; adult/child-height handleless base units, 28mm square-edge worktops (mason's mitre), 400mm WhiteRoc splashbacks & SS 1.5 bowl sinks.\r\n      - WCs & Nappy Change: Forbo welded vinyl; 1200mm WhiteRoc wall panelling; 18mm HPL IPS enclosures & 1100mm cubicles; Armitage Shanks Contour 21 Splash WCs (305/355mm); Franke Wave trough sinks with Avon 21 self-closing taps; Concept Arc 55cm basins; full DDA sanitary packs.\r\n      - First Floor Commercial Kitchen & Laundry: Full-height WhiteRoc wall panelling; handleless units; min. 2 sinks plus hand-rinse basin; 304 food-grade fully welded SS extraction canopy with baffle filters, LED lights & speed-controlled fan; dedicated AC heating/cooling.\r\n      - Stair Cores, Offices & Staff Room: Forbo carpet tiles with 150x18mm single-groove MDF skirting; contrasting stair nosings; dual-height brushed 304 SS handrails; 10mm toughened clear glass balustrades; perimeter dado trunking at 850mm FFL; staff kitchenette with microwave housing & 400mm WhiteRoc splashback.\r\n      - MEP & Security: Central boiler serving Low Surface Temperature (LST) radiators throughout, supplemented by air conditioning units in classrooms, offices & kitchen/laundry; L1 fire alarm & secure video intercom.\r\n      - Acoustic & External Works (per Clear ",
     "budget_eur": 585000,
     "deadline": "2026-12-01",
-    "relevance_score": 40.5,
-    "win_probability": "Medium",
+    "relevance_score": 39.0,
+    "win_probability": "Low",
     "feature_alignment_score": 0.0,
     "geographic_fit_score": 100,
     "budget_fit_score": 80,
@@ -12090,7 +12002,7 @@
     },
     "date_found": "2026-11-18",
     "scored_at": "2026-11-18T15:09:49.215754",
-    "last_updated": "2026-11-19",
+    "last_updated": "2026-11-23",
     "added_date": "2026-11-18",
     "status": "New",
     "notes": "",
@@ -12364,6 +12276,96 @@
       {
         "status": "New",
         "date": "2026-11-20T14:56:35.247284",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-283c82580879",
+    "rfp_title": "Manchester International Airport Phase 2 - Platform Civils",
+    "issuing_entity": "Kier Transportation - CP7 NWC",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "\"The planned introduction of longer train services to the Airport in response to future demand growth will mean that double stacking arrangements of trains as currently used will no longer be viable. Through the project's Delivery Steering Group, Northern and TransPennine Express have carried out analysis which has identified that additional platform capacity is needed at the airport in order to realise the full benefit of longer train services serving the airport.\r\n      \r\n      The scheme is part of a package of proposed measures in the Manchester area that are being designed/planned to boost capacity and resilience, emanating from the Cross Manchester Capacity and Reliability Improvement Study. Improving the operation of train services in the centre of Manchester and providing further capacity at Manchester Airport station, aligns with the strategic aims of Network Rail, TfGM, TfN and the wider industry.  This project in in Tranche 1 of the Manchester and North West Transformation Programme (MNTP):\r\n       \r\n      A remodelling of the station at Manchester Airport, specifically a platform addition or extension of multiple platforms, or provision of a new turnback facility, will be essential to accommodate the planned implementation of longer rolling stock services.\r\n           \r\n      The redevelopment of these platforms will enable permissive working of two 6x24m (144m) trains, in two of the four platforms at the Airport Station. This will allow for the unaltered retention of all existing TOC services both originating and terminating at the Airport Station under 'double-stacking' conditions.\r\n      \r\n      The works comprise the construction and completion of the platform civils work at Manchester Airport Station.\r\n      •\tPlatform demolition\r\n      •\tAsset recoveries\r\n      •\tTrack walkway/crossings\r\n      •\tUTX\r\n      •\tTroughing\r\n      •\tRiser wall foundations\r\n      •\tNew riser walls (blockwork and PCC)\r\n      •\tCopers (including realignment)\r\n      •\tTactil",
+    "budget_eur": 2925000,
+    "deadline": "2026-12-04",
+    "relevance_score": 42.4,
+    "win_probability": "Medium",
+    "feature_alignment_score": 1.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 26.1,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 1,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": [
+          "modelling"
+        ]
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "high",
+    "rfp_type": "consulting_with_platform",
+    "deadline_status": "closing_soon",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "0211da5c-4889-4c4f-98f6-00dc7cc1b7c8-922293",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": [
+        "Presentation or demo may be required"
+      ]
+    },
+    "date_found": "2026-11-23",
+    "scored_at": "2026-11-23T17:28:42.786628",
+    "last_updated": "2026-11-23T17:28:42.786628",
+    "added_date": "2026-11-23",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-23T17:28:42.786631",
         "by": "scanner"
       }
     ],
