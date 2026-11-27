@@ -12284,5 +12284,177 @@
       }
     ],
     "pass_reason": ""
+  },
+  {
+    "id": "rfp-5e89c4a20940",
+    "rfp_title": "TD2431 - For the Provision of a Domestic Abuse Service",
+    "issuing_entity": "DERBY CITY COUNCIL",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Derby City Council is seeking to appoint domestic abuse safe accommodation and support for people experiencing domestic abuse. The Domestic Abuse Safe Accommodation Refuge Service will deliver safe accommodation to people who are fleeing current or recent domestic abuse.\r\n \r\nDerby City Council are seeking to procure a communal refuge with at least 17 adult bed spaces, alongside a minimum of 8 units of self-contained accommodation (increasing to 12 in year 2), of which 5 should be capable of accommodating families (increasing to 8 in year 2). At least one self-contained unit should be adapted to meet the needs of a wheelchair user. The communal refuge should have a variety of single rooms and family rooms, with a minimum of 15 children's bedspaces. The self-contained accommodation should be a mix of two and three bedroomed properties and should be accessible 24/7. The accommodation should have the ability to flex quickly to meet varying needs and family sizes, thus not preventing any barriers to rapid accessibility.\r\n \r\nIn the communal refuge the shared areas should be designed in consultation with the people who will be using them. They should be fully accessible to people accommodated on site without restrictions, and should offer a variety of uses including, group sessions, opportunities for quiet reflection, and peer to peer support.\r\n \r\nFurther details can be found in Part Three Specification",
+    "budget_eur": 2585700,
+    "deadline": "2027-01-11",
+    "relevance_score": 47.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 80,
+    "timeline_score": 100,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "open",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "d311c7b6-087f-4e73-86ba-2416fb4cbf86-922632",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-27",
+    "scored_at": "2026-11-27T16:12:55.518348",
+    "last_updated": "2026-11-27T16:12:55.518350",
+    "added_date": "2026-11-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-27T16:12:55.518354",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
+  },
+  {
+    "id": "rfp-b6a474356e71",
+    "rfp_title": "Provision, Servicing and Maintenance of Portable Toilet Facilities at Bristol City Council Meanwhile Sites",
+    "issuing_entity": "Bristol City Council",
+    "country": "GB",
+    "market": "UK + Ireland",
+    "description": "Bristol City Council is undertaking a soft market testing exercise to understand the market's capacity, capability and interest in providing portable toilet facilities at temporary \"meanwhile\" sites. The Council is seeking supplier feedback on the proposed service requirements, deliverability and commercial considerations to help inform the development of any future procurement opportunity. This exercise is for market engagement purposes only and does not constitute a formal procurement process or commitment to award a contract.",
+    "budget_eur": 163800,
+    "deadline": "",
+    "relevance_score": 46.5,
+    "win_probability": "Medium",
+    "feature_alignment_score": 0.0,
+    "geographic_fit_score": 100,
+    "budget_fit_score": 100,
+    "timeline_score": 60,
+    "competitive_score": 70,
+    "strategic_value_score": 0.0,
+    "advisory_bonus": 0,
+    "feature_breakdown": {
+      "ghg_inventory": {
+        "score": 0,
+        "max": 20,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "modeling_scenarios": {
+        "score": 0,
+        "max": 25,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "financial_economic": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "action_management": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "monitoring_tracking": {
+        "score": 0,
+        "max": 15,
+        "strong_matches": [],
+        "moderate_matches": []
+      },
+      "collaboration_visualization": {
+        "score": 0,
+        "max": 10,
+        "strong_matches": [],
+        "moderate_matches": []
+      }
+    },
+    "competitor_signals": [],
+    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
+    "positive_signals": [],
+    "edge_case_flags": [],
+    "score_confidence": "medium",
+    "rfp_type": "unknown",
+    "deadline_status": "unknown",
+    "scoring_config_version": "1.0",
+    "source_portal": "Contracts Finder (UK)",
+    "source_url": "97b195e6-0768-4afa-9696-e93e3d5cddef-922645",
+    "procurement_process": {
+      "type": "Standard",
+      "rounds": "Single submission",
+      "details": []
+    },
+    "date_found": "2026-11-27",
+    "scored_at": "2026-11-27T16:12:55.519577",
+    "last_updated": "2026-11-27T16:12:55.519578",
+    "added_date": "2026-11-27",
+    "status": "New",
+    "notes": "",
+    "status_history": [
+      {
+        "status": "New",
+        "date": "2026-11-27T16:12:55.519583",
+        "by": "scanner"
+      }
+    ],
+    "pass_reason": ""
   }
 ]
