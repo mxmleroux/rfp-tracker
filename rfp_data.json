@@ -6663,92 +6663,6 @@
     "pass_reason": ""
   },
   {
-    "id": "rfp-4134d31cc65d",
-    "rfp_title": "Supply of DSP 27 Battery Carrier Spare Parts",
-    "issuing_entity": "UNITE PROCUREMENT UK LIMITED",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Unite Procurement UK Limited (part of Unite Holding SE), on behalf of the Ministry of Defence, is seeking suppliers to join the Unite Procurement Platform to support the procurement of spare battery carriers for Detector Special Purpose (DSP) 27.\r\n\r\nThere is a requirement for a stock of spare battery carriers for Detector Special Purpose (DSP) 27. There is no other equipment which can be used in place of DSP 27.\r\n\r\nDSP 27 was brought in as a UOR, made by DSTL and Gill Research and Development Ltd, who now own the IPR and Manufacturers Data Pack. DSP 27 is a hand carried detector unit that consists of a lower 'Passive' receiving antenna head, main body, carry handle / control panel, battery carrier and upper receiving antenna.\r\n\r\nPurchase of x100 battery carriers to prevent a capability gap.\r\n\r\nThis is a procurement of a spare part only.\r\n\r\nThe battery carrier must be NSN 6160-99-667-2326.\r\n\r\nMilestones are not expected - immediate purchase will be the only output.\r\n\r\nUpon delivery, a short inspection of each item will be undertaken to ensure it is the correct part as expected. Success here will be seen as acceptance.\r\n\r\nOEM owns the IPR.\r\nGovernment Furnished Supplies\r\nNot required.\r\nApproach\r\nA pre-existing option already exists, developed by the OEM (who own the IPR and Technical Data Pack) and is deemed appropriate by the Requirements Manager.\r\nPayment\r\nOne off payment paid on delivery.\r\nContract Management Arrangements\r\nNo ongoing contract.\r\nEnd of Contract/Exit Strategy\r\nNot applicable.\r\nFinal Reminders\r\nThis item already exists and is in-service. NSN 6160-99-667-2326.\r\nHow to Apply\r\nInterested suppliers should register their interest by contacting Unite Procurement UK Limited and provide details of their product range, modification capabilities, and maintenance services. Further information on the onboarding process for the Unite Procurement Platform will be provided upon expression of interest.\r\nThe Unite Procurement Platform (Unite | Simplify indirect procur",
-    "budget_eur": 117000,
-    "deadline": "2026-10-28",
-    "relevance_score": 52.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 0.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 63.0,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 3,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "high",
-    "rfp_type": "platform",
-    "deadline_status": "closing_soon",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "59c666d9-c7be-442e-9ed0-0c8ca72df16a-915687",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-10-07",
-    "scored_at": "2026-10-07T12:43:25.565039",
-    "last_updated": "2026-10-07T12:43:25.565040",
-    "added_date": "2026-10-07",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-10-07T12:43:25.565046",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-ff7525a4e44b",
     "rfp_title": "TD2340 - Framework for Highways Services",
     "issuing_entity": "Derby City Council",
@@ -7973,94 +7887,6 @@
     "pass_reason": "Deadline elapsed without action"
   },
   {
-    "id": "rfp-05a2f42e3ebc",
-    "rfp_title": "AWARD Coroners Case Management and Workflow System",
-    "issuing_entity": "CENTRAL BEDFORDSHIRE COUNCIL",
-    "country": "GB",
-    "market": "UK + Ireland",
-    "description": "Provision of a cloud-based Coroners Case Management and Workflow System for the Central Bedfordshire Coroner Service, including case and workflow management, reporting and search functionality, Ministry of Justice reporting, integrated calendar and website publishing, notification services, postcode and address lookup, software support, maintenance and hosting services.\r\n\r\nThe contract was awarded to WPC Software Limited through the CCS G-Cloud 14 Framework (RM1557.14), Lot 2 Cloud Software, following an assessment of supplier capability, published framework documentation and whole life costs.\r\n\r\nInitial term: 25/02/2027 - 24/02/2030\r\nOptional extension: to 24/02/2031",
-    "budget_eur": 122335,
-    "deadline": "2026-10-28",
-    "relevance_score": 43.8,
-    "win_probability": "Medium",
-    "feature_alignment_score": 1.0,
-    "geographic_fit_score": 100,
-    "budget_fit_score": 100,
-    "timeline_score": 0,
-    "competitive_score": 70,
-    "strategic_value_score": 0.0,
-    "advisory_bonus": 0,
-    "feature_breakdown": {
-      "ghg_inventory": {
-        "score": 0,
-        "max": 20,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "modeling_scenarios": {
-        "score": 0,
-        "max": 25,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "financial_economic": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "action_management": {
-        "score": 0,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": []
-      },
-      "monitoring_tracking": {
-        "score": 1,
-        "max": 15,
-        "strong_matches": [],
-        "moderate_matches": [
-          "reporting"
-        ]
-      },
-      "collaboration_visualization": {
-        "score": 0,
-        "max": 10,
-        "strong_matches": [],
-        "moderate_matches": []
-      }
-    },
-    "competitor_signals": [],
-    "competitor_recommendation": "No competitor signals detected. Neutral competitive landscape.",
-    "positive_signals": [],
-    "edge_case_flags": [],
-    "score_confidence": "medium",
-    "rfp_type": "platform",
-    "deadline_status": "expired",
-    "scoring_config_version": "1.0",
-    "source_portal": "Contracts Finder (UK)",
-    "source_url": "1f9b4949-f510-4178-a18a-efa7aaae39c2-919451",
-    "procurement_process": {
-      "type": "Standard",
-      "rounds": "Single submission",
-      "details": []
-    },
-    "date_found": "2026-10-28",
-    "scored_at": "2026-10-28T12:10:50.828406",
-    "last_updated": "2026-10-28T12:10:50.828407",
-    "added_date": "2026-10-28",
-    "status": "Passed",
-    "notes": "",
-    "status_history": [
-      {
-        "status": "New",
-        "date": "2026-10-28T12:10:50.828410",
-        "by": "scanner"
-      }
-    ],
-    "pass_reason": "Deadline elapsed without action"
-  },
-  {
     "id": "rfp-5213ad1659bf",
     "rfp_title": "Specialist Rail Systems Personnel",
     "issuing_entity": "Ferrovial BAM Rail Systems",
@@ -8753,7 +8579,7 @@
     "scored_at": "2026-11-02T14:51:41.784477",
     "last_updated": "2026-11-02T14:51:41.784478",
     "added_date": "2026-11-02",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -8762,7 +8588,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-60628f71143a",
@@ -9723,7 +9549,7 @@
     "scored_at": "2026-11-06T13:47:23.832680",
     "last_updated": "2026-11-20",
     "added_date": "2026-11-06",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -9732,7 +9558,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-49decd3c77f0",
@@ -9897,7 +9723,7 @@
     "scored_at": "2026-11-06T13:47:23.833530",
     "last_updated": "2026-11-06T13:47:23.833531",
     "added_date": "2026-11-06",
-    "status": "New",
+    "status": "Passed",
     "notes": "",
     "status_history": [
       {
@@ -9906,7 +9732,7 @@
         "by": "scanner"
       }
     ],
-    "pass_reason": ""
+    "pass_reason": "Deadline elapsed without action"
   },
   {
     "id": "rfp-24654a79411f",
